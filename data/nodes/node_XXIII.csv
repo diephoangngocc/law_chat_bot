@@ -1,0 +1,348 @@
+ID,Name,Label
+CH23,"Chương XXIII: CÁC TỘI PHẠM VỀ CHỨC VỤ",Chương
+D352,"Điều 352. Khái niệm tội phạm về chức vụ",Điều
+K1_D352,"Khoản 1 Điều 352",Khoản
+HV_K1_D352,"Các tội phạm về chức vụ là những hành vi xâm phạm hoạt động đúng đắn của cơ quan, tổ chức do người có chức vụ thực hiện trong khi thực hiện công vụ, nhiệm vụ","Hành vi chính"
+K2_D352,"Khoản 2 Điều 352",Khoản
+HV_K2_D352,"Người có chức vụ là người do bổ nhiệm, do bầu cử, do hợp đồng hoặc do một hình thức khác, có hưởng lương hoặc không hưởng lương, được giao thực hiện một nhiệm vụ nhất định và có quyền hạn nhất định trong khi thực hiện công vụ, nhiệm vụ","Hành vi chính"
+D353,"Điều 353. Tội tham ô tài sản",Điều
+K1_D353,"Khoản 1 Điều 353",Khoản
+HV_K1_D353,"Người nào lợi dụng chức vụ, quyền hạn chiếm đoạt tài sản mà mình có trách nhiệm quản lý trị giá từ 2.000.000 đồng đến dưới 100.000.000 đồng hoặc dưới 2.000.000 đồng nhưng thuộc một trong các trường hợp sau đây","Hành vi chính"
+OR_K1_D353,"Thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K1_D353,"a) Đã bị xử lý kỷ luật về hành vi này mà còn vi phạm",Điểm
+P_b_K1_D353,"b) Đã bị kết án về một trong các tội quy định tại Mục 1 Chương này, chưa được xóa án tích mà còn vi phạm",Điểm
+HP_K1_D353,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K2_D353,"Khoản 2 Điều 353",Khoản
+OR_K2_D353,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D353,"a) Có tổ chức",Điểm
+P_b_K2_D353,"b) Dùng thủ đoạn xảo quyệt, nguy hiểm",Điểm
+P_c_K2_D353,"c) Phạm tội 02 lần trở lên",Điểm
+P_d_K2_D353,"d) Chiếm đoạt tài sản trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P_dd_K2_D353,"đ) Chiếm đoạt tiền, tài sản dùng vào mục đích xóa đói, giảm nghèo; trợ cấp, ưu đãi người có công; quỹ dự phòng, tài sản trợ cấp vùng thiên tai, dịch bệnh hoặc kinh tế đặc biệt khó khăn",Điểm
+P_e_K2_D353,"e) Gây thiệt hại về tài sản từ 1.000.000.000 đồng đến dưới 3.000.000.000 đồng",Điểm
+P_g_K2_D353,"g) Ảnh hưởng xấu đến đời sống của cán bộ, công chức, viên chức và người lao động trong cơ quan, tổ chức",Điểm
+HP_K2_D353,"Phạt tù từ 07 năm đến 15 năm","Hình phạt"
+K3_D353,"Khoản 3 Điều 353",Khoản
+OR_K3_D353,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D353,"a) Chiếm đoạt tài sản trị giá từ 500.000.000 đồng đến dưới 1.000.000.000 đồng",Điểm
+P_b_K3_D353,"b) Gây thiệt hại về tài sản từ 3.000.000.000 đồng đến dưới 5.000.000.000 đồng",Điểm
+P_c_K3_D353,"c) Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội",Điểm
+P_d_K3_D353,"d) Dẫn đến doanh nghiệp hoặc tổ chức khác bị phá sản hoặc ngừng hoạt động",Điểm
+HP_K3_D353,"Phạt tù từ 15 năm đến 20 năm","Hình phạt"
+K4_D353,"Khoản 4 Điều 353",Khoản
+OR_K4_D353,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K4_D353,"a) Chiếm đoạt tài sản trị giá 1.000.000.000 đồng trở lên",Điểm
+P_b_K4_D353,"b) Gây thiệt hại về tài sản 5.000.000.000 đồng trở lên",Điểm
+HP_K4_D353,"Phạt tù 20 năm hoặc tù chung thân","Hình phạt"
+K5_D353,"Khoản 5 Điều 353",Khoản
+HV_K5_D353,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K5_D353,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm, có thể bị phạt tiền từ 60.000.000 đồng đến 200.000.000 đồng, tịch thu một phần hoặc toàn bộ tài sản","Hình phạt"
+K6_D353,"Khoản 6 Điều 353",Khoản
+HV_K6_D353,"Người có chức vụ, quyền hạn trong các doanh nghiệp, tổ chức ngoài Nhà nước mà tham ô tài sản","Hành vi chính"
+HP_K6_D353,"Bị xử lý theo quy định tại Điều này","Hình phạt"
+D354,"Điều 354. Tội nhận hối lộ",Điều
+K1_D354,"Khoản 1 Điều 354",Khoản
+HV_K1_D354,"Người nào lợi dụng chức vụ, quyền hạn trực tiếp hoặc qua trung gian nhận hoặc sẽ nhận lợi ích cho chính bản thân hoặc cho người, tổ chức khác để làm hoặc không làm một việc vì lợi ích hoặc theo yêu cầu của người đưa hối lộ","Hành vi chính"
+OR_K1_D354,"Bất kỳ lợi ích nào sau đây","Node Logic OR"
+P_a_K1_D354,"a) Tiền, tài sản hoặc lợi ích vật chất khác trị giá từ 2.000.000 đồng đến dưới 100.000.000 đồng hoặc dưới 2.000.000 đồng nhưng đã bị xử lý kỷ luật hoặc kết án về tội tham nhũng chưa xóa án tích",Điểm
+P_b_K1_D354,"b) Lợi ích phi vật chất",Điểm
+HP_K1_D354,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K2_D354,"Khoản 2 Điều 354",Khoản
+OR_K2_D354,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D354,"a) Có tổ chức",Điểm
+P_b_K2_D354,"b) Lạm dụng chức vụ, quyền hạn",Điểm
+P_c_K2_D354,"c) Của hối lộ là tiền, tài sản hoặc lợi ích vật chất khác trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P_d_K2_D354,"d) Gây thiệt hại về tài sản từ 1.000.000.000 đồng đến dưới 3.000.000.000 đồng",Điểm
+P_dd_K2_D354,"đ) Phạm tội 02 lần trở lên",Điểm
+P_e_K2_D354,"e) Biết rõ của hối lộ là tài sản của Nhà nước",Điểm
+P_g_K2_D354,"g) Đòi hối lộ, sách nhiễu hoặc dùng thủ đoạn xảo quyệt",Điểm
+HP_K2_D354,"Phạt tù từ 07 năm đến 15 năm","Hình phạt"
+K3_D354,"Khoản 3 Điều 354",Khoản
+OR_K3_D354,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D354,"a) Của hối lộ là tiền, tài sản hoặc lợi ích vật chất khác trị giá từ 500.000.000 đồng đến dưới 1.000.000.000 đồng",Điểm
+P_b_K3_D354,"b) Gây thiệt hại về tài sản từ 3.000.000.000 đồng đến dưới 5.000.000.000 đồng",Điểm
+HP_K3_D354,"Phạt tù từ 15 năm đến 20 năm","Hình phạt"
+K4_D354,"Khoản 4 Điều 354",Khoản
+OR_K4_D354,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K4_D354,"a) Của hối lộ là tiền, tài sản hoặc lợi ích vật chất khác trị giá 1.000.000.000 đồng trở lên",Điểm
+P_b_K4_D354,"b) Gây thiệt hại về tài sản 5.000.000.000 đồng trở lên",Điểm
+HP_K4_D354,"Phạt tù 20 năm hoặc tù chung thân","Hình phạt"
+K5_D354,"Khoản 5 Điều 354",Khoản
+HV_K5_D354,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K5_D354,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm, có thể bị phạt tiền từ 60.000.000 đồng đến 200.000.000 đồng, tịch thu một phần hoặc toàn bộ tài sản","Hình phạt"
+K6_D354,"Khoản 6 Điều 354",Khoản
+HV_K6_D354,"Người có chức vụ, quyền hạn trong các doanh nghiệp, tổ chức ngoài Nhà nước mà nhận hối lộ","Hành vi chính"
+HP_K6_D354,"Bị xử lý theo quy định tại Điều này","Hình phạt"
+D355,"Điều 355. Tội lạm dụng chức vụ, quyền hạn chiếm đoạt tài sản",Điều
+K1_D355,"Khoản 1 Điều 355",Khoản
+HV_K1_D355,"Người nào lạm dụng chức vụ, quyền hạn chiếm đoạt tài sản của người khác trị giá từ 2.000.000 đồng đến dưới 100.000.000 đồng hoặc dưới 2.000.000 đồng nhưng thuộc một trong các trường hợp sau đây","Hành vi chính"
+OR_K1_D355,"Thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K1_D355,"a) Đã bị xử lý kỷ luật về hành vi này mà còn vi phạm",Điểm
+P_b_K1_D355,"b) Đã bị kết án về một trong các tội quy định tại Mục 1 Chương này, chưa được xóa án tích mà còn vi phạm",Điểm
+HP_K1_D355,"Phạt tù từ 01 năm đến 06 năm","Hình phạt"
+K2_D355,"Khoản 2 Điều 355",Khoản
+OR_K2_D355,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D355,"a) Có tổ chức",Điểm
+P_b_K2_D355,"b) Dùng thủ đoạn xảo quyệt, nguy hiểm",Điểm
+P_c_K2_D355,"c) Phạm tội 02 lần trở lên",Điểm
+P_d_K2_D355,"d) Chiếm đoạt tài sản trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P_dd_K2_D355,"đ) Gây thiệt hại về tài sản từ 1.000.000.000 đồng đến dưới 3.000.000.000 đồng",Điểm
+P_e_K2_D355,"e) Chiếm đoạt tiền, tài sản dùng vào mục đích xóa đói, giảm nghèo; trợ cấp, ưu đãi người có công; quỹ dự phòng, tài sản trợ cấp vùng thiên tai, dịch bệnh hoặc kinh tế đặc biệt khó khăn",Điểm
+HP_K2_D355,"Phạt tù từ 06 năm đến 13 năm","Hình phạt"
+K3_D355,"Khoản 3 Điều 355",Khoản
+OR_K3_D355,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D355,"a) Chiếm đoạt tài sản trị giá từ 500.000.000 đồng đến dưới 1.000.000.000 đồng",Điểm
+P_b_K3_D355,"b) Gây thiệt hại về tài sản từ 3.000.000.000 đồng đến dưới 5.000.000.000 đồng",Điểm
+P_c_K3_D355,"c) Dẫn đến doanh nghiệp hoặc tổ chức khác bị phá sản hoặc ngừng hoạt động",Điểm
+P_d_K3_D355,"d) Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội",Điểm
+HP_K3_D355,"Phạt tù từ 13 năm đến 20 năm","Hình phạt"
+K4_D355,"Khoản 4 Điều 355",Khoản
+OR_K4_D355,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K4_D355,"a) Chiếm đoạt tài sản trị giá 1.000.000.000 đồng trở lên",Điểm
+P_b_K4_D355,"b) Gây thiệt hại về tài sản 5.000.000.000 đồng trở lên",Điểm
+HP_K4_D355,"Phạt tù 20 năm hoặc tù chung thân","Hình phạt"
+K5_D355,"Khoản 5 Điều 355",Khoản
+HV_K5_D355,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K5_D355,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm, có thể bị phạt tiền từ 60.000.000 đồng đến 200.000.000 đồng, tịch thu một phần hoặc toàn bộ tài sản","Hình phạt"
+D356,"Điều 356. Tội lợi dụng chức vụ, quyền hạn trong khi thi hành công vụ",Điều
+K1_D356,"Khoản 1 Điều 356",Khoản
+HV_K1_D356,"Người nào vì vụ lợi hoặc động cơ cá nhân khác mà lợi dụng chức vụ, quyền hạn làm trái công vụ gây thiệt hại về tài sản từ 10.000.000 đồng đến dưới 200.000.000 đồng hoặc gây thiệt hại khác đến lợi ích của Nhà nước, quyền, lợi ích hợp pháp của tổ chức, cá nhân","Hành vi chính"
+HP_K1_D356,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01 năm đến 05 năm","Hình phạt"
+K2_D356,"Khoản 2 Điều 356",Khoản
+OR_K2_D356,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D356,"a) Có tổ chức",Điểm
+P_b_K2_D356,"b) Phạm tội 02 lần trở lên",Điểm
+P_c_K2_D356,"c) Gây thiệt hại về tài sản từ 200.000.000 đồng đến dưới 1.000.000.000 đồng",Điểm
+HP_K2_D356,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+K3_D356,"Khoản 3 Điều 356",Khoản
+HV_K3_D356,"Phạm tội gây thiệt hại về tài sản 1.000.000.000 đồng trở lên","Hành vi chính"
+HP_K3_D356,"Phạt tù từ 10 năm đến 15 năm","Hình phạt"
+K4_D356,"Khoản 4 Điều 356",Khoản
+HV_K4_D356,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D356,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm, có thể bị phạt tiền từ 20.000.000 đồng đến 200.000.000 đồng","Hình phạt"
+D357,"Điều 357. Tội lạm quyền trong khi thi hành công vụ",Điều
+K1_D357,"Khoản 1 Điều 357",Khoản
+HV_K1_D357,"Người nào vì vụ lợi hoặc động cơ cá nhân khác mà vượt quá quyền hạn của mình làm trái công vụ gây thiệt hại về tài sản từ 10.000.000 đồng đến dưới 100.000.000 đồng hoặc gây thiệt hại khác đến lợi ích của Nhà nước, quyền, lợi ích hợp pháp của tổ chức, cá nhân","Hành vi chính"
+HP_K1_D357,"Phạt tù từ 01 năm đến 07 năm","Hình phạt"
+K2_D357,"Khoản 2 Điều 357",Khoản
+OR_K2_D357,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D357,"a) Có tổ chức",Điểm
+P_b_K2_D357,"b) Phạm tội 02 lần trở lên",Điểm
+P_c_K2_D357,"c) Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP_K2_D357,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+K3_D357,"Khoản 3 Điều 357",Khoản
+HV_K3_D357,"Phạm tội gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng","Hành vi chính"
+HP_K3_D357,"Phạt tù từ 10 năm đến 15 năm","Hình phạt"
+K4_D357,"Khoản 4 Điều 357",Khoản
+HV_K4_D357,"Phạm tội gây thiệt hại về tài sản 1.500.000.000 đồng trở lên","Hành vi chính"
+HP_K4_D357,"Phạt tù từ 15 năm đến 20 năm","Hình phạt"
+K5_D357,"Khoản 5 Điều 357",Khoản
+HV_K5_D357,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K5_D357,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm, có thể bị phạt tiền từ 20.000.000 đồng đến 200.000.000 đồng","Hình phạt"
+D358,"Điều 358. Tội lợi dụng chức vụ, quyền hạn gây ảnh hưởng đối với người khác để trục lợi",Điều
+K1_D358,"Khoản 1 Điều 358",Khoản
+HV_K1_D358,"Người nào lợi dụng chức vụ, quyền hạn trực tiếp hoặc qua trung gian đòi, nhận hoặc sẽ nhận lợi ích dưới mọi hình thức để dùng ảnh hưởng của mình thúc đẩy người có chức vụ, quyền hạn làm hoặc không làm việc thuộc trách nhiệm hoặc liên quan trực tiếp đến công việc của họ hoặc làm một việc không được phép làm","Hành vi chính"
+OR_K1_D358,"Nhận bất kỳ lợi ích nào sau đây","Node Logic OR"
+P_a_K1_D358,"a) Tiền, tài sản hoặc lợi ích vật chất khác trị giá từ 2.000.000 đồng đến dưới 100.000.000 đồng hoặc dưới 2.000.000 đồng nhưng đã bị xử lý kỷ luật về hành vi này mà còn vi phạm",Điểm
+P_b_K1_D358,"b) Lợi ích phi vật chất",Điểm
+HP_K1_D358,"Phạt tù từ 01 năm đến 06 năm","Hình phạt"
+K2_D358,"Khoản 2 Điều 358",Khoản
+OR_K2_D358,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D358,"a) Có tổ chức",Điểm
+P_b_K2_D358,"b) Phạm tội 02 lần trở lên",Điểm
+P_c_K2_D358,"c) Tiền, tài sản hoặc lợi ích vật chất khác trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P_d_K2_D358,"d) Gây thiệt hại về tài sản từ 1.000.000.000 đồng đến dưới 3.000.000.000 đồng",Điểm
+HP_K2_D358,"Phạt tù từ 06 năm đến 13 năm","Hình phạt"
+K3_D358,"Khoản 3 Điều 358",Khoản
+OR_K3_D358,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D358,"a) Tiền, tài sản hoặc lợi ích vật chất khác trị giá từ 500.000.000 đồng đến dưới 1.000.000.000 đồng",Điểm
+P_b_K3_D358,"b) Gây thiệt hại về tài sản từ 3.000.000.000 đồng đến dưới 5.000.000.000 đồng",Điểm
+HP_K3_D358,"Phạt tù từ 13 năm đến 20 năm","Hình phạt"
+K4_D358,"Khoản 4 Điều 358",Khoản
+OR_K4_D358,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K4_D358,"a) Tiền, tài sản hoặc lợi ích vật chất khác trị giá 1.000.000.000 đồng trở lên",Điểm
+P_b_K4_D358,"b) Gây thiệt hại về tài sản 5.000.000.000 đồng trở lên",Điểm
+HP_K4_D358,"Phạt tù 20 năm hoặc tù chung thân","Hình phạt"
+K5_D358,"Khoản 5 Điều 358",Khoản
+HV_K5_D358,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K5_D358,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm, có thể bị phạt tiền từ 60.000.000 đồng đến 200.000.000 đồng","Hình phạt"
+D359,"Điều 359. Tội giả mạo trong công tác",Điều
+K1_D359,"Khoản 1 Điều 359",Khoản
+HV_K1_D359,"Người nào vì vụ lợi hoặc động cơ cá nhân khác mà lợi dụng chức vụ, quyền hạn thực hiện hành vi vi phạm","Hành vi chính"
+OR_K1_D359,"Thực hiện một trong các hành vi sau đây","Node Logic OR"
+P_a_K1_D359,"a) Sửa chữa, làm sai lệch nội dung giấy tờ, tài liệu",Điểm
+P_b_K1_D359,"b) Làm, cấp giấy tờ giả",Điểm
+P_c_K1_D359,"c) Giả mạo chữ ký của người có chức vụ, quyền hạn",Điểm
+HP_K1_D359,"Phạt tù từ 01 năm đến 05 năm","Hình phạt"
+K2_D359,"Khoản 2 Điều 359",Khoản
+OR_K2_D359,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D359,"a) Có tổ chức",Điểm
+P_b_K2_D359,"b) Người phạm tội là người có trách nhiệm lập hoặc cấp các giấy tờ, tài liệu",Điểm
+P_c_K2_D359,"c) Làm, cấp giấy tờ giả với số lượng từ 02 giấy tờ giả đến 05 giấy tờ giả",Điểm
+HP_K2_D359,"Phạt tù từ 03 năm đến 10 năm","Hình phạt"
+K3_D359,"Khoản 3 Điều 359",Khoản
+OR_K3_D359,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D359,"a) Làm, cấp giấy tờ giả với số lượng từ 06 giấy tờ giả đến 10 giấy tờ giả",Điểm
+P_b_K3_D359,"b) Để thực hiện tội phạm ít nghiêm trọng hoặc tội phạm nghiêm trọng",Điểm
+HP_K3_D359,"Phạt tù từ 07 năm đến 15 năm","Hình phạt"
+K4_D359,"Khoản 4 Điều 359",Khoản
+OR_K4_D359,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K4_D359,"a) Làm, cấp giấy tờ giả với số lượng 11 giấy tờ giả trở lên",Điểm
+P_b_K4_D359,"b) Để thực hiện tội phạm rất nghiêm trọng hoặc tội phạm đặc biệt nghiêm trọng",Điểm
+HP_K4_D359,"Phạt tù từ 12 năm đến 20 năm","Hình phạt"
+K5_D359,"Khoản 5 Điều 359",Khoản
+HV_K5_D359,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K5_D359,"Cấm đảm nhiệm chức vụ hoặc làm công việc nhất định từ 01 năm đến 05 năm, có thể bị phạt tiền từ 20.000.000 đồng đến 200.000.000 đồng","Hình phạt"
+D360,"Điều 360. Tội thiếu trách nhiệm gây hậu quả nghiêm trọng",Điều
+K1_D360,"Khoản 1 Điều 360",Khoản
+HV_K1_D360,"Người nào có chức vụ, quyền hạn vì thiếu trách nhiệm mà không thực hiện hoặc thực hiện không đúng nhiệm vụ được giao, nếu không thuộc trường hợp quy định tại các điều 179, 308 và 376","Hành vi chính"
+OR_K1_D360,"Thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K1_D360,"a) Làm chết người",Điểm
+P_b_K1_D360,"b) Gây thương tích hoặc gây tổn hại cho sức khỏe của người khác mà tỷ lệ tổn thương cơ thể 61% trở lên",Điểm
+P_c_K1_D360,"c) Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 61% đến 121%",Điểm
+P_d_K1_D360,"d) Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP_K1_D360,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 05 năm","Hình phạt"
+K2_D360,"Khoản 2 Điều 360",Khoản
+OR_K2_D360,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D360,"a) Làm chết 02 người",Điểm
+P_b_K2_D360,"b) Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 122% đến 200%",Điểm
+P_c_K2_D360,"c) Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng",Điểm
+HP_K2_D360,"Phạt tù từ 03 năm đến 07 năm","Hình phạt"
+K3_D360,"Khoản 3 Điều 360",Khoản
+OR_K3_D360,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D360,"a) Làm chết 03 người trở lên",Điểm
+P_b_K3_D360,"b) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này 201% trở lên",Điểm
+P_c_K3_D360,"c) Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên",Điểm
+HP_K3_D360,"Phạt tù từ 07 năm đến 12 năm","Hình phạt"
+K4_D360,"Khoản 4 Điều 360",Khoản
+HV_K4_D360,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D360,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm","Hình phạt"
+D361,"Điều 361. Tội cố ý làm lộ bí mật công tác; tội chiếm đoạt, mua bán hoặc tiêu hủy tài liệu bí mật công tác",Điều
+K1_D361,"Khoản 1 Điều 361",Khoản
+HV_K1_D361,"Người nào cố ý làm lộ bí mật công tác hoặc chiếm đoạt, mua bán, tiêu hủy tài liệu bí mật công tác, nếu không thuộc trường hợp quy định tại các điều 110, 337 và 342","Hành vi chính"
+HP_K1_D361,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D361,"Khoản 2 Điều 361",Khoản
+OR_K2_D361,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D361,"a) Có tổ chức",Điểm
+P_b_K2_D361,"b) Phạm tội 02 lần trở lên",Điểm
+P_c_K2_D361,"c) Thu lợi bất chính 50.000.000 đồng trở lên",Điểm
+P_d_K2_D361,"d) Gây thiệt hại về tài sản 100.000.000 đồng trở lên",Điểm
+P_dd_K2_D361,"đ) Gây ảnh hưởng xấu đến hoạt động của cơ quan, tổ chức",Điểm
+P_e_K2_D361,"e) Để người khác sử dụng thực hiện hành vi vi phạm pháp luật",Điểm
+HP_K2_D361,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D361,"Khoản 3 Điều 361",Khoản
+HV_K3_D361,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K3_D361,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm","Hình phạt"
+D362,"Điều 362. Tội vô ý làm lộ bí mật công tác; tội làm mất tài liệu bí mật công tác",Điều
+K1_D362,"Khoản 1 Điều 362",Khoản
+HV_K1_D362,"Người nào vô ý làm lộ bí mật công tác hoặc làm mất tài liệu bí mật công tác, nếu không thuộc trường hợp quy định tại Điều 338","Hành vi chính"
+OR_K1_D362,"Thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K1_D362,"a) Gây ảnh hưởng xấu đến hoạt động của cơ quan, tổ chức",Điểm
+P_b_K1_D362,"b) Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P_c_K1_D362,"c) Để người khác sử dụng thực hiện tội phạm ít nghiêm trọng hoặc tội phạm nghiêm trọng",Điểm
+HP_K1_D362,"Phạt cảnh cáo, phạt cải tạo không giam giữ đến 02 năm","Hình phạt"
+K2_D362,"Khoản 2 Điều 362",Khoản
+OR_K2_D362,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D362,"a) Gây thiệt hại về tài sản 500.000.000 đồng trở lên",Điểm
+P_b_K2_D362,"b) Để người khác sử dụng thực hiện tội phạm rất nghiêm trọng hoặc tội phạm đặc biệt nghiêm trọng",Điểm
+HP_K2_D362,"Phạt cải tạo không giam giữ từ 02 năm đến 03 năm hoặc phạt tù từ 03 tháng đến 02 năm","Hình phạt"
+K3_D362,"Khoản 3 Điều 362",Khoản
+HV_K3_D362,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K3_D362,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm","Hình phạt"
+D363,"Điều 363. Tội đào nhiệm",Điều
+K1_D363,"Khoản 1 Điều 363",Khoản
+HV_K1_D363,"Người nào là cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác gây hậu quả nghiêm trọng","Hành vi chính"
+HP_K1_D363,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D363,"Khoản 2 Điều 363",Khoản
+OR_K2_D363,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D363,"a) Lôi kéo người khác đào nhiệm",Điểm
+P_b_K2_D363,"b) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng",Điểm
+P_c_K2_D363,"c) Phạm tội trong hoàn cảnh chiến tranh, thiên tai, dịch bệnh hoặc trong trường hợp khó khăn đặc biệt khác của xã hội",Điểm
+HP_K2_D363,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D363,"Khoản 3 Điều 363",Khoản
+HV_K3_D363,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K3_D363,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm","Hình phạt"
+D364,"Điều 364. Tội đưa hối lộ",Điều
+K1_D364,"Khoản 1 Điều 364",Khoản
+HV_K1_D364,"Người nào trực tiếp hay qua trung gian đã đưa hoặc sẽ đưa cho người có chức vụ, quyền hạn hoặc người khác hoặc tổ chức khác để làm hoặc không làm một việc vì lợi ích hoặc theo yêu cầu của người đưa hối lộ","Hành vi chính"
+OR_K1_D364,"Bất kỳ lợi ích nào sau đây","Node Logic OR"
+P_a_K1_D364,"a) Tiền, tài sản, lợi ích vật chất khác trị giá từ 2.000.000 đồng đến dưới 100.000.000 đồng",Điểm
+P_b_K1_D364,"b) Lợi ích phi vật chất",Điểm
+HP_K1_D364,"Phạt tiền từ 20.000.000 đồng đến 200.000.000 đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D364,"Khoản 2 Điều 364",Khoản
+OR_K2_D364,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D364,"a) Có tổ chức",Điểm
+P_b_K2_D364,"b) Dùng thủ đoạn xảo quyệt",Điểm
+P_c_K2_D364,"c) Dùng tài sản của Nhà nước để đưa hối lộ",Điểm
+P_d_K2_D364,"d) Lợi dụng chức vụ, quyền hạn",Điểm
+P_dd_K2_D364,"đ) Phạm tội 02 lần trở lên",Điểm
+P_e_K2_D364,"e) Của hối lộ là tiền, tài sản, lợi ích vật chất khác trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP_K2_D364,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D364,"Khoản 3 Điều 364",Khoản
+HV_K3_D364,"Phạm tội trong trường hợp của hối lộ là tiền, tài sản, lợi ích vật chất khác trị giá từ 500.000.000 đồng đến dưới 1.000.000.000 đồng","Hành vi chính"
+HP_K3_D364,"Phạt tù từ 07 năm đến 12 năm","Hình phạt"
+K4_D364,"Khoản 4 Điều 364",Khoản
+HV_K4_D364,"Phạm tội trong trường hợp của hối lộ là tiền, tài sản, lợi ích vật chất khác trị giá 1.000.000.000 đồng trở lên","Hành vi chính"
+HP_K4_D364,"Phạt tù từ 12 năm đến 20 năm","Hình phạt"
+K5_D364,"Khoản 5 Điều 364",Khoản
+HV_K5_D364,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K5_D364,"Phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng","Hình phạt"
+K6_D364,"Khoản 6 Điều 364",Khoản
+HV_K6_D364,"Người nào đưa hoặc sẽ đưa hối lộ cho công chức nước ngoài, công chức của tổ chức quốc tế công, người có chức vụ trong các doanh nghiệp, tổ chức ngoài Nhà nước","Hành vi chính"
+HP_K6_D364,"Bị xử lý theo quy định tại Điều này","Hình phạt"
+K7_D364,"Khoản 7 Điều 364",Khoản
+HV_1_K7_D364,"Người bị ép buộc đưa hối lộ mà chủ động khai báo trước khi bị phát giác","Hành vi chính"
+HP_1_K7_D364,"Được coi là không có tội và được trả lại toàn bộ của đã dùng để đưa hối lộ","Hình phạt"
+HV_2_K7_D364,"Người đưa hối lộ tuy không bị ép buộc nhưng đã chủ động khai báo trước khi bị phát giác","Hành vi chính"
+HP_2_K7_D364,"Có thể được miễn trách nhiệm hình sự và được trả lại một phần hoặc toàn bộ của đã dùng để đưa hối lộ","Hình phạt"
+D365,"Điều 365. Tội môi giới hối lộ",Điều
+K1_D365,"Khoản 1 Điều 365",Khoản
+HV_K1_D365,"Người nào môi giới hối lộ","Hành vi chính"
+OR_K1_D365,"Mà của hối lộ thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K1_D365,"a) Tiền, tài sản hoặc lợi ích vật chất trị giá từ 2.000.000 đồng đến dưới 100.000.000 đồng",Điểm
+P_b_K1_D365,"b) Lợi ích phi vật chất",Điểm
+HP_K1_D365,"Phạt tiền từ 20.000.000 đồng đến dưới 200.000.000 đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D365,"Khoản 2 Điều 365",Khoản
+OR_K2_D365,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D365,"a) Có tổ chức",Điểm
+P_b_K2_D365,"b) Phạm tội có tính chất chuyên nghiệp",Điểm
+P_c_K2_D365,"c) Dùng thủ đoạn xảo quyệt",Điểm
+P_d_K2_D365,"d) Biết của hối lộ là tài sản của Nhà nước",Điểm
+P_dd_K2_D365,"đ) Lợi dụng chức vụ, quyền hạn",Điểm
+P_e_K2_D365,"e) Phạm tội 02 lần trở lên",Điểm
+P_g_K2_D365,"g) Của hối lộ trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP_K2_D365,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D365,"Khoản 3 Điều 365",Khoản
+HV_K3_D365,"Phạm tội thuộc trường hợp của hối lộ trị giá từ 500.000.000 đồng đến dưới 1.000.000.000 đồng","Hành vi chính"
+HP_K3_D365,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+K4_D365,"Khoản 4 Điều 365",Khoản
+HV_K4_D365,"Phạm tội thuộc trường hợp của hối lộ trị giá 1.000.000.000 đồng trở lên","Hành vi chính"
+HP_K4_D365,"Phạt tù từ 08 năm đến 15 năm","Hình phạt"
+K5_D365,"Khoản 5 Điều 365",Khoản
+HV_K5_D365,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K5_D365,"Phạt tiền từ 20.000.000 đồng đến 200.000.000 đồng","Hình phạt"
+K6_D365,"Khoản 6 Điều 365",Khoản
+HV_K6_D365,"Người môi giới hối lộ mà chủ động khai báo trước khi bị phát giác","Hành vi chính"
+HP_K6_D365,"Có thể được miễn trách nhiệm hình sự","Hình phạt"
+K7_D365,"Khoản 7 Điều 365",Khoản
+HV_K7_D365,"Người nào môi giới hối lộ trong các doanh nghiệp, tổ chức ngoài Nhà nước","Hành vi chính"
+HP_K7_D365,"Bị xử lý theo quy định tại Điều này","Hình phạt"
+D366,"Điều 366. Tội lợi dụng ảnh hưởng đối với người có chức vụ, quyền hạn để trục lợi",Điều
+K1_D366,"Khoản 1 Điều 366",Khoản
+HV_K1_D366,"Người nào trực tiếp hoặc qua trung gian nhận lợi ích để dùng ảnh hưởng của mình thúc đẩy người có chức vụ, quyền hạn làm hoặc không làm một việc thuộc trách nhiệm của họ hoặc làm một việc không được phép làm","Hành vi chính"
+OR_K1_D366,"Bất kỳ lợi ích nào sau đây","Node Logic OR"
+P_a_K1_D366,"a) Tiền, tài sản hoặc lợi ích vật chất khác trị giá từ 2.000.000 đồng đến dưới 100.000.000 đồng",Điểm
+P_b_K1_D366,"b) Lợi ích phi vật chất",Điểm
+HP_K1_D366,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D366,"Khoản 2 Điều 366",Khoản
+OR_K2_D366,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D366,"a) Phạm tội 02 lần trở lên",Điểm
+P_b_K2_D366,"b) Tiền, tài sản hoặc lợi ích vật chất khác trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P_c_K2_D366,"c) Tái phạm nguy hiểm",Điểm
+HP_K2_D366,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D366,"Khoản 3 Điều 366",Khoản
+HV_K3_D366,"Phạm tội trong trường hợp tiền, tài sản hoặc lợi ích vật chất khác trị giá 500.000.000 đồng trở lên","Hành vi chính"
+HP_K3_D366,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+K4_D366,"Khoản 4 Điều 366",Khoản
+HV_K4_D366,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D366,"Phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng","Hình phạt"

@@ -1,0 +1,267 @@
+ID,Name,Label
+CH22,"Chương XXII: CÁC TỘI XÂM PHẠM TRẬT TỰ QUẢN LÝ HÀNH CHÍNH",Chương
+D330,"Điều 330. Tội chống người thi hành công vụ",Điều
+K1_D330,"Khoản 1 Điều 330",Khoản
+HV_K1_D330,"Người nào dùng vũ lực, đe dọa dùng vũ lực hoặc dùng thủ đoạn khác cản trở người thi hành công vụ thực hiện công vụ của họ hoặc ép buộc họ thực hiện hành vi trái pháp luật","Hành vi chính"
+HP_K1_D330,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D330,"Khoản 2 Điều 330",Khoản
+OR_K2_D330,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D330,"a) Có tổ chức",Điểm
+P_b_K2_D330,"b) Phạm tội 02 lần trở lên",Điểm
+P_c_K2_D330,"c) Xúi giục, lôi kéo, kích động người khác phạm tội",Điểm
+P_d_K2_D330,"d) Gây thiệt hại về tài sản 50.000.000 đồng trở lên",Điểm
+P_dd_K2_D330,"đ) Tái phạm nguy hiểm",Điểm
+HP_K2_D330,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+D331,"Điều 331. Tội lợi dụng các quyền tự do dân chủ xâm phạm lợi ích của Nhà nước, quyền, lợi ích hợp pháp của tổ chức, cá nhân",Điều
+K1_D331,"Khoản 1 Điều 331",Khoản
+HV_K1_D331,"Người nào lợi dụng các quyền tự do ngôn luận, tự do báo chí, tự do tín ngưỡng, tôn giáo, tự do hội họp, lập hội và các quyền tự do dân chủ khác xâm phạm lợi ích của Nhà nước, quyền, lợi ích hợp pháp của tổ chức, cá nhân","Hành vi chính"
+HP_K1_D331,"Phạt cảnh cáo, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D331,"Khoản 2 Điều 331",Khoản
+HV_K2_D331,"Phạm tội gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội","Hành vi chính"
+HP_K2_D331,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+D332,"Điều 332. Tội trốn tránh nghĩa vụ quân sự",Điều
+K1_D332,"Khoản 1 Điều 332",Khoản
+HV_K1_D332,"Người nào không chấp hành đúng quy định của pháp luật về đăng ký nghĩa vụ quân sự, không chấp hành lệnh gọi nhập ngũ, lệnh gọi tập trung huấn luyện, đã bị xử phạt vi phạm hành chính hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm","Hành vi chính"
+HP_K1_D332,"Phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm","Hình phạt"
+K2_D332,"Khoản 2 Điều 332",Khoản
+OR_K2_D332,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D332,"a) Tự gây thương tích hoặc gây tổn hại cho sức khỏe của mình",Điểm
+P_b_K2_D332,"b) Phạm tội trong thời chiến",Điểm
+P_c_K2_D332,"c) Lôi kéo người khác phạm tội",Điểm
+HP_K2_D332,"Phạt tù từ 01 năm đến 05 năm","Hình phạt"
+D333,"Điều 333. Tội không chấp hành lệnh gọi quân nhân dự bị nhập ngũ",Điều
+K1_D333,"Khoản 1 Điều 333",Khoản
+HV_K1_D333,"Người nào là quân nhân dự bị mà không chấp hành lệnh gọi nhập ngũ trong trường hợp có lệnh tổng động viên, lệnh động viên cục bộ, có chiến tranh hoặc có nhu cầu tăng cường cho lực lượng thường trực","Hành vi chính"
+HP_K1_D333,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D333,"Khoản 2 Điều 333",Khoản
+OR_K2_D333,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D333,"a) Tự gây thương tích hoặc gây tổn hại cho sức khỏe của mình",Điểm
+P_b_K2_D333,"b) Lôi kéo người khác phạm tội",Điểm
+HP_K2_D333,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+D334,"Điều 334. Tội làm trái quy định về việc thực hiện nghĩa vụ quân sự",Điều
+K1_D334,"Khoản 1 Điều 334",Khoản
+HV_K1_D334,"Người nào lợi dụng chức vụ, quyền hạn làm trái quy định về đăng ký nghĩa vụ quân sự, gọi nhập ngũ, gọi tập trung huấn luyện","Hành vi chính"
+HP_K1_D334,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D334,"Khoản 2 Điều 334",Khoản
+HV_K2_D334,"Phạm tội trong thời chiến","Hành vi chính"
+HP_K2_D334,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D334,"Khoản 3 Điều 334",Khoản
+HV_K3_D334,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K3_D334,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm","Hình phạt"
+D335,"Điều 335. Tội cản trở việc thực hiện nghĩa vụ quân sự",Điều
+K1_D335,"Khoản 1 Điều 335",Khoản
+HV_K1_D335,"Người nào cố ý cản trở việc đăng ký nghĩa vụ quân sự, gọi nhập ngũ, gọi tập trung huấn luyện","Hành vi chính"
+HP_K1_D335,"Phạt cảnh cáo, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm","Hình phạt"
+K2_D335,"Khoản 2 Điều 335",Khoản
+OR_K2_D335,"Phạm tội thuộc một trong các trường hợp","Node Logic OR"
+P_1_K2_D335,"Lợi dụng chức vụ, quyền hạn",Điểm
+P_2_K2_D335,"Phạm tội trong thời chiến",Điểm
+HP_K2_D335,"Phạt tù từ 02 năm đến 05 năm","Hình phạt"
+D336,"Điều 336. Tội đăng ký hộ tịch trái pháp luật",Điều
+K1_D336,"Khoản 1 Điều 336",Khoản
+HV_K1_D336,"Người nào có nhiệm vụ, quyền hạn mà thực hiện việc đăng ký, cấp giấy tờ về hộ tịch trái pháp luật, đã bị xử lý kỷ luật về hành vi này mà còn vi phạm","Hành vi chính"
+HP_K1_D336,"Phạt cảnh cáo, phạt cải tạo không giam giữ đến 03 năm","Hình phạt"
+K2_D336,"Khoản 2 Điều 336",Khoản
+OR_K2_D336,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D336,"a) Đăng ký, cấp giấy tờ về hộ tịch trái pháp luật cho 02 người trở lên",Điểm
+P_b_K2_D336,"b) Giấy tờ về hộ tịch đã được cấp, đăng ký trái pháp luật được sử dụng để thực hiện hành vi trái pháp luật",Điểm
+HP_K2_D336,"Phạt tù từ 03 tháng đến 02 năm","Hình phạt"
+K3_D336,"Khoản 3 Điều 336",Khoản
+HV_K3_D336,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K3_D336,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm","Hình phạt"
+D337,"Điều 337. Tội cố ý làm lộ bí mật nhà nước; tội chiếm đoạt, mua bán hoặc tiêu hủy vật hoặc tài liệu bí mật nhà nước",Điều
+K1_D337,"Khoản 1 Điều 337",Khoản
+HV_K1_D337,"Người nào cố ý làm lộ bí mật nhà nước, chiếm đoạt, mua bán hoặc tiêu hủy vật hoặc tài liệu bí mật nhà nước, nếu không thuộc trường hợp quy định tại Điều 110","Hành vi chính"
+HP_K1_D337,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K2_D337,"Khoản 2 Điều 337",Khoản
+OR_K2_D337,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D337,"a) Bí mật nhà nước thuộc độ tối mật",Điểm
+P_b_K2_D337,"b) Lợi dụng chức vụ, quyền hạn",Điểm
+P_c_K2_D337,"c) Gây tổn hại về quốc phòng, an ninh, đối ngoại, kinh tế, văn hóa",Điểm
+HP_K2_D337,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+K3_D337,"Khoản 3 Điều 337",Khoản
+OR_K3_D337,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D337,"a) Có tổ chức",Điểm
+P_b_K3_D337,"b) Bí mật nhà nước thuộc độ tuyệt mật",Điểm
+P_c_K3_D337,"c) Phạm tội 02 lần trở lên",Điểm
+P_d_K3_D337,"d) Gây tổn hại về chế độ chính trị, độc lập, chủ quyền, thống nhất và toàn vẹn lãnh thổ",Điểm
+HP_K3_D337,"Phạt tù từ 10 năm đến 15 năm","Hình phạt"
+K4_D337,"Khoản 4 Điều 337",Khoản
+HV_K4_D337,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D337,"Phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm","Hình phạt"
+D338,"Điều 338. Tội vô ý làm lộ bí mật nhà nước; tội làm mất vật, tài liệu bí mật nhà nước",Điều
+K1_D338,"Khoản 1 Điều 338",Khoản
+HV_K1_D338,"Người nào vô ý làm lộ bí mật nhà nước hoặc làm mất vật, tài liệu bí mật nhà nước","Hành vi chính"
+HP_K1_D338,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D338,"Khoản 2 Điều 338",Khoản
+OR_K2_D338,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D338,"a) Bí mật nhà nước thuộc độ tối mật, tuyệt mật",Điểm
+P_b_K2_D338,"b) Gây tổn hại về quốc phòng, an ninh, đối ngoại, kinh tế, văn hóa, chế độ chính trị, độc lập, chủ quyền, thống nhất và toàn vẹn lãnh thổ",Điểm
+HP_K2_D338,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D338,"Khoản 3 Điều 338",Khoản
+HV_K3_D338,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K3_D338,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm","Hình phạt"
+D339,"Điều 339. Tội giả mạo chức vụ, cấp bậc, vị trí công tác",Điều
+K1_D339,"Khoản duy nhất Điều 339",Khoản
+AND_K1_D339,"Đồng thời thỏa mãn các điều kiện sau","Node Logic AND"
+P_1_K1_D339,"Giả mạo chức vụ, cấp bậc, vị trí công tác thực hiện hành vi trái pháp luật",Điểm
+P_2_K1_D339,"Không nhằm mục đích chiếm đoạt tài sản",Điểm
+HP_K1_D339,"Phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm","Hình phạt"
+D340,"Điều 340. Tội sửa chữa và sử dụng giấy chứng nhận, các tài liệu của cơ quan, tổ chức",Điều
+K1_D340,"Khoản 1 Điều 340",Khoản
+HV_K1_D340,"Người nào sửa chữa, làm sai lệch nội dung giấy tờ, tài liệu của cơ quan, tổ chức và sử dụng giấy tờ đó thực hiện tội phạm hoặc đã bị xử lý mà còn vi phạm","Hành vi chính"
+HP_K1_D340,"Phạt cảnh cáo, phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D340,"Khoản 2 Điều 340",Khoản
+OR_K2_D340,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D340,"a) Phạm tội 02 lần trở lên",Điểm
+P_b_K2_D340,"b) Sử dụng giấy tờ, tài liệu đã bị sửa chữa hoặc làm sai lệch thực hiện tội phạm rất nghiêm trọng hoặc đặc biệt nghiêm trọng",Điểm
+HP_K2_D340,"Phạt tù từ 02 năm đến 05 năm","Hình phạt"
+K3_D340,"Khoản 3 Điều 340",Khoản
+HV_K3_D340,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K3_D340,"Phạt tiền từ 5.000.000 đồng đến 20.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm","Hình phạt"
+D341,"Điều 341. Tội làm giả con dấu, tài liệu của cơ quan, tổ chức; tội sử dụng con dấu hoặc tài liệu giả của cơ quan, tổ chức",Điều
+K1_D341,"Khoản 1 Điều 341",Khoản
+HV_K1_D341,"Người nào làm giả con dấu, tài liệu hoặc giấy tờ khác của cơ quan, tổ chức hoặc sử dụng con dấu, tài liệu hoặc giấy tờ giả thực hiện hành vi trái pháp luật","Hành vi chính"
+HP_K1_D341,"Phạt tiền từ 30.000.000 đồng đến 100.000.000 đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 02 năm","Hình phạt"
+K2_D341,"Khoản 2 Điều 341",Khoản
+OR_K2_D341,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D341,"a) Có tổ chức",Điểm
+P_b_K2_D341,"b) Phạm tội 02 lần trở lên",Điểm
+P_c_K2_D341,"c) Làm từ 02 con dấu, tài liệu hoặc giấy tờ khác đến 05 con dấu, tài liệu hoặc giấy tờ khác",Điểm
+P_d_K2_D341,"d) Sử dụng con dấu, tài liệu hoặc giấy tờ khác thực hiện tội phạm ít nghiêm trọng hoặc tội phạm nghiêm trọng",Điểm
+P_dd_K2_D341,"đ) Thu lợi bất chính từ 10.000.000 đồng đến dưới 50.000.000 đồng",Điểm
+P_e_K2_D341,"e) Tái phạm nguy hiểm",Điểm
+HP_K2_D341,"Phạt tù từ 02 năm đến 05 năm","Hình phạt"
+K3_D341,"Khoản 3 Điều 341",Khoản
+OR_K3_D341,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D341,"a) Làm 06 con dấu, tài liệu hoặc giấy tờ khác trở lên",Điểm
+P_b_K3_D341,"b) Sử dụng con dấu, tài liệu hoặc giấy tờ khác thực hiện tội phạm rất nghiêm trọng hoặc tội phạm đặc biệt nghiêm trọng",Điểm
+P_c_K3_D341,"c) Thu lợi bất chính 50.000.000 đồng trở lên",Điểm
+HP_K3_D341,"Phạt tù từ 03 năm đến 07 năm","Hình phạt"
+K4_D341,"Khoản 4 Điều 341",Khoản
+HV_K4_D341,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D341,"Phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng","Hình phạt"
+D342,"Điều 342. Tội chiếm đoạt, mua bán, tiêu hủy con dấu, tài liệu của cơ quan, tổ chức",Điều
+K1_D342,"Khoản 1 Điều 342",Khoản
+HV_K1_D342,"Người nào chiếm đoạt, mua bán hoặc tiêu hủy trái phép con dấu, tài liệu của cơ quan, tổ chức không thuộc tài liệu bí mật nhà nước hoặc bí mật công tác","Hành vi chính"
+HP_K1_D342,"Phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm","Hình phạt"
+K2_D342,"Khoản 2 Điều 342",Khoản
+OR_K2_D342,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D342,"a) Có tổ chức",Điểm
+P_b_K2_D342,"b) Thu lợi bất chính 10.000.000 đồng trở lên",Điểm
+P_c_K2_D342,"c) Để thực hiện hành vi trái pháp luật",Điểm
+P_d_K2_D342,"d) Tái phạm nguy hiểm",Điểm
+HP_K2_D342,"Phạt tù từ 02 năm đến 05 năm","Hình phạt"
+K3_D342,"Khoản 3 Điều 342",Khoản
+HV_K3_D342,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K3_D342,"Phạt tiền từ 5.000.000 đồng đến 20.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm","Hình phạt"
+D343,"Điều 343. Tội vi phạm các quy định về quản lý nhà ở",Điều
+K1_D343,"Khoản 1 Điều 343",Khoản
+HV_K1_D343,"Người nào chiếm dụng chỗ ở, xây dựng nhà trái phép, đã bị xử phạt hành chính hoặc kết án về tội này, chưa được xóa án tích mà còn vi phạm","Hành vi chính"
+HP_K1_D343,"Phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm. Nhà ở, công trình xây dựng trái phép có thể bị dỡ bỏ, trưng mua hoặc tịch thu","Hình phạt"
+K2_D343,"Khoản 2 Điều 343",Khoản
+HV_K2_D343,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K2_D343,"Phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng","Hình phạt"
+D344,"Điều 344. Tội vi phạm quy định về hoạt động xuất bản",Điều
+K1_D344,"Khoản 1 Điều 344",Khoản
+HV_K1_D344,"Người nào vi phạm quy định về hoạt động xuất bản","Hành vi chính"
+OR_K1_D344,"Thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K1_D344,"a) In 2.000 bản trở lên đối với từng xuất bản phẩm không đúng quy định",Điểm
+P_b_K1_D344,"b) Xuất bản, in hoặc phát hành xuất bản phẩm bị đình chỉ, thu hồi, tịch thu, cấm lưu hành, tiêu hủy hoặc nhập trái phép với số lượng 500 bản trở lên",Điểm
+P_c_K1_D344,"c) Xuất bản, phát hành xuất bản phẩm điện tử có nội dung bị cấm, không quyết định xuất bản hoặc không bản thảo ký duyệt",Điểm
+HP_K1_D344,"Phạt cảnh cáo, phạt tiền từ 20.000.000 đồng đến 200.000.000 đồng, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm","Hình phạt"
+K2_D344,"Khoản 2 Điều 344",Khoản
+OR_K2_D344,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D344,"a) Có tổ chức",Điểm
+P_b_K2_D344,"b) Thay đổi, làm sai lệch nội dung bản thảo đã được ký duyệt hoặc có dấu cấp phép để xuất bản nội dung bị cấm",Điểm
+P_c_K2_D344,"c) Phát hành xuất bản phẩm có nội dung bị cấm",Điểm
+HP_K2_D344,"Phạt tù từ 02 năm đến 05 năm","Hình phạt"
+K3_D344,"Khoản 3 Điều 344",Khoản
+HV_K3_D344,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K3_D344,"Phạt tiền từ 20.000.000 đồng đến 100.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm","Hình phạt"
+D345,"Điều 345. Tội vi phạm các quy định về bảo vệ và sử dụng di tích lịch sử - văn hóa, danh lam, thắng cảnh gây hậu quả nghiêm trọng",Điều
+K1_D345,"Khoản 1 Điều 345",Khoản
+HV_K1_D345,"Người nào vi phạm quy định bảo vệ di tích, gây hư hại di tích, danh lam có giá trị 100-500 triệu đồng; hủy hoại, làm đổi yếu tố gốc cấp tỉnh hoặc đã bị xử lý mà vi phạm","Hành vi chính"
+HP_K1_D345,"Phạt cảnh cáo, phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D345,"Khoản 2 Điều 345",Khoản
+HV_K2_D345,"Phạm tội gây hư hại di tích, danh lam giá trị từ 500.000.000 đồng trở lên hoặc hủy hoại, làm đổi yếu tố gốc di tích cấp quốc gia hoặc quốc gia đặc biệt","Hành vi chính"
+HP_K2_D345,"Phạt tù từ 03 năm đến 07 năm","Hình phạt"
+D346,"Điều 346. Tội vi phạm quy chế về khu vực biên giới",Điều
+K1_D346,"Khoản 1 Điều 346",Khoản
+HV_K1_D346,"Người nào vi phạm quy định về cư trú, đi lại hoặc quy định khác về khu vực biên giới, đã bị xử phạt hành chính hoặc kết án, chưa xóa án tích mà còn vi phạm","Hành vi chính"
+HP_K1_D346,"Phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D346,"Khoản 2 Điều 346",Khoản
+HV_K2_D346,"Tái phạm nguy hiểm hoặc phạm tội gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội khu vực biên giới","Hành vi chính"
+HP_K2_D346,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D346,"Khoản 3 Điều 346",Khoản
+HV_K3_D346,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K3_D346,"Phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng, cấm cư trú từ 01 năm đến 05 năm","Hình phạt"
+D347,"Điều 347. Tội vi phạm quy định về xuất cảnh, nhập cảnh; tội ở lại Việt Nam trái phép",Điều
+K1_D347,"Khoản duy nhất Điều 347",Khoản
+HV_K1_D347,"Người nào xuất cảnh, nhập cảnh trái phép hoặc ở lại Việt Nam trái phép, đã bị xử phạt vi phạm hành chính về hành vi này mà còn vi phạm","Hành vi chính"
+HP_K1_D347,"Phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+D348,"Điều 348. Tội tổ chức, môi giới cho người khác xuất cảnh, nhập cảnh hoặc ở lại Việt Nam trái phép",Điều
+K1_D348,"Khoản 1 Điều 348",Khoản
+HV_K1_D348,"Người nào vì vụ lợi mà tổ chức hoặc môi giới cho người khác xuất cảnh, nhập cảnh hoặc ở lại Việt Nam trái phép","Hành vi chính"
+HP_K1_D348,"Phạt tù từ 01 năm đến 05 năm","Hình phạt"
+K2_D348,"Khoản 2 Điều 348",Khoản
+OR_K2_D348,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D348,"a) Lợi dụng chức vụ, quyền hạn",Điểm
+P_b_K2_D348,"b) Phạm tội 02 lần trở lên",Điểm
+P_c_K2_D348,"c) Đối với từ 05 người đến 10 người",Điểm
+P_d_K2_D348,"d) Có tính chất chuyên nghiệp",Điểm
+P_dd_K2_D348,"đ) Thu lợi bất chính từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P_e_K2_D348,"e) Tái phạm nguy hiểm",Điểm
+HP_K2_D348,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+K3_D348,"Khoản 3 Điều 348",Khoản
+OR_K3_D348,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D348,"a) Đối với 11 người trở lên",Điểm
+P_b_K3_D348,"b) Thu lợi bất chính 500.000.000 đồng trở lên",Điểm
+P_c_K3_D348,"c) Làm chết người",Điểm
+HP_K3_D348,"Phạt tù từ 07 năm đến 15 năm","Hình phạt"
+K4_D348,"Khoản 4 Điều 348",Khoản
+HV_K4_D348,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D348,"Phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng hoặc cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm","Hình phạt"
+D349,"Điều 349. Tội tổ chức, môi giới cho người khác trốn đi nước ngoài hoặc ở lại nước ngoài trái phép",Điều
+K1_D349,"Khoản 1 Điều 349",Khoản
+HV_K1_D349,"Người nào tổ chức, môi giới cho người khác trốn đi nước ngoài hoặc ở lại nước ngoài trái phép, nếu không thuộc trường hợp quy định tại Điều 120","Hành vi chính"
+HP_K1_D349,"Phạt tù từ 01 năm đến 05 năm","Hình phạt"
+K2_D349,"Khoản 2 Điều 349",Khoản
+OR_K2_D349,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D349,"a) Lợi dụng chức vụ, quyền hạn",Điểm
+P_b_K2_D349,"b) Phạm tội 02 lần trở lên",Điểm
+P_c_K2_D349,"c) Đối với từ 05 người đến 10 người",Điểm
+P_d_K2_D349,"d) Có tính chất chuyên nghiệp",Điểm
+P_dd_K2_D349,"đ) Thu lợi bất chính từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P_e_K2_D349,"e) Tái phạm nguy hiểm",Điểm
+HP_K2_D349,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+K3_D349,"Khoản 3 Điều 349",Khoản
+OR_K3_D349,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D349,"a) Đối với 11 người trở lên",Điểm
+P_b_K3_D349,"b) Thu lợi bất chính 500.000.000 đồng trở lên",Điểm
+P_c_K3_D349,"c) Làm chết người",Điểm
+HP_K3_D349,"Phạt tù từ 07 năm đến 15 năm","Hình phạt"
+K4_D349,"Khoản 4 Điều 349",Khoản
+HV_K4_D349,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D349,"Phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng hoặc cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm","Hình phạt"
+D350,"Điều 350. Tội cưỡng ép người khác trốn đi nước ngoài hoặc ở lại nước ngoài trái phép",Điều
+K1_D350,"Khoản 1 Điều 350",Khoản
+HV_K1_D350,"Người nào cưỡng ép người khác trốn đi nước ngoài hoặc ở lại nước ngoài trái phép, nếu không thuộc trường hợp quy định tại Điều 120","Hành vi chính"
+HP_K1_D350,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K2_D350,"Khoản 2 Điều 350",Khoản
+OR_K2_D350,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D350,"a) Phạm tội 02 lần trở lên",Điểm
+P_b_K2_D350,"b) Đối với từ 05 người đến 10 người",Điểm
+P_c_K2_D350,"c) Có tính chất chuyên nghiệp",Điểm
+P_d_K2_D350,"d) Vì động cơ đê hèn",Điểm
+P_dd_K2_D350,"đ) Tái phạm nguy hiểm",Điểm
+HP_K2_D350,"Phạt tù từ 05 năm đến 12 năm","Hình phạt"
+K3_D350,"Khoản 3 Điều 350",Khoản
+OR_K3_D350,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D350,"a) Đối với 11 người trở lên",Điểm
+P_b_K3_D350,"b) Làm chết người",Điểm
+HP_K3_D350,"Phạt tù từ 12 năm đến 20 năm","Hình phạt"
+D351,"Điều 351. Tội xúc phạm Quốc kỳ, Quốc huy, Quốc ca",Điều
+K1_D351,"Khoản duy nhất Điều 351",Khoản
+HV_K1_D351,"Người nào cố ý xúc phạm Quốc kỳ, Quốc huy, Quốc ca","Hành vi chính"
+HP_K1_D351,"Phạt cảnh cáo, cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"

@@ -1,0 +1,951 @@
+ID,Name,Label
+C18,"Chương XVIII: Các tội xâm phạm trật tự quản lý kinh tế",Chương
+D200,"Điều 200: Tội trốn thuế",Điều
+D200_K1,"Khoản 1 Điều 200",Khoản
+D200_K1_HV,"Trốn thuế 100-300tr hoặc dưới 100tr nhưng đã bị xử phạt/kết án",Hành vi chính
+D200_K1_OR,"Thực hiện một trong các hành vi sau (OR)",Node Logic OR
+D200_K1_Da,"Điểm a: Không nộp hồ sơ đăng ký thuế; không nộp hồ sơ khai thuế...",Điểm
+D200_K1_Db,"Điểm b: Không ghi chép trong sổ kế toán các khoản thu...",Điểm
+D200_K1_Dc,"Điểm c: Không xuất hóa đơn khi bán hàng hóa, dịch vụ...",Điểm
+D200_K1_Dd,"Điểm d: Sử dụng hóa đơn, chứng từ không hợp pháp để hạch toán...",Điểm
+D200_K1_Dđ,"Điểm đ: Sử dụng chứng từ, tài liệu không hợp pháp khác...",Điểm
+D200_K1_De,"Điểm e: Khai sai với thực tế hàng hóa xuất khẩu, nhập khẩu...",Điểm
+D200_K1_Dg,"Điểm g: Cố ý không kê khai hoặc khai sai về thuế...",Điểm
+D200_K1_Dh,"Điểm h: Câu kết với người gửi hàng để nhập khẩu hàng hóa...",Điểm
+D200_K1_Di,"Điểm i: Sử dụng hàng hóa không chịu thuế, miễn thuế sai mục đích...",Điểm
+D200_K1_HP,"Phạt tiền từ 100-500 triệu hoặc phạt tù từ 03 tháng đến 01 năm",Hình phạt
+D200_K2,"Khoản 2 Điều 200",Khoản
+D200_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D200_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D200_K2_Da,"Điểm a: Có tổ chức",Điểm
+D200_K2_Db,"Điểm b: Số tiền trốn thuế từ 300tr đến dưới 1 tỷ",Điểm
+D200_K2_Dc,"Điểm c: Lợi dụng chức vụ, quyền hạn",Điểm
+D200_K2_Dd,"Điểm d: Phạm tội 02 lần trở lên",Điểm
+D200_K2_Dđ,"Điểm đ: Tái phạm nguy hiểm",Điểm
+D200_K2_HP,"Phạt tiền từ 500tr-1.5 tỷ hoặc phạt tù 01-03 năm",Hình phạt
+D200_K3,"Khoản 3 Điều 200",Khoản
+D200_K3_HV,"Trốn thuế với số tiền 1 tỷ trở lên",Hành vi chính
+D200_K3_HP,"Phạt tiền từ 1.5 tỷ-4.5 tỷ hoặc phạt tù 02-07 năm",Hình phạt
+D200_K4,"Khoản 4 Điều 200",Khoản
+D200_K4_HV,"Người phạm tội",Hành vi chính
+D200_K4_HP,"Phạt 20-100 triệu, cấm đảm nhiệm/hành nghề 01-05 năm, tịch thu tài sản",Hình phạt
+D200_K5,"Khoản 5 Điều 200",Khoản
+D200_K5_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D200_K5_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D200_K5_Da,"Điểm a: Phạm tội thuộc khoản 1 giá trị 200-300tr hoặc 100-200tr nhưng bị xử phạt/kết án",Điểm
+D200_K5_HP_a,"Phạt tiền 300 triệu - 1 tỷ",Hình phạt
+D200_K5_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D200_K5_Db,"Điểm b: Phạm tội thuộc điểm a, b, d, đ khoản 2",Điểm
+D200_K5_HP_b,"Phạt tiền 1 tỷ - 3 tỷ",Hình phạt
+D200_K5_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D200_K5_Dc,"Điểm c: Phạm tội thuộc khoản 3",Điểm
+D200_K5_HP_c,"Phạt tiền 3 tỷ - 10 tỷ hoặc đình chỉ hoạt động 06 tháng - 03 năm",Hình phạt
+D200_K5_OR_d,"Điều kiện điểm d (OR)",Node Logic OR
+D200_K5_Dd,"Điểm d: Phạm tội thuộc Điều 79",Điểm
+D200_K5_HP_d,"Đình chỉ hoạt động vĩnh viễn",Hình phạt
+D200_K5_OR_đ,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D200_K5_Dđ,"Điểm đ: Hình phạt bổ sung",Điểm
+D200_K5_HP_đ,"Phạt 50-200 triệu, cấm kinh doanh/hoạt động/huy động vốn 01-03 năm",Hình phạt
+D201,"Điều 201: Tội cho vay lãi nặng trong giao dịch dân sự",Điều
+D201_K1,"Khoản 1 Điều 201",Khoản
+D201_K1_HV,"Cho vay lãi suất gấp 05 lần trở lên, thu lợi bất chính 30-100tr hoặc đã bị xử phạt/kết án",Hành vi chính
+D201_K1_HP,"Phạt tiền 50-200 triệu hoặc cải tạo KGG đến 03 năm",Hình phạt
+D201_K2,"Khoản 2 Điều 201",Khoản
+D201_K2_HV,"Thu lợi bất chính 100 triệu trở lên",Hành vi chính
+D201_K2_HP,"Phạt tiền 200tr-1 tỷ hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D201_K3,"Khoản 3 Điều 201",Khoản
+D201_K3_HV,"Người phạm tội",Hành vi chính
+D201_K3_HP,"Phạt 30-100 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D202,"Điều 202: Tội làm, buôn bán tem giả, vé giả",Điều
+D202_K1,"Khoản 1 Điều 202",Khoản
+D202_K1_HV,"Làm, buôn bán tem giả, vé giả thuộc các trường hợp khoản 1",Hành vi chính
+D202_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D202_K1_Da,"Điểm a: Không mệnh giá từ 15.000 đến dưới 30.000 đơn vị",Điểm
+D202_K1_Db,"Điểm b: Có mệnh giá tổng trị giá 50-200tr",Điểm
+D202_K1_Dc,"Điểm c: Đã bị xử phạt VPHC hoặc kết án chưa xóa án",Điểm
+D202_K1_Dd,"Điểm d: Thu lợi bất chính 30-100tr",Điểm
+D202_K1_HP,"Phạt tiền 30-100 triệu, cải tạo KGG đến 03 năm hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D202_K2,"Khoản 2 Điều 202",Khoản
+D202_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D202_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D202_K2_Da,"Điểm a: Có tổ chức",Điểm
+D202_K2_Db,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+D202_K2_Dc,"Điểm c: Không mệnh giá 30.000 đơn vị trở lên",Điểm
+D202_K2_Dd,"Điểm d: Có mệnh giá tổng trị giá 200tr trở lên",Điểm
+D202_K2_Dđ,"Điểm đ: Thu lợi bất chính 100tr trở lên",Điểm
+D202_K2_De,"Điểm e: Tái phạm nguy hiểm",Điểm
+D202_K2_HP,"Phạt tiền 100-500 triệu hoặc phạt tù 02-07 năm",Hình phạt
+D202_K3,"Khoản 3 Điều 202",Khoản
+D202_K3_HV,"Người phạm tội",Hành vi chính
+D202_K3_HP,"Phạt 5-50 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D203,"Điều 203: Tội in, phát hành, mua bán trái phép hóa đơn, chứng từ",Điều
+D203_K1,"Khoản 1 Điều 203",Khoản
+D203_K1_HV,"In, phát hành hóa đơn phôi 50-100 số, hoặc đã ghi 10-30 số, hoặc thu lợi 30-100tr",Hành vi chính
+D203_K1_HP,"Phạt tiền 50-200 triệu, cải tạo KGG đến 03 năm hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D203_K2,"Khoản 2 Điều 203",Khoản
+D203_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D203_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D203_K2_Da,"Điểm a: Có tổ chức",Điểm
+D203_K2_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D203_K2_Dc,"Điểm c: Lợi dụng chức vụ, quyền hạn",Điểm
+D203_K2_Dd,"Điểm d: Phôi 100 số trở lên hoặc đã ghi 30 số trở lên",Điểm
+D203_K2_Dđ,"Điểm đ: Thu lợi bất chính 100tr trở lên",Điểm
+D203_K2_De,"Điểm e: Gây thiệt hại NSNN 100tr trở lên",Điểm
+D203_K2_Dg,"Điểm g: Tái phạm nguy hiểm",Điểm
+D203_K2_HP,"Phạt tiền 200-500 triệu hoặc phạt tù 01-05 năm",Hình phạt
+D203_K3,"Khoản 3 Điều 203",Khoản
+D203_K3_HV,"Người phạm tội",Hành vi chính
+D203_K3_HP,"Phạt 10-50 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D203_K4,"Khoản 4 Điều 203",Khoản
+D203_K4_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D203_K4_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D203_K4_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D203_K4_HP_a,"Phạt tiền 100-500 triệu",Hình phạt
+D203_K4_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D203_K4_Db,"Điểm b: Phạm tội thuộc điểm a, b, d, đ, e, g khoản 2",Điểm
+D203_K4_HP_b,"Phạt tiền 500 triệu - 1 tỷ",Hình phạt
+D203_K4_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D203_K4_Dc,"Điểm c: Phạm tội thuộc Điều 79",Điểm
+D203_K4_HP_c,"Đình chỉ hoạt động vĩnh viễn",Hình phạt
+D203_K4_OR_d,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D203_K4_Dd,"Điểm d: Hình phạt bổ sung",Điểm
+D203_K4_HP_d,"Phạt 50-200 triệu, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt
+D204,"Điều 204: Tội vi phạm quy định về bảo quản, quản lý hóa đơn, chứng từ",Điều
+D204_K1,"Khoản 1 Điều 204",Khoản
+D204_K1_HV,"Vi phạm bảo quản, quản lý hóa đơn gây thiệt hại 100-500tr",Hành vi chính
+D204_K1_HP,"Phạt tiền 10-100 triệu hoặc cải tạo KGG đến 03 năm",Hình phạt
+D204_K2,"Khoản 2 Điều 204",Khoản
+D204_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D204_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D204_K2_Da,"Điểm a: Phạm tội 02 lần trở lên",Điểm
+D204_K2_Db,"Điểm b: Gây thiệt hại 500tr trở lên",Điểm
+D204_K2_HP,"Phạt tiền 100-500 triệu hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D204_K3,"Khoản 3 Điều 204",Khoản
+D204_K3_HV,"Người phạm tội",Hành vi chính
+D204_K3_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D205,"Điều 205: Tội lập quỹ trái phép",Điều
+D205_K1,"Khoản 1 Điều 205",Khoản
+D205_K1_HV,"Lợi dụng chức vụ lập quỹ trái phép gây thiệt hại 50-200tr hoặc bị kỷ luật",Hành vi chính
+D205_K1_HP,"Phạt tiền 50-100 triệu hoặc cải tạo KGG đến 03 năm",Hình phạt
+D205_K2,"Khoản 2 Điều 205",Khoản
+D205_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D205_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D205_K2_Da,"Điểm a: Dùng thủ đoạn xảo quyệt trốn tránh kiểm soát",Điểm
+D205_K2_Db,"Điểm b: Để thực hiện hành vi vi phạm pháp luật khác",Điểm
+D205_K2_Dc,"Điểm c: Gây thiệt hại 200tr đến dưới 1 tỷ",Điểm
+D205_K2_HP,"Phạt tiền 100-500 triệu hoặc phạt tù 01-05 năm",Hình phạt
+D205_K3,"Khoản 3 Điều 205",Khoản
+D205_K3_HV,"Gây thiệt hại 1 tỷ trở lên",Hành vi chính
+D205_K3_HP,"Phạt tù 05-10 năm",Hình phạt
+D205_K4,"Khoản 4 Điều 205",Khoản
+D205_K4_HV,"Người phạm tội",Hành vi chính
+D205_K4_HP,"Cấm đảm nhiệm/hành nghề 01-05 năm, có thể phạt 10-50 triệu",Hình phạt
+D206,"Điều 206: Tội vi phạm quy định về hoạt động ngân hàng",Điều
+D206_K1,"Khoản 1 Điều 206",Khoản
+D206_K1_HV,"Thực hiện hành vi vi phạm hoạt động ngân hàng gây thiệt hại 100-300tr",Hành vi chính
+D206_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D206_K1_Da,"Điểm a: Cấp tín dụng cho trường hợp không được cấp",Điểm
+D206_K1_Db,"Điểm b: Cấp tín dụng không bảo đảm/ưu đãi cho đối tượng hạn chế",Điểm
+D206_K1_Dc,"Điểm c: Vi phạm tỷ lệ bảo đảm an toàn",Điểm
+D206_K1_Dd,"Điểm d: Cố ý nâng khống giá trị tài sản bảo đảm",Điểm
+D206_K1_Dđ,"Điểm đ: Vi phạm tổng mức dư nợ cấp tín dụng",Điểm
+D206_K1_De,"Điểm e: Cấp tín dụng vượt giới hạn vốn tự có",Điểm
+D206_K1_Dg,"Điểm g: Vi phạm góp vốn, mua cổ phần...",Điểm
+D206_K1_Dh,"Điểm h: Phát hành, sử dụng phương tiện thanh toán bất hợp pháp/giả",Điểm
+D206_K1_Di,"Điểm i: Kinh doanh vàng/ngoại hối trái phép",Điểm
+D206_K1_Dk,"Điểm k: Hoạt động ngân hàng khi chưa được phép",Điểm
+D206_K1_HP,"Phạt tiền 50-300 triệu hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D206_K2,"Khoản 2 Điều 206",Khoản
+D206_K2_HV,"Gây thiệt hại 300tr đến dưới 1 tỷ",Hành vi chính
+D206_K2_HP,"Phạt tù 03-07 năm",Hình phạt
+D206_K3,"Khoản 3 Điều 206",Khoản
+D206_K3_HV,"Gây thiệt hại 1 tỷ đến dưới 3 tỷ",Hành vi chính
+D206_K3_HP,"Phạt tù 07-12 năm",Hình phạt
+D206_K4,"Khoản 4 Điều 206",Khoản
+D206_K4_HV,"Gây thiệt hại 3 tỷ trở lên",Hành vi chính
+D206_K4_HP,"Phạt tù 12-20 năm",Hình phạt
+D206_K5,"Khoản 5 Điều 206",Khoản
+D206_K5_HV,"Người phạm tội",Hành vi chính
+D206_K5_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D207,"Điều 207: Tội làm, tàng trữ, vận chuyển, lưu hành tiền giả",Điều
+D207_K1,"Khoản 1 Điều 207",Khoản
+D207_K1_HV,"Làm, tàng trữ, vận chuyển, lưu hành tiền giả",Hành vi chính
+D207_K1_HP,"Phạt tù 03-07 năm",Hình phạt
+D207_K2,"Khoản 2 Điều 207",Khoản
+D207_K2_HV,"Tiền giả trị giá 5-50 triệu",Hành vi chính
+D207_K2_HP,"Phạt tù 05-12 năm",Hình phạt
+D207_K3,"Khoản 3 Điều 207",Khoản
+D207_K3_HV,"Tiền giả trị giá 50 triệu trở lên",Hành vi chính
+D207_K3_HP,"Phạt tù 10-20 năm hoặc chung thân",Hình phạt
+D207_K4,"Khoản 4 Điều 207",Khoản
+D207_K4_HV,"Chuẩn bị phạm tội",Hành vi chính
+D207_K4_HP,"Cải tạo KGG đến 03 năm hoặc phạt tù 01-03 năm",Hình phạt
+D207_K5,"Khoản 5 Điều 207",Khoản
+D207_K5_HV,"Người phạm tội",Hành vi chính
+D207_K5_HP,"Phạt 10-100 triệu hoặc tịch thu tài sản",Hình phạt
+D208,"Điều 208: Tội làm, tàng trữ, vận chuyển... công cụ chuyển nhượng giả...",Điều
+D208_K1,"Khoản 1 Điều 208",Khoản
+D208_K1_HV,"Làm, tàng trữ... công cụ chuyển nhượng giả/giấy tờ có giá giả",Hành vi chính
+D208_K1_HP,"Phạt tù 02-07 năm",Hình phạt
+D208_K2,"Khoản 2 Điều 208",Khoản
+D208_K2_HV,"Trị giá giả 10-100 triệu",Hành vi chính
+D208_K2_HP,"Phạt tù 05-10 năm",Hình phạt
+D208_K3,"Khoản 3 Điều 208",Khoản
+D208_K3_HV,"Trị giá giả 100-300 triệu",Hành vi chính
+D208_K3_HP,"Phạt tù 10-15 năm",Hình phạt
+D208_K4,"Khoản 4 Điều 208",Khoản
+D208_K4_HV,"Trị giá giả 300 triệu trở lên",Hành vi chính
+D208_K4_HP,"Phạt tù 15-20 năm",Hình phạt
+D208_K5,"Khoản 5 Điều 208",Khoản
+D208_K5_HV,"Người phạm tội",Hành vi chính
+D208_K5_HP,"Phạt 10-100 triệu hoặc tịch thu tài sản",Hình phạt
+D209,"Điều 209: Tội cố ý công bố thông tin sai lệch hoặc che giấu TT chứng khoán",Điều
+D209_K1,"Khoản 1 Điều 209",Khoản
+D209_K1_HV,"Cố ý công bố sai lệch/che giấu thông tin chứng khoán",Hành vi chính
+D209_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D209_K1_Da,"Điểm a: Thiệt hại nhà đầu tư 1 tỷ - 3 tỷ",Điểm
+D209_K1_Db,"Điểm b: Thu lợi bất chính 500tr - 1 tỷ",Điểm
+D209_K1_Dc,"Điểm c: Đã bị xử phạt VPHC hoặc kết án chưa xóa án",Điểm
+D209_K1_HP,"Phạt tiền 100-500 triệu, cải tạo KGG đến 02 năm hoặc phạt tù 03 tháng - 02 năm",Hình phạt
+D209_K2,"Khoản 2 Điều 209",Khoản
+D209_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D209_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D209_K2_Da,"Điểm a: Có tổ chức",Điểm
+D209_K2_Db,"Điểm b: Thu lợi bất chính 1 tỷ trở lên",Điểm
+D209_K2_Dc,"Điểm c: Gây thiệt hại nhà đầu tư 3 tỷ trở lên",Điểm
+D209_K2_Dd,"Điểm d: Tái phạm nguy hiểm",Điểm
+D209_K2_HP,"Phạt tiền 500tr-2 tỷ hoặc phạt tù 01-05 năm",Hình phạt
+D209_K3,"Khoản 3 Điều 209",Khoản
+D209_K3_HV,"Người phạm tội",Hành vi chính
+D209_K3_HP,"Phạt 50-200 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D209_K4,"Khoản 4 Điều 209",Khoản
+D209_K4_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D209_K4_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D209_K4_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D209_K4_HP_a,"Phạt tiền 500 triệu - 2 tỷ",Hình phạt
+D209_K4_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D209_K4_Db,"Điểm b: Phạm tội thuộc khoản 2",Điểm
+D209_K4_HP_b,"Phạt tiền 2 tỷ - 5 tỷ",Hình phạt
+D209_K4_OR_c,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D209_K4_Dc,"Điểm c: Hình phạt bổ sung",Điểm
+D209_K4_HP_c,"Cấm kinh doanh/hoạt động/huy động vốn 01-03 năm",Hình phạt
+D210,"Điều 210: Tội sử dụng thông tin nội bộ để mua bán chứng khoán",Điều
+D210_K1,"Khoản 1 Điều 210",Khoản
+D210_K1_HV,"Biết TT nội bộ dùng để mua bán, tiết lộ, tư vấn thu lợi 300tr-1 tỷ hoặc thiệt hại 500tr-1.5 tỷ",Hành vi chính
+D210_K1_HP,"Phạt tiền 500tr-2 tỷ hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D210_K2,"Khoản 2 Điều 210",Khoản
+D210_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D210_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D210_K2_Da,"Điểm a: Có tổ chức",Điểm
+D210_K2_Db,"Điểm b: Thu lợi bất chính 1 tỷ trở lên",Điểm
+D210_K2_Dc,"Điểm c: Gây thiệt hại 1.5 tỷ trở lên",Điểm
+D210_K2_Dd,"Điểm d: Tái phạm nguy hiểm",Điểm
+D210_K2_HP,"Phạt tiền 2 tỷ-5 tỷ hoặc phạt tù 02-07 năm",Hình phạt
+D210_K3,"Khoản 3 Điều 210",Khoản
+D210_K3_HV,"Người phạm tội",Hành vi chính
+D210_K3_HP,"Phạt 50-200 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D210_K4,"Khoản 4 Điều 210",Khoản
+D210_K4_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D210_K4_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D210_K4_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D210_K4_HP_a,"Phạt tiền 1 tỷ - 5 tỷ",Hình phạt
+D210_K4_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D210_K4_Db,"Điểm b: Phạm tội thuộc khoản 2",Điểm
+D210_K4_HP_b,"Phạt tiền 5 tỷ - 10 tỷ",Hình phạt
+D210_K4_OR_c,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D210_K4_Dc,"Điểm c: Hình phạt bổ sung",Điểm
+D210_K4_HP_c,"Cấm kinh doanh/hoạt động/huy động vốn 01-03 năm",Hình phạt
+D211,"Điều 211: Tội thao túng thị trường chứng khoán",Điều
+D211_K1,"Khoản 1 Điều 211",Khoản
+D211_K1_HV,"Thực hiện hành vi thao túng thu lợi 500tr-1.5 tỷ hoặc thiệt hại 1 tỷ-3 tỷ",Hành vi chính
+D211_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D211_K1_Da,"Điểm a: Liên tục mua bán tạo cung cầu giả",Điểm
+D211_K1_Db,"Điểm b: Thông đồng đặt lệnh không chuyển nhượng thực sự",Điểm
+D211_K1_Dc,"Điểm c: Mua bán khối lượng chi phối lúc mở/đóng cửa tạo giá mới",Điểm
+D211_K1_Dd,"Điểm d: Cấu kết lôi kéo đặt lệnh ảnh hưởng cung cầu/giá",Điểm
+D211_K1_Dđ,"Điểm đ: Đưa ý kiến qua truyền thông tạo ảnh hưởng giá",Điểm
+D211_K1_De,"Điểm e: Phương thức/hành vi giao dịch khác tạo cung cầu giả",Điểm
+D211_K1_HP,"Phạt tiền 500tr-2 tỷ hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D211_K2,"Khoản 2 Điều 211",Khoản
+D211_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D211_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D211_K2_Da,"Điểm a: Có tổ chức",Điểm
+D211_K2_Db,"Điểm b: Thu lợi bất chính 1.5 tỷ trở lên",Điểm
+D211_K2_Dc,"Điểm c: Gây thiệt hại nhà đầu tư 3 tỷ trở lên",Điểm
+D211_K2_Dd,"Điểm d: Tái phạm nguy hiểm",Điểm
+D211_K2_HP,"Phạt tiền 2 tỷ-4 tỷ hoặc phạt tù 02-07 năm",Hình phạt
+D211_K3,"Khoản 3 Điều 211",Khoản
+D211_K3_HV,"Người phạm tội",Hành vi chính
+D211_K3_HP,"Phạt 50-250 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D211_K4,"Khoản 4 Điều 211",Khoản
+D211_K4_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D211_K4_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D211_K4_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D211_K4_HP_a,"Phạt tiền 2 tỷ - 5 tỷ",Hình phạt
+D211_K4_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D211_K4_Db,"Điểm b: Phạm tội thuộc khoản 2",Điểm
+D211_K4_HP_b,"Phạt tiền 5 tỷ - 10 tỷ",Hình phạt
+D211_K4_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D211_K4_Dc,"Điểm c: Phạm tội thuộc Điều 79",Điểm
+D211_K4_HP_c,"Đình chỉ hoạt động vĩnh viễn",Hình phạt
+D211_K4_OR_d,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D211_K4_Dd,"Điểm d: Hình phạt bổ sung",Điểm
+D211_K4_HP_d,"Phạt 500tr-2 tỷ, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt
+D212,"Điều 212: Tội làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán",Điều
+D212_K1,"Khoản 1 Điều 212",Khoản
+D212_K1_HV,"Làm giả tài liệu hồ sơ CK thu lợi 1-2 tỷ hoặc thiệt hại 1.5-3 tỷ",Hành vi chính
+D212_K1_HP,"Phạt tiền 500tr-2 tỷ hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D212_K2,"Khoản 2 Điều 212",Khoản
+D212_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D212_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D212_K2_Da,"Điểm a: Thu lợi bất chính 2 tỷ trở lên",Điểm
+D212_K2_Db,"Điểm b: Gây thiệt hại 3 tỷ trở lên",Điểm
+D212_K2_Dc,"Điểm c: Có tổ chức",Điểm
+D212_K2_Dd,"Điểm d: Tái phạm nguy hiểm",Điểm
+D212_K2_HP,"Phạt tiền 2 tỷ-5 tỷ hoặc phạt tù 02-07 năm",Hình phạt
+D212_K3,"Khoản 3 Điều 212",Khoản
+D212_K3_HV,"Người phạm tội",Hành vi chính
+D212_K3_HP,"Phạt 50-250 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D213,"Điều 213: Tội gian lận trong kinh doanh bảo hiểm",Điều
+D213_K1,"Khoản 1 Điều 213",Khoản
+D213_K1_HV,"Gian lận bảo hiểm chiếm đoạt 20-100tr hoặc thiệt hại 50-200tr",Hành vi chính
+D213_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D213_K1_Da,"Điểm a: Thông đồng người thụ hưởng trả tiền trái pháp luật",Điểm
+D213_K1_Db,"Điểm b: Giả mạo hồ sơ từ chối bồi thường",Điểm
+D213_K1_Dc,"Điểm c: Giả mạo hồ sơ yêu cầu bồi thường",Điểm
+D213_K1_Dd,"Điểm d: Tự gây thiệt hại tài sản/sức khỏe hưởng bảo hiểm",Điểm
+D213_K1_HP,"Phạt tiền 30-100 triệu hoặc cải tạo KGG đến 03 năm",Hình phạt
+D213_K2,"Khoản 2 Điều 213",Khoản
+D213_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D213_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D213_K2_Da,"Điểm a: Có tổ chức",Điểm
+D213_K2_Db,"Điểm b: Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+D213_K2_Dc,"Điểm c: Chiếm đoạt 100-500tr",Điểm
+D213_K2_Dd,"Điểm d: Gây thiệt hại 200tr đến dưới 1 tỷ",Điểm
+D213_K2_Dđ,"Điểm đ: Tái phạm nguy hiểm",Điểm
+D213_K2_HP,"Phạt tiền 100-300 triệu hoặc phạt tù 01-03 năm",Hình phạt
+D213_K3,"Khoản 3 Điều 213",Khoản
+D213_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D213_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D213_K3_Da,"Điểm a: Chiếm đoạt 500 triệu trở lên",Điểm
+D213_K3_Db,"Điểm b: Gây thiệt hại 1 tỷ trở lên",Điểm
+D213_K3_HP,"Phạt tù 03-07 năm",Hình phạt
+D213_K4,"Khoản 4 Điều 213",Khoản
+D213_K4_HV,"Người phạm tội",Hành vi chính
+D213_K4_HP,"Phạt 10-100 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D213_K5,"Khoản 5 Điều 213",Khoản
+D213_K5_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D213_K5_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D213_K5_Da,"Điểm a: Phạm tội khoản 1 chiếm đoạt 200tr-1 tỷ hoặc thiệt hại 400tr-2 tỷ",Điểm
+D213_K5_HP_a,"Phạt tiền 200 triệu - 1 tỷ",Hình phạt
+D213_K5_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D213_K5_Db,"Điểm b: Thuộc điểm a, b, đ khoản 2 hoặc chiếm đoạt 1-3 tỷ hoặc thiệt hại 2-5 tỷ",Điểm
+D213_K5_HP_b,"Phạt tiền 1 tỷ - 3 tỷ",Hình phạt
+D213_K5_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D213_K5_Dc,"Điểm c: Phạm tội khoản 3 chiếm đoạt 3 tỷ trở lên hoặc thiệt hại 5 tỷ trở lên",Điểm
+D213_K5_HP_c,"Phạt tiền 3 tỷ - 7 tỷ",Hình phạt
+D213_K5_OR_d,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D213_K5_Dd,"Điểm d: Hình phạt bổ sung",Điểm
+D213_K5_HP_d,"Cấm kinh doanh/hoạt động/huy động vốn 01-03 năm",Hình phạt
+D214,"Điều 214: Tội gian lận bảo hiểm xã hội, bảo hiểm thất nghiệp",Điều
+D214_K1,"Khoản 1 Điều 214",Khoản
+D214_K1_HV,"Gian lận BHXH, BHTN chiếm đoạt 10-100tr hoặc thiệt hại 20-200tr",Hành vi chính
+D214_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D214_K1_Da,"Điểm a: Lập hồ sơ giả/sai lệch lừa dối cơ quan BH",Điểm
+D214_K1_Db,"Điểm b: Dùng hồ sơ giả/sai lệch hưởng chế độ",Điểm
+D214_K1_HP,"Phạt 20-100 triệu, cải tạo KGG đến 02 năm hoặc phạt tù 03 tháng - 02 năm",Hình phạt
+D214_K2,"Khoản 2 Điều 214",Khoản
+D214_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D214_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D214_K2_Da,"Điểm a: Có tổ chức",Điểm
+D214_K2_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D214_K2_Dc,"Điểm c: Chiếm đoạt 100-500tr",Điểm
+D214_K2_Dd,"Điểm d: Gây thiệt hại 200-500tr",Điểm
+D214_K2_Dđ,"Điểm đ: Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+D214_K2_De,"Điểm e: Tái phạm nguy hiểm",Điểm
+D214_K2_HP,"Phạt tiền 100-200 triệu hoặc phạt tù 01-05 năm",Hình phạt
+D214_K3,"Khoản 3 Điều 214",Khoản
+D214_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D214_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D214_K3_Da,"Điểm a: Chiếm đoạt 500 triệu trở lên",Điểm
+D214_K3_Db,"Điểm b: Gây thiệt hại 500 triệu trở lên",Điểm
+D214_K3_HP,"Phạt tù 05-10 năm",Hình phạt
+D214_K4,"Khoản 4 Điều 214",Khoản
+D214_K4_HV,"Người phạm tội",Hành vi chính
+D214_K4_HP,"Phạt 10-100 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D215,"Điều 215: Tội gian lận bảo hiểm y tế",Điều
+D215_K1,"Khoản 1 Điều 215",Khoản
+D215_K1_HV,"Gian lận BHYT chiếm đoạt 10-100tr hoặc thiệt hại 20-200tr",Hành vi chính
+D215_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D215_K1_Da,"Điểm a: Lập bệnh án, kê đơn khống/tăng số lượng...",Điểm
+D215_K1_Db,"Điểm b: Giả mạo/sử dụng thẻ BHYT giả, khống, của người khác...",Điểm
+D215_K1_HP,"Phạt 20-100 triệu, cải tạo KGG đến 02 năm hoặc phạt tù 03 tháng - 02 năm",Hình phạt
+D215_K2,"Khoản 2 Điều 215",Khoản
+D215_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D215_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D215_K2_Da,"Điểm a: Có tổ chức",Điểm
+D215_K2_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D215_K2_Dc,"Điểm c: Chiếm đoạt 100-500tr",Điểm
+D215_K2_Dd,"Điểm d: Gây thiệt hại 200-500tr",Điểm
+D215_K2_Dđ,"Điểm đ: Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+D215_K2_De,"Điểm e: Tái phạm nguy hiểm",Điểm
+D215_K2_HP,"Phạt tiền 100-200 triệu hoặc phạt tù 01-05 năm",Hình phạt
+D215_K3,"Khoản 3 Điều 215",Khoản
+D215_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D215_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D215_K3_Da,"Điểm a: Chiếm đoạt 500 triệu trở lên",Điểm
+D215_K3_Db,"Điểm b: Gây thiệt hại 500 triệu trở lên",Điểm
+D215_K3_HP,"Phạt tù 05-10 năm",Hình phạt
+D215_K4,"Khoản 4 Điều 215",Khoản
+D215_K4_HV,"Người phạm tội",Hành vi chính
+D215_K4_HP,"Phạt 10-100 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D216,"Điều 216: Tội trốn đóng BHXH, BHYT, BHTN cho người lao động",Điều
+D216_K1,"Khoản 1 Điều 216",Khoản
+D216_K1_HV,"Trốn đóng bảo hiểm từ 06 tháng trở lên đã bị xử phạt VPHC",Hành vi chính
+D216_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D216_K1_Da,"Điểm a: Trốn đóng 50-300tr",Điểm
+D216_K1_Db,"Điểm b: Trốn đóng cho 10 đến dưới 50 NLĐ",Điểm
+D216_K1_HP,"Phạt tiền 50-200 triệu, cải tạo KGG đến 01 năm hoặc phạt tù 03 tháng - 01 năm",Hình phạt
+D216_K2,"Khoản 2 Điều 216",Khoản
+D216_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D216_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D216_K2_Da,"Điểm a: Phạm tội 02 lần trở lên",Điểm
+D216_K2_Db,"Điểm b: Trốn đóng 300tr đến dưới 1 tỷ",Điểm
+D216_K2_Dc,"Điểm c: Trốn đóng cho 50 đến dưới 200 NLĐ",Điểm
+D216_K2_Dd,"Điểm d: Không đóng tiền đã thu/khấu trừ thuộc điểm a, b khoản 1",Điểm
+D216_K2_HP,"Phạt tiền 200-500 triệu hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D216_K3,"Khoản 3 Điều 216",Khoản
+D216_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D216_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D216_K3_Da,"Điểm a: Trốn đóng 1 tỷ trở lên",Điểm
+D216_K3_Db,"Điểm b: Trốn đóng cho 200 NLĐ trở lên",Điểm
+D216_K3_Dc,"Điểm c: Không đóng tiền đã thu/khấu trừ thuộc điểm b, c khoản 2",Điểm
+D216_K3_HP,"Phạt tiền 500tr-1 tỷ hoặc phạt tù 02-07 năm",Hình phạt
+D216_K4,"Khoản 4 Điều 216",Khoản
+D216_K4_HV,"Người phạm tội",Hành vi chính
+D216_K4_HP,"Phạt 20-100 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D216_K5,"Khoản 5 Điều 216",Khoản
+D216_K5_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D216_K5_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D216_K5_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D216_K5_HP_a,"Phạt tiền 200-500 triệu",Hình phạt
+D216_K5_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D216_K5_Db,"Điểm b: Phạm tội thuộc khoản 2",Điểm
+D216_K5_HP_b,"Phạt tiền 500 triệu - 1 tỷ",Hình phạt
+D216_K5_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D216_K5_Dc,"Điểm c: Phạm tội thuộc khoản 3",Điểm
+D216_K5_HP_c,"Phạt tiền 1 tỷ - 3 tỷ",Hình phạt
+D217,"Điều 217: Tội vi phạm quy định về cạnh tranh",Điều
+D217_K1,"Khoản 1 Điều 217",Khoản
+D217_K1_HV,"Vi phạm cạnh tranh gây thiệt hại 1-5 tỷ hoặc thu lợi 500tr-3 tỷ",Hành vi chính
+D217_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D217_K1_Da,"Điểm a: Thỏa thuận ngăn cản/kìm hãm DN khác",Điểm
+D217_K1_Db,"Điểm b: Thỏa thuận loại bỏ DN khác",Điểm
+D217_K1_Dc,"Điểm c: Thỏa thuận hạn chế cạnh tranh khi thị phần 30% trở lên...",Điểm
+D217_K1_HP,"Phạt tiền 200tr-1 tỷ, cải tạo KGG đến 02 năm hoặc phạt tù 03 tháng - 02 năm",Hình phạt
+D217_K2,"Khoản 2 Điều 217",Khoản
+D217_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D217_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D217_K2_Da,"Điểm a: Phạm tội 02 lần trở lên",Điểm
+D217_K2_Db,"Điểm b: Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+D217_K2_Dc,"Điểm c: Lạm dụng vị trí thống lĩnh/độc quyền",Điểm
+D217_K2_Dd,"Điểm d: Thu lợi bất chính 3 tỷ trở lên",Điểm
+D217_K2_Dđ,"Điểm đ: Gây thiệt hại 5 tỷ trở lên",Điểm
+D217_K2_HP,"Phạt tiền 1-3 tỷ hoặc phạt tù 01-05 năm",Hình phạt
+D217_K3,"Khoản 3 Điều 217",Khoản
+D217_K3_HV,"Người phạm tội",Hành vi chính
+D217_K3_HP,"Phạt 50-200 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D217_K4,"Khoản 4 Điều 217",Khoản
+D217_K4_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D217_K4_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D217_K4_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D217_K4_HP_a,"Phạt tiền 1 tỷ - 3 tỷ",Hình phạt
+D217_K4_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D217_K4_Db,"Điểm b: Phạm tội thuộc khoản 2",Điểm
+D217_K4_HP_b,"Phạt tiền 3 tỷ - 5 tỷ hoặc đình chỉ hoạt động 06 tháng - 02 năm",Hình phạt
+D217_K4_OR_c,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D217_K4_Dc,"Điểm c: Hình phạt bổ sung",Điểm
+D217_K4_HP_c,"Phạt 100-500 triệu, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt
+D217a,"Điều 217a: Tội vi phạm quy định về kinh doanh đa cấp",Điều
+D217a_K1,"Khoản 1 Điều 217a",Khoản
+D217a_K1_HV,"Kinh doanh đa cấp không phép/sai phép thuộc các trường hợp",Hành vi chính
+D217a_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D217a_K1_Da,"Điểm a: Đã bị xử phạt VPHC hoặc kết án chưa xóa án",Điểm
+D217a_K1_Db,"Điểm b: Thu lợi bất chính 200tr đến dưới 1 tỷ",Điểm
+D217a_K1_Dc,"Điểm c: Gây thiệt hại 500tr đến dưới 1.5 tỷ",Điểm
+D217a_K1_HP,"Phạt tiền 500tr-1 tỷ, cải tạo KGG đến 03 năm hoặc phạt tù 06 tháng - 02 năm",Hình phạt
+D217a_K2,"Khoản 2 Điều 217a",Khoản
+D217a_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D217a_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D217a_K2_Da,"Điểm a: Thu lợi bất chính 1 tỷ trở lên",Điểm
+D217a_K2_Db,"Điểm b: Gây thiệt hại 1.5 tỷ trở lên",Điểm
+D217a_K2_Dc,"Điểm c: Quy mô mạng lưới 100 người trở lên",Điểm
+D217a_K2_HP,"Phạt tiền 1-5 tỷ hoặc phạt tù 01-05 năm",Hình phạt
+D217a_K3,"Khoản 3 Điều 217a",Khoản
+D217a_K3_HV,"Người phạm tội",Hành vi chính
+D217a_K3_HP,"Phạt 100-500 triệu, cấm hành nghề/công việc 01-05 năm",Hình phạt
+D218,"Điều 218: Tội vi phạm quy định về hoạt động bán đấu giá tài sản",Điều
+D218_K1,"Khoản 1 Điều 218",Khoản
+D218_K1_HV,"Vi phạm bán đấu giá thu lợi 30-200tr hoặc thiệt hại 50-300tr",Hành vi chính
+D218_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D218_K1_Da,"Điểm a: Lập danh sách khống người đăng ký mua",Điểm
+D218_K1_Db,"Điểm b: Lập hồ sơ khống, giả tham gia",Điểm
+D218_K1_Dc,"Điểm c: Thông đồng dìm/nâng giá",Điểm
+D218_K1_HP,"Phạt tiền 20-200 triệu, cải tạo KGG đến 02 năm hoặc phạt tù 03 tháng - 02 năm",Hình phạt
+D218_K2,"Khoản 2 Điều 218",Khoản
+D218_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D218_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D218_K2_Da,"Điểm a: Có tổ chức",Điểm
+D218_K2_Db,"Điểm b: Thu lợi bất chính 200 triệu trở lên",Điểm
+D218_K2_Dc,"Điểm c: Gây thiệt hại 300 triệu trở lên",Điểm
+D218_K2_Dd,"Điểm d: Phạm tội 02 lần trở lên",Điểm
+D218_K2_Dđ,"Điểm đ: Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+D218_K2_HP,"Phạt tiền 200tr-1 tỷ hoặc phạt tù 01-05 năm",Hình phạt
+D218_K3,"Khoản 3 Điều 218",Khoản
+D218_K3_HV,"Người phạm tội",Hành vi chính
+D218_K3_HP,"Phạt 10-50 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D219,"Điều 219: Tội vi phạm quy định về quản lý tài sản Nhà nước gây thất thoát...",Điều
+D219_K1,"Khoản 1 Điều 219",Khoản
+D219_K1_HV,"Vi phạm quản lý tài sản NN gây thất thoát 100-300tr hoặc bị xử lý",Hành vi chính
+D219_K1_HP,"Cải tạo KGG đến 03 năm hoặc phạt tù 01-05 năm",Hình phạt
+D219_K2,"Khoản 2 Điều 219",Khoản
+D219_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D219_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D219_K2_Da,"Điểm a: Vì vụ lợi",Điểm
+D219_K2_Db,"Điểm b: Có tổ chức",Điểm
+D219_K2_Dc,"Điểm c: Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+D219_K2_Dd,"Điểm d: Gây thất thoát, lãng phí 300tr đến dưới 1 tỷ",Điểm
+D219_K2_HP,"Phạt tù 03-12 năm",Hình phạt
+D219_K3,"Khoản 3 Điều 219",Khoản
+D219_K3_HV,"Gây thất thoát, lãng phí 1 tỷ trở lên",Hành vi chính
+D219_K3_HP,"Phạt tù 10-20 năm",Hình phạt
+D219_K4,"Khoản 4 Điều 219",Khoản
+D219_K4_HV,"Người phạm tội",Hành vi chính
+D219_K4_HP,"Cấm đảm nhiệm/công việc 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D220,"Điều 220: Tội vi phạm quy định về quản lý vốn đầu tư công...",Điều
+D220_K1,"Khoản 1 Điều 220",Khoản
+D220_K1_HV,"Lợi dụng chức vụ gây thiệt hại 100-300tr hoặc bị xử lý",Hành vi chính
+D220_K1_OR,"Thực hiện một trong những hành vi (OR)",Node Logic OR
+D220_K1_Da,"Điểm a: Vi phạm về quyết định chủ trương đầu tư",Điểm
+D220_K1_Db,"Điểm b: Vi phạm về lập/thẩm định chủ trương đầu tư",Điểm
+D220_K1_Dc,"Điểm c: Vi phạm về quyết định đầu tư chương trình",Điểm
+D220_K1_Dd,"Điểm d: Vi phạm về tư vấn, thiết kế",Điểm
+D220_K1_HP,"Cải tạo KGG đến 03 năm hoặc phạt tù 01-05 năm",Hình phạt
+D220_K2,"Khoản 2 Điều 220",Khoản
+D220_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D220_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D220_K2_Da,"Điểm a: Vì vụ lợi",Điểm
+D220_K2_Db,"Điểm b: Có tổ chức",Điểm
+D220_K2_Dc,"Điểm c: Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+D220_K2_Dd,"Điểm d: Gây thiệt hại 300tr đến dưới 1 tỷ",Điểm
+D220_K2_HP,"Phạt tù 03-12 năm",Hình phạt
+D220_K3,"Khoản 3 Điều 220",Khoản
+D220_K3_HV,"Gây thiệt hại 1 tỷ trở lên",Hành vi chính
+D220_K3_HP,"Phạt tù 10-20 năm",Hình phạt
+D220_K4,"Khoản 4 Điều 220",Khoản
+D220_K4_HV,"Người phạm tội",Hành vi chính
+D220_K4_HP,"Cấm đảm nhiệm/công việc 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D221,"Điều 221: Tội vi phạm quy định về kế toán gây hậu quả nghiêm trọng",Điều
+D221_K1,"Khoản 1 Điều 221",Khoản
+D221_K1_HV,"Vi phạm kế toán gây thiệt hại 100-300tr hoặc bị xử lý",Hành vi chính
+D221_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D221_K1_Da,"Điểm a: Giả mạo, khai man, ép tẩy xóa tài liệu kế toán",Điểm
+D221_K1_Db,"Điểm b: Ép buộc cung cấp, xác nhận sai sự thật",Điểm
+D221_K1_Dc,"Điểm c: Để ngoài sổ kế toán tài sản",Điểm
+D221_K1_Dd,"Điểm d: Hủy bỏ/hư hỏng tài liệu kế toán trước thời hạn",Điểm
+D221_K1_Dđ,"Điểm đ: Lập 2 hệ thống sổ kế toán",Điểm
+D221_K1_HP,"Cải tạo KGG đến 03 năm hoặc phạt tù 01-05 năm",Hình phạt
+D221_K2,"Khoản 2 Điều 221",Khoản
+D221_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D221_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D221_K2_Da,"Điểm a: Vì vụ lợi",Điểm
+D221_K2_Db,"Điểm b: Có tổ chức",Điểm
+D221_K2_Dc,"Điểm c: Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+D221_K2_Dd,"Điểm d: Gây thiệt hại 300tr đến dưới 1 tỷ",Điểm
+D221_K2_HP,"Phạt tù 03-12 năm",Hình phạt
+D221_K3,"Khoản 3 Điều 221",Khoản
+D221_K3_HV,"Gây thiệt hại 1 tỷ trở lên",Hành vi chính
+D221_K3_HP,"Phạt tù 10-20 năm",Hình phạt
+D221_K4,"Khoản 4 Điều 221",Khoản
+D221_K4_HV,"Người phạm tội",Hành vi chính
+D221_K4_HP,"Cấm đảm nhiệm/công việc 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D222,"Điều 222: Tội vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng",Điều
+D222_K1,"Khoản 1 Điều 222",Khoản
+D222_K1_HV,"Vi phạm đấu thầu gây thiệt hại 100-300tr hoặc bị xử lý",Hành vi chính
+D222_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D222_K1_Da,"Điểm a: Can thiệp trái pháp luật vào đấu thầu",Điểm
+D222_K1_Db,"Điểm b: Thông thầu",Điểm
+D222_K1_Dc,"Điểm c: Gian lận trong đấu thầu",Điểm
+D222_K1_Dd,"Điểm d: Cản trở hoạt động đấu thầu",Điểm
+D222_K1_Dđ,"Điểm đ: Vi phạm bảo đảm công bằng, minh bạch",Điểm
+D222_K1_De,"Điểm e: Lựa chọn nhà thầu khi chưa xác định vốn",Điểm
+D222_K1_Dg,"Điểm g: Chuyển nhượng thầu trái phép",Điểm
+D222_K1_HP,"Cải tạo KGG đến 03 năm hoặc phạt tù 01-05 năm",Hình phạt
+D222_K2,"Khoản 2 Điều 222",Khoản
+D222_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D222_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D222_K2_Da,"Điểm a: Vì vụ lợi",Điểm
+D222_K2_Db,"Điểm b: Có tổ chức",Điểm
+D222_K2_Dc,"Điểm c: Lợi dụng chức vụ, quyền hạn",Điểm
+D222_K2_Dd,"Điểm d: Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+D222_K2_Dđ,"Điểm đ: Gây thiệt hại 300tr đến dưới 1 tỷ",Điểm
+D222_K2_HP,"Phạt tù 03-12 năm",Hình phạt
+D222_K3,"Khoản 3 Điều 222",Khoản
+D222_K3_HV,"Gây thiệt hại 1 tỷ trở lên",Hành vi chính
+D222_K3_HP,"Phạt tù 10-20 năm",Hình phạt
+D222_K4,"Khoản 4 Điều 222",Khoản
+D222_K4_HV,"Người phạm tội",Hành vi chính
+D222_K4_HP,"Cấm đảm nhiệm/công việc 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D223,"Điều 223: Tội thông đồng, bao che cho người nộp thuế",Điều
+D223_K1,"Khoản 1 Điều 223",Khoản
+D223_K1_HV,"Lợi dụng chức vụ thất thoát thuế 100-300tr hoặc bị kỷ luật",Hành vi chính
+D223_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D223_K1_Da,"Điểm a: Miễn, giảm, xóa nợ thuế/phạt trái quy định",Điểm
+D223_K1_Db,"Điểm b: Xác nhận nghĩa vụ thuế sai quy định",Điểm
+D223_K1_HP,"Cải tạo KGG đến 03 năm hoặc phạt tù 01-05 năm",Hình phạt
+D223_K2,"Khoản 2 Điều 223",Khoản
+D223_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D223_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D223_K2_Da,"Điểm a: Vì vụ lợi",Điểm
+D223_K2_Db,"Điểm b: Có tổ chức",Điểm
+D223_K2_Dc,"Điểm c: Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+D223_K2_Dd,"Điểm d: Làm thất thoát thuế 300tr đến dưới 1 tỷ",Điểm
+D223_K2_HP,"Phạt tù 03-12 năm",Hình phạt
+D223_K3,"Khoản 3 Điều 223",Khoản
+D223_K3_HV,"Thất thoát thuế 1 tỷ trở lên",Hành vi chính
+D223_K3_HP,"Phạt tù 10-20 năm",Hình phạt
+D223_K4,"Khoản 4 Điều 223",Khoản
+D223_K4_HV,"Người phạm tội",Hành vi chính
+D223_K4_HP,"Cấm đảm nhiệm/công việc 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D224,"Điều 224: Tội vi phạm quy định về đầu tư công trình xây dựng",Điều
+D224_K1,"Khoản 1 Điều 224",Khoản
+D224_K1_HV,"Vi phạm xây dựng gây thiệt hại 100-300tr hoặc bị kỷ luật",Hành vi chính
+D224_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D224_K1_Da,"Điểm a: Quyết định đầu tư sai luật Xây dựng",Điểm
+D224_K1_Db,"Điểm b: Lập/thẩm định/phê duyệt thiết kế, dự toán trái quy định",Điểm
+D224_K1_Dc,"Điểm c: Lựa chọn nhà thầu không đủ điều kiện",Điểm
+D224_K1_Dd,"Điểm d: Dàn xếp, thông đồng làm sai lệch khảo sát, thiết kế, giám sát",Điểm
+D224_K1_HP,"Cải tạo KGG đến 03 năm hoặc phạt tù 01-05 năm",Hình phạt
+D224_K2,"Khoản 2 Điều 224",Khoản
+D224_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D224_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D224_K2_Da,"Điểm a: Vì vụ lợi",Điểm
+D224_K2_Db,"Điểm b: Có tổ chức",Điểm
+D224_K2_Dc,"Điểm c: Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+D224_K2_Dd,"Điểm d: Gây thiệt hại 300tr đến dưới 1 tỷ",Điểm
+D224_K2_HP,"Phạt tù 03-12 năm",Hình phạt
+D224_K3,"Khoản 3 Điều 224",Khoản
+D224_K3_HV,"Gây thiệt hại 1 tỷ trở lên",Hành vi chính
+D224_K3_HP,"Phạt tù 10-20 năm",Hình phạt
+D224_K4,"Khoản 4 Điều 224",Khoản
+D224_K4_HV,"Người phạm tội",Hành vi chính
+D224_K4_HP,"Cấm đảm nhiệm/công việc 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D225,"Điều 225: Tội xâm phạm quyền tác giả, quyền liên quan",Điều
+D225_K1,"Khoản 1 Điều 225",Khoản
+D225_K1_HV,"Xâm phạm quy mô thương mại, thu lợi 50-300tr hoặc thiệt hại/hàng hóa 100-500tr",Hành vi chính
+D225_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D225_K1_Da,"Điểm a: Sao chép tác phẩm, bản ghi âm, ghi hình",Điểm
+D225_K1_Db,"Điểm b: Phân phối đến công chúng bản sao...",Điểm
+D225_K1_HP,"Phạt tiền 50-300 triệu hoặc cải tạo KGG đến 03 năm",Hình phạt
+D225_K2,"Khoản 2 Điều 225",Khoản
+D225_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D225_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D225_K2_Da,"Điểm a: Có tổ chức",Điểm
+D225_K2_Db,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+D225_K2_Dc,"Điểm c: Thu lợi bất chính 300tr trở lên",Điểm
+D225_K2_Dd,"Điểm d: Gây thiệt hại 500tr trở lên",Điểm
+D225_K2_Dđ,"Điểm đ: Hàng hóa vi phạm 500tr trở lên",Điểm
+D225_K2_HP,"Phạt tiền 300tr-1 tỷ hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D225_K3,"Khoản 3 Điều 225",Khoản
+D225_K3_HV,"Người phạm tội",Hành vi chính
+D225_K3_HP,"Phạt 20-200 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D225_K4,"Khoản 4 Điều 225",Khoản
+D225_K4_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D225_K4_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D225_K4_Da,"Điểm a: Phạm tội khoản 1 có ĐK giá trị cụ thể/tái phạm...",Điểm
+D225_K4_HP_a,"Phạt tiền 300 triệu - 1 tỷ",Hình phạt
+D225_K4_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D225_K4_Db,"Điểm b: Phạm tội thuộc khoản 2",Điểm
+D225_K4_HP_b,"Phạt tiền 1 tỷ - 3 tỷ hoặc đình chỉ hoạt động 06 tháng - 02 năm",Hình phạt
+D225_K4_OR_c,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D225_K4_Dc,"Điểm c: Hình phạt bổ sung",Điểm
+D225_K4_HP_c,"Phạt 100-300 triệu, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt
+D226,"Điều 226: Tội xâm phạm quyền sở hữu công nghiệp",Điều
+D226_K1,"Khoản 1 Điều 226",Khoản
+D226_K1_HV,"Xâm phạm nhãn hiệu/chỉ dẫn giả mạo thu lợi 100-300tr hoặc thiệt hại/hàng hóa 200-500tr",Hành vi chính
+D226_K1_HP,"Phạt tiền 50-500 triệu hoặc cải tạo KGG đến 03 năm",Hình phạt
+D226_K2,"Khoản 2 Điều 226",Khoản
+D226_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D226_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D226_K2_Da,"Điểm a: Có tổ chức",Điểm
+D226_K2_Db,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+D226_K2_Dc,"Điểm c: Thu lợi bất chính 300tr trở lên",Điểm
+D226_K2_Dd,"Điểm d: Gây thiệt hại 500tr trở lên",Điểm
+D226_K2_Dđ,"Điểm đ: Hàng hóa vi phạm 500tr trở lên",Điểm
+D226_K2_HP,"Phạt tiền 500tr-1 tỷ hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D226_K3,"Khoản 3 Điều 226",Khoản
+D226_K3_HV,"Người phạm tội",Hành vi chính
+D226_K3_HP,"Phạt 20-200 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D226_K4,"Khoản 4 Điều 226",Khoản
+D226_K4_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D226_K4_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D226_K4_Da,"Điểm a: Phạm tội khoản 1 ĐK giá trị cụ thể/tái phạm",Điểm
+D226_K4_HP_a,"Phạt tiền 500 triệu - 2 tỷ",Hình phạt
+D226_K4_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D226_K4_Db,"Điểm b: Phạm tội thuộc khoản 2",Điểm
+D226_K4_HP_b,"Phạt tiền 2 tỷ - 5 tỷ hoặc đình chỉ hoạt động 06 tháng - 02 năm",Hình phạt
+D226_K4_OR_c,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D226_K4_Dc,"Điểm c: Hình phạt bổ sung",Điểm
+D226_K4_HP_c,"Phạt 100-500 triệu, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt
+D227,"Điều 227: Tội vi phạm quy định về nghiên cứu, thăm dò, khai thác tài nguyên",Điều
+D227_K1,"Khoản 1 Điều 227",Khoản
+D227_K1_HV,"Vi phạm thăm dò/khai thác không/sai phép",Hành vi chính
+D227_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D227_K1_Da,"Điểm a: Thu lợi bất chính 100-500tr",Điểm
+D227_K1_Db,"Điểm b: Khoáng sản 500tr đến dưới 1 tỷ",Điểm
+D227_K1_Dc,"Điểm c: Gây thương tích 61% trở lên",Điểm
+D227_K1_Dd,"Điểm d: Gây thương tích 2 người trở lên (61%-121%)",Điểm
+D227_K1_Dđ,"Điểm đ: Đã bị xử phạt VPHC hoặc kết án chưa xóa án",Điểm
+D227_K1_HP,"Phạt tiền 300tr-1.5 tỷ hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D227_K2,"Khoản 2 Điều 227",Khoản
+D227_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D227_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D227_K2_Da,"Điểm a: Thu lợi bất chính 500tr trở lên",Điểm
+D227_K2_Db,"Điểm b: Khoáng sản 1 tỷ trở lên",Điểm
+D227_K2_Dc,"Điểm c: Có tổ chức",Điểm
+D227_K2_Dd,"Điểm d: Gây sự cố môi trường",Điểm
+D227_K2_Dđ,"Điểm đ: Làm chết người",Điểm
+D227_K2_De,"Điểm e: Gây thương tích 2 người trở lên (122% trở lên)",Điểm
+D227_K2_HP,"Phạt tiền 1.5 tỷ-5 tỷ hoặc phạt tù 02-07 năm",Hình phạt
+D227_K3,"Khoản 3 Điều 227",Khoản
+D227_K3_HV,"Người phạm tội",Hành vi chính
+D227_K3_HP,"Phạt tiền 50-500 triệu",Hình phạt
+D227_K4,"Khoản 4 Điều 227",Khoản
+D227_K4_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D227_K4_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D227_K4_Da,"Điểm a: Phạm tội khoản 1 có ĐK thu lợi/thiệt hại cụ thể hoặc tái phạm",Điểm
+D227_K4_HP_a,"Phạt tiền 1.5 tỷ - 3 tỷ",Hình phạt
+D227_K4_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D227_K4_Db,"Điểm b: Phạm tội thuộc khoản 2",Điểm
+D227_K4_HP_b,"Phạt tiền 3 tỷ - 7 tỷ hoặc đình chỉ hoạt động 06 tháng - 03 năm",Hình phạt
+D227_K4_OR_c,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D227_K4_Dc,"Điểm c: Hình phạt bổ sung",Điểm
+D227_K4_HP_c,"Phạt 100-500 triệu, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt
+D228,"Điều 228: Tội vi phạm các quy định về sử dụng đất đai",Điều
+D228_K1,"Khoản 1 Điều 228",Khoản
+D228_K1_HV,"Lấn chiếm/chuyển quyền/sử dụng trái phép đã bị xử phạt/kết án",Hành vi chính
+D228_K1_HP,"Phạt tiền 50-500 triệu, cải tạo KGG đến 03 năm hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D228_K2,"Khoản 2 Điều 228",Khoản
+D228_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D228_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D228_K2_Da,"Điểm a: Có tổ chức",Điểm
+D228_K2_Db,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+D228_K2_Dc,"Điểm c: Tái phạm nguy hiểm",Điểm
+D228_K2_HP,"Phạt tiền 500tr-2 tỷ hoặc phạt tù 02-07 năm",Hình phạt
+D228_K3,"Khoản 3 Điều 228",Khoản
+D228_K3_HV,"Người phạm tội",Hành vi chính
+D228_K3_HP,"Phạt tiền 10-50 triệu",Hình phạt
+D229,"Điều 229: Tội vi phạm các quy định về quản lý đất đai",Điều
+D229_K1,"Khoản 1 Điều 229",Khoản
+D229_K1_HV,"Lạm dụng chức vụ giao/thu/cho thuê/chuyển quyền đất sai quy định",Hành vi chính
+D229_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D229_K1_Da,"Điểm a: Đất lúa 5k-30k m2; Rừng 10k-50k m2; Nông nghiệp khác 10k-40k m2",Điểm
+D229_K1_Db,"Điểm b: Đất trị giá 500tr-2 tỷ (nông nghiệp) hoặc 1-5 tỷ (phi nông nghiệp)",Điểm
+D229_K1_Dc,"Điểm c: Đã bị xử lý kỷ luật mà còn vi phạm",Điểm
+D229_K1_HP,"Cải tạo KGG đến 03 năm hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D229_K2,"Khoản 2 Điều 229",Khoản
+D229_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D229_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D229_K2_Da,"Điểm a: Có tổ chức",Điểm
+D229_K2_Db,"Điểm b: Đất lúa 30k-70k m2; Rừng 50k-100k m2...",Điểm
+D229_K2_Dc,"Điểm c: Đất trị giá 2-7 tỷ (nông nghiệp) hoặc 5-15 tỷ (phi nông nghiệp)",Điểm
+D229_K2_Dd,"Điểm d: Gây ảnh hưởng xấu an ninh trật tự",Điểm
+D229_K2_HP,"Phạt tù 02-07 năm",Hình phạt
+D229_K3,"Khoản 3 Điều 229",Khoản
+D229_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D229_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D229_K3_Da,"Điểm a: Đất lúa >70k m2; Rừng >100k m2...",Điểm
+D229_K3_Db,"Điểm b: Đất trị giá >7 tỷ (nông nghiệp) hoặc >15 tỷ (phi nông nghiệp)",Điểm
+D229_K3_HP,"Phạt tù 05-12 năm",Hình phạt
+D229_K4,"Khoản 4 Điều 229",Khoản
+D229_K4_HV,"Người phạm tội",Hành vi chính
+D229_K4_HP,"Phạt 10-150 triệu, cấm đảm nhiệm/công việc 01-05 năm",Hình phạt
+D230,"Điều 230: Tội vi phạm bồi thường, hỗ trợ, tái định cư khi Nhà nước thu hồi đất",Điều
+D230_K1,"Khoản 1 Điều 230",Khoản
+D230_K1_HV,"Lợi dụng chức vụ vi phạm bồi thường gây thiệt hại 100-300tr hoặc bị kỷ luật",Hành vi chính
+D230_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D230_K1_Da,"Điểm a: Vi phạm QĐ bồi thường về đất, hỗ trợ, tái định cư",Điểm
+D230_K1_Db,"Điểm b: Vi phạm QĐ bồi thường về tài sản, kinh doanh",Điểm
+D230_K1_HP,"Cải tạo KGG đến 03 năm hoặc phạt tù 01-05 năm",Hình phạt
+D230_K2,"Khoản 2 Điều 230",Khoản
+D230_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D230_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D230_K2_Da,"Điểm a: Vì vụ lợi/động cơ cá nhân",Điểm
+D230_K2_Db,"Điểm b: Có tổ chức",Điểm
+D230_K2_Dc,"Điểm c: Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+D230_K2_Dd,"Điểm d: Gây ảnh hưởng xấu an ninh trật tự",Điểm
+D230_K2_Dđ,"Điểm đ: Gây thiệt hại 300tr đến dưới 1 tỷ",Điểm
+D230_K2_HP,"Phạt tù 03-12 năm",Hình phạt
+D230_K3,"Khoản 3 Điều 230",Khoản
+D230_K3_HV,"Gây thiệt hại 1 tỷ trở lên",Hành vi chính
+D230_K3_HP,"Phạt tù 10-20 năm",Hình phạt
+D230_K4,"Khoản 4 Điều 230",Khoản
+D230_K4_HV,"Người phạm tội",Hành vi chính
+D230_K4_HP,"Cấm đảm nhiệm/hành nghề 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D231,"Điều 231: Tội cố ý làm trái quy định về phân phối tiền, hàng cứu trợ",Điều
+D231_K1,"Khoản 1 Điều 231",Khoản
+D231_K1_HV,"Cố ý làm trái phân phối hàng cứu trợ thiệt hại/thất thoát 100-300tr",Hành vi chính
+D231_K1_HP,"Phạt cảnh cáo, phạt 50-200 triệu hoặc cải tạo KGG đến 02 năm",Hình phạt
+D231_K2,"Khoản 2 Điều 231",Khoản
+D231_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D231_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D231_K2_Da,"Điểm a: Có tổ chức",Điểm
+D231_K2_Db,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+D231_K2_Dc,"Điểm c: Thiệt hại/thất thoát 300 triệu trở lên",Điểm
+D231_K2_Dd,"Điểm d: Gây ảnh hưởng xấu an ninh trật tự",Điểm
+D231_K2_HP,"Phạt tiền 200tr-1 tỷ hoặc phạt tù 01-05 năm",Hình phạt
+D231_K3,"Khoản 3 Điều 231",Khoản
+D231_K3_HV,"Người phạm tội",Hành vi chính
+D231_K3_HP,"Cấm đảm nhiệm chức vụ nhất định 01-05 năm",Hình phạt
+D232,"Điều 232: Tội vi phạm quy định về khai thác, bảo vệ rừng và lâm sản",Điều
+D232_K1,"Khoản 1 Điều 232",Khoản
+D232_K1_HV,"Vi phạm khai thác bảo vệ rừng, lâm sản mức độ khoản 1",Hành vi chính
+D232_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D232_K1_Da,"Điểm a: Khai thác rừng SX là rừng trồng 20-40m3 gỗ thường/15-30m3 gỗ quý IIA",Điểm
+D232_K1_Db,"Điểm b: Khai thác rừng SX tự nhiên 10-20m3 gỗ thường/7-15m3 gỗ quý IIA",Điểm
+D232_K1_Dc,"Điểm c: Khai thác rừng phòng hộ trồng 15-30m3 thường/10-20m3 quý IIA",Điểm
+D232_K1_Dd,"Điểm d: Khai thác rừng phòng hộ tự nhiên 7-15m3 thường/5-10m3 quý IIA",Điểm
+D232_K1_Dđ,"Điểm đ: Khai thác rừng đặc dụng trồng 10-20m3 thường/5-10m3 quý IIA",Điểm
+D232_K1_De,"Điểm e: Khai thác rừng đặc dụng tự nhiên 3-8m3 thường/1-3m3 quý IIA",Điểm
+D232_K1_Dg,"Điểm g: Thực vật ngoài gỗ quý IIA 50-100tr/thường 100-200tr",Điểm
+D232_K1_Dh,"Điểm h: Gỗ quý IA 1-2m3 rừng SX, 0.5-1.5m3 phòng hộ, 0.5-1m3 đặc dụng",Điểm
+D232_K1_Di,"Điểm i: Thực vật ngoài gỗ quý IA 30-60tr",Điểm
+D232_K1_Dk,"Điểm k: Tàng trữ, vận chuyển... 1.5-3m3 gỗ IA/10-20m3 gỗ IIA/20-40m3 gỗ thường",Điểm
+D232_K1_Dl,"Điểm l: Tàng trữ, vận chuyển thực vật ngoài gỗ 300-600tr",Điểm
+D232_K1_Dm,"Điểm m: Dưới mức quy định nhưng đã bị xử phạt/kết án",Điểm
+D232_K1_HP,"Phạt 50-300 triệu, cải tạo KGG đến 03 năm hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D232_K2,"Khoản 2 Điều 232",Khoản
+D232_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D232_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D232_K2_Da,"Điểm a: Khai thác rừng SX trồng 40-80m3 thường/30-50m3 quý IIA",Điểm
+D232_K2_Db,"Điểm b: Khai thác rừng SX tự nhiên 20-40m3 thường/15-30m3 quý IIA",Điểm
+D232_K2_Dc,"Điểm c: Khai thác rừng phòng hộ trồng 30-60m3 thường/20-40m3 quý IIA",Điểm
+D232_K2_Dd,"Điểm d: Khai thác rừng phòng hộ tự nhiên 15-30m3 thường/10-20m3 quý IIA",Điểm
+D232_K2_Dđ,"Điểm đ: Khai thác rừng đặc dụng trồng 20-40m3 thường/10-20m3 quý IIA",Điểm
+D232_K2_De,"Điểm e: Khai thác rừng đặc dụng tự nhiên 8-15m3 thường/3-10m3 quý IIA",Điểm
+D232_K2_Dg,"Điểm g: Thực vật ngoài gỗ quý IIA 100-200tr/thường 200-400tr",Điểm
+D232_K2_Dh,"Điểm h: Gỗ quý IA 2-4m3 rừng SX, 1.5-3m3 phòng hộ, 1-2m3 đặc dụng",Điểm
+D232_K2_Di,"Điểm i: Thực vật ngoài gỗ quý IA 60-120tr",Điểm
+D232_K2_Dk,"Điểm k: Tàng trữ, vận chuyển... 3-6m3 gỗ IA/20-40m3 gỗ IIA/40-80m3 gỗ thường",Điểm
+D232_K2_Dl,"Điểm l: Tàng trữ, vận chuyển thực vật ngoài gỗ 600tr-1.2 tỷ",Điểm
+D232_K2_Dm,"Điểm m: Có tổ chức",Điểm
+D232_K2_Dn,"Điểm n: Mua bán, vận chuyển qua biên giới",Điểm
+D232_K2_Do,"Điểm o: Tái phạm nguy hiểm",Điểm
+D232_K2_HP,"Phạt 300tr-1.5 tỷ hoặc phạt tù 02-07 năm",Hình phạt
+D232_K3,"Khoản 3 Điều 232",Khoản
+D232_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D232_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D232_K3_Da,"Điểm a: Khai thác rừng SX trồng >80m3 thường/>50m3 quý IIA",Điểm
+D232_K3_Db,"Điểm b: Khai thác rừng SX tự nhiên >40m3 thường/>30m3 quý IIA",Điểm
+D232_K3_Dc,"Điểm c: Khai thác rừng phòng hộ trồng >60m3 thường/>40m3 quý IIA",Điểm
+D232_K3_Dd,"Điểm d: Khai thác rừng phòng hộ tự nhiên >30m3 thường/>20m3 quý IIA",Điểm
+D232_K3_Dđ,"Điểm đ: Khai thác rừng đặc dụng trồng >40m3 thường/>20m3 quý IIA",Điểm
+D232_K3_De,"Điểm e: Khai thác rừng đặc dụng tự nhiên >15m3 thường/>10m3 quý IIA",Điểm
+D232_K3_Dg,"Điểm g: Thực vật ngoài gỗ quý IIA >200tr/thường >400tr",Điểm
+D232_K3_Dh,"Điểm h: Gỗ quý IA >4m3 rừng SX, >3m3 phòng hộ, >2m3 đặc dụng",Điểm
+D232_K3_Di,"Điểm i: Thực vật ngoài gỗ quý IA >120tr",Điểm
+D232_K3_Dk,"Điểm k: Tàng trữ, vận chuyển... >6m3 gỗ IA/>40m3 gỗ IIA/>80m3 gỗ thường",Điểm
+D232_K3_Dl,"Điểm l: Tàng trữ, vận chuyển thực vật ngoài gỗ >1.2 tỷ",Điểm
+D232_K3_HP,"Phạt tù 05-10 năm",Hình phạt
+D232_K4,"Khoản 4 Điều 232",Khoản
+D232_K4_HV,"Người phạm tội",Hành vi chính
+D232_K4_HP,"Phạt 10-50 triệu",Hình phạt
+D232_K5,"Khoản 5 Điều 232",Khoản
+D232_K5_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D232_K5_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D232_K5_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D232_K5_HP_a,"Phạt tiền 300 triệu - 1 tỷ",Hình phạt
+D232_K5_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D232_K5_Db,"Điểm b: Phạm tội thuộc khoản 2",Điểm
+D232_K5_HP_b,"Phạt tiền 1 tỷ - 3 tỷ hoặc đình chỉ hoạt động 06 tháng - 02 năm",Hình phạt
+D232_K5_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D232_K5_Dc,"Điểm c: Phạm tội thuộc khoản 3",Điểm
+D232_K5_HP_c,"Phạt tiền 3 tỷ - 6 tỷ hoặc đình chỉ hoạt động 01-03 năm",Hình phạt
+D232_K5_OR_d,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D232_K5_Dd,"Điểm d: Hình phạt bổ sung",Điểm
+D232_K5_HP_d,"Phạt 100-500 triệu, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt
+D233,"Điều 233: Tội vi phạm quy định về quản lý rừng",Điều
+D233_K1,"Khoản 1 Điều 233",Khoản
+D233_K1_HV,"Lợi dụng chức vụ vi phạm giao/thu hồi/chuyển mục đích rừng",Hành vi chính
+D233_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D233_K1_Da,"Điểm a: Giao/thu hồi rừng SX 20k-25k m2, phòng hộ 15k-20k, đặc dụng 10k-15k",Điểm
+D233_K1_Db,"Điểm b: Chuyển mục đích rừng SX 10k-12.5k, phòng hộ 7.5k-10k, đặc dụng 5k-7.5k",Điểm
+D233_K1_Dc,"Điểm c: Cho phép khai thác/vận chuyển thuộc khoản 1 Đ232",Điểm
+D233_K1_Dd,"Điểm d: Dưới mức quy định nhưng đã bị kỷ luật",Điểm
+D233_K1_HP,"Cải tạo KGG đến 03 năm hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D233_K2,"Khoản 2 Điều 233",Khoản
+D233_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D233_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D233_K2_Da,"Điểm a: Có tổ chức",Điểm
+D233_K2_Db,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+D233_K2_Dc,"Điểm c: Giao/thu hồi rừng SX 25k-40k m2, phòng hộ 20k-30k, đặc dụng 15k-25k",Điểm
+D233_K2_Dd,"Điểm d: Chuyển mục đích rừng SX 12.5k-17k, phòng hộ 10k-15k, đặc dụng 7.5k-12k",Điểm
+D233_K2_Dđ,"Điểm đ: Cho phép khai thác/vận chuyển thuộc khoản 2 Đ232",Điểm
+D233_K2_HP,"Phạt tù 02-07 năm",Hình phạt
+D233_K3,"Khoản 3 Điều 233",Khoản
+D233_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D233_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D233_K3_Da,"Điểm a: Giao/thu hồi rừng SX >40k m2, phòng hộ >30k, đặc dụng >25k",Điểm
+D233_K3_Db,"Điểm b: Chuyển mục đích rừng SX >17k, phòng hộ >15k, đặc dụng >12k",Điểm
+D233_K3_Dc,"Điểm c: Cho phép khai thác/vận chuyển thuộc khoản 3 Đ232",Điểm
+D233_K3_HP,"Phạt tù 05-12 năm",Hình phạt
+D233_K4,"Khoản 4 Điều 233",Khoản
+D233_K4_HV,"Người phạm tội",Hành vi chính
+D233_K4_HP,"Phạt 10-100 triệu, cấm đảm nhiệm chức vụ 01-05 năm",Hình phạt
+D234,"Điều 234: Tội vi phạm quy định về bảo vệ động vật hoang dã",Điều
+D234_K1,"Khoản 1 Điều 234",Khoản
+D234_K1_HV,"Vi phạm bảo vệ ĐVHD (không thuộc Đ242, 244)",Hành vi chính
+D234_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D234_K1_Da,"Điểm a: Săn bắt, buôn bán ĐV nhóm IIB giá trị 150-500tr/ĐV khác 300-700tr/thu lợi 50-200tr",Điểm
+D234_K1_Db,"Điểm b: Buôn bán bộ phận ĐV nhóm IIB giá trị 150-500tr/ĐV khác 300-700tr/thu lợi 50-200tr",Điểm
+D234_K1_Dc,"Điểm c: Dưới mức nhưng bị xử phạt VPHC/kết án",Điểm
+D234_K1_HP,"Phạt 50-300 triệu, cải tạo KGG đến 03 năm hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D234_K2,"Khoản 2 Điều 234",Khoản
+D234_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D234_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D234_K2_Da,"Điểm a: Có tổ chức",Điểm
+D234_K2_Db,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+D234_K2_Dc,"Điểm c: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+D234_K2_Dd,"Điểm d: Sử dụng công cụ cấm",Điểm
+D234_K2_Dđ,"Điểm đ: Săn bắt khu vực/thời gian cấm",Điểm
+D234_K2_De,"Điểm e: Buôn bán qua biên giới",Điểm
+D234_K2_Dg,"Điểm g: ĐV nhóm IIB 500tr-1 tỷ / ĐV khác 700tr-1.5 tỷ",Điểm
+D234_K2_Dh,"Điểm h: Thu lợi bất chính 200-500tr",Điểm
+D234_K2_Di,"Điểm i: Tái phạm nguy hiểm",Điểm
+D234_K2_HP,"Phạt 300tr-1.5 tỷ hoặc phạt tù 03-07 năm",Hình phạt
+D234_K3,"Khoản 3 Điều 234",Khoản
+D234_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D234_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D234_K3_Da,"Điểm a: ĐV nhóm IIB >1 tỷ / ĐV khác >1.5 tỷ",Điểm
+D234_K3_Db,"Điểm b: Thu lợi bất chính >500tr",Điểm
+D234_K3_HP,"Phạt tù 07-12 năm",Hình phạt
+D234_K4,"Khoản 4 Điều 234",Khoản
+D234_K4_HV,"Người phạm tội",Hành vi chính
+D234_K4_HP,"Phạt 50-200 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D234_K5,"Khoản 5 Điều 234",Khoản
+D234_K5_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D234_K5_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D234_K5_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D234_K5_HP_a,"Phạt tiền 300 triệu - 1 tỷ",Hình phạt
+D234_K5_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D234_K5_Db,"Điểm b: Phạm tội thuộc điểm a, d, đ, e, g, h, i khoản 2",Điểm
+D234_K5_HP_b,"Phạt tiền 1 tỷ - 3 tỷ",Hình phạt
+D234_K5_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D234_K5_Dc,"Điểm c: Phạm tội thuộc khoản 3",Điểm
+D234_K5_HP_c,"Phạt tiền 3 tỷ - 6 tỷ hoặc đình chỉ hoạt động 06 tháng - 03 năm",Hình phạt
+D234_K5_OR_d,"Điều kiện điểm d (OR)",Node Logic OR
+D234_K5_Dd,"Điểm d: Phạm tội thuộc Điều 79",Điểm
+D234_K5_HP_d,"Đình chỉ hoạt động vĩnh viễn",Hình phạt
+D234_K5_OR_đ,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D234_K5_Dđ,"Điểm đ: Hình phạt bổ sung",Điểm
+D234_K5_HP_đ,"Phạt 50-200 triệu, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt

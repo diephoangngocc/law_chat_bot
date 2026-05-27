@@ -1,0 +1,716 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Legal KG Chatbot</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --ink: #17202a;
+      --muted: #5f6b7a;
+      --line: #d7dee8;
+      --blue: #1f6feb;
+      --blue-dark: #174ea6;
+      --green: #1f8f5f;
+      --amber: #b65c00;
+      --soft-blue: #eef6ff;
+      --soft-amber: #fff8eb;
+      --sidebar-width: 300px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    body {
+      color: var(--ink);
+      background: var(--bg);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.5;
+    }
+
+    button, input, textarea { font: inherit; }
+    button { cursor: pointer; }
+
+    /* ============================================
+       MAIN LAYOUT - 2 COLUMNS, NO PAGE SCROLL
+       ============================================ */
+    .app {
+      display: grid;
+      grid-template-columns: var(--sidebar-width) 1fr;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* ============================================
+       LEFT SIDEBAR
+       ============================================ */
+    .sidebar {
+      height: 100vh;
+      overflow-y: auto;
+      overflow-x: hidden;
+      background: var(--panel);
+      border-right: 1px solid var(--line);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sidebar-content {
+      padding: 24px 20px;
+      flex: 1;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+
+    .brand-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--blue), var(--blue-dark));
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    .brand-text h1 {
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0;
+      color: var(--ink);
+    }
+
+    .brand-text span {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .section-title {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--muted);
+      margin: 0 0 12px 0;
+    }
+
+    /* Settings Section */
+    .settings-group {
+      background: #f8f9fa;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 16px;
+    }
+
+    .setting-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 0;
+    }
+
+    .setting-row:not(:last-child) {
+      border-bottom: 1px solid var(--line);
+    }
+
+    .setting-label {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--ink);
+    }
+
+    .setting-desc {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    /* Toggle Switch */
+    .toggle {
+      position: relative;
+      width: 44px;
+      height: 24px;
+    }
+
+    .toggle input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .toggle-slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: 0.3s;
+      border-radius: 24px;
+    }
+
+    .toggle-slider:before {
+      position: absolute;
+      content: "";
+      height: 18px;
+      width: 18px;
+      left: 3px;
+      bottom: 3px;
+      background-color: white;
+      transition: 0.3s;
+      border-radius: 50%;
+    }
+
+    .toggle input:checked + .toggle-slider {
+      background-color: var(--blue);
+    }
+
+    .toggle input:checked + .toggle-slider:before {
+      transform: translateX(20px);
+    }
+
+    /* Number Input */
+    .number-input {
+      width: 70px;
+      padding: 8px 10px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      font-size: 14px;
+      text-align: center;
+      background: #fff;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .number-input:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(31, 111, 235, 0.15);
+    }
+
+    /* Notice Card */
+    .notice-card {
+      margin-top: 20px;
+      background: var(--soft-amber);
+      border-left: 4px solid var(--amber);
+      border-radius: 0 8px 8px 0;
+      padding: 14px 16px;
+    }
+
+    .notice-card p {
+      margin: 0;
+      font-size: 12px;
+      color: #5c4420;
+      line-height: 1.5;
+    }
+
+    .notice-card strong {
+      color: var(--amber);
+    }
+
+    /* ============================================
+       MAIN CHAT AREA
+       ============================================ */
+    .chat-area {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+      background: var(--bg);
+    }
+
+    /* Chat Header */
+    .chat-header {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 28px;
+      background: rgba(255, 255, 255, 0.95);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(10px);
+    }
+
+    .chat-header-title h2 {
+      font-size: 17px;
+      font-weight: 600;
+      margin: 0 0 4px 0;
+      color: var(--ink);
+    }
+
+    .chat-header-title p {
+      margin: 0;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .chat-status {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #22c55e;
+    }
+
+    .status-dot.processing {
+      background: var(--amber);
+      animation: pulse 1s infinite;
+    }
+
+    .status-dot.error {
+      background: #ef4444;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    /* Messages Container */
+    .chat-messages {
+      flex: 1;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 24px 28px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Message Bubbles */
+    .message {
+      max-width: 720px;
+      width: 100%;
+      margin: 0 auto 20px;
+      display: flex;
+      gap: 14px;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .message.user {
+      flex-direction: row-reverse;
+    }
+
+    .message-avatar {
+      flex-shrink: 0;
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 14px;
+      color: #fff;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    }
+
+    .message.user .message-avatar {
+      background: linear-gradient(135deg, var(--green), #059669);
+    }
+
+    .message-content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .message-bubble {
+      padding: 14px 18px;
+      border-radius: 16px;
+      font-size: 14px;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+
+    .message.assistant .message-bubble {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-top-left-radius: 4px;
+    }
+
+    .message.user .message-bubble {
+      background: var(--blue);
+      color: #fff;
+      border-bottom-right-radius: 4px;
+    }
+
+    /* Chat Input Area */
+    .chat-input-area {
+      flex-shrink: 0;
+      padding: 16px 28px 24px;
+      background: var(--panel);
+      border-top: 1px solid var(--line);
+    }
+
+    .input-wrapper {
+      max-width: 720px;
+      margin: 0 auto;
+      display: flex;
+      gap: 12px;
+      align-items: flex-end;
+    }
+
+    .input-container {
+      flex: 1;
+      position: relative;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 52px;
+      max-height: 150px;
+      padding: 14px 16px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      font-size: 14px;
+      line-height: 1.5;
+      background: #f8f9fa;
+      color: var(--ink);
+      outline: none;
+      resize: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    textarea::placeholder {
+      color: var(--muted);
+    }
+
+    textarea:focus {
+      border-color: var(--blue);
+      background: #fff;
+      box-shadow: 0 0 0 3px rgba(31, 111, 235, 0.1);
+    }
+
+    .send-btn {
+      width: 52px;
+      height: 52px;
+      border: none;
+      border-radius: 12px;
+      background: var(--blue);
+      color: #fff;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s, transform 0.1s;
+    }
+
+    .send-btn:hover:not(:disabled) {
+      background: var(--blue-dark);
+    }
+
+    .send-btn:active:not(:disabled) {
+      transform: scale(0.95);
+    }
+
+    .send-btn:disabled {
+      background: #94a3b8;
+      cursor: not-allowed;
+    }
+
+    .input-hint {
+      max-width: 720px;
+      margin: 8px auto 0;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    /* ============================================
+       RESPONSIVE - Tablet
+       ============================================ */
+    @media (max-width: 900px) {
+      :root {
+        --sidebar-width: 260px;
+      }
+    }
+
+    /* ============================================
+       RESPONSIVE - Mobile
+       ============================================ */
+    @media (max-width: 768px) {
+      .app {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+      }
+
+      .sidebar {
+        height: auto;
+        max-height: 40vh;
+        border-right: none;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .sidebar-content {
+        padding: 16px;
+      }
+
+      .chat-header {
+        padding: 14px 16px;
+      }
+
+      .chat-messages {
+        padding: 16px;
+      }
+
+      .chat-input-area {
+        padding: 12px 16px 16px;
+      }
+
+      .message {
+        margin-bottom: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-content">
+        <!-- Brand -->
+        <div class="brand">
+          <div class="brand-icon">KG</div>
+          <div class="brand-text">
+            <h1>Legal KG Chat</h1>
+            <span>Bộ luật Hình sự Việt Nam</span>
+          </div>
+        </div>
+
+        <!-- Settings Section -->
+        <h3 class="section-title">Thiết lập</h3>
+        <div class="settings-group">
+          <!-- LLM Toggle -->
+          <div class="setting-row">
+            <div>
+              <div class="setting-label">Bật LLM</div>
+              <div class="setting-desc">Sử dụng AI để phân tích sâu</div>
+            </div>
+            <label class="toggle">
+              <input type="checkbox" id="useLLM">
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+
+          <!-- Top K Setting -->
+          <div class="setting-row">
+            <div>
+              <div class="setting-label">Số ứng viên KG</div>
+              <div class="setting-desc">Kết quả truy xuất hiển thị</div>
+            </div>
+            <input type="number" id="topK" class="number-input" min="1" max="10" value="5">
+          </div>
+        </div>
+
+        <!-- Notice -->
+        <!-- <div class="notice-card">
+          <p>Để sử dụng LLM, hãy cấu hình <strong>OPENAI_API_KEY</strong> trong file môi trường hoặc Vercel Dashboard.</p>
+        </div> -->
+      </div>
+    </aside>
+
+    <!-- MAIN CHAT AREA -->
+    <main class="chat-area">
+      <!-- Header -->
+      <header class="chat-header">
+        <div class="chat-header-title">
+          <h2>Trợ lý truy xuất điều luật</h2>
+          <p>Nhập tóm tắt vụ án để được phân tích và truy xuất điều luật liên quan</p>
+        </div>
+        <div class="chat-status">
+          <span class="status-dot" id="statusDot"></span>
+          <span id="statusText">Sẵn sàng</span>
+        </div>
+      </header>
+
+      <!-- Messages -->
+      <section class="chat-messages" id="messages">
+        <div class="message assistant">
+          <div class="message-avatar">KG</div>
+          <div class="message-content">
+            <div class="message-bubble">Xin chào! Tôi là trợ lý pháp lý sử dụng Knowledge Graph.
+
+Hãy nhập tóm tắt vụ án hoặc mô tả tình tiết, tôi sẽ:
+• Trích xuất các facts từ vụ việc
+• Truy xuất các điều/khoản liên quan trong Bộ luật Hình sự
+• Đề xuất tội danh và khung hình phạt phù hợp</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Input -->
+      <footer class="chat-input-area">
+        <div class="input-wrapper">
+          <div class="input-container">
+            <textarea 
+              id="input" 
+              placeholder="Nhập tóm tắt vụ án hoặc tình tiết vụ việc..."
+              rows="1"
+            ></textarea>
+          </div>
+          <button class="send-btn" id="send" title="Gửi">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+        </div>
+        <div class="input-hint">Nhấn Enter để gửi • Shift+Enter để xuống dòng</div>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    // DOM Elements
+    const messagesEl = document.getElementById("messages");
+    const inputEl = document.getElementById("input");
+    const sendBtn = document.getElementById("send");
+    const topKEl = document.getElementById("topK");
+    const useLLMEl = document.getElementById("useLLM");
+    const statusDot = document.getElementById("statusDot");
+    const statusText = document.getElementById("statusText");
+
+    // Auto-resize textarea
+    inputEl.addEventListener("input", function() {
+      this.style.height = "auto";
+      this.style.height = Math.min(this.scrollHeight, 150) + "px";
+    });
+
+    // Send message on Enter (without Shift)
+    inputEl.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" && !e.shiftKey) {
+        e.preventDefault();
+        submitMessage();
+      }
+    });
+
+    // Send on button click
+    sendBtn.addEventListener("click", submitMessage);
+
+    // Escape HTML
+    function escapeHtml(text) {
+      const div = document.createElement("div");
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    // Update status
+    function setStatus(status, text) {
+      statusDot.className = "status-dot";
+      if (status === "processing") {
+        statusDot.classList.add("processing");
+        statusText.textContent = text;
+      } else if (status === "error") {
+        statusDot.classList.add("error");
+        statusText.textContent = text;
+      } else {
+        statusText.textContent = text;
+      }
+    }
+
+    // Add message to chat
+    function addMessage(role, content) {
+      const messageEl = document.createElement("div");
+      messageEl.className = `message ${role}`;
+      
+      const avatarText = role === "user" ? "Bạn" : "KG";
+      
+      messageEl.innerHTML = `
+        <div class="message-avatar">${avatarText}</div>
+        <div class="message-content">
+          <div class="message-bubble">${escapeHtml(content)}</div>
+        </div>
+      `;
+      
+      messagesEl.appendChild(messageEl);
+      
+      // Smooth scroll to bottom
+      messagesEl.scrollTo({
+        top: messagesEl.scrollHeight,
+        behavior: "smooth"
+      });
+    }
+
+    // Submit message
+    async function submitMessage() {
+      const message = inputEl.value.trim();
+      if (!message) return;
+
+      const topK = parseInt(topKEl.value) || 5;
+      const useLLM = useLLMEl.checked;
+
+      // Add user message
+      addMessage("user", message);
+      
+      // Clear input and resize
+      inputEl.value = "";
+      inputEl.style.height = "auto";
+      
+      // Disable send button
+      sendBtn.disabled = true;
+      setStatus("processing", useLLM ? "Đang xử lý LLM..." : "Đang truy xuất...");
+
+      try {
+        const response = await fetch("/api/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ 
+            message, 
+            top_k: topK, 
+            use_llm: useLLM 
+          })
+        });
+
+        const data = await response.json();
+        
+        if (!response.ok) {
+          // Handle specific error messages
+          if (data.error && data.error.includes("No models loaded")) {
+            throw new Error("LM Studio chưa load model. Vui lòng mở LM Studio → Developer → Load model.");
+          }
+          if (data.error && data.error.includes("LM Studio")) {
+            throw new Error("LM Studio chưa khởi động server. Vui lòng mở LM Studio → Server → Start Server.");
+          }
+          throw new Error(data.error || "Có lỗi xảy ra");
+        }
+
+        // Add assistant response
+        addMessage("assistant", data.reply);
+        setStatus("ready", "Đã xong");
+        
+      } catch (error) {
+        addMessage("assistant", `Lỗi: ${error.message}`);
+        setStatus("error", "Lỗi");
+      } finally {
+        sendBtn.disabled = false;
+        inputEl.focus();
+      }
+    }
+  </script>
+</body>
+</html>

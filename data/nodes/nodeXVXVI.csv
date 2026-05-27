@@ -1,0 +1,546 @@
+ID,Name,Label
+C15,"Chương XV: Các tội xâm phạm quyền tự do của con người, quyền tự do, dân chủ của công dân",Chương
+D157,"Điều 157: Tội bắt, giữ hoặc giam người trái pháp luật",Điều
+D157_K1,"Khoản 1 Điều 157",Khoản
+D157_K1_HV,"Người nào bắt, giữ hoặc giam người trái pháp luật (không thuộc Đ153, Đ377)",Hành vi chính
+D157_K1_HP,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+D157_K2,"Khoản 2 Điều 157",Khoản
+D157_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D157_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D157_K2_Da,"Điểm a: Có tổ chức",Điểm
+D157_K2_Db,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+D157_K2_Dc,"Điểm c: Đối với người đang thi hành công vụ",Điểm
+D157_K2_Dd,"Điểm d: Phạm tội 02 lần trở lên",Điểm
+D157_K2_Dđ,"Điểm đ: Đối với 02 người trở lên",Điểm
+D157_K2_De,"Điểm e: Đối với người dưới 18, phụ nữ có thai, người già yếu...",Điểm
+D157_K2_Dg,"Điểm g: Làm kinh tế gia đình họ đặc biệt khó khăn",Điểm
+D157_K2_Dh,"Điểm h: Gây thương tích/tâm thần 31-60%",Điểm
+D157_K2_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D157_K3,"Khoản 3 Điều 157",Khoản
+D157_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D157_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D157_K3_Da,"Điểm a: Làm người bị bắt, giữ, giam chết hoặc tự sát",Điểm
+D157_K3_Db,"Điểm b: Tra tấn, đối xử tàn bạo, vô nhân đạo...",Điểm
+D157_K3_Dc,"Điểm c: Gây thương tích/tâm thần 61% trở lên",Điểm
+D157_K3_HP,"Phạt tù từ 05 năm đến 12 năm",Hình phạt
+D157_K4,"Khoản 4 Điều 157",Khoản
+D157_K4_HV,"Người phạm tội",Hành vi chính
+D157_K4_HP,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm",Hình phạt
+D158,"Điều 158: Tội xâm phạm chỗ ở của người khác",Điều
+D158_K1,"Khoản 1 Điều 158",Khoản
+D158_K1_HV,"Thực hiện hành vi xâm phạm chỗ ở",Hành vi chính
+D158_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D158_K1_Da,"Điểm a: Khám xét trái pháp luật chỗ ở",Điểm
+D158_K1_Db,"Điểm b: Đuổi trái pháp luật người khác ra khỏi chỗ ở",Điểm
+D158_K1_Dc,"Điểm c: Chiếm giữ hoặc cản trở trái pháp luật...",Điểm
+D158_K1_Dd,"Điểm d: Xâm nhập trái pháp luật chỗ ở",Điểm
+D158_K1_HP,"Cải tạo không giam giữ đến 02 năm hoặc phạt tù 03 tháng đến 02 năm",Hình phạt
+D158_K2,"Khoản 2 Điều 158",Khoản
+D158_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D158_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D158_K2_Da,"Điểm a: Có tổ chức",Điểm
+D158_K2_Db,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+D158_K2_Dc,"Điểm c: Phạm tội 02 lần trở lên",Điểm
+D158_K2_Dd,"Điểm d: Làm người bị xâm phạm chỗ ở tự sát",Điểm
+D158_K2_Dđ,"Điểm đ: Gây ảnh hưởng xấu đến an ninh trật tự",Điểm
+D158_K2_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D158_K3,"Khoản 3 Điều 158",Khoản
+D158_K3_HV,"Người phạm tội",Hành vi chính
+D158_K3_HP,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm",Hình phạt
+D159,"Điều 159: Tội xâm phạm bí mật hoặc an toàn thư tín, điện thoại, điện tín...",Điều
+D159_K1,"Khoản 1 Điều 159",Khoản
+D159_K1_HV,"Xâm phạm an toàn thư tín, điện thoại đã bị xử lý kỷ luật/hành chính mà còn vi phạm",Hành vi chính
+D159_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D159_K1_Da,"Điểm a: Chiếm đoạt thư tín, điện báo, fax...",Điểm
+D159_K1_Db,"Điểm b: Cố ý làm hư hỏng, lấy thông tin thư tín...",Điểm
+D159_K1_Dc,"Điểm c: Nghe, ghi âm cuộc đàm thoại trái pháp luật",Điểm
+D159_K1_Dd,"Điểm d: Khám xét, thu giữ thư tín trái pháp luật",Điểm
+D159_K1_Dđ,"Điểm đ: Hành vi khác xâm phạm bí mật thư tín...",Điểm
+D159_K1_HP,"Phạt cảnh cáo, phạt tiền 20-50 triệu hoặc cải tạo KGG đến 03 năm",Hình phạt
+D159_K2,"Khoản 2 Điều 159",Khoản
+D159_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D159_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D159_K2_Da,"Điểm a: Có tổ chức",Điểm
+D159_K2_Db,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+D159_K2_Dc,"Điểm c: Phạm tội 02 lần trở lên",Điểm
+D159_K2_Dd,"Điểm d: Tiết lộ thông tin làm ảnh hưởng danh dự...",Điểm
+D159_K2_Dđ,"Điểm đ: Làm nạn nhân tự sát",Điểm
+D159_K2_HP,"Phạt tù từ 01 năm đến 03 năm",Hình phạt
+D159_K3,"Khoản 3 Điều 159",Khoản
+D159_K3_HV,"Người phạm tội",Hành vi chính
+D159_K3_HP,"Phạt tiền 5-20 triệu, cấm đảm nhiệm chức vụ 01-05 năm",Hình phạt
+D160,"Điều 160: Tội xâm phạm quyền của công dân về bầu cử, ứng cử, biểu quyết...",Điều
+D160_K1,"Khoản 1 Điều 160",Khoản
+D160_K1_HV,"Lừa gạt, mua chuộc, cưỡng ép cản trở quyền bầu cử, biểu quyết",Hành vi chính
+D160_K1_HP,"Phạt cảnh cáo, cải tạo KGG đến 01 năm hoặc phạt tù 03 tháng - 01 năm",Hình phạt
+D160_K2,"Khoản 2 Điều 160",Khoản
+D160_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D160_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D160_K2_Da,"Điểm a: Có tổ chức",Điểm
+D160_K2_Db,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+D160_K2_Dc,"Điểm c: Dẫn đến hoãn ngày bầu cử, bầu cử lại...",Điểm
+D160_K2_HP,"Phạt tù từ 01 năm đến 02 năm",Hình phạt
+D160_K3,"Khoản 3 Điều 160",Khoản
+D160_K3_HV,"Người phạm tội",Hành vi chính
+D160_K3_HP,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm",Hình phạt
+D161,"Điều 161: Tội làm sai lệch kết quả bầu cử, trưng cầu ý dân",Điều
+D161_K1,"Khoản 1 Điều 161",Khoản
+D161_K1_HV,"Người có trách nhiệm giả mạo, gian lận làm sai lệch kết quả bầu cử",Hành vi chính
+D161_K1_HP,"Cải tạo không giam giữ đến 02 năm hoặc phạt tù 03 tháng - 02 năm",Hình phạt
+D161_K2,"Khoản 2 Điều 161",Khoản
+D161_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D161_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D161_K2_Da,"Điểm a: Có tổ chức",Điểm
+D161_K2_Db,"Điểm b: Dẫn đến phải tổ chức lại bầu cử/trưng cầu",Điểm
+D161_K2_HP,"Phạt tù từ 01 năm đến 03 năm",Hình phạt
+D161_K3,"Khoản 3 Điều 161",Khoản
+D161_K3_HV,"Người phạm tội",Hành vi chính
+D161_K3_HP,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm",Hình phạt
+D162,"Điều 162: Tội buộc công chức, viên chức thôi việc hoặc sa thải NLĐ trái pháp luật",Điều
+D162_K1,"Khoản 1 Điều 162",Khoản
+D162_K1_HV,"Vì vụ lợi/động cơ cá nhân gây hậu quả nghiêm trọng",Hành vi chính
+D162_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D162_K1_Da,"Điểm a: Quyết định buộc thôi việc trái pháp luật",Điểm
+D162_K1_Db,"Điểm b: Sa thải trái pháp luật",Điểm
+D162_K1_Dc,"Điểm c: Cưỡng ép, đe dọa buộc thôi việc",Điểm
+D162_K1_HP,"Phạt 10-100 triệu, cải tạo KGG đến 01 năm hoặc phạt tù 03 tháng - 01 năm",Hình phạt
+D162_K2,"Khoản 2 Điều 162",Khoản
+D162_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D162_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D162_K2_Da,"Điểm a: Đối với 02 người trở lên",Điểm
+D162_K2_Db,"Điểm b: Đối với phụ nữ mà biết là có thai",Điểm
+D162_K2_Dc,"Điểm c: Đối với người đang nuôi con dưới 12 tháng tuổi",Điểm
+D162_K2_Dd,"Điểm d: Làm người bị buộc thôi việc/sa thải tự sát",Điểm
+D162_K2_Dđ,"Điểm đ: Gây hậu quả rất/đặc biệt nghiêm trọng khác",Điểm
+D162_K2_HP,"Phạt tiền 100-200 triệu hoặc phạt tù 01 năm đến 03 năm",Hình phạt
+D162_K3,"Khoản 3 Điều 162",Khoản
+D162_K3_HV,"Người phạm tội",Hành vi chính
+D162_K3_HP,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm",Hình phạt
+D163,"Điều 163: Tội xâm phạm quyền hội họp, lập hội của công dân",Điều
+D163_K1,"Khoản 1 Điều 163",Khoản
+D163_K1_HV,"Cản trở, ép buộc lập hội/hội họp đã bị xử lý mà còn vi phạm",Hành vi chính
+D163_K1_HP,"Cải tạo không giam giữ đến 01 năm hoặc phạt tù 03 tháng - 01 năm",Hình phạt
+D163_K2,"Khoản 2 Điều 163",Khoản
+D163_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D163_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D163_K2_Da,"Điểm a: Có tổ chức",Điểm
+D163_K2_Db,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+D163_K2_Dc,"Điểm c: Phạm tội 02 lần trở lên",Điểm
+D163_K2_Dd,"Điểm d: Dẫn đến biểu tình",Điểm
+D163_K2_Dđ,"Điểm đ: Gây ảnh hưởng xấu đến an ninh, trật tự",Điểm
+D163_K2_HP,"Phạt tù từ 01 năm đến 03 năm",Hình phạt
+D163_K3,"Khoản 3 Điều 163",Khoản
+D163_K3_HV,"Người phạm tội",Hành vi chính
+D163_K3_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D164,"Điều 164: Tội xâm phạm quyền tự do tín ngưỡng, tôn giáo",Điều
+D164_K1,"Khoản 1 Điều 164",Khoản
+D164_K1_HV,"Cản trở, ép buộc thực hiện tín ngưỡng tôn giáo đã bị xử lý mà còn vi phạm",Hành vi chính
+D164_K1_HP,"Cải tạo không giam giữ đến 01 năm hoặc phạt tù 03 tháng - 01 năm",Hình phạt
+D164_K2,"Khoản 2 Điều 164",Khoản
+D164_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D164_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D164_K2_Da,"Điểm a: Có tổ chức",Điểm
+D164_K2_Db,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+D164_K2_Dc,"Điểm c: Phạm tội 02 lần trở lên",Điểm
+D164_K2_Dd,"Điểm d: Dẫn đến biểu tình",Điểm
+D164_K2_Dđ,"Điểm đ: Gây ảnh hưởng xấu đến an ninh, trật tự",Điểm
+D164_K2_HP,"Phạt tù từ 01 năm đến 03 năm",Hình phạt
+D164_K3,"Khoản 3 Điều 164",Khoản
+D164_K3_HV,"Người phạm tội",Hành vi chính
+D164_K3_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D165,"Điều 165: Tội xâm phạm quyền bình đẳng giới",Điều
+D165_K1,"Khoản 1 Điều 165",Khoản
+D165_K1_HV,"Vì lý do giới mà cản trở tham gia các lĩnh vực, đã bị xử lý mà còn vi phạm",Hành vi chính
+D165_K1_HP,"Phạt cảnh cáo, phạt tiền 5-50 triệu hoặc cải tạo KGG đến 02 năm",Hình phạt
+D165_K2,"Khoản 2 Điều 165",Khoản
+D165_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D165_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D165_K2_Da,"Điểm a: Lợi dụng chức vụ, quyền hạn",Điểm
+D165_K2_Db,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+D165_K2_Dc,"Điểm c: Đối với 02 người trở lên",Điểm
+D165_K2_HP,"Phạt tiền 50-100 triệu hoặc phạt tù 03 tháng - 02 năm",Hình phạt
+D165_K3,"Khoản 3 Điều 165",Khoản
+D165_K3_HV,"Người phạm tội",Hành vi chính
+D165_K3_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D166,"Điều 166: Tội xâm phạm quyền khiếu nại, tố cáo",Điều
+D166_K1,"Khoản 1 Điều 166",Khoản
+D166_K1_HV,"Thực hiện hành vi xâm phạm khiếu nại, tố cáo",Hành vi chính
+D166_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D166_K1_Da,"Điểm a: Dùng vũ lực/cản trở giải quyết khiếu nại, tố cáo",Điểm
+D166_K1_Db,"Điểm b: Lợi dụng chức vụ cản trở thi hành quyết định...",Điểm
+D166_K1_HP,"Cải tạo không giam giữ đến 03 năm hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D166_K2,"Khoản 2 Điều 166",Khoản
+D166_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D166_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D166_K2_Da,"Điểm a: Có tổ chức",Điểm
+D166_K2_Db,"Điểm b: Trả thù người khiếu nại, tố cáo",Điểm
+D166_K2_Dc,"Điểm c: Lợi dụng chức vụ thực hiện điểm a khoản 1",Điểm
+D166_K2_Dd,"Điểm d: Dẫn đến biểu tình",Điểm
+D166_K2_Dđ,"Điểm đ: Làm người khiếu nại, tố cáo tự sát",Điểm
+D166_K2_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D166_K3,"Khoản 3 Điều 166",Khoản
+D166_K3_HV,"Người phạm tội",Hành vi chính
+D166_K3_HP,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm",Hình phạt
+D167,"Điều 167: Tội xâm phạm quyền tự do ngôn luận, báo chí, tiếp cận TT, biểu tình",Điều
+D167_K1,"Khoản 1 Điều 167",Khoản
+D167_K1_HV,"Cản trở tự do ngôn luận, biểu tình... đã bị xử lý mà còn vi phạm",Hành vi chính
+D167_K1_HP,"Cải tạo không giam giữ đến 02 năm hoặc phạt tù 03 tháng - 02 năm",Hình phạt
+D167_K2,"Khoản 2 Điều 167",Khoản
+D167_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D167_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D167_K2_Da,"Điểm a: Có tổ chức",Điểm
+D167_K2_Db,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+D167_K2_Dc,"Điểm c: Gây ảnh hưởng xấu đến an ninh, trật tự",Điểm
+D167_K2_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D167_K3,"Khoản 3 Điều 167",Khoản
+D167_K3_HV,"Người phạm tội",Hành vi chính
+D167_K3_HP,"Cấm đảm nhiệm chức vụ từ 01 năm đến 05 năm",Hình phạt
+C16,"Chương XVI: Các tội xâm phạm sở hữu",Chương
+D168,"Điều 168: Tội cướp tài sản",Điều
+D168_K1,"Khoản 1 Điều 168",Khoản
+D168_K1_HV,"Dùng vũ lực, đe dọa vũ lực tức khắc nhằm chiếm đoạt tài sản",Hành vi chính
+D168_K1_HP,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+D168_K2,"Khoản 2 Điều 168",Khoản
+D168_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D168_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D168_K2_Da,"Điểm a: Có tổ chức",Điểm
+D168_K2_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D168_K2_Dc,"Điểm c: Gây thương tích 11-30%",Điểm
+D168_K2_Dd,"Điểm d: Sử dụng vũ khí, phương tiện nguy hiểm",Điểm
+D168_K2_Dđ,"Điểm đ: Chiếm đoạt 50tr đến dưới 200tr",Điểm
+D168_K2_De,"Điểm e: Phạm tội đối với người dưới 16, phụ nữ có thai...",Điểm
+D168_K2_Dg,"Điểm g: Gây ảnh hưởng xấu đến an ninh trật tự",Điểm
+D168_K2_Dh,"Điểm h: Tái phạm nguy hiểm",Điểm
+D168_K2_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D168_K3,"Khoản 3 Điều 168",Khoản
+D168_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D168_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D168_K3_Da,"Điểm a: Chiếm đoạt 200tr đến dưới 500tr",Điểm
+D168_K3_Db,"Điểm b: Gây thương tích 31-60%",Điểm
+D168_K3_Dc,"Điểm c: Lợi dụng thiên tai, dịch bệnh",Điểm
+D168_K3_HP,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+D168_K4,"Khoản 4 Điều 168",Khoản
+D168_K4_HV,"Phạm tội thuộc trường hợp khoản 4",Hành vi chính
+D168_K4_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D168_K4_Da,"Điểm a: Chiếm đoạt 500 triệu trở lên",Điểm
+D168_K4_Db,"Điểm b: Thương tích 1 người 61% hoặc 2 người 31% trở lên",Điểm
+D168_K4_Dc,"Điểm c: Làm chết người",Điểm
+D168_K4_Dd,"Điểm d: Lợi dụng hoàn cảnh chiến tranh, khẩn cấp",Điểm
+D168_K4_HP,"Phạt tù 18-20 năm hoặc chung thân",Hình phạt
+D168_K5,"Khoản 5 Điều 168",Khoản
+D168_K5_HV,"Người chuẩn bị phạm tội này",Hành vi chính
+D168_K5_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D168_K6,"Khoản 6 Điều 168",Khoản
+D168_K6_HV,"Người phạm tội",Hành vi chính
+D168_K6_HP,"Phạt 10-100 triệu, quản chế/cấm cư trú 01-05 năm, tịch thu tài sản",Hình phạt
+D169,"Điều 169: Tội bắt cóc nhằm chiếm đoạt tài sản",Điều
+D169_K1,"Khoản 1 Điều 169",Khoản
+D169_K1_HV,"Bắt cóc người khác làm con tin nhằm chiếm đoạt tài sản",Hành vi chính
+D169_K1_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D169_K2,"Khoản 2 Điều 169",Khoản
+D169_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D169_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D169_K2_Da,"Điểm a: Có tổ chức",Điểm
+D169_K2_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D169_K2_Dc,"Điểm c: Dùng vũ khí, thủ đoạn nguy hiểm",Điểm
+D169_K2_Dd,"Điểm d: Đối với người dưới 16 tuổi",Điểm
+D169_K2_Dđ,"Điểm đ: Đối với 02 người trở lên",Điểm
+D169_K2_De,"Điểm e: Chiếm đoạt 50tr đến dưới 200tr",Điểm
+D169_K2_Dg,"Điểm g: Gây thương tích/tâm thần 11-30%",Điểm
+D169_K2_Dh,"Điểm h: Gây ảnh hưởng xấu an ninh trật tự",Điểm
+D169_K2_Di,"Điểm i: Tái phạm nguy hiểm",Điểm
+D169_K2_HP,"Phạt tù từ 05 năm đến 12 năm",Hình phạt
+D169_K3,"Khoản 3 Điều 169",Khoản
+D169_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D169_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D169_K3_Da,"Điểm a: Chiếm đoạt 200tr đến dưới 500tr",Điểm
+D169_K3_Db,"Điểm b: Gây thương tích/tâm thần 31-60%",Điểm
+D169_K3_HP,"Phạt tù từ 10 năm đến 18 năm",Hình phạt
+D169_K4,"Khoản 4 Điều 169",Khoản
+D169_K4_HV,"Phạm tội thuộc trường hợp khoản 4",Hành vi chính
+D169_K4_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D169_K4_Da,"Điểm a: Chiếm đoạt 500 triệu trở lên",Điểm
+D169_K4_Db,"Điểm b: Làm chết người",Điểm
+D169_K4_Dc,"Điểm c: Gây thương tích/tâm thần 61% trở lên",Điểm
+D169_K4_HP,"Phạt tù 15-20 năm hoặc chung thân",Hình phạt
+D169_K5,"Khoản 5 Điều 169",Khoản
+D169_K5_HV,"Người chuẩn bị phạm tội này",Hành vi chính
+D169_K5_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D169_K6,"Khoản 6 Điều 169",Khoản
+D169_K6_HV,"Người phạm tội",Hành vi chính
+D169_K6_HP,"Phạt 10-100 triệu, quản chế/cấm cư trú 01-05 năm, tịch thu tài sản",Hình phạt
+D170,"Điều 170: Tội cưỡng đoạt tài sản",Điều
+D170_K1,"Khoản 1 Điều 170",Khoản
+D170_K1_HV,"Đe dọa vũ lực, uy hiếp tinh thần nhằm chiếm đoạt",Hành vi chính
+D170_K1_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D170_K2,"Khoản 2 Điều 170",Khoản
+D170_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D170_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D170_K2_Da,"Điểm a: Có tổ chức",Điểm
+D170_K2_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D170_K2_Dc,"Điểm c: Đối với người dưới 16, phụ nữ có thai...",Điểm
+D170_K2_Dd,"Điểm d: Chiếm đoạt 50tr đến dưới 200tr",Điểm
+D170_K2_Dđ,"Điểm đ: Gây ảnh hưởng xấu an ninh trật tự",Điểm
+D170_K2_De,"Điểm e: Tái phạm nguy hiểm",Điểm
+D170_K2_HP,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+D170_K3,"Khoản 3 Điều 170",Khoản
+D170_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D170_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D170_K3_Da,"Điểm a: Chiếm đoạt 200tr đến dưới 500tr",Điểm
+D170_K3_Db,"Điểm b: Lợi dụng thiên tai, dịch bệnh",Điểm
+D170_K3_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D170_K4,"Khoản 4 Điều 170",Khoản
+D170_K4_HV,"Phạm tội thuộc trường hợp khoản 4",Hành vi chính
+D170_K4_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D170_K4_Da,"Điểm a: Chiếm đoạt 500 triệu trở lên",Điểm
+D170_K4_Db,"Điểm b: Lợi dụng hoàn cảnh chiến tranh, khẩn cấp",Điểm
+D170_K4_HP,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+D170_K5,"Khoản 5 Điều 170",Khoản
+D170_K5_HV,"Người phạm tội",Hành vi chính
+D170_K5_HP,"Phạt tiền 10-100 triệu, tịch thu tài sản",Hình phạt
+D171,"Điều 171: Tội cướp giật tài sản",Điều
+D171_K1,"Khoản 1 Điều 171",Khoản
+D171_K1_HV,"Cướp giật tài sản của người khác",Hành vi chính
+D171_K1_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D171_K2,"Khoản 2 Điều 171",Khoản
+D171_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D171_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D171_K2_Da,"Điểm a: Có tổ chức",Điểm
+D171_K2_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D171_K2_Dc,"Điểm c: Chiếm đoạt 50tr đến dưới 200tr",Điểm
+D171_K2_Dd,"Điểm d: Dùng thủ đoạn nguy hiểm",Điểm
+D171_K2_Dđ,"Điểm đ: Hành hung để tẩu thoát",Điểm
+D171_K2_De,"Điểm e: Gây thương tích 11-30%",Điểm
+D171_K2_Dg,"Điểm g: Đối với người dưới 16, phụ nữ có thai...",Điểm
+D171_K2_Dh,"Điểm h: Gây ảnh hưởng xấu an ninh trật tự",Điểm
+D171_K2_Di,"Điểm i: Tái phạm nguy hiểm",Điểm
+D171_K2_HP,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+D171_K3,"Khoản 3 Điều 171",Khoản
+D171_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D171_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D171_K3_Da,"Điểm a: Chiếm đoạt 200tr đến dưới 500tr",Điểm
+D171_K3_Db,"Điểm b: Gây thương tích 31-60%",Điểm
+D171_K3_Dc,"Điểm c: Lợi dụng thiên tai, dịch bệnh",Điểm
+D171_K3_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D171_K4,"Khoản 4 Điều 171",Khoản
+D171_K4_HV,"Phạm tội thuộc trường hợp khoản 4",Hành vi chính
+D171_K4_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D171_K4_Da,"Điểm a: Chiếm đoạt 500 triệu trở lên",Điểm
+D171_K4_Db,"Điểm b: Thương tích 1 người 61% hoặc 2 người 31% trở lên",Điểm
+D171_K4_Dc,"Điểm c: Làm chết người",Điểm
+D171_K4_Dd,"Điểm d: Lợi dụng hoàn cảnh chiến tranh, khẩn cấp",Điểm
+D171_K4_HP,"Phạt tù 12-20 năm hoặc chung thân",Hình phạt
+D171_K5,"Khoản 5 Điều 171",Khoản
+D171_K5_HV,"Người phạm tội",Hành vi chính
+D171_K5_HP,"Phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng",Hình phạt
+D172,"Điều 172: Tội công nhiên chiếm đoạt tài sản",Điều
+D172_K1,"Khoản 1 Điều 172",Khoản
+D172_K1_HV,"Công nhiên chiếm đoạt 2tr-50tr hoặc dưới 2tr nhưng thuộc các trường hợp",Hành vi chính
+D172_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D172_K1_Da,"Điểm a: Đã bị xử phạt vi phạm hành chính...",Điểm
+D172_K1_Db,"Điểm b: Đã bị kết án về tội này/tội quy định... chưa xóa án tích",Điểm
+D172_K1_Dc,"Điểm c: Gây ảnh hưởng xấu an ninh trật tự",Điểm
+D172_K1_Dd,"Điểm d: Tài sản là phương tiện kiếm sống chính...",Điểm
+D172_K1_HP,"Cải tạo không giam giữ đến 03 năm hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D172_K2,"Khoản 2 Điều 172",Khoản
+D172_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D172_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D172_K2_Da,"Điểm a: Chiếm đoạt 50tr đến dưới 200tr",Điểm
+D172_K2_Db,"Điểm b: Hành hung để tẩu thoát",Điểm
+D172_K2_Dc,"Điểm c: Tái phạm nguy hiểm",Điểm
+D172_K2_Dd,"Điểm d: Chiếm đoạt tài sản là hàng cứu trợ",Điểm
+D172_K2_Dđ,"Điểm đ: (được bãi bỏ)",Điểm
+D172_K2_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D172_K3,"Khoản 3 Điều 172",Khoản
+D172_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D172_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D172_K3_Da,"Điểm a: Chiếm đoạt 200tr đến dưới 500tr",Điểm
+D172_K3_Db,"Điểm b: (được bãi bỏ)",Điểm
+D172_K3_Dc,"Điểm c: Lợi dụng thiên tai, dịch bệnh",Điểm
+D172_K3_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D172_K4,"Khoản 4 Điều 172",Khoản
+D172_K4_HV,"Phạm tội thuộc trường hợp khoản 4",Hành vi chính
+D172_K4_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D172_K4_Da,"Điểm a: Chiếm đoạt 500 triệu trở lên",Điểm
+D172_K4_Db,"Điểm b: (được bãi bỏ)",Điểm
+D172_K4_Dc,"Điểm c: Lợi dụng hoàn cảnh chiến tranh, khẩn cấp",Điểm
+D172_K4_HP,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+D172_K5,"Khoản 5 Điều 172",Khoản
+D172_K5_HV,"Người phạm tội",Hành vi chính
+D172_K5_HP,"Phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng",Hình phạt
+D173,"Điều 173: Tội trộm cắp tài sản",Điều
+D173_K1,"Khoản 1 Điều 173",Khoản
+D173_K1_HV,"Trộm cắp 2tr-50tr hoặc dưới 2tr nhưng thuộc các trường hợp",Hành vi chính
+D173_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D173_K1_Da,"Điểm a: Đã bị xử phạt vi phạm hành chính...",Điểm
+D173_K1_Db,"Điểm b: Đã bị kết án về tội này/tội quy định... chưa xóa án",Điểm
+D173_K1_Dc,"Điểm c: Gây ảnh hưởng xấu an ninh trật tự",Điểm
+D173_K1_Dd,"Điểm d: Phương tiện kiếm sống chính",Điểm
+D173_K1_Dđ,"Điểm đ: Tài sản là di vật, cổ vật",Điểm
+D173_K1_HP,"Cải tạo không giam giữ đến 03 năm hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D173_K2,"Khoản 2 Điều 173",Khoản
+D173_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D173_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D173_K2_Da,"Điểm a: Có tổ chức",Điểm
+D173_K2_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D173_K2_Dc,"Điểm c: Chiếm đoạt 50tr đến dưới 200tr",Điểm
+D173_K2_Dd,"Điểm d: Dùng thủ đoạn xảo quyệt, nguy hiểm",Điểm
+D173_K2_Dđ,"Điểm đ: Hành hung để tẩu thoát",Điểm
+D173_K2_De,"Điểm e: Tài sản là bảo vật quốc gia",Điểm
+D173_K2_Dg,"Điểm g: Tái phạm nguy hiểm",Điểm
+D173_K2_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D173_K3,"Khoản 3 Điều 173",Khoản
+D173_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D173_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D173_K3_Da,"Điểm a: Chiếm đoạt 200tr đến dưới 500tr",Điểm
+D173_K3_Db,"Điểm b: Lợi dụng thiên tai, dịch bệnh",Điểm
+D173_K3_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D173_K4,"Khoản 4 Điều 173",Khoản
+D173_K4_HV,"Phạm tội thuộc trường hợp khoản 4",Hành vi chính
+D173_K4_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D173_K4_Da,"Điểm a: Chiếm đoạt 500 triệu trở lên",Điểm
+D173_K4_Db,"Điểm b: Lợi dụng hoàn cảnh chiến tranh, khẩn cấp",Điểm
+D173_K4_HP,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+D173_K5,"Khoản 5 Điều 173",Khoản
+D173_K5_HV,"Người phạm tội",Hành vi chính
+D173_K5_HP,"Phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng",Hình phạt
+D174,"Điều 174: Tội lừa đảo chiếm đoạt tài sản",Điều
+D174_K1,"Khoản 1 Điều 174",Khoản
+D174_K1_HV,"Gian dối chiếm đoạt 2tr-50tr hoặc dưới 2tr nhưng thuộc các trường hợp",Hành vi chính
+D174_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D174_K1_Da,"Điểm a: Đã bị xử phạt vi phạm hành chính...",Điểm
+D174_K1_Db,"Điểm b: Đã bị kết án... chưa xóa án",Điểm
+D174_K1_Dc,"Điểm c: Gây ảnh hưởng xấu an ninh trật tự",Điểm
+D174_K1_Dd,"Điểm d: Phương tiện kiếm sống chính",Điểm
+D174_K1_HP,"Cải tạo không giam giữ đến 03 năm hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D174_K2,"Khoản 2 Điều 174",Khoản
+D174_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D174_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D174_K2_Da,"Điểm a: Có tổ chức",Điểm
+D174_K2_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D174_K2_Dc,"Điểm c: Chiếm đoạt 50tr đến dưới 200tr",Điểm
+D174_K2_Dd,"Điểm d: Tái phạm nguy hiểm",Điểm
+D174_K2_Dđ,"Điểm đ: Lợi dụng chức vụ, quyền hạn, danh nghĩa tổ chức",Điểm
+D174_K2_De,"Điểm e: Dùng thủ đoạn xảo quyệt",Điểm
+D174_K2_Dg,"Điểm g: (được bãi bỏ)",Điểm
+D174_K2_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D174_K3,"Khoản 3 Điều 174",Khoản
+D174_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D174_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D174_K3_Da,"Điểm a: Chiếm đoạt 200tr đến dưới 500tr",Điểm
+D174_K3_Db,"Điểm b: (được bãi bỏ)",Điểm
+D174_K3_Dc,"Điểm c: Lợi dụng thiên tai, dịch bệnh",Điểm
+D174_K3_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D174_K4,"Khoản 4 Điều 174",Khoản
+D174_K4_HV,"Phạm tội thuộc trường hợp khoản 4",Hành vi chính
+D174_K4_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D174_K4_Da,"Điểm a: Chiếm đoạt 500 triệu trở lên",Điểm
+D174_K4_Db,"Điểm b: (được bãi bỏ)",Điểm
+D174_K4_Dc,"Điểm c: Lợi dụng hoàn cảnh chiến tranh, khẩn cấp",Điểm
+D174_K4_HP,"Phạt tù từ 12 năm đến 20 năm hoặc chung thân",Hình phạt
+D174_K5,"Khoản 5 Điều 174",Khoản
+D174_K5_HV,"Người phạm tội",Hành vi chính
+D174_K5_HP,"Phạt 10-100tr, cấm đảm nhiệm/hành nghề 01-05 năm, tịch thu tài sản",Hình phạt
+D175,"Điều 175: Tội lạm dụng tín nhiệm chiếm đoạt tài sản",Điều
+D175_K1,"Khoản 1 Điều 175",Khoản
+D175_K1_HV,"Thực hiện hành vi lạm dụng tín nhiệm chiếm đoạt 4tr-50tr hoặc dưới 4tr có điều kiện",Hành vi chính
+D175_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D175_K1_Da,"Điểm a: Vay mượn... rồi dùng thủ đoạn gian dối/bỏ trốn/cố tình không trả",Điểm
+D175_K1_Db,"Điểm b: Vay mượn... sử dụng mục đích bất hợp pháp dẫn đến không trả được",Điểm
+D175_K1_HP,"Cải tạo không giam giữ đến 03 năm hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D175_K2,"Khoản 2 Điều 175",Khoản
+D175_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D175_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D175_K2_Da,"Điểm a: Có tổ chức",Điểm
+D175_K2_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D175_K2_Dc,"Điểm c: Chiếm đoạt 50tr đến dưới 200tr",Điểm
+D175_K2_Dd,"Điểm d: Lợi dụng chức vụ, quyền hạn, danh nghĩa",Điểm
+D175_K2_Dđ,"Điểm đ: Dùng thủ đoạn xảo quyệt",Điểm
+D175_K2_De,"Điểm e: Gây ảnh hưởng xấu an ninh trật tự",Điểm
+D175_K2_Dg,"Điểm g: Tái phạm nguy hiểm",Điểm
+D175_K2_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D175_K3,"Khoản 3 Điều 175",Khoản
+D175_K3_HV,"Chiếm đoạt 200 triệu đến dưới 500 triệu",Hành vi chính
+D175_K3_HP,"Phạt tù từ 05 năm đến 12 năm",Hình phạt
+D175_K4,"Khoản 4 Điều 175",Khoản
+D175_K4_HV,"Chiếm đoạt 500 triệu trở lên",Hành vi chính
+D175_K4_HP,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+D175_K5,"Khoản 5 Điều 175",Khoản
+D175_K5_HV,"Người phạm tội",Hành vi chính
+D175_K5_HP,"Phạt 10-100tr, cấm đảm nhiệm/hành nghề 01-05 năm, tịch thu tài sản",Hình phạt
+D176,"Điều 176: Tội chiếm giữ trái phép tài sản",Điều
+D176_K1,"Khoản 1 Điều 176",Khoản
+D176_K1_HV,"Cố tình không trả tài sản 10tr-200tr hoặc dưới 10tr là di vật cổ vật",Hành vi chính
+D176_K1_HP,"Phạt tiền 10-50tr, cải tạo KGG đến 02 năm hoặc phạt tù 03 tháng - 02 năm",Hình phạt
+D176_K2,"Khoản 2 Điều 176",Khoản
+D176_K2_HV,"Chiếm giữ 200 triệu trở lên hoặc bảo vật quốc gia",Hành vi chính
+D176_K2_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D177,"Điều 177: Tội sử dụng trái phép tài sản",Điều
+D177_K1,"Khoản 1 Điều 177",Khoản
+D177_K1_HV,"Sử dụng trái phép 100tr-500tr (đã bị xử lý) hoặc dưới 500tr là di vật cổ vật",Hành vi chính
+D177_K1_HP,"Phạt tiền 10-50tr, cải tạo KGG đến 02 năm hoặc phạt tù 03 tháng - 02 năm",Hình phạt
+D177_K2,"Khoản 2 Điều 177",Khoản
+D177_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D177_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D177_K2_Da,"Điểm a: Tài sản 500tr đến dưới 1.5 tỷ",Điểm
+D177_K2_Db,"Điểm b: Tài sản là bảo vật quốc gia",Điểm
+D177_K2_Dc,"Điểm c: Phạm tội 02 lần trở lên",Điểm
+D177_K2_Dd,"Điểm d: Lợi dụng chức vụ, quyền hạn",Điểm
+D177_K2_Dđ,"Điểm đ: Tái phạm nguy hiểm",Điểm
+D177_K2_HP,"Phạt tiền 50-100tr hoặc phạt tù 01 năm đến 05 năm",Hình phạt
+D177_K3,"Khoản 3 Điều 177",Khoản
+D177_K3_HV,"Sử dụng trái phép 1.5 tỷ trở lên",Hành vi chính
+D177_K3_HP,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+D177_K4,"Khoản 4 Điều 177",Khoản
+D177_K4_HV,"Người phạm tội",Hành vi chính
+D177_K4_HP,"Phạt tiền 5-20tr, cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D178,"Điều 178: Tội hủy hoại hoặc cố ý làm hư hỏng tài sản",Điều
+D178_K1,"Khoản 1 Điều 178",Khoản
+D178_K1_HV,"Hủy hoại/hư hỏng 2tr-50tr hoặc dưới 2tr nhưng thuộc trường hợp",Hành vi chính
+D178_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D178_K1_Da,"Điểm a: Đã bị xử phạt vi phạm hành chính...",Điểm
+D178_K1_Db,"Điểm b: Đã bị kết án... chưa xóa án",Điểm
+D178_K1_Dc,"Điểm c: Gây ảnh hưởng xấu an ninh trật tự",Điểm
+D178_K1_Dd,"Điểm d: Phương tiện kiếm sống chính",Điểm
+D178_K1_Dđ,"Điểm đ: Tài sản là di vật, cổ vật",Điểm
+D178_K1_HP,"Phạt 10-50tr, cải tạo KGG đến 03 năm hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D178_K2,"Khoản 2 Điều 178",Khoản
+D178_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D178_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D178_K2_Da,"Điểm a: Có tổ chức",Điểm
+D178_K2_Db,"Điểm b: Gây thiệt hại 50tr đến dưới 200tr",Điểm
+D178_K2_Dc,"Điểm c: Tài sản là bảo vật quốc gia",Điểm
+D178_K2_Dd,"Điểm d: Dùng chất nguy hiểm cháy, nổ...",Điểm
+D178_K2_Dđ,"Điểm đ: Để che giấu tội phạm khác",Điểm
+D178_K2_De,"Điểm e: Vì lý do công vụ của người bị hại",Điểm
+D178_K2_Dg,"Điểm g: Tái phạm nguy hiểm",Điểm
+D178_K2_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D178_K3,"Khoản 3 Điều 178",Khoản
+D178_K3_HV,"Gây thiệt hại 200 triệu đến dưới 500 triệu",Hành vi chính
+D178_K3_HP,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+D178_K4,"Khoản 4 Điều 178",Khoản
+D178_K4_HV,"Gây thiệt hại 500 triệu trở lên",Hành vi chính
+D178_K4_HP,"Phạt tù từ 10 năm đến 20 năm",Hình phạt
+D178_K5,"Khoản 5 Điều 178",Khoản
+D178_K5_HV,"Người phạm tội",Hành vi chính
+D178_K5_HP,"Phạt 10-100tr, cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D179,"Điều 179: Tội thiếu trách nhiệm gây thiệt hại đến TS của Nhà nước, cơ quan...",Điều
+D179_K1,"Khoản 1 Điều 179",Khoản
+D179_K1_HV,"Thiếu trách nhiệm gây thiệt hại 100tr đến dưới 500tr",Hành vi chính
+D179_K1_HP,"Phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 03 năm",Hình phạt
+D179_K2,"Khoản 2 Điều 179",Khoản
+D179_K2_HV,"Gây thiệt hại 500tr đến dưới 2 tỷ",Hành vi chính
+D179_K2_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D179_K3,"Khoản 3 Điều 179",Khoản
+D179_K3_HV,"Gây thiệt hại 2 tỷ trở lên",Hành vi chính
+D179_K3_HP,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+D179_K4,"Khoản 4 Điều 179",Khoản
+D179_K4_HV,"Người phạm tội",Hành vi chính
+D179_K4_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D180,"Điều 180: Tội vô ý gây thiệt hại nghiêm trọng đến tài sản",Điều
+D180_K1,"Khoản 1 Điều 180",Khoản
+D180_K1_HV,"Vô ý gây thiệt hại 100tr đến dưới 500tr",Hành vi chính
+D180_K1_HP,"Phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm",Hình phạt
+D180_K2,"Khoản 2 Điều 180",Khoản
+D180_K2_HV,"Gây thiệt hại 500 triệu trở lên",Hành vi chính
+D180_K2_HP,"Cải tạo không giam giữ 02-03 năm hoặc phạt tù 03 tháng - 02 năm",Hình phạt

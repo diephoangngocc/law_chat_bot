@@ -1,0 +1,176 @@
+ID,Name,Label
+C13,"Chương XIII: Các tội xâm phạm an ninh quốc gia",Chương
+D108,"Điều 108: Tội phản bội Tổ quốc",Điều
+D108_K1,"Khoản 1 Điều 108",Khoản
+D108_K1_HV,"Công dân Việt Nam câu kết với nước ngoài nhằm gây nguy hại cho độc lập, chủ quyền, thống nhất và toàn vẹn lãnh thổ...",Hành vi chính
+D108_K1_HP,"Phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình",Hình phạt
+D108_K2,"Khoản 2 Điều 108",Khoản
+D108_K2_HV,"Phạm tội trong trường hợp có nhiều tình tiết giảm nhẹ",Hành vi chính
+D108_K2_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D108_K3,"Khoản 3 Điều 108",Khoản
+D108_K3_HV,"Người chuẩn bị phạm tội này",Hành vi chính
+D108_K3_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D109,"Điều 109: Tội hoạt động nhằm lật đổ chính quyền nhân dân",Điều
+D109_K1,"Khoản 1 Điều 109",Khoản
+D109_K1_HV,"Người tổ chức, người xúi giục, người hoạt động đắc lực hoặc gây hậu quả nghiêm trọng trong hoạt động lật đổ chính quyền",Hành vi chính
+D109_K1_HP,"Phạt tù từ 12 năm đến 20 năm hoặc tù chung thân",Hình phạt
+D109_K2,"Khoản 2 Điều 109",Khoản
+D109_K2_HV,"Người đồng phạm khác",Hành vi chính
+D109_K2_HP,"Phạt tù từ 05 năm đến 12 năm",Hình phạt
+D109_K3,"Khoản 3 Điều 109",Khoản
+D109_K3_HV,"Người chuẩn bị phạm tội này",Hành vi chính
+D109_K3_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D110,"Điều 110: Tội gián điệp",Điều
+D110_K1,"Khoản 1 Điều 110",Khoản
+D110_K1_HV,"Thực hiện hành vi gián điệp",Hành vi chính
+D110_K1_OR,"Có một trong các hành vi sau (OR)",Node Logic OR
+D110_K1_Da,"Điểm a: Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước CHXHCN Việt Nam",Điểm
+D110_K1_Db,"Điểm b: Gây cơ sở để hoạt động... theo sự chỉ đạo của nước ngoài; thám báo, chỉ điểm, chứa chấp...",Điểm
+D110_K1_Dc,"Điểm c: Cung cấp hoặc thu thập nhằm cung cấp bí mật nhà nước cho nước ngoài...",Điểm
+D110_K1_HP,"Phạt tù từ 12 năm đến 20 năm hoặc tù chung thân",Hình phạt
+D110_K2,"Khoản 2 Điều 110",Khoản
+D110_K2_HV,"Phạm tội trong trường hợp ít nghiêm trọng",Hành vi chính
+D110_K2_HP,"Phạt tù từ 05 năm đến 15 năm",Hình phạt
+D110_K3,"Khoản 3 Điều 110",Khoản
+D110_K3_HV,"Người chuẩn bị phạm tội này",Hành vi chính
+D110_K3_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D110_K4,"Khoản 4 Điều 110",Khoản
+D110_K4_HV,"Nhận làm gián điệp nhưng tự thú",Hành vi chính
+D110_K4_AND,"Thỏa mãn đồng thời các điều kiện (AND)",Node Logic AND
+D110_K4_D1,"Đã nhận làm gián điệp nhưng không thực hiện nhiệm vụ được giao",Điểm
+D110_K4_D2,"Tự thú, thành khẩn khai báo với cơ quan nhà nước có thẩm quyền",Điểm
+D110_K4_HP,"Miễn trách nhiệm hình sự",Hình phạt
+D111,"Điều 111: Tội xâm phạm an ninh lãnh thổ",Điều
+D111_K1,"Khoản 1 Điều 111",Khoản
+D111_K1_HV,"Người tổ chức, người hoạt động đắc lực hoặc gây hậu quả nghiêm trọng",Hành vi chính
+D111_K1_HP,"Phạt tù từ 12 năm đến 20 năm hoặc tù chung thân",Hình phạt
+D111_K2,"Khoản 2 Điều 111",Khoản
+D111_K2_HV,"Người đồng phạm khác",Hành vi chính
+D111_K2_HP,"Phạt tù từ 05 năm đến 15 năm",Hình phạt
+D111_K3,"Khoản 3 Điều 111",Khoản
+D111_K3_HV,"Người chuẩn bị phạm tội này",Hành vi chính
+D111_K3_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D112,"Điều 112: Tội bạo loạn",Điều
+D112_K1,"Khoản 1 Điều 112",Khoản
+D112_K1_HV,"Người tổ chức, người hoạt động đắc lực hoặc gây hậu quả nghiêm trọng trong bạo loạn",Hành vi chính
+D112_K1_HP,"Phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình",Hình phạt
+D112_K2,"Khoản 2 Điều 112",Khoản
+D112_K2_HV,"Người đồng phạm khác",Hành vi chính
+D112_K2_HP,"Phạt tù từ 05 năm đến 15 năm",Hình phạt
+D112_K3,"Khoản 3 Điều 112",Khoản
+D112_K3_HV,"Người chuẩn bị phạm tội này",Hành vi chính
+D112_K3_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D113,"Điều 113: Tội khủng bố nhằm chống chính quyền nhân dân",Điều
+D113_K1,"Khoản 1 Điều 113",Khoản
+D113_K1_HV,"Nhằm chống chính quyền mà xâm phạm tính mạng cán bộ, công chức... hoặc phá hủy tài sản...",Hành vi chính
+D113_K1_HP,"Phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình",Hình phạt
+D113_K2,"Khoản 2 Điều 113",Khoản
+D113_K2_HV,"Phạm tội thuộc trường hợp quy định",Hành vi chính
+D113_K2_OR,"Thuộc một trong các trường hợp sau (OR)",Node Logic OR
+D113_K2_Da,"Điểm a: Thành lập, tham gia tổ chức khủng bố, tổ chức tài trợ khủng bố",Điểm
+D113_K2_Db,"Điểm b: Cưỡng ép, lôi kéo, tuyển mộ... chế tạo, cung cấp vũ khí cho phần tử khủng bố",Điểm
+D113_K2_Dc,"Điểm c: Xâm phạm tự do thân thể, sức khỏe... chiếm giữ, làm hư hại tài sản...",Điểm
+D113_K2_Dd,"Điểm d: Tấn công, xâm hại, cản trở... mạng máy tính, viễn thông, phương tiện điện tử...",Điểm
+D113_K2_HP,"Phạt tù từ 10 năm đến 15 năm",Hình phạt
+D113_K3,"Khoản 3 Điều 113",Khoản
+D113_K3_HV,"Đe dọa thực hiện hành vi khoản 1 hoặc uy hiếp tinh thần",Hành vi chính
+D113_K3_HP,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+D113_K4,"Khoản 4 Điều 113",Khoản
+D113_K4_HV,"Khủng bố cá nhân, tổ chức nước ngoài nhằm gây khó khăn cho quan hệ quốc tế",Hành vi chính
+D113_K4_HP,"Xử phạt theo Điều này (Chiếu theo khoản tương ứng)",Hình phạt
+D113_K5,"Khoản 5 Điều 113",Khoản
+D113_K5_HV,"Người chuẩn bị phạm tội này",Hành vi chính
+D113_K5_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D114,"Điều 114: Tội phá hoại cơ sở vật chất - kỹ thuật của nước CHXHCN Việt Nam",Điều
+D114_K1,"Khoản 1 Điều 114",Khoản
+D114_K1_HV,"Nhằm chống chính quyền mà phá hoại cơ sở vật chất - kỹ thuật trong các lĩnh vực...",Hành vi chính
+D114_K1_HP,"Phạt tù từ 12 năm đến 20 năm hoặc tù chung thân",Hình phạt
+D114_K2,"Khoản 2 Điều 114",Khoản
+D114_K2_HV,"Phạm tội trong trường hợp ít nghiêm trọng",Hành vi chính
+D114_K2_HP,"Phạt tù từ 05 năm đến 15 năm",Hình phạt
+D114_K3,"Khoản 3 Điều 114",Khoản
+D114_K3_HV,"Người chuẩn bị phạm tội này",Hành vi chính
+D114_K3_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D115,"Điều 115: Tội phá hoại việc thực hiện các chính sách kinh tế - xã hội",Điều
+D115_K1,"Khoản 1 Điều 115",Khoản
+D115_K1_HV,"Nhằm chống chính quyền mà phá hoại việc thực hiện chính sách kinh tế - xã hội",Hành vi chính
+D115_K1_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D115_K2,"Khoản 2 Điều 115",Khoản
+D115_K2_HV,"Phạm tội trong trường hợp ít nghiêm trọng",Hành vi chính
+D115_K2_HP,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+D115_K3,"Khoản 3 Điều 115",Khoản
+D115_K3_HV,"Người chuẩn bị phạm tội này",Hành vi chính
+D115_K3_HP,"Phạt tù từ 06 tháng đến 03 năm",Hình phạt
+D116,"Điều 116: Tội phá hoại chính sách đoàn kết",Điều
+D116_K1,"Khoản 1 Điều 116",Khoản
+D116_K1_HV,"Thực hiện hành vi phá hoại chính sách đoàn kết",Hành vi chính
+D116_K1_OR,"Thực hiện một trong những hành vi (OR)",Node Logic OR
+D116_K1_Da,"Điểm a: Gây chia rẽ giữa các tầng lớp nhân dân, với chính quyền, lực lượng vũ trang...",Điểm
+D116_K1_Db,"Điểm b: Gây hằn thù, kỳ thị, chia rẽ, ly khai dân tộc...",Điểm
+D116_K1_Dc,"Điểm c: Gây chia rẽ người theo tôn giáo với người không theo tôn giáo...",Điểm
+D116_K1_Dd,"Điểm d: Phá hoại việc thực hiện chính sách đoàn kết quốc tế",Điểm
+D116_K1_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D116_K2,"Khoản 2 Điều 116",Khoản
+D116_K2_HV,"Phạm tội trong trường hợp ít nghiêm trọng",Hành vi chính
+D116_K2_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D116_K3,"Khoản 3 Điều 116",Khoản
+D116_K3_HV,"Người chuẩn bị phạm tội này",Hành vi chính
+D116_K3_HP,"Phạt tù từ 06 tháng đến 03 năm",Hình phạt
+D117,"Điều 117: Tội làm, tàng trữ, phát tán... chống Nhà nước",Điều
+D117_K1,"Khoản 1 Điều 117",Khoản
+D117_K1_HV,"Thực hiện hành vi phát tán tài liệu chống Nhà nước",Hành vi chính
+D117_K1_OR,"Có một trong những hành vi (OR)",Node Logic OR
+D117_K1_Da,"Điểm a: Làm, tàng trữ, phát tán... có nội dung xuyên tạc, phỉ báng chính quyền",Điểm
+D117_K1_Db,"Điểm b: Làm, tàng trữ, phát tán... có nội dung bịa đặt, gây hoang mang",Điểm
+D117_K1_Dc,"Điểm c: Làm, tàng trữ, phát tán... gây chiến tranh tâm lý",Điểm
+D117_K1_HP,"Phạt tù từ 05 năm đến 12 năm",Hình phạt
+D117_K2,"Khoản 2 Điều 117",Khoản
+D117_K2_HV,"Phạm tội trong trường hợp đặc biệt nghiêm trọng",Hành vi chính
+D117_K2_HP,"Phạt tù từ 10 năm đến 20 năm",Hình phạt
+D117_K3,"Khoản 3 Điều 117",Khoản
+D117_K3_HV,"Người chuẩn bị phạm tội này",Hành vi chính
+D117_K3_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D118,"Điều 118: Tội phá rối an ninh",Điều
+D118_K1,"Khoản 1 Điều 118",Khoản
+D118_K1_HV,"Nhằm chống chính quyền mà kích động, tụ tập phá rối an ninh (không thuộc Điều 112)",Hành vi chính
+D118_K1_HP,"Phạt tù từ 05 năm đến 15 năm",Hình phạt
+D118_K2,"Khoản 2 Điều 118",Khoản
+D118_K2_HV,"Người đồng phạm khác",Hành vi chính
+D118_K2_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D118_K3,"Khoản 3 Điều 118",Khoản
+D118_K3_HV,"Người chuẩn bị phạm tội này",Hành vi chính
+D118_K3_HP,"Phạt tù từ 06 tháng đến 03 năm",Hình phạt
+D119,"Điều 119: Tội chống phá cơ sở giam giữ",Điều
+D119_K1,"Khoản 1 Điều 119",Khoản
+D119_K1_HV,"Nhằm chống chính quyền mà phá cơ sở giam giữ, tổ chức trốn, đánh tháo...",Hành vi chính
+D119_K1_HP,"Phạt tù từ 10 năm đến 20 năm hoặc tù chung thân",Hình phạt
+D119_K2,"Khoản 2 Điều 119",Khoản
+D119_K2_HV,"Phạm tội trong trường hợp ít nghiêm trọng",Hành vi chính
+D119_K2_HP,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+D119_K3,"Khoản 3 Điều 119",Khoản
+D119_K3_HV,"Người chuẩn bị phạm tội này",Hành vi chính
+D119_K3_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D120,"Điều 120: Tội tổ chức, cưỡng ép, xúi giục người khác trốn đi nước ngoài...",Điều
+D120_K1,"Khoản 1 Điều 120",Khoản
+D120_K1_HV,"Tổ chức, cưỡng ép, xúi giục người khác trốn đi nước ngoài nhằm chống chính quyền",Hành vi chính
+D120_K1_HP,"Phạt tù từ 05 năm đến 15 năm",Hình phạt
+D120_K2,"Khoản 2 Điều 120",Khoản
+D120_K2_HV,"Phạm tội trong trường hợp đặc biệt nghiêm trọng",Hành vi chính
+D120_K2_HP,"Phạt tù từ 12 năm đến 20 năm hoặc tù chung thân",Hình phạt
+D120_K3,"Khoản 3 Điều 120",Khoản
+D120_K3_HV,"Người chuẩn bị phạm tội này",Hành vi chính
+D120_K3_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D121,"Điều 121: Tội trốn đi nước ngoài hoặc trốn ở lại nước ngoài...",Điều
+D121_K1,"Khoản 1 Điều 121",Khoản
+D121_K1_HV,"Trốn đi nước ngoài hoặc trốn ở lại nước ngoài nhằm chống chính quyền nhân dân",Hành vi chính
+D121_K1_HP,"Phạt tù từ 03 năm đến 12 năm",Hình phạt
+D121_K2,"Khoản 2 Điều 121",Khoản
+D121_K2_HV,"Phạm tội trong trường hợp đặc biệt nghiêm trọng",Hành vi chính
+D121_K2_HP,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+D121_K3,"Khoản 3 Điều 121",Khoản
+D121_K3_HV,"Người chuẩn bị phạm tội này",Hành vi chính
+D121_K3_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D122,"Điều 122: Hình phạt bổ sung",Điều
+D122_K1,"Nội dung Điều 122",Khoản
+D122_K1_HV,"Người phạm tội quy định tại Chương này",Hành vi chính
+D122_K1_HP,"Tước một số quyền công dân, phạt quản chế, cấm cư trú từ 01 năm đến 05 năm hoặc tịch thu tài sản",Hình phạt

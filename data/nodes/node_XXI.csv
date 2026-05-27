@@ -1,0 +1,1847 @@
+ID,Name,Label
+C21,"Chương XXI: CÁC TỘI XÂM PHẠM AN TOÀN CÔNG CỘNG, TRẬT TỰ CÔNG CỘNG",Chương
+D260,"Điều 260. Tội vi phạm quy định về tham gia giao thông đường bộ",Điều
+K1_260,"Khoản 1 Điều 260",Khoản
+HV1_260,"Tham gia giao thông đường bộ vi phạm quy định an toàn giao thông đường bộ gây thiệt hại",Hành vi chính
+OR1_260,"Thuộc một trong các trường hợp Khoản 1 Điều 260",Node Logic OR
+P1A_260,"Điểm a: Làm chết người",Điểm
+P1B_260,"Điểm b: Gây thương tích hoặc gây tổn hại cho sức khỏe của 01 người mà tỷ lệ tổn thương cơ thể 61% trở lên",Điểm
+P1C_260,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe của 02 người trở lên mà tổng tỷ lệ tổn thương 61% đến 121%",Điểm
+P1D_260,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_260,"Phạt tiền từ 30-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01-05 năm",Hình phạt
+K2_260,"Khoản 2 Điều 260",Khoản
+HV2_260,"Phạm tội vi phạm quy định về tham gia giao thông đường bộ",Hành vi chính
+OR2_260,"Thuộc một trong các trường hợp Khoản 2 Điều 260",Node Logic OR
+P2A_260,"Điểm a: Không có giấy phép lái xe theo quy định",Điểm
+P2B_260,"Điểm b: Sử dụng rượu, bia vượt mức, ma túy hoặc chất kích thích mạnh",Điểm
+P2C_260,"Điểm c: Bỏ chạy để trốn tránh trách nhiệm hoặc cố ý không cứu giúp người bị nạn",Điểm
+P2D_260,"Điểm d: Không chấp hành hiệu lệnh của người điều khiển hoặc hướng dẫn giao thông",Điểm
+P2DD_260,"Điểm đ: Làm chết 02 người",Điểm
+P2E_260,"Điểm e: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2G_260,"Điểm g: Gây thiệt hại về tài sản từ 500 triệu đến dưới 1.5 tỷ đồng",Điểm
+HP2_260,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_260,"Khoản 3 Điều 260",Khoản
+HV3_260,"Phạm tội vi phạm quy định về tham gia giao thông đường bộ",Hành vi chính
+OR3_260,"Thuộc một trong các trường hợp Khoản 3 Điều 260",Node Logic OR
+P3A_260,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_260,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_260,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_260,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_260,"Khoản 4 Điều 260",Khoản
+HV4_260,"Vi phạm quy định giao thông có khả năng thực tế dẫn đến hậu quả nếu không ngăn chặn kịp thời",Hành vi chính
+OR4_260,"Một trong các điểm a, b, c Khoản 3 Điều 260",Node Logic OR
+HP4_260,"Phạt tiền từ 10-50 triệu đồng, cải tạo không giam giữ đến 01 năm hoặc phạt tù 03 tháng đến 01 năm",Hình phạt
+K5_260,"Khoản 5 Điều 260",Khoản
+HV5_260,"Người phạm tội vi phạm quy định giao thông đường bộ",Hành vi chính
+HP5_260,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D261,"Điều 261. Tội cản trở giao thông đường bộ",Điều
+K1_261,"Khoản 1 Điều 261",Khoản
+HV1_261,"Đào, khoan, xẻ, san lấp trái phép, đặt chướng ngại vật... gây cản trở giao thông đường bộ gây thiệt hại",Hành vi chính
+OR1_261,"Thuộc một trong các trường hợp Khoản 1 Điều 261",Node Logic OR
+P1A_261,"Điểm a: Làm chết người",Điểm
+P1B_261,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_261,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_261,"Điểm d: Gây thiệt hại tài sản từ 100 triệu đến dưới 500 triệu đồng",Điểm
+HP1_261,"Phạt tiền từ 30-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_261,"Khoản 2 Điều 261",Khoản
+HV2_261,"Phạm tội cản trở giao thông đường bộ",Hành vi chính
+OR2_261,"Thuộc một trong các trường hợp Khoản 2 Điều 261",Node Logic OR
+P2A_261,"Điểm a: Tại đèo, dốc, đường cao tốc hoặc đoạn đường nguy hiểm",Điểm
+P2B_261,"Điểm b: Làm chết 02 người",Điểm
+P2C_261,"Điểm c: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2D_261,"Điểm d: Gây thiệt hại tài sản từ 500 triệu đến dưới 1.5 tỷ đồng",Điểm
+HP2_261,"Phạt tiền từ 100-300 triệu đồng hoặc phạt tù từ 02 năm đến 07 năm",Hình phạt
+K3_261,"Khoản 3 Điều 261",Khoản
+HV3_261,"Phạm tội cản trở giao thông đường bộ",Hành vi chính
+OR3_261,"Thuộc một trong các trường hợp Khoản 3 Điều 261",Node Logic OR
+P3A_261,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_261,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_261,"Điểm c: Gây thiệt hại tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_261,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+K4_261,"Khoản 4 Điều 261",Khoản
+HV4_261,"Cản trở giao thông có khả năng thực tế dẫn đến hậu quả nếu không ngăn chặn kịp thời",Hành vi chính
+OR4_261,"Một trong các điểm a, b, c Khoản 3 Điều 261",Node Logic OR
+HP4_261,"Phạt tiền từ 5-20 triệu đồng hoặc phạt cải tạo không giam giữ đến 01 năm",Hình phạt
+D262,"Điều 262. Tội đưa vào sử dụng phương tiện giao thông không bảo đảm an toàn",Điều
+K1_262,"Khoản 1 Điều 262",Khoản
+HV1_262,"Cho phép đưa vào sử dụng phương tiện giao thông không bảo đảm tiêu chuẩn an toàn kỹ thuật gây thiệt hại",Hành vi chính
+OR1_262,"Thuộc một trong các trường hợp Khoản 1 Điều 262",Node Logic OR
+P1A_262,"Điểm a: Làm chết người",Điểm
+P1B_262,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_262,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_262,"Điểm d: Gây thiệt hại tài sản từ 100 triệu đến dưới 500 triệu đồng",Điểm
+HP1_262,"Phạt tiền từ 20-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_262,"Khoản 2 Điều 262",Khoản
+HV2_262,"Phạm tội đưa phương tiện không an toàn vào sử dụng",Hành vi chính
+OR2_262,"Thuộc một trong các trường hợp Khoản 2 Điều 262",Node Logic OR
+P2A_262,"Điểm a: Làm chết 02 người",Điểm
+P2B_262,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_262,"Điểm c: Gây thiệt hại tài sản từ 500 triệu đến dưới 1.5 tỷ đồng",Điểm
+HP2_262,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+K3_262,"Khoản 3 Điều 262",Khoản
+HV3_262,"Phạm tội đưa phương tiện không an toàn vào sử dụng",Hành vi chính
+OR3_262,"Thuộc một trong các trường hợp Khoản 3 Điều 262",Node Logic OR
+P3A_262,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_262,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_262,"Điểm c: Gây thiệt hại tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_262,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+K4_262,"Khoản 4 Điều 262",Khoản
+HV4_262,"Người phạm tội đưa phương tiện không an toàn vào sử dụng",Hành vi chính
+HP4_262,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D263,"Điều 263. Tội điều động người không đủ điều kiện điều khiển phương tiện tham gia giao thông đường bộ",Điều
+K1_263,"Khoản 1 Điều 263",Khoản
+HV1_263,"Người có thẩm quyền điều động người không đủ điều kiện điều khiển phương tiện tham gia giao thông gây thiệt hại",Hành vi chính
+OR1_263,"Thuộc một trong các trường hợp Khoản 1 Điều 263",Node Logic OR
+P1A_263,"Điểm a: Làm chết người",Điểm
+P1B_263,"Điểm b: Gây thương tích hoặc gây tổn hại cho sức khỏe của 01 người mà tỷ lệ tổn thương cơ thể 61% trở lên",Điểm
+P1C_263,"Điểm c: Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người trở lên mà tổng tỷ lệ tổn thương 61% đến 121%",Điểm
+P1D_263,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_263,"Phạt tiền từ 20-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01 năm đến 03 năm",Hình phạt
+K2_263,"Khoản 2 Điều 263",Khoản
+HV2_263,"Phạm tội điều động người không đủ điều kiện điều khiển phương tiện",Hành vi chính
+OR2_263,"Thuộc một trong các trường hợp Khoản 2 Điều 263",Node Logic OR
+P2A_263,"Điểm a: Làm chết 02 người",Điểm
+P2B_263,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_263,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đồng đến dưới 1.5 tỷ đồng",Điểm
+HP2_263,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+K3_263,"Khoản 3 Điều 263",Khoản
+HV3_263,"Phạm tội điều động người không đủ điều kiện điều khiển phương tiện",Hành vi chính
+OR3_263,"Thuộc một trong các trường hợp Khoản 3 Điều 263",Node Logic OR
+P3A_263,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_263,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_263,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_263,"Phạt tù từ 05 năm đến 12 năm",Hình phạt
+K4_263,"Khoản 4 Điều 263",Khoản
+HV4_263,"Người phạm tội điều động người không đủ điều kiện điều khiển phương tiện",Hành vi chính
+HP4_263,"Phạt tiền từ 10-30 triệu đồng, cấm đảm nhiệm chức vụ, hành nghề hoặc công việc nhất định từ 01-05 năm",Hình phạt
+D264,"Điều 264. Tội giao cho người không đủ điều kiện điều khiển phương tiện tham gia giao thông đường bộ",Điều
+K1_264,"Khoản 1 Điều 264",Khoản
+HV1_264,"Giao phương tiện cho người biết rõ không đủ điều kiện điều khiển tham gia giao thông gây thiệt hại",Hành vi chính
+OR1_264,"Thuộc một trong các trường hợp Khoản 1 Điều 264",Node Logic OR
+P1A_264,"Điểm a: Làm chết người",Điểm
+P1B_264,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_264,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_264,"Điểm d: Gây thiệt hại tài sản từ 100 triệu đến dưới 500 triệu đồng",Điểm
+HP1_264,"Phạt tiền từ 10-50 triệu đồng hoặc phạt cải tạo không giam giữ đến 03 năm",Hình phạt
+K2_264,"Khoản 2 Điều 264",Khoản
+HV2_264,"Phạm tội giao xe cho người không đủ điều kiện",Hành vi chính
+OR2_264,"Thuộc một trong các trường hợp Khoản 2 Điều 264",Node Logic OR
+P2A_264,"Điểm a: Làm chết 02 người",Điểm
+P2B_264,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_264,"Điểm c: Gây thiệt hại tài sản từ 500 triệu đến dưới 1.5 tỷ đồng",Điểm
+HP2_264,"Phạt tiền từ 50-200 triệu đồng hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K3_264,"Khoản 3 Điều 264",Khoản
+HV3_264,"Phạm tội giao xe cho người không đủ điều kiện",Hành vi chính
+OR3_264,"Thuộc một trong các trường hợp Khoản 3 Điều 264",Node Logic OR
+P3A_264,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_264,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_264,"Điểm c: Gây thiệt hại tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_264,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+K4_264,"Khoản 4 Điều 264",Khoản
+HV4_264,"Người phạm tội giao xe cho người không đủ điều kiện",Hành vi chính
+HP4_264,"Phạt tiền từ 10.000.000 đồng đến 30.000.000 đồng",Hình phạt
+D265,"Điều 265. Tội tổ chức đua xe trái phép",Điều
+K1_265,"Khoản 1 Điều 265",Khoản
+HV1_265,"Tổ chức trái phép việc đua xe ô tô, xe máy hoặc các loại xe khác có gắn động cơ",Hành vi chính
+HP1_265,"Phạt tiền từ 30-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_265,"Khoản 2 Điều 265",Khoản
+HV2_265,"Phạm tội tổ chức đua xe trái phép",Hành vi chính
+OR2_265,"Thuộc một trong các trường hợp Khoản 2 Điều 265",Node Logic OR
+P2A_265,"Điểm a: Tổ chức cho 10 xe tham gia trở lên cùng lúc hoặc tổ chức 02 cuộc đua xe trở lên cùng lúc",Điểm
+P2B_265,"Điểm b: Tổ chức cá cược",Điểm
+P2C_265,"Điểm c: Chống lại người có trách nhiệm bảo đảm trật tự hoặc giải tán cuộc đua",Điểm
+P2D_265,"Điểm d: Tại nơi tập trung đông dân cư",Điểm
+P2DD_265,"Điểm đ: Tháo dỡ thiết bị an toàn khỏi phương tiện đua",Điểm
+P2E_265,"Điểm e: Làm chết người",Điểm
+P2G_265,"Điểm g: Gây thương tích hoặc tổn hại sức khỏe của người khác tỷ lệ 61% trở lên",Điểm
+P2H_265,"Điểm h: Gây thương tích hoặc tổn hại sức khỏe của 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P2I_265,"Điểm i: Gây thiệt hại tài sản từ 100 triệu đến dưới 500 triệu đồng",Điểm
+P2K_265,"Điểm k: Tái phạm về tội này hoặc tội đua xe trái phép",Điểm
+HP2_265,"Phạt tiền từ 100-500 triệu đồng hoặc phạt tù từ 04 năm đến 10 năm",Hình phạt
+K3_265,"Khoản 3 Điều 265",Khoản
+HV3_265,"Phạm tội tổ chức đua xe trái phép",Hành vi chính
+OR3_265,"Thuộc một trong các trường hợp Khoản 3 Điều 265",Node Logic OR
+P3A_265,"Điểm a: Làm chết 02 người",Điểm
+P3B_265,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P3C_265,"Điểm c: Gây thiệt hại tài sản từ 500 triệu đến dưới 1.5 tỷ đồng",Điểm
+P3D_265,"Điểm d: Tái phạm nguy hiểm",Điểm
+HP3_265,"Phạt tù từ 08 năm đến 15 năm",Hình phạt
+K4_265,"Khoản 4 Điều 265",Khoản
+HV4_265,"Phạm tội tổ chức đua xe trái phép",Hành vi chính
+OR4_265,"Thuộc một trong các trường hợp Khoản 4 Điều 265",Node Logic OR
+P4A_265,"Điểm a: Làm chết 03 người trở lên",Điểm
+P4B_265,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P4C_265,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP4_265,"Phạt tù từ 12 năm đến 20 năm hoặc tù chung thân",Hình phạt
+K5_265,"Khoản 5 Điều 265",Khoản
+HV5_265,"Người phạm tội tổ chức đua xe trái phép",Hành vi chính
+HP5_265,"Phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng",Hình phạt
+D266,"Điều 266. Tội đua xe trái phép",Điều
+K1_266,"Khoản 1 Điều 266",Khoản
+HV1_266,"Đua trái phép xe ô tô, xe máy hoặc xe gắn động cơ gây thiệt hại hoặc đã bị xử lý mà còn vi phạm",Hành vi chính
+OR1_266,"Thuộc một trong các trường hợp Khoản 1 Điều 266",Node Logic OR
+P1A_266,"Điểm a: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ từ 31% đến 60%",Điểm
+P1B_266,"Điểm b: Gây thiệt hại về tài sản từ 50 triệu đến dưới 100 triệu đồng",Điểm
+HP1_266,"Phạt tiền từ 10-50 triệu đồng, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_266,"Khoản 2 Điều 266",Khoản
+HV2_266,"Phạm tội đua xe trái phép",Hành vi chính
+OR2_266,"Thuộc một trong các trường hợp Khoản 2 Điều 266",Node Logic OR
+P2A_266,"Điểm a: Làm chết người",Điểm
+P2B_266,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P2C_266,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P2D_266,"Điểm d: Gây thiệt hại về tài sản từ 100 triệu đến dưới 500 triệu đồng",Điểm
+P2DD_266,"Điểm đ: Bỏ chạy để trốn tránh trách nhiệm hoặc cố ý không cứu giúp người bị nạn",Điểm
+P2E_266,"Điểm e: Tham gia cá cược",Điểm
+P2G_266,"Điểm g: Chống lại người có trách nhiệm bảo đảm trật tự hoặc giải tán cuộc đua",Điểm
+P2H_266,"Điểm h: Tại nơi tập trung đông dân cư",Điểm
+P2I_266,"Điểm i: Tháo dỡ thiết bị an toàn khỏi phương tiện đua",Điểm
+P2K_266,"Điểm k: Tái phạm nguy hiểm",Điểm
+HP2_266,"Phạt tiền từ 50-150 triệu đồng hoặc phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_266,"Khoản 3 Điều 266",Khoản
+HV3_266,"Phạm tội đua xe trái phép",Hành vi chính
+OR3_266,"Thuộc một trong các trường hợp Khoản 3 Điều 266",Node Logic OR
+P3A_266,"Điểm a: Làm chết 02 người",Điểm
+P3B_266,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P3C_266,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đến dưới 1.5 tỷ đồng",Điểm
+HP3_266,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_266,"Khoản 4 Điều 266",Khoản
+HV4_266,"Phạm tội đua xe trái phép",Hành vi chính
+OR4_266,"Thuộc một trong các trường hợp Khoản 4 Điều 266",Node Logic OR
+P4A_266,"Điểm a: Làm chết 03 người trở lên",Điểm
+P4B_266,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P4C_266,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP4_266,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+K5_266,"Khoản 5 Điều 266",Khoản
+HV5_266,"Người phạm tội đua xe trái phép",Hành vi chính
+HP5_266,"Phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng",Hình phạt
+D267,"Điều 267. Tội vi phạm quy định về điều khiển phương tiện giao thông đường sắt",Điều
+K1_267,"Khoản 1 Điều 267",Khoản
+HV1_267,"Chỉ huy, điều khiển phương tiện giao thông đường sắt vi phạm quy định an toàn gây thiệt hại",Hành vi chính
+OR1_267,"Thuộc một trong các trường hợp Khoản 1 Điều 267",Node Logic OR
+P1A_267,"Điểm a: Làm chết người",Điểm
+P1B_267,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_267,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_267,"Điểm d: Gây thiệt hại về tài sản từ 100 triệu đến dưới 500 triệu đồng",Điểm
+HP1_267,"Phạt tiền từ 50-200 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01-05 năm",Hình phạt
+K2_267,"Khoản 2 Điều 267",Khoản
+HV2_267,"Phạm tội vi phạm quy định điều khiển phương tiện giao thông đường sắt",Hành vi chính
+OR2_267,"Thuộc một trong các trường hợp Khoản 2 Điều 267",Node Logic OR
+P2A_267,"Điểm a: Không có giấy phép, bằng hoặc chứng chỉ chuyên môn tương ứng",Điểm
+P2B_267,"Điểm b: Sử dụng rượu, bia vượt mức, ma túy hoặc chất kích thích mạnh",Điểm
+P2C_267,"Điểm c: Bỏ chạy để trốn tránh trách nhiệm hoặc cố ý không cứu giúp người bị nạn",Điểm
+P2D_267,"Điểm d: Không chấp hành hiệu lệnh của người chỉ huy hoặc người có thẩm quyền",Điểm
+P2DD_267,"Điểm đ: Làm chết 02 người",Điểm
+P2E_267,"Điểm e: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2G_267,"Điểm g: Gây thiệt hại về tài sản từ 500 triệu đến dưới 1.5 tỷ đồng",Điểm
+HP2_267,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_267,"Khoản 3 Điều 267",Khoản
+HV3_267,"Phạm tội vi phạm quy định điều khiển phương tiện giao thông đường sắt",Hành vi chính
+OR3_267,"Thuộc một trong các trường hợp Khoản 3 Điều 267",Node Logic OR
+P3A_267,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_267,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_267,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_267,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_267,"Khoản 4 Điều 267",Khoản
+HV4_267,"Vi phạm quy định điều khiển phương tiện đường sắt có khả năng thực tế dẫn đến hậu quả nếu không ngăn chặn",Hành vi chính
+OR4_267,"Một trong các điểm a, b, c Khoản 3 Điều 267",Node Logic OR
+HP4_267,"Phạt tiền từ 10-50 triệu đồng, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 01 năm",Hình phạt
+K5_267,"Khoản 5 Điều 267",Khoản
+HV5_267,"Người phạm tội vi phạm quy định điều khiển phương tiện giao thông đường sắt",Hành vi chính
+HP5_267,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D268,"Điều 268. Tội cản trở giao thông đường sắt",Điều
+K1_268,"Khoản 1 Điều 268",Khoản
+HV1_268,"Đặt chướng ngại vật, phá hoại, lấn chiếm hành lang an toàn đường sắt... gây thiệt hại hoặc đã bị xử lý mà còn vi phạm",Hành vi chính
+OR1_268,"Thuộc một trong các trường hợp Khoản 1 Điều 268",Node Logic OR
+P1A_268,"Điểm a: Làm chết người",Điểm
+P1B_268,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_268,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_268,"Điểm d: Gây thiệt hại về tài sản từ 100 triệu đến dưới 500 triệu đồng",Điểm
+HP1_268,"Phạt tiền từ 30-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01 năm đến 03 năm",Hình phạt
+K2_268,"Khoản 2 Điều 268",Khoản
+HV2_268,"Phạm tội cản trở giao thông đường sắt",Hành vi chính
+OR2_268,"Thuộc một trong các trường hợp Khoản 2 Điều 268",Node Logic OR
+P2A_268,"Điểm a: Làm chết 02 người",Điểm
+P2B_268,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_268,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đến dưới 1.5 tỷ đồng",Điểm
+HP2_268,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_268,"Khoản 3 Điều 268",Khoản
+HV3_268,"Phạm tội cản trở giao thông đường sắt",Hành vi chính
+OR3_268,"Thuộc một trong các trường hợp Khoản 3 Điều 268",Node Logic OR
+P3A_268,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_268,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_268,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_268,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_268,"Khoản 4 Điều 268",Khoản
+HV4_268,"Cản trở giao thông đường sắt có khả năng thực tế dẫn đến hậu quả nếu không ngăn chặn kịp thời",Hành vi chính
+OR4_268,"Một trong các điểm a, b, c Khoản 3 Điều 268",Node Logic OR
+HP4_268,"Phạt tiền từ 10-50 triệu đồng, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 01 năm",Hình phạt
+D269,"Điều 269. Tội đưa vào sử dụng phương tiện, thiết bị giao thông đường sắt không bảo đảm an toàn",Điều
+K1_269,"Khoản 1 Điều 269",Khoản
+HV1_269,"Cho phép đưa vào sử dụng phương tiện, thiết bị giao thông đường sắt không bảo đảm an toàn gây thiệt hại hoặc đã bị xử lý mà còn vi phạm",Hành vi chính
+OR1_269,"Thuộc một trong các trường hợp Khoản 1 Điều 269",Node Logic OR
+P1A_269,"Điểm a: Làm chết người",Điểm
+P1B_269,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_269,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_269,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_269,"Phạt tiền từ 20-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01-05 năm",Hình phạt
+K2_269,"Khoản 2 Điều 269",Khoản
+HV2_269,"Phạm tội đưa vào sử dụng phương tiện, thiết bị giao thông đường sắt không bảo đảm an toàn",Hành vi chính
+OR2_269,"Thuộc một trong các trường hợp Khoản 2 Điều 269",Node Logic OR
+P2A_269,"Điểm a: Làm chết 02 người",Điểm
+P2B_269,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_269,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đồng đến dưới 1.5 tỷ đồng",Điểm
+HP2_269,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_269,"Khoản 3 Điều 269",Khoản
+HV3_269,"Phạm tội đưa vào sử dụng phương tiện, thiết bị giao thông đường sắt không bảo đảm an toàn",Hành vi chính
+OR3_269,"Thuộc một trong các trường hợp Khoản 3 Điều 269",Node Logic OR
+P3A_269,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_269,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_269,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_269,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_269,"Khoản 4 Điều 269",Khoản
+HV4_269,"Người phạm tội đưa vào sử dụng phương tiện thiết bị không an toàn",Hành vi chính
+HP4_269,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D270,"Điều 270. Tội điều động người không đủ điều kiện điều khiển phương tiện giao thông đường sắt",Điều
+K1_270,"Khoản 1 Điều 270",Khoản
+HV1_270,"Điều động người không đủ điều kiện điều khiển phương tiện đường sắt gây thiệt hại hoặc đã bị xử lý mà còn vi phạm",Hành vi chính
+OR1_270,"Thuộc một trong các trường hợp Khoản 1 Điều 270",Node Logic OR
+P1A_270,"Điểm a: Làm chết người",Điểm
+P1B_270,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_270,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_270,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_270,"Phạt tiền từ 30-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01-05 năm",Hình phạt
+K2_270,"Khoản 2 Điều 270",Khoản
+HV2_270,"Phạm tội điều động người không đủ điều kiện điều khiển phương tiện",Hành vi chính
+OR2_270,"Thuộc một trong các trường hợp Khoản 2 Điều 270",Node Logic OR
+P2A_270,"Điểm a: Làm chết 02 người",Điểm
+P2B_270,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_270,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đồng đến dưới 1.5 tỷ đồng",Điểm
+HP2_270,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_270,"Khoản 3 Điều 270",Khoản
+HV3_270,"Phạm tội điều động người không đủ điều kiện điều khiển phương tiện",Hành vi chính
+OR3_270,"Thuộc một trong các trường hợp Khoản 3 Điều 270",Node Logic OR
+P3A_270,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_270,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_270,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_270,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_270,"Khoản 4 Điều 270",Khoản
+HV4_270,"Người phạm tội điều động người không đủ điều kiện điều khiển phương tiện",Hành vi chính
+HP4_270,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D271,"Điều 271. Tội giao cho người không đủ điều kiện điều khiển phương tiện giao thông đường sắt",Điều
+K1_271,"Khoản 1 Điều 271",Khoản
+HV1_271,"Giao phương tiện đường sắt cho người không đủ điều kiện điều khiển gây thiệt hại hoặc đã bị xử lý mà còn vi phạm",Hành vi chính
+OR1_271,"Thuộc một trong các trường hợp Khoản 1 Điều 271",Node Logic OR
+P1A_271,"Điểm a: Làm chết người",Điểm
+P1B_271,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_271,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_271,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_271,"Phạt tiền từ 30-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_271,"Khoản 2 Điều 271",Khoản
+HV2_271,"Phạm tội giao xe cho người không đủ điều kiện",Hành vi chính
+OR2_271,"Thuộc một trong các trường hợp Khoản 2 Điều 271",Node Logic OR
+P2A_271,"Điểm a: Làm chết 02 người",Điểm
+P2B_271,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_271,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đồng đến dưới 1.5 tỷ đồng",Điểm
+HP2_271,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+K3_271,"Khoản 3 Điều 271",Khoản
+HV3_271,"Phạm tội giao xe cho người không đủ điều kiện",Hành vi chính
+OR3_271,"Thuộc một trong các trường hợp Khoản 3 Điều 271",Node Logic OR
+P3A_271,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_271,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_271,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_271,"Phạt tù từ 07 năm đến 12 năm",Hình phạt
+K4_271,"Khoản 4 Điều 271",Khoản
+HV4_271,"Người phạm tội giao xe cho người không đủ điều kiện",Hành vi chính
+HP4_271,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D272,"Điều 272. Tội vi phạm quy định về điều khiển phương tiện giao thông đường thủy",Điều
+K1_272,"Khoản 1 Điều 272",Khoản
+HV1_272,"Điều khiển phương tiện giao thông đường thủy vi phạm quy định về an toàn gây thiệt hại",Hành vi chính
+OR1_272,"Thuộc một trong các trường hợp Khoản 1 Điều 272",Node Logic OR
+P1A_272,"Điểm a: Làm chết người",Điểm
+P1B_272,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_272,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_272,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_272,"Phạt tiền từ 30-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_272,"Khoản 2 Điều 272",Khoản
+HV2_272,"Phạm tội vi phạm quy định điều khiển phương tiện giao thông đường thủy",Hành vi chính
+OR2_272,"Thuộc một trong các trường hợp Khoản 2 Điều 272",Node Logic OR
+P2A_272,"Điểm a: Không có bằng, giấy chứng nhận hoặc chứng chỉ chuyên môn phù hợp",Điểm
+P2B_272,"Điểm b: Sử dụng rượu, bia vượt mức, ma túy hoặc chất kích thích mạnh",Điểm
+P2C_272,"Điểm c: Bỏ chạy để trốn tránh trách nhiệm hoặc cố ý không cứu giúp người bị nạn",Điểm
+P2D_272,"Điểm d: Không chấp hành hiệu lệnh của người chỉ huy hoặc có thẩm quyền",Điểm
+P2DD_272,"Điểm đ: Làm chết 02 người",Điểm
+P2E_272,"Điểm e: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2G_272,"Điểm g: Gây thiệt hại về tài sản từ 500 triệu đồng đến dưới 1.5 tỷ đồng",Điểm
+HP2_272,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_272,"Khoản 3 Điều 272",Khoản
+HV3_272,"Phạm tội vi phạm quy định điều khiển phương tiện giao thông đường thủy",Hành vi chính
+OR3_272,"Thuộc một trong các trường hợp Khoản 3 Điều 272",Node Logic OR
+P3A_272,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_272,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_272,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_272,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_272,"Khoản 4 Điều 272",Khoản
+HV4_272,"Vi phạm quy định có khả năng thực tế dẫn đến hậu quả nếu không ngăn chặn kịp thời",Hành vi chính
+OR4_272,"Một trong các điểm a, b, c Khoản 3 Điều 272",Node Logic OR
+HP4_272,"Phạt tiền từ 10-50 triệu đồng, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 01 năm",Hình phạt
+K5_272,"Khoản 5 Điều 272",Khoản
+HV5_272,"Người phạm tội vi phạm quy định điều khiển phương tiện giao thông đường thủy",Hành vi chính
+HP5_272,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D273,"Điều 273. Tội cản trở giao thông đường thủy",Điều
+K1_273,"Khoản 1 Điều 273",Khoản
+HV1_273,"Khoan, đào trái phép, tạo chướng ngại vật, lấn chiếm luồng... cản trở giao thông đường thủy gây thiệt hại",Hành vi chính
+OR1_273,"Thuộc một trong các trường hợp Khoản 1 Điều 273",Node Logic OR
+P1A_273,"Điểm a: Làm chết người",Điểm
+P1B_273,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_273,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_273,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_273,"Phạt tiền từ 30-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_273,"Khoản 2 Điều 273",Khoản
+HV2_273,"Phạm tội cản trở giao thông đường thủy",Hành vi chính
+OR2_273,"Thuộc một trong các trường hợp Khoản 2 Điều 273",Node Logic OR
+P2A_273,"Điểm a: Làm chết 02 người",Điểm
+P2B_273,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_273,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đồng đến dưới 1.5 tỷ đồng",Điểm
+HP2_273,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_273,"Khoản 3 Điều 273",Khoản
+HV3_273,"Phạm tội cản trở giao thông đường thủy",Hành vi chính
+OR3_273,"Thuộc một trong các trường hợp Khoản 3 Điều 273",Node Logic OR
+P3A_273,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_273,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_273,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_273,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_273,"Khoản 4 Điều 273",Khoản
+HV4_273,"Cản trở giao thông đường thủy có khả năng thực tế dẫn đến hậu quả nếu không ngăn chặn kịp thời",Hành vi chính
+OR4_273,"Một trong các điểm a, b, c Khoản 3 Điều 273",Node Logic OR
+HP4_273,"Phạt tiền từ 10-30 triệu đồng, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 01 năm",Hình phạt
+D274,"Điều 274. Tội đưa vào sử dụng phương tiện giao thông đường thủy không bảo đảm an toàn",Điều
+K1_274,"Khoản 1 Điều 274",Khoản
+HV1_274,"Cho phép đưa vào sử dụng phương tiện giao thông đường thủy không bảo đảm an toàn kỹ thuật gây thiệt hại hoặc đã xử lý mà còn vi phạm",Hành vi chính
+OR1_274,"Thuộc một trong các trường hợp Khoản 1 Điều 274",Node Logic OR
+P1A_274,"Điểm a: Làm chết người",Điểm
+P1B_274,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_274,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_274,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_274,"Phạt tiền từ 30-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_274,"Khoản 2 Điều 274",Khoản
+HV2_274,"Phạm tội đưa vào sử dụng phương tiện giao thông đường thủy không bảo đảm an toàn",Hành vi chính
+OR2_274,"Thuộc một trong các trường hợp Khoản 2 Điều 274",Node Logic OR
+P2A_274,"Điểm a: Làm chết 02 người",Điểm
+P2B_274,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_274,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đồng đến dưới 1.5 tỷ đồng",Điểm
+HP2_274,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_274,"Khoản 3 Điều 274",Khoản
+HV3_274,"Phạm tội đưa vào sử dụng phương tiện giao thông đường thủy không bảo đảm an toàn",Hành vi chính
+OR3_274,"Thuộc một trong các trường hợp Khoản 3 Điều 274",Node Logic OR
+P3A_274,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_274,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_274,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_274,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_274,"Khoản 4 Điều 274",Khoản
+HV4_274,"Người phạm tội đưa vào sử dụng phương tiện giao thông đường thủy không bảo đảm an toàn",Hành vi chính
+HP4_274,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D275,"Điều 275. Tội điều động người không đủ điều kiện điều khiển phương tiện giao thông đường thủy",Điều
+K1_275,"Khoản 1 Điều 275",Khoản
+HV1_275,"Điều động người không đủ điều kiện điều khiển phương tiện giao thông đường thủy gây thiệt hại hoặc đã bị xử lý mà còn vi phạm",Hành vi chính
+OR1_275,"Thuộc một trong các trường hợp Khoản 1 Điều 275",Node Logic OR
+P1A_275,"Điểm a: Làm chết người",Điểm
+P1B_275,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_275,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_275,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_275,"Phạt tiền từ 30-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_275,"Khoản 2 Điều 275",Khoản
+HV2_275,"Phạm tội điều động người không đủ điều kiện điều khiển phương tiện giao thông đường thủy",Hành vi chính
+OR2_275,"Thuộc một trong các trường hợp Khoản 2 Điều 275",Node Logic OR
+P2A_275,"Điểm a: Làm chết 02 người",Điểm
+P2B_275,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_275,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đồng đến dưới 1.5 tỷ đồng",Điểm
+HP2_275,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_275,"Khoản 3 Điều 275",Khoản
+HV3_275,"Phạm tội điều động người không đủ điều kiện điều khiển phương tiện giao thông đường thủy",Hành vi chính
+OR3_275,"Thuộc một trong các trường hợp Khoản 3 Điều 275",Node Logic OR
+P3A_275,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_275,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_275,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_275,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_275,"Khoản 4 Điều 275",Khoản
+HV4_275,"Người phạm tội điều động người không đủ điều kiện điều khiển phương tiện",Hành vi chính
+HP4_275,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D276,"Điều 276. Tội giao cho người không đủ điều kiện điều khiển phương tiện giao thông đường thủy",Điều
+K1_276,"Khoản 1 Điều 276",Khoản
+HV1_276,"Giao phương tiện giao thông đường thủy cho người không đủ điều kiện điều khiển gây thiệt hại hoặc đã bị xử lý mà còn vi phạm",Hành vi chính
+OR1_276,"Thuộc một trong các trường hợp Khoản 1 Điều 276",Node Logic OR
+P1A_276,"Điểm a: Làm chết người",Điểm
+P1B_276,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_276,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_276,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_276,"Phạt tiền từ 30-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_276,"Khoản 2 Điều 276",Khoản
+HV2_276,"Phạm tội giao xe cho người không đủ điều kiện điều khiển",Hành vi chính
+OR2_276,"Thuộc một trong các trường hợp Khoản 2 Điều 276",Node Logic OR
+P2A_276,"Điểm a: Làm chết 02 người",Điểm
+P2B_276,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_276,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đồng đến dưới 1.5 tỷ đồng",Điểm
+HP2_276,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_276,"Khoản 3 Điều 276",Khoản
+HV3_276,"Phạm tội giao xe cho người không đủ điều kiện điều khiển",Hành vi chính
+OR3_276,"Thuộc một trong các trường hợp Khoản 3 Điều 276",Node Logic OR
+P3A_276,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_276,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_276,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_276,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_276,"Khoản 4 Điều 276",Khoản
+HV4_276,"Người phạm tội giao xe cho người không đủ điều kiện điều khiển",Hành vi chính
+HP4_276,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D277,"Điều 277. Tội vi phạm quy định về điều khiển tàu bay",Điều
+K1_277,"Khoản 1 Điều 277",Khoản
+HV1_277,"Chỉ huy, điều khiển tàu bay vi phạm quy định an toàn giao thông đường không có khả năng thực tế dẫn đến hậu quả gây thiệt hại",Hành vi chính
+HP1_277,"Phạt tiền từ 30-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_277,"Khoản 2 Điều 277",Khoản
+HV2_277,"Phạm tội vi phạm quy định về điều khiển tàu bay",Hành vi chính
+OR2_277,"Thuộc một trong các trường hợp Khoản 2 Điều 277",Node Logic OR
+P2A_277,"Điểm a: Làm chết người",Điểm
+P2B_277,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe của người khác tỷ lệ 61% trở lên",Điểm
+P2C_277,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P2D_277,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP2_277,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_277,"Khoản 3 Điều 277",Khoản
+HV3_277,"Phạm tội vi phạm quy định về điều khiển tàu bay",Hành vi chính
+OR3_277,"Thuộc một trong các trường hợp Khoản 3 Điều 277",Node Logic OR
+P3A_277,"Điểm a: Làm chết 02 người",Điểm
+P3B_277,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P3C_277,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đồng đến dưới 1.5 tỷ đồng",Điểm
+HP3_277,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_277,"Khoản 4 Điều 277",Khoản
+HV4_277,"Phạm tội vi phạm quy định về điều khiển tàu bay",Hành vi chính
+OR4_277,"Thuộc một trong các trường hợp Khoản 4 Điều 277",Node Logic OR
+P4A_277,"Điểm a: Làm chết 03 người trở lên",Điểm
+P4B_277,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P4C_277,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP4_277,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+K5_277,"Khoản 5 Điều 277",Khoản
+HV5_277,"Người phạm tội vi phạm quy định về điều khiển tàu bay",Hành vi chính
+HP5_277,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D278,"Điều 278. Tội cản trở giao thông đường không",Điều
+K1_278,"Khoản 1 Điều 278",Khoản
+HV1_278,"Đặt chướng ngại vật, làm sai lệch tín hiệu, cung cấp thông tin sai... gây cản trở giao thông đường không gây thiệt hại",Hành vi chính
+OR1_278,"Thuộc một trong các trường hợp Khoản 1 Điều 278",Node Logic OR
+P1A_278,"Điểm a: Làm chết người",Điểm
+P1B_278,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_278,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_278,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_278,"Phạt tiền từ 30-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_278,"Khoản 2 Điều 278",Khoản
+HV2_278,"Phạm tội cản trở giao thông đường không",Hành vi chính
+OR2_278,"Thuộc một trong các trường hợp Khoản 2 Điều 278",Node Logic OR
+P2A_278,"Điểm a: Làm chết 02 người",Điểm
+P2B_278,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_278,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đồng đến dưới 1.5 tỷ đồng",Điểm
+P2D_278,"Điểm d: Là người có trách nhiệm trực tiếp bảo đảm an toàn giao thông đường không hoặc quản lý thiết bị",Điểm
+HP2_278,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_278,"Khoản 3 Điều 278",Khoản
+HV3_278,"Phạm tội cản trở giao thông đường không",Hành vi chính
+OR3_278,"Thuộc một trong các trường hợp Khoản 3 Điều 278",Node Logic OR
+P3A_278,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_278,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_278,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_278,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_278,"Khoản 4 Điều 278",Khoản
+HV4_278,"Cản trở giao thông đường không có khả năng thực tế dẫn đến hậu quả nếu không ngăn chặn kịp thời",Hành vi chính
+OR4_278,"Một trong các điểm a, b, c Khoản 3 Điều 278",Node Logic OR
+HP4_278,"Phạt tiền từ 10-50 triệu đồng, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm",Hình phạt
+K5_278,"Khoản 5 Điều 278",Khoản
+HV5_278,"Người phạm tội cản trở giao thông đường không",Hành vi chính
+HP5_278,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D279,"Điều 279. Tội đưa vào sử dụng tàu bay, thiết bị bảo đảm hoạt động bay không bảo đảm an toàn",Điều
+K1_279,"Khoản 1 Điều 279",Khoản
+HV1_279,"Chịu trách nhiệm trực tiếp đưa vào sử dụng tàu bay, thiết bị không bảo đảm an toàn",Hành vi chính
+HP1_279,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_279,"Khoản 2 Điều 279",Khoản
+HV2_279,"Phạm tội đưa vào sử dụng tàu bay, thiết bị không bảo đảm an toàn",Hành vi chính
+OR2_279,"Thuộc một trong các trường hợp Khoản 2 Điều 279",Node Logic OR
+P2A_279,"Điểm a: Làm chết người",Điểm
+P2B_279,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe người khác tỷ lệ 61% trở lên",Điểm
+P2C_279,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P2D_279,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP2_279,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_279,"Khoản 3 Điều 279",Khoản
+HV3_279,"Phạm tội đưa vào sử dụng tàu bay, thiết bị không bảo đảm an toàn",Hành vi chính
+OR3_279,"Thuộc một trong các trường hợp Khoản 3 Điều 279",Node Logic OR
+P3A_279,"Điểm a: Làm chết 02 người",Điểm
+P3B_279,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P3C_279,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đồng đến dưới 1.5 tỷ đồng",Điểm
+HP3_279,"Phạt tù từ 08 năm đến 15 năm",Hình phạt
+K4_279,"Khoản 4 Điều 279",Khoản
+HV4_279,"Phạm tội đưa vào sử dụng tàu bay, thiết bị không bảo đảm an toàn",Hành vi chính
+OR4_279,"Thuộc một trong các trường hợp Khoản 4 Điều 279",Node Logic OR
+P4A_279,"Điểm a: Làm chết 03 người trở lên",Điểm
+P4B_279,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P4C_279,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP4_279,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+K5_279,"Khoản 5 Điều 279",Khoản
+HV5_279,"Người phạm tội đưa vào sử dụng tàu bay, thiết bị không bảo đảm an toàn",Hành vi chính
+HP5_279,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D280,"Điều 280. Tội điều động hoặc giao cho người không đủ điều kiện điều khiển tàu bay",Điều
+K1_280,"Khoản 1 Điều 280",Khoản
+HV1_280,"Điều động hoặc giao cho người không đủ điều kiện điều khiển tàu bay",Hành vi chính
+HP1_280,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_280,"Khoản 2 Điều 280",Khoản
+HV2_280,"Phạm tội điều động hoặc giao tàu bay cho người không đủ điều kiện",Hành vi chính
+OR2_280,"Thuộc một trong các trường hợp Khoản 2 Điều 280",Node Logic OR
+P2A_280,"Điểm a: Làm chết người",Điểm
+P2B_280,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe người khác tỷ lệ 61% trở lên",Điểm
+P2C_280,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P2D_280,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP2_280,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+K3_280,"Khoản 3 Điều 280",Khoản
+HV3_280,"Phạm tội điều động hoặc giao tàu bay cho người không đủ điều kiện",Hành vi chính
+OR3_280,"Thuộc một trong các trường hợp Khoản 3 Điều 280",Node Logic OR
+P3A_280,"Điểm a: Làm chết 02 người",Điểm
+P3B_280,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P3C_280,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đồng đến dưới 1.5 tỷ đồng",Điểm
+HP3_280,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_280,"Khoản 4 Điều 280",Khoản
+HV4_280,"Phạm tội điều động hoặc giao tàu bay cho người không đủ điều kiện",Hành vi chính
+OR4_280,"Thuộc một trong các trường hợp Khoản 4 Điều 280",Node Logic OR
+P4A_280,"Điểm a: Làm chết 03 người trở lên",Điểm
+P4B_280,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P4C_280,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP4_280,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+K5_280,"Khoản 5 Điều 280",Khoản
+HV5_280,"Người phạm tội điều động hoặc giao tàu bay cho người không đủ điều kiện",Hành vi chính
+HP5_280,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D281,"Điều 281. Tội vi phạm quy định về duy tu, sửa chữa, quản lý công trình giao thông",Điều
+K1_281,"Khoản 1 Điều 281",Khoản
+HV1_281,"Có trách nhiệm duy tu, sửa chữa, quản lý công trình vi phạm quy định dẫn đến hậu quả thiệt hại",Hành vi chính
+OR1_281,"Có một trong các hành vi Khoản 1 Điều 281",Node Logic OR
+P1A_281,"Điểm a: Không thực hiện hoặc thực hiện không đúng quy định về duy tu, bảo dưỡng",Điểm
+P1B_281,"Điểm b: Không khắc phục kịp thời công trình giao thông bị hư hỏng, đe dọa an toàn",Điểm
+P1C_281,"Điểm c: Không thực hiện đúng biện pháp hướng dẫn, điều khiển giao thông, rào chắn",Điểm
+P1D_281,"Điểm d: Không thực hiện đúng quy định kiểm tra bảo đảm an toàn trên đoạn đường nguy hiểm",Điểm
+P1DD_281,"Điểm đ: Không có biện pháp xử lý kịp thời khi nhận tin báo công trình bị hư hỏng",Điểm
+P1E_281,"Điểm e: Không đặt tín hiệu phòng vệ khi thi công, sửa chữa",Điểm
+P1G_281,"Điểm g: Không thu dọn, thanh thải biển hiệu phòng vệ, rào chắn, phương tiện khi thi công xong",Điểm
+P1H_281,"Điểm h: Vi phạm quy định khác về duy tu, sửa chữa, quản lý công trình giao thông",Điểm
+HP1_281,"Phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_281,"Khoản 2 Điều 281",Khoản
+HV2_281,"Phạm tội vi phạm quy định về duy tu, sửa chữa, quản lý công trình giao thông",Hành vi chính
+OR2_281,"Thuộc một trong các trường hợp Khoản 2 Điều 281",Node Logic OR
+P2A_281,"Điểm a: Làm chết 02 người",Điểm
+P2B_281,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_281,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đồng đến dưới 1.5 tỷ đồng",Điểm
+HP2_281,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+K3_281,"Khoản 3 Điều 281",Khoản
+HV3_281,"Phạm tội vi phạm quy định về duy tu, sửa chữa, quản lý công trình giao thông",Hành vi chính
+OR3_281,"Thuộc một trong các trường hợp Khoản 3 Điều 281",Node Logic OR
+P3A_281,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_281,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_281,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_281,"Phạt tù từ 06 năm đến 15 năm",Hình phạt
+K4_281,"Khoản 4 Điều 281",Khoản
+HV4_281,"Người phạm tội vi phạm quy định về duy tu, sửa chữa, quản lý công trình giao thông",Hành vi chính
+HP4_281,"Phạt tiền từ 10-50 triệu đồng, cấm đảm nhiệm chức vụ, hành nghề hoặc công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D282,"Điều 282. Tội chiếm đoạt tàu bay, tàu thủy",Điều
+K1_282,"Khoản 1 Điều 282",Khoản
+HV1_282,"Dùng vũ lực, đe dọa dùng vũ lực hoặc dùng thủ đoạn khác nhằm chiếm đoạt tàu bay hoặc tàu thủy",Hành vi chính
+HP1_282,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K2_282,"Khoản 2 Điều 282",Khoản
+HV2_282,"Phạm tội chiếm đoạt tàu bay, tàu thủy",Hành vi chính
+OR2_282,"Thuộc một trong các trường hợp Khoản 2 Điều 282",Node Logic OR
+P2A_282,"Điểm a: Có tổ chức",Điểm
+P2B_282,"Điểm b: Sử dụng vũ khí, phương tiện hoặc thủ đoạn nguy hiểm khác",Điểm
+P2C_282,"Điểm c: Gây thương tích hoặc gây tổn hại cho sức khỏe của người khác tỷ lệ từ 31% đến 60%",Điểm
+P2D_282,"Điểm d: Chiếm đoạt tài sản từ 200.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P2DD_282,"Điểm đ: Tái phạm nguy hiểm",Điểm
+HP2_282,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+K3_282,"Khoản 3 Điều 282",Khoản
+HV3_282,"Phạm tội chiếm đoạt tàu bay, tàu thủy",Hành vi chính
+OR3_282,"Thuộc một trong các trường hợp Khoản 3 Điều 282",Node Logic OR
+P3A_282,"Điểm a: Làm chết người",Điểm
+P3B_282,"Điểm b: Gây thương tích hoặc gây tổn hại cho sức khỏe của người khác tỷ lệ 61% trở lên",Điểm
+P3C_282,"Điểm c: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên mỗi người 31% trở lên",Điểm
+P3D_282,"Điểm d: Chiếm đoạt tài sản 500.000.000 đồng trở lên",Điểm
+HP3_282,"Phạt tù 20 năm hoặc tù chung thân",Hình phạt
+K4_282,"Khoản 4 Điều 282",Khoản
+HV4_282,"Người phạm tội chiếm đoạt tàu bay, tàu thủy",Hành vi chính
+HP4_282,"Phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng, phạt quản chế, cấm cư trú 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D283,"Điều 283. Tội điều khiển tàu bay vi phạm quy định về hàng không của nước CHXHCN Việt Nam",Điều
+K1_283,"Khoản 1 Điều 283",Khoản
+HV1_283,"Điều khiển tàu bay vào hoặc ra khỏi Việt Nam vi phạm quy định hàng không (không thuộc Điều 110, 111)",Hành vi chính
+HP1_283,"Phạt tiền từ 100-300 triệu đồng hoặc phạt tù từ 03 tháng đến 03 năm",Hình phạt
+K2_283,"Khoản 2 Điều 283",Khoản
+HV2_283,"Phạm tội điều khiển tàu bay vi phạm quy định hàng không gây hậu quả nghiêm trọng",Hành vi chính
+HP2_283,"Phạt tiền từ 300 triệu đến 1 tỷ đồng hoặc phạt tù từ 02 năm đến 07 năm",Hình phạt
+K3_283,"Khoản 3 Điều 283",Khoản
+HV3_283,"Phạm tội điều khiển tàu bay vi phạm quy định hàng không gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng",Hành vi chính
+HP3_283,"Phạt tiền từ 1 tỷ đến 3 tỷ đồng hoặc phạt tù từ 05 năm đến 12 năm",Hình phạt
+D284,"Điều 284. Tội điều khiển phương tiện hàng hải vi phạm quy định về hàng hải của nước CHXHCN Việt Nam",Điều
+K1_284,"Khoản 1 Điều 284",Khoản
+HV1_284,"Điều khiển phương tiện hàng hải vào, ra hoặc đi qua lãnh hải VN vi phạm quy định hàng hải (không thuộc Điều 110, 111)",Hành vi chính
+OR1_284,"Thực hiện một trong các hành vi Khoản 1 Điều 284",Node Logic OR
+P1A_284,"Điểm a: Chạy quá tốc độ cho phép trong vùng nước cảng biển",Điểm
+P1B_284,"Điểm b: Chạy không đúng vùng được phép hoạt động",Điểm
+P1C_284,"Điểm c: Không thực hiện đúng thủ tục vào cảng, chế độ hoa tiêu, neo đậu, an toàn",Điểm
+P1D_284,"Điểm d: Không thực hiện đúng quy định đi, tránh vượt nhau hoặc không bảo đảm âm hiệu",Điểm
+P1DD_284,"Điểm đ: Không bảo đảm đèn hành trình, tín hiệu ánh sáng, âm hiệu",Điểm
+HP1_284,"Phạt tiền từ 50-200 triệu đồng hoặc phạt cải tạo không giam giữ đến 03 năm",Hình phạt
+K2_284,"Khoản 2 Điều 284",Khoản
+HV2_284,"Phạm tội điều khiển phương tiện hàng hải vi phạm quy định gây hậu quả nghiêm trọng",Hành vi chính
+HP2_284,"Phạt tiền từ 200-500 triệu đồng hoặc phạt tù từ 01 năm đến 03 năm",Hình phạt
+K3_284,"Khoản 3 Điều 284",Khoản
+HV3_284,"Phạm tội điều khiển phương tiện hàng hải vi phạm quy định gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng",Hành vi chính
+HP3_284,"Phạt tiền từ 500 triệu đến 1.5 tỷ đồng hoặc phạt tù từ 03 năm đến 07 năm",Hình phạt
+D285,"Điều 285. Tội sản xuất, mua bán, trao đổi hoặc tặng cho công cụ, thiết bị, phần mềm để sử dụng vào mục đích trái pháp luật",Điều
+K1_285,"Khoản 1 Điều 285",Khoản
+HV1_285,"Sản xuất, mua bán, trao đổi hoặc tặng cho công cụ, thiết bị, phần mềm tấn công mạng để sử dụng vào mục đích trái pháp luật",Hành vi chính
+HP1_285,"Phạt tiền từ 20.000.000 đồng đến 100.000.000 đồng, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm",Hình phạt
+K2_285,"Khoản 2 Điều 285",Khoản
+HV2_285,"Phạm tội sản xuất, mua bán, trao đổi công cụ, thiết bị, phần mềm trái phép",Hành vi chính
+OR2_285,"Thuộc một trong các trường hợp Khoản 2 Điều 285",Node Logic OR
+P2A_285,"Điểm a: Có tổ chức",Điểm
+P2B_285,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+P2C_285,"Điểm c: Có tính chất chuyên nghiệp",Điểm
+P2D_285,"Điểm d: Thu lợi bất chính từ 50.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P2DD_285,"Điểm đ: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 1.000.000.000 đồng",Điểm
+P2E_285,"Điểm e: Tái phạm nguy hiểm",Điểm
+HP2_285,"Phạt tiền từ 100.000.000 đồng đến 500.000.000 đồng hoặc phạt tù từ 01 năm đến 05 năm",Hình phạt
+K3_285,"Khoản 3 Điều 285",Khoản
+HV3_285,"Phạm tội sản xuất, mua bán, trao đổi công cụ, thiết bị, phần mềm trái phép",Hành vi chính
+OR3_285,"Thuộc một trong các trường hợp Khoản 3 Điều 285",Node Logic OR
+P3A_285,"Điểm a: Thu lợi bất chính 500.000.000 đồng trở lên",Điểm
+P3B_285,"Điểm b: Gây thiệt hại về tài sản 1.000.000.000 đồng trở lên",Điểm
+HP3_285,"Phạt tiền từ 500.000.000 đồng đến 1.000.000.000 đồng hoặc phạt tù từ 03 năm đến 07 năm",Hình phạt
+K4_285,"Khoản 4 Điều 285",Khoản
+HV4_285,"Người phạm tội sản xuất, mua bán, trao đổi công cụ, thiết bị, phần mềm trái phép",Hành vi chính
+HP4_285,"Phạt tiền từ 5-100 triệu đồng, cấm đảm nhiệm chức vụ, hành nghề 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D286,"Điều 286. Tội phát tán chương trình tin học gây hại cho hoạt động của mạng máy tính, mạng viễn thông, phương tiện điện tử",Điều
+K1_286,"Khoản 1 Điều 286",Khoản
+HV1_286,"Cố ý phát tán chương trình tin học gây hại cho mạng máy tính, mạng viễn thông, phương tiện điện tử",Hành vi chính
+OR1_286,"Thuộc một trong các trường hợp Khoản 1 Điều 286",Node Logic OR
+P1A_286,"Điểm a: Thu lợi bất chính từ 50.000.000 đồng đến dưới 200.000.000 đồng",Điểm
+P1B_286,"Điểm b: Gây thiệt hại từ 50.000.000 đồng đến dưới 300.000.000 đồng",Điểm
+P1C_286,"Điểm c: Làm lây nhiễm từ 50 đến dưới 200 phương tiện điện tử hoặc hệ thống từ 50 đến dưới 200 người",Điểm
+P1D_286,"Điểm d: Đã bị xử phạt vi phạm hành chính hoặc đã bị kết án chưa được xóa án tích mà còn vi phạm",Điểm
+HP1_286,"Phạt tiền từ 50-200 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_286,"Khoản 2 Điều 286",Khoản
+HV2_286,"Phạm tội phát tán chương trình tin học gây hại",Hành vi chính
+OR2_286,"Thuộc một trong các trường hợp Khoản 2 Điều 286",Node Logic OR
+P2A_286,"Điểm a: Có tổ chức",Điểm
+P2B_286,"Điểm b: Thu lợi bất chính từ 200.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P2C_286,"Điểm c: Gây thiệt hại từ 300.000.000 đồng đến dưới 1.000.000.000 đồng",Điểm
+P2D_286,"Điểm d: Làm lây nhiễm từ 200 đến dưới 500 phương tiện điện tử hoặc hệ thống từ 200 đến dưới 500 người",Điểm
+P2DD_286,"Điểm đ: Tái phạm nguy hiểm",Điểm
+HP2_286,"Phạt tiền từ 200-500 triệu đồng hoặc phạt tù từ 03 năm đến 07 năm",Hình phạt
+K3_286,"Khoản 3 Điều 286",Khoản
+HV3_286,"Phạm tội phát tán chương trình tin học gây hại",Hành vi chính
+OR3_286,"Thuộc một trong các trường hợp Khoản 3 Điều 286",Node Logic OR
+P3A_286,"Điểm a: Đối với hệ thống dữ liệu bí mật nhà nước; phục vụ quốc phòng, an ninh",Điểm
+P3B_286,"Điểm b: Đối với hạ tầng thông tin quốc gia; điều hành lưới điện; tài chính, ngân hàng; điều khiển giao thông",Điểm
+P3C_286,"Điểm c: Thu lợi bất chính 500.000.000 đồng trở lên",Điểm
+P3D_286,"Điểm d: Gây thiệt hại 1.000.000.000 đồng trở lên",Điểm
+P3DD_286,"Điểm đ: Làm lây nhiễm 500 phương tiện điện tử trở lên hoặc hệ thống thông tin có 500 người trở lên",Điểm
+HP3_286,"Phạt tù từ 07 năm đến 12 năm",Hình phạt
+K4_286,"Khoản 4 Điều 286",Khoản
+HV4_286,"Người phạm tội phát tán chương trình tin học gây hại",Hành vi chính
+HP4_286,"Phạt tiền từ 30-200 triệu đồng, cấm đảm nhiệm chức vụ, hành nghề hoặc công việc nhất định 01-05 năm",Hình phạt
+D287,"Điều 287. Tội cản trở hoặc gây rối loạn hoạt động của mạng máy tính, mạng viễn thông, phương tiện điện tử",Điều
+K1_287,"Khoản 1 Điều 287",Khoản
+HV1_287,"Tự ý xóa, làm tổn hại, thay đổi dữ liệu hoặc cản trở, gây rối loạn hoạt động mạng máy tính (không thuộc Điều 286, 289)",Hành vi chính
+OR1_287,"Thuộc một trong các trường hợp Khoản 1 Điều 287",Node Logic OR
+P1A_287,"Điểm a: Thu lợi bất chính từ 50.000.000 đồng đến dưới 200.000.000 đồng",Điểm
+P1B_287,"Điểm b: Gây thiệt hại từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P1C_287,"Điểm c: Làm tê liệt, gián đoạn, ngưng trệ hoạt động từ 30 phút đến dưới 24 giờ hoặc từ 03 lần đến dưới 10 lần trong 24 giờ",Điểm
+P1D_287,"Điểm d: Làm đình trệ hoạt động của cơ quan, tổ chức từ 24 giờ đến dưới 72 giờ",Điểm
+P1DD_287,"Điểm đ: Đã bị xử phạt vi phạm hành chính hoặc đã bị kết án chưa được xóa án tích mà còn vi phạm",Điểm
+HP1_287,"Phạt tiền từ 30.000.000 đồng đến 200.000.000 đồng hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_287,"Khoản 2 Điều 287",Khoản
+HV2_287,"Phạm tội cản trở hoặc gây rối loạn hoạt động mạng máy tính",Hành vi chính
+OR2_287,"Thuộc một trong các trường hợp Khoản 2 Điều 287",Node Logic OR
+P2A_287,"Điểm a: Có tổ chức",Điểm
+P2B_287,"Điểm b: Lợi dụng quyền quản trị mạng máy tính, mạng viễn thông",Điểm
+P2C_287,"Điểm c: Tái phạm nguy hiểm",Điểm
+P2D_287,"Điểm d: Thu lợi bất chính từ 200.000.000 đồng đến dưới 1.000.000.000 đồng",Điểm
+P2DD_287,"Điểm đ: Gây thiệt hại từ 500.000.000 đồng đến dưới 1.500.000.000 đồng",Điểm
+P2E_287,"Điểm e: Làm tê liệt, gián đoạn hoạt động từ 24 giờ đến dưới 168 giờ hoặc từ 10 lần đến dưới 50 lần trong 24 giờ",Điểm
+P2G_287,"Điểm g: Làm đình trệ hoạt động của cơ quan, tổ chức từ 72 giờ đến dưới 168 giờ",Điểm
+HP2_287,"Phạt tiền từ 200 triệu đến 1 tỷ đồng hoặc phạt tù từ 03 năm đến 07 năm",Hình phạt
+K3_287,"Khoản 3 Điều 287",Khoản
+HV3_287,"Phạm tội cản trở hoặc gây rối loạn hoạt động mạng máy tính",Hành vi chính
+OR3_287,"Thuộc một trong các trường hợp Khoản 3 Điều 287",Node Logic OR
+P3A_287,"Điểm a: Đối với hệ thống dữ liệu bí mật nhà nước; phục vụ quốc phòng, an ninh",Điểm
+P3B_287,"Điểm b: Đối với hạ tầng thông tin quốc gia; điều hành lưới điện; tài chính, ngân hàng; điều khiển giao thông",Điểm
+P3C_287,"Điểm c: Thu lợi bất chính 1.000.000.000 đồng trở lên",Điểm
+P3D_287,"Điểm d: Gây thiệt hại 1.500.000.000 đồng trở lên",Điểm
+P3DD_287,"Điểm đ: Làm tê liệt, gián đoạn hoạt động 168 giờ trở lên hoặc 50 lần trở lên trong 24 giờ",Điểm
+P3E_287,"Điểm e: Làm đình trệ hoạt động của cơ quan, tổ chức 168 giờ trở lên",Điểm
+HP3_287,"Phạt tù từ 07 năm đến 12 năm",Hình phạt
+K4_287,"Khoản 4 Điều 287",Khoản
+HV4_287,"Người phạm tội cản trở hoặc gây rối loạn hoạt động mạng máy tính",Hành vi chính
+HP4_287,"Phạt tiền từ 30-200 triệu đồng, cấm đảm nhiệm chức vụ, hành nghề hoặc công việc nhất định 01-05 năm",Hình phạt
+D288,"Điều 288. Tội đưa hoặc sử dụng trái phép thông tin mạng máy tính, mạng viễn thông",Điều
+K1_288,"Khoản 1 Điều 288",Khoản
+HV1_288,"Thực hiện hành vi đưa, sử dụng trái phép thông tin thu lợi bất chính, gây thiệt hại hoặc gây dư luận xấu",Hành vi chính
+OR1_288,"Thực hiện một trong các hành vi Khoản 1 Điều 288",Node Logic OR
+P1A_288,"Điểm a: Đưa lên mạng thông tin trái quy định pháp luật (không thuộc Điều 117, 155, 156, 326)",Điểm
+P1B_288,"Điểm b: Mua bán, trao đổi, công khai hóa thông tin riêng hợp pháp của người khác mà không được phép",Điểm
+P1C_288,"Điểm c: Hành vi khác sử dụng trái phép thông tin trên mạng máy tính, mạng viễn thông",Điểm
+HP1_288,"Phạt tiền từ 30-200 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_288,"Khoản 2 Điều 288",Khoản
+HV2_288,"Phạm tội đưa hoặc sử dụng trái phép thông tin mạng máy tính, mạng viễn thông",Hành vi chính
+OR2_288,"Thuộc một trong các trường hợp Khoản 2 Điều 288",Node Logic OR
+P2A_288,"Điểm a: Có tổ chức",Điểm
+P2B_288,"Điểm b: Lợi dụng quyền quản trị mạng",Điểm
+P2C_288,"Điểm c: Thu lợi bất chính 200.000.000 đồng trở lên",Điểm
+P2D_288,"Điểm d: Gây thiệt hại 500.000.000 đồng trở lên",Điểm
+P2DD_288,"Điểm đ: Xâm phạm bí mật cá nhân dẫn đến người bị xâm phạm tự sát",Điểm
+P2E_288,"Điểm e: Gây ảnh hưởng xấu đến an ninh, trật tự hoặc quan hệ đối ngoại",Điểm
+P2G_288,"Điểm g: Dẫn đến biểu tình",Điểm
+HP2_288,"Phạt tiền từ 200 triệu đến 1 tỷ đồng hoặc phạt tù từ 02 năm đến 07 năm",Hình phạt
+K3_288,"Khoản 3 Điều 288",Khoản
+HV3_288,"Người phạm tội đưa hoặc sử dụng trái phép thông tin mạng",Hành vi chính
+HP3_288,"Phạt tiền từ 20-200 triệu đồng, cấm đảm nhiệm chức vụ, hành nghề hoặc công việc nhất định 01-05 năm",Hình phạt
+D289,"Điều 289. Tội xâm nhập trái phép vào mạng máy tính, mạng viễn thông hoặc phương tiện điện tử của người khác",Điều
+K1_289,"Khoản 1 Điều 289",Khoản
+HV1_289,"Cố ý vượt qua cảnh báo, mã truy cập... xâm nhập trái phép chiếm quyền điều khiển, can thiệp, lấy cắp, hủy hoại dữ liệu",Hành vi chính
+HP1_289,"Phạt tiền từ 50-300 triệu đồng hoặc phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_289,"Khoản 2 Điều 289",Khoản
+HV2_289,"Phạm tội xâm nhập trái phép vào mạng máy tính, mạng viễn thông",Hành vi chính
+OR2_289,"Thuộc một trong các trường hợp Khoản 2 Điều 289",Node Logic OR
+P2A_289,"Điểm a: Có tổ chức",Điểm
+P2B_289,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+P2C_289,"Điểm c: Thu lợi bất chính từ 200.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P2D_289,"Điểm d: Gây thiệt hại từ 300.000.000 đồng đến dưới 1.000.000.000 đồng",Điểm
+P2DD_289,"Điểm đ: Đối với trạm trung chuyển internet, hệ thống cơ sở dữ liệu và máy chủ tên miền quốc gia",Điểm
+P2E_289,"Điểm e: Tái phạm nguy hiểm",Điểm
+HP2_289,"Phạt tiền từ 300 triệu đến 1 tỷ đồng hoặc phạt tù từ 03 năm đến 07 năm",Hình phạt
+K3_289,"Khoản 3 Điều 289",Khoản
+HV3_289,"Phạm tội xâm nhập trái phép vào mạng máy tính, mạng viễn thông",Hành vi chính
+OR3_289,"Thuộc một trong các trường hợp Khoản 3 Điều 289",Node Logic OR
+P3A_289,"Điểm a: Đối với hệ thống dữ liệu bí mật nhà nước; phục vụ quốc phòng, an ninh",Điểm
+P3B_289,"Điểm b: Đối với hạ tầng thông tin quốc gia; điều hành lưới điện; tài chính, ngân hàng; điều khiển giao thông",Điểm
+P3C_289,"Điểm c: Thu lợi bất chính 500.000.000 đồng trở lên",Điểm
+P3D_289,"Điểm d: Gây thiệt hại 1.000.000.000 đồng trở lên",Điểm
+HP3_289,"Phạt tù từ 07 năm đến 12 năm",Hình phạt
+K4_289,"Khoản 4 Điều 289",Khoản
+HV4_289,"Người phạm tội xâm nhập trái phép vào mạng máy tính",Hành vi chính
+HP4_289,"Phạt tiền từ 5-50 triệu đồng, cấm đảm nhiệm chức vụ, hành nghề hoặc công việc nhất định 01-05 năm",Hình phạt
+D290,"Điều 290. Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi chiếm đoạt tài sản",Điều
+K1_290,"Khoản 1 Điều 290",Khoản
+HV1_290,"Sử dụng mạng máy tính, viễn thông thực hiện hành vi nhằm chiếm đoạt tài sản (không thuộc Điều 173, 174)",Hành vi chính
+OR1_290,"Thực hiện một trong các hành vi Khoản 1 Điều 290",Node Logic OR
+P1A_290,"Điểm a: Sử dụng thông tin tài khoản, thẻ ngân hàng để chiếm đoạt hoặc thanh toán",Điểm
+P1B_290,"Điểm b: Làm, tàng trữ, mua bán, sử dụng thẻ ngân hàng giả nhằm chiếm đoạt hoặc thanh toán",Điểm
+P1C_290,"Điểm c: Truy cập bất hợp pháp vào tài khoản nhằm chiếm đoạt",Điểm
+P1D_290,"Điểm d: Lừa đảo trong thương mại điện tử, thanh toán, huy động vốn, kinh doanh đa cấp nhằm chiếm đoạt",Điểm
+P1DD_290,"Điểm đ: Thiết lập, cung cấp trái phép dịch vụ viễn thông, internet nhằm chiếm đoạt",Điểm
+HP1_290,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_290,"Khoản 2 Điều 290",Khoản
+HV2_290,"Phạm tội sử dụng mạng máy tính nhằm chiếm đoạt tài sản",Hành vi chính
+OR2_290,"Thuộc một trong các trường hợp Khoản 2 Điều 290",Node Logic OR
+P2A_290,"Điểm a: Có tổ chức",Điểm
+P2B_290,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+P2C_290,"Điểm c: Có tính chất chuyên nghiệp",Điểm
+P2D_290,"Điểm d: Số lượng thẻ giả từ 50 thẻ đến dưới 200 thẻ",Điểm
+P2DD_290,"Điểm đ: Chiếm đoạt tài sản từ 50.000.000 đồng đến dưới 200.000.000 đồng",Điểm
+P2E_290,"Điểm e: Gây thiệt hại từ 50.000.000 đồng đến dưới 300.000.000 đồng",Điểm
+P2G_290,"Điểm g: Tái phạm nguy hiểm",Điểm
+HP2_290,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+K3_290,"Khoản 3 Điều 290",Khoản
+HV3_290,"Phạm tội sử dụng mạng máy tính nhằm chiếm đoạt tài sản",Hành vi chính
+OR3_290,"Thuộc một trong các trường hợp Khoản 3 Điều 290",Node Logic OR
+P3A_290,"Điểm a: Chiếm đoạt tài sản từ 200.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P3B_290,"Điểm b: Gây thiệt hại từ 300.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P3C_290,"Điểm c: Số lượng thẻ giả từ 200 thẻ đến dưới 500 thẻ",Điểm
+HP3_290,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_290,"Khoản 4 Điều 290",Khoản
+HV4_290,"Phạm tội sử dụng mạng máy tính nhằm chiếm đoạt tài sản",Hành vi chính
+OR4_290,"Thuộc một trong các trường hợp Khoản 4 Điều 290",Node Logic OR
+P4A_290,"Điểm a: Chiếm đoạt tài sản 500.000.000 đồng trở lên",Điểm
+P4B_290,"Điểm b: Gây thiệt hại 500.000.000 đồng trở lên",Điểm
+P4C_290,"Điểm c: Số lượng thẻ giả 500 thẻ trở lên",Điểm
+HP4_290,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+K5_290,"Khoản 5 Điều 290",Khoản
+HV5_290,"Người phạm tội sử dụng mạng máy tính nhằm chiếm đoạt tài sản",Hành vi chính
+HP5_290,"Phạt tiền từ 20-100 triệu đồng, cấm đảm nhiệm chức vụ, hành nghề 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D291,"Điều 291. Tội thu thập, tàng trữ, trao đổi, mua bán, công khai hóa trái phép thông tin về tài khoản ngân hàng",Điều
+K1_291,"Khoản 1 Điều 291",Khoản
+HV1_291,"Thu thập, tàng trữ, mua bán trái phép thông tin tài khoản ngân hàng số lượng 20-<50 tài khoản hoặc thu lợi 20-<50 triệu",Hành vi chính
+HP1_291,"Phạt tiền từ 20-100 triệu đồng hoặc phạt cải tạo không giam giữ đến 03 năm",Hình phạt
+K2_291,"Khoản 2 Điều 291",Khoản
+HV2_291,"Phạm tội vi phạm thông tin tài khoản ngân hàng",Hành vi chính
+OR2_291,"Thuộc một trong những trường hợp Khoản 2 Điều 291",Node Logic OR
+P2A_291,"Điểm a: Số lượng từ 50 tài khoản đến dưới 200 tài khoản",Điểm
+P2B_291,"Điểm b: Có tổ chức",Điểm
+P2C_291,"Điểm c: Có tính chất chuyên nghiệp",Điểm
+P2D_291,"Điểm d: Thu lợi bất chính từ 50.000.000 đồng đến dưới 200.000.000 đồng",Điểm
+P2DD_291,"Điểm đ: Tái phạm nguy hiểm",Điểm
+HP2_291,"Phạt tiền từ 100-200 triệu đồng hoặc phạt tù từ 03 tháng đến 02 năm",Hình phạt
+K3_291,"Khoản 3 Điều 291",Khoản
+HV3_291,"Phạm tội vi phạm thông tin tài khoản ngân hàng",Hành vi chính
+OR3_291,"Thuộc một trong những trường hợp Khoản 3 Điều 291",Node Logic OR
+P3A_291,"Điểm a: Số lượng 200 tài khoản trở lên",Điểm
+P3B_291,"Điểm b: Thu lợi bất chính 200.000.000 đồng trở lên",Điểm
+HP3_291,"Phạt tiền từ 200-500 triệu đồng hoặc phạt tù từ 02 năm đến 07 năm",Hình phạt
+K4_291,"Khoản 4 Điều 291",Khoản
+HV4_291,"Người phạm tội vi phạm thông tin tài khoản ngân hàng",Hành vi chính
+HP4_291,"Phạt tiền từ 10-50 triệu đồng, cấm đảm nhiệm chức vụ, hành nghề 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D293,"Điều 293. Tội sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh",Điều
+K1_293,"Khoản 1 Điều 293",Khoản
+HV1_293,"Sử dụng trái phép tần số vô tuyến điện dành riêng cho cấp cứu, an ninh, quốc phòng... vào mục đích khác gây thiệt hại hoặc đã bị xử lý mà còn vi phạm",Hành vi chính
+HP1_293,"Phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm",Hình phạt
+K2_293,"Khoản 2 Điều 293",Khoản
+HV2_293,"Phạm tội sử dụng trái phép tần số vô tuyến điện dành riêng",Hành vi chính
+OR2_293,"Thuộc một trong các trường hợp Khoản 2 Điều 293",Node Logic OR
+P2A_293,"Điểm a: Có tổ chức",Điểm
+P2B_293,"Điểm b: Gây thiệt hại 500.000.000 đồng trở lên",Điểm
+P2C_293,"Điểm c: Tái phạm nguy hiểm",Điểm
+HP2_293,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D294,"Điều 294. Tội cố ý gây nhiễu có hại",Điều
+K1_294,"Khoản 1 Điều 294",Khoản
+HV1_294,"Cố ý gây nhiễu có hại, cản trở hoạt động bình thường của hệ thống thông tin vô tuyến điện gây thiệt hại hoặc đã bị xử lý mà còn vi phạm",Hành vi chính
+HP1_294,"Phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm",Hình phạt
+K2_294,"Khoản 2 Điều 294",Khoản
+HV2_294,"Phạm tội cố ý gây nhiễu có hại",Hành vi chính
+OR2_294,"Thuộc một trong các trường hợp Khoản 2 Điều 294",Node Logic OR
+P2A_294,"Điểm a: Có tổ chức",Điểm
+P2B_294,"Điểm b: Gây thiệt hại 500.000.000 đồng trở lên",Điểm
+P2C_294,"Điểm c: Tái phạm nguy hiểm",Điểm
+HP2_294,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D295,"Điều 295. Tội vi phạm quy định về an toàn lao động, vệ sinh lao động, về an toàn ở nơi đông người",Điều
+K1_295,"Khoản 1 Điều 295",Khoản
+HV1_295,"Vi phạm quy định về an toàn lao động, vệ sinh lao động, an toàn ở nơi đông người gây thiệt hại",Hành vi chính
+OR1_295,"Thuộc một trong các trường hợp Khoản 1 Điều 295",Node Logic OR
+P1A_295,"Điểm a: Làm chết người",Điểm
+P1B_295,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_295,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_295,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_295,"Phạt tiền từ 20-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_295,"Khoản 2 Điều 295",Khoản
+HV2_295,"Phạm tội vi phạm quy định an toàn lao động, an toàn nơi đông người",Hành vi chính
+OR2_295,"Thuộc một trong các trường hợp Khoản 2 Điều 295",Node Logic OR
+P2A_295,"Điểm a: Làm chết 02 người",Điểm
+P2B_295,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_295,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đồng đến dưới 1.5 tỷ đồng",Điểm
+P2D_295,"Điểm d: Là người có trách nhiệm về an toàn lao động, vệ sinh lao động, an toàn ở nơi đông người",Điểm
+HP2_295,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+K3_295,"Khoản 3 Điều 295",Khoản
+HV3_295,"Phạm tội vi phạm quy định an toàn lao động, an toàn nơi đông người",Hành vi chính
+OR3_295,"Thuộc một trong các trường hợp Khoản 3 Điều 295",Node Logic OR
+P3A_295,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_295,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_295,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_295,"Phạt tù từ 06 năm đến 12 năm",Hình phạt
+K4_295,"Khoản 4 Điều 295",Khoản
+HV4_295,"Vi phạm quy định có khả năng thực tế dẫn đến hậu quả nếu không ngăn chặn kịp thời",Hành vi chính
+OR4_295,"Một trong các điểm a, b, c Khoản 3 Điều 295",Node Logic OR
+HP4_295,"Phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm",Hình phạt
+K5_295,"Khoản 5 Điều 295",Khoản
+HV5_295,"Người phạm tội vi phạm an toàn lao động, an toàn nơi đông người",Hành vi chính
+HP5_295,"Phạt tiền từ 10-50 triệu đồng, cấm đảm nhiệm chức vụ, hành nghề hoặc công việc nhất định 01-05 năm",Hình phạt
+D296,"Điều 296. Tội vi phạm quy định về sử dụng người lao động dưới 16 tuổi",Điều
+K1_296,"Khoản 1 Điều 296",Khoản
+HV1_296,"Sử dụng người lao động dưới 16 tuổi làm công việc nặng nhọc, nguy hiểm, tiếp xúc chất độc hại",Hành vi chính
+OR1_296,"Thuộc một trong các trường hợp Khoản 1 Điều 296",Node Logic OR
+P1A_296,"Điểm a: Đã bị xử phạt vi phạm hành chính hoặc bị kết án chưa xóa án tích mà còn vi phạm",Điểm
+P1B_296,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe người khác tỷ lệ từ 31% đến 60%",Điểm
+P1C_296,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ từ 31% đến 60%",Điểm
+HP1_296,"Phạt tiền từ 30-200 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_296,"Khoản 2 Điều 296",Khoản
+HV2_296,"Phạm tội vi phạm quy định về sử dụng người lao động dưới 16 tuổi",Hành vi chính
+OR2_296,"Thuộc một trong các trường hợp Khoản 2 Điều 296",Node Logic OR
+P2A_296,"Điểm a: Phạm tội 02 lần trở lên",Điểm
+P2B_296,"Điểm b: Làm chết người",Điểm
+P2C_296,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe người khác tỷ lệ 61% trở lên",Điểm
+P2D_296,"Điểm d: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+HP2_296,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+K3_296,"Khoản 3 Điều 296",Khoản
+HV3_296,"Phạm tội vi phạm quy định về sử dụng người lao động dưới 16 tuổi",Hành vi chính
+OR3_296,"Thuộc một trong các trường hợp Khoản 3 Điều 296",Node Logic OR
+P3A_296,"Điểm a: Làm chết 02 người trở lên",Điểm
+P3B_296,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% trở lên",Điểm
+HP3_296,"Phạt tù từ 05 năm đến 12 năm",Hình phạt
+K4_296,"Khoản 4 Điều 296",Khoản
+HV4_296,"Người phạm tội vi phạm sử dụng lao động dưới 16 tuổi",Hành vi chính
+HP4_296,"Phạt tiền từ 10-50 triệu đồng, cấm hành nghề hoặc làm công việc nhất định 01-05 năm",Hình phạt
+D297,"Điều 297. Tội cưỡng bức lao động",Điều
+K1_297,"Khoản 1 Điều 297",Khoản
+HV1_297,"Dùng vũ lực, đe dọa hoặc thủ đoạn ép buộc người khác phải lao động",Hành vi chính
+OR1_297,"Thuộc một trong các trường hợp Khoản 1 Điều 297",Node Logic OR
+P1A_297,"Điểm a: Đã bị xử phạt vi phạm hành chính hoặc bị kết án chưa xóa án tích mà còn vi phạm",Điểm
+P1B_297,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ từ 31% đến 60%",Điểm
+P1C_297,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ từ 31% đến 60%",Điểm
+HP1_297,"Phạt tiền từ 50-200 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_297,"Khoản 2 Điều 297",Khoản
+HV2_297,"Phạm tội cưỡng bức lao động",Hành vi chính
+OR2_297,"Thuộc một trong các trường hợp Khoản 2 Điều 297",Node Logic OR
+P2A_297,"Điểm a: Có tổ chức",Điểm
+P2B_297,"Điểm b: Đối với người dưới 16 tuổi, phụ nữ có thai, người già yếu, khuyết tật nặng",Điểm
+P2C_297,"Điểm c: Làm chết người",Điểm
+P2D_297,"Điểm d: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P2DD_297,"Điểm đ: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P2E_297,"Điểm e: Tái phạm nguy hiểm",Điểm
+HP2_297,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+K3_297,"Khoản 3 Điều 297",Khoản
+HV3_297,"Phạm tội cưỡng bức lao động",Hành vi chính
+OR3_297,"Thuộc một trong các trường hợp Khoản 3 Điều 297",Node Logic OR
+P3A_297,"Điểm a: Làm chết 02 người trở lên",Điểm
+P3B_297,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% trở lên",Điểm
+HP3_297,"Phạt tù từ 05 năm đến 12 năm",Hình phạt
+K4_297,"Khoản 4 Điều 297",Khoản
+HV4_297,"Người phạm tội cưỡng bức lao động",Hành vi chính
+HP4_297,"Phạt tiền từ 30-100 triệu đồng, cấm đảm nhiệm chức vụ, hành nghề hoặc công việc nhất định 01-05 năm",Hình phạt
+D298,"Điều 298. Tội vi phạm quy định về xây dựng gây hậu quả nghiêm trọng",Điều
+K1_298,"Khoản 1 Điều 298",Khoản
+HV1_298,"Vi phạm quy định xây dựng trong khảo sát, thiết kế, thi công, giám sát... gây thiệt hại (không thuộc Điều 224, 281)",Hành vi chính
+OR1_298,"Thuộc một trong các trường hợp Khoản 1 Điều 298",Node Logic OR
+P1A_298,"Điểm a: Làm chết người",Điểm
+P1B_298,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe người khác tỷ lệ 61% trở lên",Điểm
+P1C_298,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_298,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_298,"Phạt tiền từ 50-500 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_298,"Khoản 2 Điều 298",Khoản
+HV2_298,"Phạm tội vi phạm quy định về xây dựng",Hành vi chính
+OR2_298,"Thuộc một trong các trường hợp Khoản 2 Điều 298",Node Logic OR
+P2A_298,"Điểm a: Làm chết 02 người",Điểm
+P2B_298,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_298,"Điểm c: Gây thiệt hại về tài sản từ 500 triệu đồng đến dưới 1.5 tỷ đồng",Điểm
+HP2_298,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_298,"Khoản 3 Điều 298",Khoản
+HV3_298,"Phạm tội vi phạm quy định về xây dựng",Hành vi chính
+OR3_298,"Thuộc một trong các trường hợp Khoản 3 Điều 298",Node Logic OR
+P3A_298,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_298,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_298,"Điểm c: Gây thiệt hại về tài sản 1.5 tỷ đồng trở lên",Điểm
+HP3_298,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_298,"Khoản 4 Điều 298",Khoản
+HV4_298,"Người phạm tội vi phạm quy định về xây dựng",Hành vi chính
+HP4_298,"Phạt tiền từ 30-100 triệu đồng, cấm đảm nhiệm chức vụ, hành nghề hoặc công việc nhất định 01-05 năm",Hình phạt
+D299,"Điều 299. Tội khủng bố",Điều
+K1_299,"Khoản 1 Điều 299",Khoản
+HV1_299,"Nhằm gây tình trạng hoảng sợ trong công chúng mà xâm phạm tính mạng hoặc phá hủy tài sản của cơ quan, tổ chức, cá nhân",Hành vi chính
+HP1_299,"Phạt tù từ 10 năm đến 20 năm, tù chung thân hoặc tử hình",Hình phạt
+K2_299,"Khoản 2 Điều 299",Khoản
+HV2_299,"Phạm tội khủng bố",Hành vi chính
+OR2_299,"Thuộc một trong các trường hợp Khoản 2 Điều 299",Node Logic OR
+P2A_299,"Điểm a: Thành lập, tham gia tổ chức khủng bố, tổ chức tài trợ khủng bố",Điểm
+P2B_299,"Điểm b: Cưỡng ép, lôi kéo, tuyển mộ, đào tạo phần tử khủng bố; chế tạo, cung cấp vũ khí",Điểm
+P2C_299,"Điểm c: Xâm phạm tự do thân thể, sức khỏe hoặc chiếm giữ, làm hư hại tài sản",Điểm
+P2D_299,"Điểm d: Tấn công, xâm hại, cản trở, gây rối loạn hoạt động mạng máy tính, viễn thông, phương tiện điện tử",Điểm
+HP2_299,"Phạt tù từ 05 năm đến 15 năm",Hình phạt
+K3_299,"Khoản 3 Điều 299",Khoản
+HV3_299,"Đe dọa thực hiện hành vi khủng bố tại khoản 1 hoặc có hành vi khác uy hiếp tinh thần",Hành vi chính
+HP3_299,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+K4_299,"Khoản 4 Điều 299",Khoản
+HV4_299,"Chuẩn bị phạm tội khủng bố",Hành vi chính
+HP4_299,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K5_299,"Khoản 5 Điều 299",Khoản
+HV5_299,"Người phạm tội khủng bố",Hành vi chính
+HP5_299,"Tước một số quyền công dân, phạt quản chế, cấm cư trú 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D300,"Điều 300. Tội tài trợ khủng bố",Điều
+K1_300,"Khoản 1 Điều 300",Khoản
+HV1_300,"Huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố",Hành vi chính
+HP1_300,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+K2_300,"Khoản 2 Điều 300",Khoản
+HV2_300,"Chuẩn bị phạm tội tài trợ khủng bố",Hành vi chính
+HP2_300,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K3_300,"Khoản 3 Điều 300",Khoản
+HV3_300,"Người phạm tội tài trợ khủng bố",Hành vi chính
+HP3_300,"Phạt quản chế, cấm cư trú 01-05 năm hoặc tịch thu tài sản",Hình phạt
+K4_300,"Khoản 4 Điều 300",Khoản
+HV4_300,"Pháp nhân thương mại phạm tội tài trợ khủng bố",Hành vi chính
+OR4_300,"Thuộc các trường hợp quy định tại Khoản 4 Điều 300",Node Logic OR
+P4A_300,"Điểm a: Phạm tội thuộc trường hợp quy định tại khoản 1 Điều này",Điểm
+P4B_300,"Điểm b: Phạm tội thuộc trường hợp quy định tại Điều 79 của Bộ luật này",Điểm
+P4C_300,"Điểm c: Hình phạt bổ sung đối với pháp nhân thương mại",Điểm
+HP4_300,"Phạt tiền từ 7-15 tỷ đồng, đình chỉ hoạt động 06 tháng đến vĩnh viễn, phạt tiền bổ sung hoặc cấm kinh doanh",Hình phạt
+D301,"Điều 301. Tội bắt cóc con tin",Điều
+K1_301,"Khoản 1 Điều 301",Khoản
+HV1_301,"Bắt, giữ, giam người làm con tin nhằm cưỡng ép quốc gia, tổ chức, cá nhân làm một việc (không thuộc Điều 113, 299)",Hành vi chính
+HP1_301,"Phạt tù từ 01 năm đến 04 năm",Hình phạt
+K2_301,"Khoản 2 Điều 301",Khoản
+HV2_301,"Phạm tội bắt cóc con tin",Hành vi chính
+OR2_301,"Thuộc một trong các trường hợp Khoản 2 Điều 301",Node Logic OR
+P2A_301,"Điểm a: Có tổ chức",Điểm
+P2B_301,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+P2C_301,"Điểm c: Đối với người dưới 18 tuổi, phụ nữ có thai, người đủ 70 tuổi trở lên",Điểm
+P2D_301,"Điểm d: Đối với người đang thi hành công vụ",Điểm
+P2DD_301,"Điểm đ: Gây hậu quả nghiêm trọng",Điểm
+HP2_301,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+K3_301,"Khoản 3 Điều 301",Khoản
+HV3_301,"Phạm tội bắt cóc con tin gây hậu quả rất nghiêm trọng",Hành vi chính
+HP3_301,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+K4_301,"Khoản 4 Điều 301",Khoản
+HV4_301,"Phạm tội bắt cóc con tin gây hậu quả đặc biệt nghiêm trọng",Hành vi chính
+HP4_301,"Phạt tù từ 08 năm đến 15 năm",Hình phạt
+K5_301,"Khoản 5 Điều 301",Khoản
+HV5_301,"Chuẩn bị phạm tội bắt cóc con tin",Hành vi chính
+HP5_301,"Phạt tù từ 06 tháng đến 03 năm",Hình phạt
+D302,"Điều 302. Tội cướp biển",Điều
+K1_302,"Khoản 1 Điều 302",Khoản
+HV1_302,"Thực hiện hành vi tấn công, bắt giữ hoặc cướp phá trên biển",Hành vi chính
+OR1_302,"Thực hiện một trong các hành vi Khoản 1 Điều 302",Node Logic OR
+P1A_302,"Điểm a: Tấn công tàu biển, phương tiện bay hoặc hàng hải khác ở biển cả hoặc nơi không thuộc quyền tài phán quốc gia",Điểm
+P1B_302,"Điểm b: Tấn công hoặc bắt giữ người trên các phương tiện quy định tại điểm a",Điểm
+P1C_302,"Điểm c: Cướp phá tài sản trên các phương tiện quy định tại điểm a",Điểm
+HP1_302,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+K2_302,"Khoản 2 Điều 302",Khoản
+HV2_302,"Phạm tội cướp biển",Hành vi chính
+OR2_302,"Thuộc một trong các trường hợp Khoản 2 Điều 302",Node Logic OR
+P2A_302,"Điểm a: Có tổ chức",Điểm
+P2B_302,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe người khác tỷ lệ từ 11% đến 30%",Điểm
+P2C_302,"Điểm c: Chiếm đoạt tài sản từ 50.000.000 đồng đến dưới 200.000.000 đồng",Điểm
+P2D_302,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP2_302,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K3_302,"Khoản 3 Điều 302",Khoản
+HV3_302,"Phạm tội cướp biển",Hành vi chính
+OR3_302,"Thuộc một trong các trường hợp Khoản 3 Điều 302",Node Logic OR
+P3A_302,"Điểm a: Gây thương tích hoặc gây tổn hại sức khỏe người khác tỷ lệ từ 31% đến 60%",Điểm
+P3B_302,"Điểm b: Chiếm đoạt tài sản từ 200.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P3C_302,"Điểm c: Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.000.000.000 đồng",Điểm
+HP3_302,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+K4_302,"Khoản 4 Điều 302",Khoản
+HV4_302,"Phạm tội cướp biển",Hành vi chính
+OR4_302,"Thuộc một trong các trường hợp Khoản 4 Điều 302",Node Logic OR
+P4A_302,"Điểm a: Làm chết người",Điểm
+P4B_302,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe người khác tỷ lệ 61% trở lên",Điểm
+P4C_302,"Điểm c: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên mỗi người tỷ lệ 31% trở lên",Điểm
+P4D_302,"Điểm d: Chiếm đoạt tài sản 500.000.000 đồng trở lên",Điểm
+P4DD_302,"Điểm đ: Gây thiệt hại về tài sản 1.000.000.000 đồng trở lên",Điểm
+HP4_302,"Phạt tù từ 18 năm đến 20 năm hoặc tù chung thân",Hình phạt
+K5_302,"Khoản 5 Điều 302",Khoản
+HV5_302,"Chuẩn bị phạm tội cướp biển",Hành vi chính
+HP5_302,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D303,"Điều 303. Tội phá hủy công trình, cơ sở, phương tiện quan trọng về an ninh quốc gia",Điều
+K1_303,"Khoản 1 Điều 303",Khoản
+HV1_303,"Phá hủy công trình, cơ sở, phương tiện giao thông, thông tin, điện lực... quan trọng (không thuộc Điều 114)",Hành vi chính
+HP1_303,"Phạt tù từ 03 năm đến 12 năm",Hình phạt
+K2_303,"Khoản 2 Điều 303",Khoản
+HV2_303,"Phạm tội phá hủy công trình quan trọng về an ninh quốc gia",Hành vi chính
+OR2_303,"Thuộc một trong các trường hợp Khoản 2 Điều 303",Node Logic OR
+P2A_303,"Điểm a: Có tổ chức",Điểm
+P2B_303,"Điểm b: Làm công trình, cơ sở, phương tiện quan trọng về an ninh quốc gia hư hỏng, ngưng hoạt động",Điểm
+P2C_303,"Điểm c: Làm chết 03 người trở lên",Điểm
+P2D_303,"Điểm d: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P2DD_303,"Điểm đ: Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên",Điểm
+P2E_303,"Điểm e: Gây ảnh hưởng xấu đến tình hình kinh tế - xã hội",Điểm
+P2G_303,"Điểm g: Tái phạm nguy hiểm",Điểm
+HP2_303,"Phạt tù từ 10 năm đến 20 năm hoặc tù chung thân",Hình phạt
+K3_303,"Khoản 3 Điều 303",Khoản
+HV3_303,"Chuẩn bị phạm tội phá hủy công trình quan trọng",Hành vi chính
+HP3_303,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K4_303,"Khoản 4 Điều 303",Khoản
+HV4_303,"Người phạm tội phá hủy công trình quan trọng",Hành vi chính
+HP4_303,"Phạt quản chế từ 01 năm đến 05 năm",Hình phạt
+D304,"Điều 304. Tội chế tạo, tàng trữ, vận chuyển, sử dụng, mua bán trái phép hoặc chiếm đoạt vũ khí quân dụng, phương tiện kỹ thuật quân sự",Điều
+K1_304,"Khoản 1 Điều 304",Khoản
+HV1_304,"Chế tạo, tàng trữ, vận chuyển, sử dụng, mua bán trái phép hoặc chiếm đoạt vũ khí quân dụng, phương tiện kỹ thuật quân sự",Hành vi chính
+HP1_304,"Phạt tù từ 01 năm đến 07 năm",Hình phạt
+K2_304,"Khoản 2 Điều 304",Khoản
+HV2_304,"Phạm tội về vũ khí quân dụng, phương tiện kỹ thuật quân sự",Hành vi chính
+OR2_304,"Thuộc một trong các trường hợp Khoản 2 Điều 304",Node Logic OR
+P2A_304,"Điểm a: Có tổ chức",Điểm
+P2B_304,"Điểm b: Vận chuyển, mua bán qua biên giới",Điểm
+P2C_304,"Điểm c: Làm chết người",Điểm
+P2D_304,"Điểm d: Gây thương tích hoặc tổn hại sức khỏe người khác tỷ lệ 61% trở lên",Điểm
+P2DD_304,"Điểm đ: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P2E_304,"Điểm e: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P2G_304,"Điểm g: Vật phạm pháp có số lượng lớn hoặc có giá trị lớn",Điểm
+P2H_304,"Điểm h: Tái phạm nguy hiểm",Điểm
+HP2_304,"Phạt tù từ 05 năm đến 12 năm",Hình phạt
+K3_304,"Khoản 3 Điều 304",Khoản
+HV3_304,"Phạm tội về vũ khí quân dụng, phương tiện kỹ thuật quân sự",Hành vi chính
+OR3_304,"Thuộc một trong các trường hợp Khoản 3 Điều 304",Node Logic OR
+P3A_304,"Điểm a: Làm chết 02 người",Điểm
+P3B_304,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P3C_304,"Điểm c: Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng",Điểm
+P3D_304,"Điểm d: Vật phạm pháp có số lượng rất lớn hoặc giá trị rất lớn",Điểm
+HP3_304,"Phạt tù từ 10 năm đến 15 năm",Hình phạt
+K4_304,"Khoản 4 Điều 304",Khoản
+HV4_304,"Phạm tội về vũ khí quân dụng, phương tiện kỹ thuật quân sự",Hành vi chính
+OR4_304,"Thuộc một trong các trường hợp Khoản 4 Điều 304",Node Logic OR
+P4A_304,"Điểm a: Làm chết 03 người trở lên",Điểm
+P4B_304,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P4C_304,"Điểm c: Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên",Điểm
+P4D_304,"Điểm d: Vật phạm pháp có số lượng đặc biệt lớn hoặc giá trị đặc biệt lớn",Điểm
+HP4_304,"Phạt tù từ 15 năm đến 20 năm hoặc tù chung thân",Hình phạt
+K5_304,"Khoản 5 Điều 304",Khoản
+HV5_304,"Người phạm tội về vũ khí quân dụng, phương tiện kỹ thuật quân sự",Hành vi chính
+HP5_304,"Phạt tiền từ 10-50 triệu đồng, phạt quản chế hoặc cấm cư trú 01-05 năm",Hình phạt
+D305,"Điều 305. Tội chế tạo, tàng trữ, vận chuyển, sử dụng, mua bán trái phép hoặc chiếm đoạt vật liệu nổ",Điều
+K1_305,"Khoản 1 Điều 305",Khoản
+HV1_305,"Chế tạo, tàng trữ, vận chuyển, sử dụng, mua bán trái phép hoặc chiếm đoạt vật liệu nổ",Hành vi chính
+HP1_305,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_305,"Khoản 2 Điều 305",Khoản
+HV2_305,"Phạm tội về vật liệu nổ",Hành vi chính
+OR2_305,"Thuộc một trong các trường hợp Khoản 2 Điều 305",Node Logic OR
+P2A_305,"Điểm a: Có tổ chức",Điểm
+P2B_305,"Điểm b: Thuốc nổ các loại từ 10 kilôgam đến dưới 30 kilôgam",Điểm
+P2C_305,"Điểm c: Các loại phụ kiện nổ có số lượng lớn",Điểm
+P2D_305,"Điểm d: Vận chuyển, mua bán qua biên giới",Điểm
+P2DD_305,"Điểm đ: Làm chết người",Điểm
+P2E_305,"Điểm e: Gây thương tích hoặc tổn hại sức khỏe người khác tỷ lệ 61% trở lên",Điểm
+P2G_305,"Điểm g: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P2H_305,"Điểm h: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P2I_305,"Điểm i: Tái phạm nguy hiểm",Điểm
+HP2_305,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_305,"Khoản 3 Điều 305",Khoản
+HV3_305,"Phạm tội về vật liệu nổ",Hành vi chính
+OR3_305,"Thuộc một trong các trường hợp Khoản 3 Điều 305",Node Logic OR
+P3A_305,"Điểm a: Thuốc nổ các loại từ 30 kilôgam đến dưới 100 kilôgam",Điểm
+P3B_305,"Điểm b: Các loại phụ kiện nổ có số lượng rất lớn",Điểm
+P3C_305,"Điểm c: Làm chết 02 người",Điểm
+P3D_305,"Điểm d: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P3DD_305,"Điểm đ: Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng",Điểm
+HP3_305,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_305,"Khoản 4 Điều 305",Khoản
+HV4_305,"Phạm tội về vật liệu nổ",Hành vi chính
+OR4_305,"Thuộc một trong các trường hợp Khoản 4 Điều 305",Node Logic OR
+P4A_305,"Điểm a: Thuốc nổ các loại 100 kilôgam trở lên",Điểm
+P4B_305,"Điểm b: Các loại phụ kiện nổ có số lượng đặc biệt lớn",Điểm
+P4C_305,"Điểm c: Làm chết 03 người trở lên",Điểm
+P4D_305,"Điểm d: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P4DD_305,"Điểm đ: Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên",Điểm
+HP4_305,"Phạt tù từ 15 năm đến 20 năm hoặc tù chung thân",Hình phạt
+K5_305,"Khoản 5 Điều 305",Khoản
+HV5_305,"Người phạm tội về vật liệu nổ",Hành vi chính
+HP5_305,"Phạt tiền từ 10-50 triệu đồng, phạt quản chế hoặc cấm cư trú 01-05 năm",Hình phạt
+D306,"Điều 306. Tội chế tạo, tàng trữ, vận chuyển, sử dụng, mua bán trái phép hoặc chiếm đoạt súng săn, vũ khí thô sơ, vũ khí thể thao hoặc công cụ hỗ trợ",Điều
+K1_306,"Khoản 1 Điều 306",Khoản
+HV1_306,"Chế tạo, tàng trữ, vận chuyển... súng săn, vũ khí thô sơ, thể thao... đã bị xử phạt hành chính hoặc kết án chưa xóa án tích mà còn vi phạm",Hành vi chính
+HP1_306,"Phạt tù từ 03 tháng đến 02 năm",Hình phạt
+K2_306,"Khoản 2 Điều 306",Khoản
+HV2_306,"Phạm tội về súng săn, vũ khí thô sơ, thể thao",Hành vi chính
+OR2_306,"Thuộc một trong các trường hợp Khoản 2 Điều 306",Node Logic OR
+P2A_306,"Điểm a: Có tổ chức",Điểm
+P2B_306,"Điểm b: Vật phạm pháp có số lượng lớn",Điểm
+P2C_306,"Điểm c: Vận chuyển, mua bán qua biên giới",Điểm
+P2D_306,"Điểm d: Làm chết người",Điểm
+P2DD_306,"Điểm đ: Gây thương tích hoặc tổn hại sức khỏe người khác tỷ lệ 61% trở lên",Điểm
+P2E_306,"Điểm e: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P2G_306,"Điểm g: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P2H_306,"Điểm h: Tái phạm nguy hiểm",Điểm
+HP2_306,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K3_306,"Khoản 3 Điều 306",Khoản
+HV3_306,"Phạm tội về súng săn, vũ khí thô sơ, thể thao",Hành vi chính
+OR3_306,"Thuộc một trong các trường hợp Khoản 3 Điều 306",Node Logic OR
+P3A_306,"Điểm a: Vật phạm pháp có số lượng rất lớn hoặc đặc biệt lớn",Điểm
+P3B_306,"Điểm b: Làm chết 02 người trở lên",Điểm
+P3C_306,"Điểm c: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% trở lên",Điểm
+P3D_306,"Điểm d: Gây thiệt hại về tài sản 500.000.000 đồng trở lên",Điểm
+HP3_306,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+K4_306,"Khoản 4 Điều 306",Khoản
+HV4_306,"Người phạm tội về súng săn, vũ khí thô sơ, thể thao",Hành vi chính
+HP4_306,"Phạt tiền từ 10-50 triệu đồng, phạt quản chế hoặc cấm cư trú 01-05 năm",Hình phạt
+D307,"Điều 307. Tội vi phạm quy định về quản lý vũ khí, vật liệu nổ, công cụ hỗ trợ",Điều
+K1_307,"Khoản 1 Điều 307",Khoản
+HV1_307,"Vi phạm quy định quản lý vũ khí quân dụng, vật liệu nổ... gây thiệt hại",Hành vi chính
+OR1_307,"Thuộc một trong các trường hợp Khoản 1 Điều 307",Node Logic OR
+P1A_307,"Điểm a: Làm chết người",Điểm
+P1B_307,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_307,"Điểm c: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_307,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_307,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_307,"Khoản 2 Điều 307",Khoản
+HV2_307,"Phạm tội vi phạm quy định quản lý vũ khí, vật liệu nổ",Hành vi chính
+OR2_307,"Thuộc một trong các trường hợp Khoản 2 Điều 307",Node Logic OR
+P2A_307,"Điểm a: Làm chết 02 người",Điểm
+P2B_307,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_307,"Điểm c: Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng",Điểm
+HP2_307,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_307,"Khoản 3 Điều 307",Khoản
+HV3_307,"Phạm tội vi phạm quy định quản lý vũ khí, vật liệu nổ",Hành vi chính
+OR3_307,"Thuộc một trong các trường hợp Khoản 3 Điều 307",Node Logic OR
+P3A_307,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_307,"Điểm b: Gây thương tích hoặc tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_307,"Điểm c: Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên",Điểm
+HP3_307,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_307,"Khoản 4 Điều 307",Khoản
+HV4_307,"Vi phạm quy định có khả năng thực tế dẫn đến hậu quả nếu không ngăn chặn kịp thời",Hành vi chính
+OR4_307,"Một trong các điểm a, b, c Khoản 3 Điều 307",Node Logic OR
+HP4_307,"Phạt tiền từ 10-50 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 03 tháng đến 02 năm",Hình phạt
+K5_307,"Khoản 5 Điều 307",Khoản
+HV5_307,"Người phạm tội vi phạm quy định quản lý vũ khí, vật liệu nổ",Hành vi chính
+HP5_307,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định 01-05 năm",Hình phạt
+D308,"Điều 308. Tội thiếu trách nhiệm trong việc giữ vũ khí, vật liệu nổ, công cụ hỗ trợ gây hậu quả nghiêm trọng",Điều
+K1_308,"Khoản 1 Điều 308",Khoản
+HV1_308,"Được giao vũ khí quân dụng, súng săn, vũ khí thể thao, vật liệu nổ, công cụ hỗ trợ mà thiếu trách nhiệm để người khác sử dụng gây thiệt hại",Hành vi chính
+OR1_308,"Thuộc một trong các trường hợp Khoản 1 Điều 308",Node Logic OR
+P1A_308,"Điểm a: Làm chết người",Điểm
+P1B_308,"Điểm b: Gây thương tích hoặc gây tổn hại cho sức khỏe của người khác mà tỷ lệ tổn thương cơ thể 61% trở lên",Điểm
+P1C_308,"Điểm c: Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người trở lên mà tổng tỷ lệ tổn thương cơ thể từ 61% đến 121%",Điểm
+P1D_308,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_308,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_308,"Khoản 2 Điều 308",Khoản
+HV2_308,"Phạm tội thiếu trách nhiệm trong việc giữ vũ khí, vật liệu nổ, công cụ hỗ trợ",Hành vi chính
+OR2_308,"Thuộc một trong các trường hợp Khoản 2 Điều 308",Node Logic OR
+P2A_308,"Điểm a: Làm chết 02 người",Điểm
+P2B_308,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_308,"Điểm c: Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng",Điểm
+HP2_308,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+K3_308,"Khoản 3 Điều 308",Khoản
+HV3_308,"Phạm tội thiếu trách nhiệm trong việc giữ vũ khí, vật liệu nổ, công cụ hỗ trợ",Hành vi chính
+OR3_308,"Thuộc một trong các trường hợp Khoản 3 Điều 308",Node Logic OR
+P3A_308,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_308,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_308,"Điểm c: Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên",Điểm
+HP3_308,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+K4_308,"Khoản 4 Điều 308",Khoản
+HV4_308,"Người phạm tội thiếu trách nhiệm trong việc giữ vũ khí, vật liệu nổ, công cụ hỗ trợ",Hành vi chính
+HP4_308,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D309,"Điều 309. Tội sản xuất, tàng trữ, vận chuyển, sử dụng, phát tán, mua bán trái phép hoặc chiếm đoạt chất phóng xạ, vật liệu hạt nhân",Điều
+K1_309,"Khoản 1 Điều 309",Khoản
+HV1_309,"Sản xuất, tàng trữ, vận chuyển, sử dụng, phát tán, mua bán trái phép hoặc chiếm đoạt chất phóng xạ, vật liệu hạt nhân",Hành vi chính
+HP1_309,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+K2_309,"Khoản 2 Điều 309",Khoản
+HV2_309,"Phạm tội về chất phóng xạ, vật liệu hạt nhân",Hành vi chính
+OR2_309,"Thuộc một trong các trường hợp Khoản 2 Điều 309",Node Logic OR
+P2A_309,"Điểm a: Có tổ chức",Điểm
+P2B_309,"Điểm b: Vận chuyển, mua bán qua biên giới",Điểm
+P2C_309,"Điểm c: Làm chết người",Điểm
+P2D_309,"Điểm d: Gây thương tích hoặc gây tổn hại sức khỏe người khác tỷ lệ 61% trở lên",Điểm
+P2DD_309,"Điểm đ: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P2E_309,"Điểm e: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P2G_309,"Điểm g: Tái phạm nguy hiểm",Điểm
+HP2_309,"Phạt tù từ 05 năm đến 12 năm",Hình phạt
+K3_309,"Khoản 3 Điều 309",Khoản
+HV3_309,"Phạm tội về chất phóng xạ, vật liệu hạt nhân",Hành vi chính
+OR3_309,"Thuộc một trong các trường hợp Khoản 3 Điều 309",Node Logic OR
+P3A_309,"Điểm a: Làm chết 02 người",Điểm
+P3B_309,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P3C_309,"Điểm c: Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng",Điểm
+HP3_309,"Phạt tù từ 10 năm đến 15 năm",Hình phạt
+K4_309,"Khoản 4 Điều 309",Khoản
+HV4_309,"Phạm tội về chất phóng xạ, vật liệu hạt nhân",Hành vi chính
+OR4_309,"Thuộc một trong các trường hợp Khoản 4 Điều 309",Node Logic OR
+P4A_309,"Điểm a: Làm chết 03 người trở lên",Điểm
+P4B_309,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P4C_309,"Điểm c: Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên",Điểm
+HP4_309,"Phạt tù từ 15 năm đến 20 năm hoặc tù chung thân",Hình phạt
+K5_309,"Khoản 5 Điều 309",Khoản
+HV5_309,"Người phạm tội về chất phóng xạ, vật liệu hạt nhân",Hành vi chính
+HP5_309,"Phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng, phạt quản chế hoặc cấm cư trú từ 01 năm đến 05 năm",Hình phạt
+D310,"Điều 310. Tội vi phạm quy định về quản lý chất phóng xạ, vật liệu hạt nhân",Điều
+K1_310,"Khoản 1 Điều 310",Khoản
+HV1_310,"Vi phạm quy định quản lý việc sản xuất, trang bị, sử dụng... chất phóng xạ, vật liệu hạt nhân gây thiệt hại",Hành vi chính
+OR1_310,"Thuộc một trong các trường hợp Khoản 1 Điều 310",Node Logic OR
+P1A_310,"Điểm a: Làm chết người",Điểm
+P1B_310,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_310,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_310,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_310,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K2_310,"Khoản 2 Điều 310",Khoản
+HV2_310,"Phạm tội vi phạm quy định quản lý chất phóng xạ, vật liệu hạt nhân",Hành vi chính
+OR2_310,"Thuộc một trong các trường hợp Khoản 2 Điều 310",Node Logic OR
+P2A_310,"Điểm a: Làm chết 02 người",Điểm
+P2B_310,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_310,"Điểm c: Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng",Điểm
+HP2_310,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K3_310,"Khoản 3 Điều 310",Khoản
+HV3_310,"Phạm tội vi phạm quy định quản lý chất phóng xạ, vật liệu hạt nhân",Hành vi chính
+OR3_310,"Thuộc một trong các trường hợp Khoản 3 Điều 310",Node Logic OR
+P3A_310,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_310,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_310,"Điểm c: Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên",Điểm
+HP3_310,"Phạt tù từ 15 năm đến 20 năm",Hình phạt
+K4_310,"Khoản 4 Điều 310",Khoản
+HV4_310,"Vi phạm quy định có khả năng thực tế dẫn đến hậu quả nếu không ngăn chặn kịp thời",Hành vi chính
+OR4_310,"Một trong các điểm a, b, c Khoản 3 Điều 310",Node Logic OR
+HP4_310,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K5_310,"Khoản 5 Điều 310",Khoản
+HV5_310,"Người phạm tội vi phạm quy định quản lý chất phóng xạ, vật liệu hạt nhân",Hành vi chính
+HP5_310,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D311,"Điều 311. Tội sản xuất, tàng trữ, vận chuyển, sử dụng hoặc mua bán trái phép chất cháy, chất độc",Điều
+K1_311,"Khoản 1 Điều 311",Khoản
+HV1_311,"Sản xuất, tàng trữ, vận chuyển, sử dụng hoặc mua bán trái phép chất cháy, chất độc",Hành vi chính
+HP1_311,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_311,"Khoản 2 Điều 311",Khoản
+HV2_311,"Phạm tội về chất cháy, chất độc",Hành vi chính
+OR2_311,"Thuộc một trong các trường hợp Khoản 2 Điều 311",Node Logic OR
+P2A_311,"Điểm a: Có tổ chức",Điểm
+P2B_311,"Điểm b: Vật phạm pháp có số lượng lớn",Điểm
+P2C_311,"Điểm c: Làm chết người",Điểm
+P2D_311,"Điểm d: Gây thương tích hoặc gây tổn hại sức khỏe người khác tỷ lệ 61% trở lên",Điểm
+P2DD_311,"Điểm đ: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P2E_311,"Điểm e: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P2G_311,"Điểm g: Vận chuyển, mua bán qua biên giới",Điểm
+P2H_311,"Điểm h: Tái phạm nguy hiểm",Điểm
+HP2_311,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_311,"Khoản 3 Điều 311",Khoản
+HV3_311,"Phạm tội về chất cháy, chất độc",Hành vi chính
+OR3_311,"Thuộc một trong các trường hợp Khoản 3 Điều 311",Node Logic OR
+P3A_311,"Điểm a: Vật phạm pháp có số lượng rất lớn",Điểm
+P3B_311,"Điểm b: Làm chết 02 người",Điểm
+P3C_311,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P3D_311,"Điểm d: Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng",Điểm
+HP3_311,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_311,"Khoản 4 Điều 311",Khoản
+HV4_311,"Phạm tội về chất cháy, chất độc",Hành vi chính
+OR4_311,"Thuộc một trong các trường hợp Khoản 4 Điều 311",Node Logic OR
+P4A_311,"Điểm a: Vật phạm pháp có số lượng đặc biệt lớn",Điểm
+P4B_311,"Điểm b: Làm chết 03 người trở lên",Điểm
+P4C_311,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P4D_311,"Điểm d: Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên",Điểm
+HP4_311,"Phạt tù từ 15 năm đến 20 năm hoặc tù chung thân",Hình phạt
+K5_311,"Khoản 5 Điều 311",Khoản
+HV5_311,"Người phạm tội về chất cháy, chất độc",Hành vi chính
+HP5_311,"Phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng, phạt quản chế hoặc cấm cư trú từ 01 năm đến 05 năm",Hình phạt
+D312,"Điều 312. Tội vi phạm quy định về quản lý chất cháy, chất độc",Điều
+K1_312,"Khoản 1 Điều 312",Khoản
+HV1_312,"Vi phạm quy định quản lý việc sản xuất, trang bị, sử dụng... chất cháy, chất độc gây thiệt hại",Hành vi chính
+OR1_312,"Thuộc một trong các trường hợp Khoản 1 Điều 312",Node Logic OR
+P1A_312,"Điểm a: Làm chết người",Điểm
+P1B_312,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_312,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_312,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_312,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_312,"Khoản 2 Điều 312",Khoản
+HV2_312,"Phạm tội vi phạm quy định quản lý chất cháy, chất độc",Hành vi chính
+OR2_312,"Thuộc một trong các trường hợp Khoản 2 Điều 312",Node Logic OR
+P2A_312,"Điểm a: Làm chết 02 người",Điểm
+P2B_312,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_312,"Điểm c: Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng",Điểm
+HP2_312,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_312,"Khoản 3 Điều 312",Khoản
+HV3_312,"Phạm tội vi phạm quy định quản lý chất cháy, chất độc",Hành vi chính
+OR3_312,"Thuộc một trong các trường hợp Khoản 3 Điều 312",Node Logic OR
+P3A_312,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_312,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_312,"Điểm c: Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên",Điểm
+HP3_312,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_312,"Khoản 4 Điều 312",Khoản
+HV4_312,"Người phạm tội vi phạm quy định quản lý chất cháy, chất độc",Hành vi chính
+HP4_312,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D313,"Điều 313. Tội vi phạm quy định về phòng cháy, chữa cháy",Điều
+K1_313,"Khoản 1 Điều 313",Khoản
+HV1_313,"Vi phạm quy định về phòng cháy, chữa cháy gây thiệt hại",Hành vi chính
+OR1_313,"Thuộc một trong các trường hợp Khoản 1 Điều 313",Node Logic OR
+P1A_313,"Điểm a: Làm chết người",Điểm
+P1B_313,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_313,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_313,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_313,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 02 năm đến 05 năm",Hình phạt
+K2_313,"Khoản 2 Điều 313",Khoản
+HV2_313,"Phạm tội vi phạm quy định về phòng cháy, chữa cháy",Hành vi chính
+OR2_313,"Thuộc một trong các trường hợp Khoản 2 Điều 313",Node Logic OR
+P2A_313,"Điểm a: Làm chết 02 người",Điểm
+P2B_313,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_313,"Điểm c: Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng",Điểm
+HP2_313,"Phạt tù từ 05 năm đến 08 năm",Hình phạt
+K3_313,"Khoản 3 Điều 313",Khoản
+HV3_313,"Phạm tội vi phạm quy định về phòng cháy, chữa cháy",Hành vi chính
+OR3_313,"Thuộc một trong các trường hợp Khoản 3 Điều 313",Node Logic OR
+P3A_313,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_313,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_313,"Điểm c: Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên",Điểm
+HP3_313,"Phạt tù từ 07 năm đến 12 năm",Hình phạt
+K4_313,"Khoản 4 Điều 313",Khoản
+HV4_313,"Vi phạm quy định PCCC có khả năng thực tế dẫn đến hậu quả nếu không ngăn chặn kịp thời",Hành vi chính
+OR4_313,"Một trong các điểm a, b, c Khoản 3 Điều 313",Node Logic OR
+HP4_313,"Phạt cảnh cáo, phạt cải tạo không giam giữ đến 01 năm hoặc phạt tù từ 03 tháng đến 01 năm",Hình phạt
+K5_313,"Khoản 5 Điều 313",Khoản
+HV5_313,"Người phạm tội vi phạm quy định PCCC",Hành vi chính
+HP5_313,"Phạt tiền từ 10-50 triệu đồng, cấm đảm nhiệm chức vụ, hành nghề hoặc công việc nhất định 01-05 năm",Hình phạt
+D314,"Điều 314. Tội vi phạm quy định về an toàn vận hành công trình điện lực",Điều
+K1_314,"Khoản 1 Điều 314",Khoản
+HV1_314,"Xây dựng trái phép, gây nổ, thi công không an toàn... gây mất an toàn vận hành công trình điện lực gây thiệt hại hoặc đã xử lý mà còn vi phạm",Hành vi chính
+OR1_314,"Thuộc một trong các trường hợp Khoản 1 Điều 314",Node Logic OR
+P1A_314,"Điểm a: Làm chết người",Điểm
+P1B_314,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe người khác tỷ lệ 61% trở lên",Điểm
+P1C_314,"Điểm c: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_314,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_314,"Phạt tiền từ 20-100 triệu đồng hoặc phạt tù từ 06 tháng đến 05 năm",Hình phạt
+K2_314,"Khoản 2 Điều 314",Khoản
+HV2_314,"Phạm tội vi phạm an toàn vận hành công trình điện lực",Hành vi chính
+OR2_314,"Thuộc một trong các trường hợp Khoản 2 Điều 314",Node Logic OR
+P2A_314,"Điểm a: Làm chết 02 người",Điểm
+P2B_314,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_314,"Điểm c: Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng",Điểm
+HP2_314,"Phạt tiền từ 100-300 triệu đồng hoặc phạt tù từ 02 năm đến 07 năm",Hình phạt
+K3_314,"Khoản 3 Điều 314",Khoản
+HV3_314,"Phạm tội vi phạm an toàn vận hành công trình điện lực",Hành vi chính
+OR3_314,"Thuộc một trong các trường hợp Khoản 3 Điều 314",Node Logic OR
+P3A_314,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_314,"Điểm b: Gây thương tích hoặc gây tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_314,"Điểm c: Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên",Điểm
+HP3_314,"Phạt tù từ 06 năm đến 10 năm",Hình phạt
+K4_314,"Khoản 4 Điều 314",Khoản
+HV4_314,"Vi phạm có khả năng thực tế dẫn đến hậu quả nếu không ngăn chặn kịp thời",Hành vi chính
+OR4_314,"Một trong các điểm a, b, c Khoản 3 Điều 314",Node Logic OR
+HP4_314,"Phạt tiền từ 20-100 triệu đồng, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm",Hình phạt
+K5_314,"Khoản 5 Điều 314",Khoản
+HV5_314,"Người phạm tội vi phạm an toàn vận hành công trình điện lực",Hành vi chính
+HP5_314,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm",Hình phạt
+D315,"Điều 315. Tội vi phạm quy định về khám bệnh, chữa bệnh, sản xuất, pha chế, cấp phát, bán thuốc hoặc dịch vụ y tế khác",Điều
+K1_315,"Khoản 1 Điều 315",Khoản
+HV1_315,"Vi phạm quy định về khám chữa bệnh, sản xuất, bán thuốc, dịch vụ y tế gây thiệt hại (không thuộc Điều 259)",Hành vi chính
+OR1_315,"Thuộc một trong các trường hợp Khoản 1 Điều 315",Node Logic OR
+P1A_315,"Điểm a: Làm chết người",Điểm
+P1B_315,"Điểm b: Gây tổn hại cho sức khỏe người khác tỷ lệ 61% trở lên",Điểm
+P1C_315,"Điểm c: Gây tổn hại cho sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_315,"Điểm d: Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+HP1_315,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_315,"Khoản 2 Điều 315",Khoản
+HV2_315,"Phạm tội vi phạm quy định về y tế",Hành vi chính
+OR2_315,"Thuộc một trong các trường hợp Khoản 2 Điều 315",Node Logic OR
+P2A_315,"Điểm a: Làm chết 02 người",Điểm
+P2B_315,"Điểm b: Gây tổn hại cho sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P2C_315,"Điểm c: Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng",Điểm
+HP2_315,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_315,"Khoản 3 Điều 315",Khoản
+HV3_315,"Phạm tội vi phạm quy định về y tế",Hành vi chính
+OR3_315,"Thuộc một trong các trường hợp Khoản 3 Điều 315",Node Logic OR
+P3A_315,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_315,"Điểm b: Gây tổn hại cho sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P3C_315,"Điểm c: Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên",Điểm
+HP3_315,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_315,"Khoản 4 Điều 315",Khoản
+HV4_315,"Người phạm tội vi phạm quy định về y tế",Hành vi chính
+HP4_315,"Phạt tiền từ 10-50 triệu đồng, cấm đảm nhiệm chức vụ, hành nghề hoặc công việc nhất định 01-05 năm",Hình phạt
+D316,"Điều 316. Tội phá thai trái phép",Điều
+K1_316,"Khoản 1 Điều 316",Khoản
+HV1_316,"Thực hiện việc phá thai trái phép cho người khác",Hành vi chính
+OR1_316,"Thuộc một trong các trường hợp Khoản 1 Điều 316",Node Logic OR
+P1A_316,"Điểm a: Làm chết người",Điểm
+P1B_316,"Điểm b: Gây tổn hại cho sức khỏe 01 người tỷ lệ 61% trở lên",Điểm
+P1C_316,"Điểm c: Gây tổn hại cho sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P1D_316,"Điểm d: Đã bị xử lý kỷ luật, vi phạm hành chính hoặc kết án chưa xóa án tích mà còn vi phạm",Điểm
+HP1_316,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01 năm đến 03 năm",Hình phạt
+K2_316,"Khoản 2 Điều 316",Khoản
+HV2_316,"Phạm tội phá thai trái phép",Hành vi chính
+OR2_316,"Thuộc một trong các trường hợp Khoản 2 Điều 316",Node Logic OR
+P2A_316,"Điểm a: Làm chết 02 người",Điểm
+P2B_316,"Điểm b: Gây tổn hại cho sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+HP2_316,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+K3_316,"Khoản 3 Điều 316",Khoản
+HV3_316,"Phạm tội phá thai trái phép",Hành vi chính
+OR3_316,"Thuộc một trong các trường hợp Khoản 3 Điều 316",Node Logic OR
+P3A_316,"Điểm a: Làm chết 03 người trở lên",Điểm
+P3B_316,"Điểm b: Gây tổn hại cho sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+HP3_316,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_316,"Khoản 4 Điều 316",Khoản
+HV4_316,"Người phạm tội phá thai trái phép",Hành vi chính
+HP4_316,"Phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng, cấm đảm nhiệm chức vụ, hành nghề 01-05 năm",Hình phạt
+D317,"Điều 317. Tội vi phạm quy định về an toàn thực phẩm",Điều
+K1_317,"Khoản 1 Điều 317",Khoản
+HV1_317,"Vi phạm quy định về an toàn thực phẩm",Hành vi chính
+OR1_317,"Thực hiện một trong các hành vi Khoản 1 Điều 317",Node Logic OR
+P1A_317,"Điểm a: Sử dụng chất, hóa chất, phụ gia... cấm hoặc ngoài danh mục tạo sản phẩm trị giá 10-<100 triệu hoặc đã bị xử lý mà còn vi phạm",Điểm
+P1B_317,"Điểm b: Sử dụng động vật chết do bệnh, dịch bệnh để chế biến tạo sản phẩm trị giá 10-<100 triệu hoặc đã bị xử lý mà còn vi phạm",Điểm
+P1C_317,"Điểm c: Sử dụng chất chưa được phép lưu hành tạo sản phẩm trị giá 100-<300 triệu; hoặc 50-<100 triệu nhưng đã bị xử lý",Điểm
+P1D_317,"Điểm d: Nhập khẩu, bán thực phẩm dùng chất cấm trị giá 10-<100 triệu hoặc thu lợi bất chính 5-<20 triệu hoặc đã bị xử lý",Điểm
+P1DD_317,"Điểm đ: Nhập khẩu, bán thực phẩm dùng chất chưa được phép lưu hành trị giá 100-<300 triệu hoặc thu lợi bất chính 50-<100 triệu; hoặc thấp hơn nhưng đã bị xử lý",Điểm
+P1E_317,"Điểm e: Thực phẩm không bảo đảm quy chuẩn gây ngộ độc cho 5-20 người hoặc gây tổn hại sức khỏe người khác tỷ lệ 31%-60%",Điểm
+HP1_317,"Phạt tiền từ 100.000.000 đồng đến 400.000.000 đồng hoặc phạt tù từ 02 năm đến 05 năm",Hình phạt
+K2_317,"Khoản 2 Điều 317",Khoản
+HV2_317,"Phạm tội vi phạm quy định về an toàn thực phẩm",Hành vi chính
+OR2_317,"Thuộc một trong các trường hợp Khoản 2 Điều 317",Node Logic OR
+P2A_317,"Điểm a: Có tổ chức",Điểm
+P2B_317,"Điểm b: Làm chết người",Điểm
+P2C_317,"Điểm c: Gây ngộ độc ảnh hưởng nghiêm trọng đến sức khỏe từ 21 đến 100 người",Điểm
+P2D_317,"Điểm d: Gây tổn hại cho sức khỏe của người khác tỷ lệ 61% trở lên",Điểm
+P2DD_317,"Điểm đ: Gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 61% đến 121%",Điểm
+P2E_317,"Điểm e: Thực phẩm dùng chất cấm trị giá 100-<300 triệu hoặc thu lợi bất chính 20-<100 triệu",Điểm
+P2G_317,"Điểm g: Thực phẩm dùng động vật chết bệnh trị giá 100-<300 triệu",Điểm
+P2H_317,"Điểm h: Thực phẩm dùng chất chưa được lưu hành trị giá 300-<500 triệu hoặc thu lợi bất chính 100-<200 triệu",Điểm
+P2I_317,"Điểm i: Tái phạm nguy hiểm",Điểm
+HP2_317,"Phạt tiền từ 400.000.000 đồng đến 1.000.000.000 đồng hoặc phạt tù từ 03 năm đến 07 năm",Hình phạt
+K3_317,"Khoản 3 Điều 317",Khoản
+HV3_317,"Phạm tội vi phạm quy định về an toàn thực phẩm",Hành vi chính
+OR3_317,"Thuộc một trong các trường hợp Khoản 3 Điều 317",Node Logic OR
+P3A_317,"Điểm a: Làm chết 02 người",Điểm
+P3B_317,"Điểm b: Gây ngộ độc ảnh hưởng nghiêm trọng sức khỏe từ 101 đến 200 người",Điểm
+P3C_317,"Điểm c: Gây tổn hại sức khỏe 02 người trở lên tổng tỷ lệ 122% đến 200%",Điểm
+P3D_317,"Điểm d: Thực phẩm dùng chất cấm trị giá 300-<500 triệu hoặc thu lợi bất chính 100-<300 triệu",Điểm
+P3DD_317,"Điểm đ: Thực phẩm dùng động vật chết bệnh trị giá 300-<500 triệu",Điểm
+P3E_317,"Điểm e: Thực phẩm dùng chất chưa được lưu hành trị giá 500 triệu-<1 tỷ đồng hoặc thu lợi bất chính 200-<500 triệu",Điểm
+HP3_317,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_317,"Khoản 4 Điều 317",Khoản
+HV4_317,"Phạm tội vi phạm quy định về an toàn thực phẩm",Hành vi chính
+OR4_317,"Thuộc một trong các trường hợp Khoản 4 Điều 317",Node Logic OR
+P4A_317,"Điểm a: Làm chết 03 người trở lên",Điểm
+P4B_317,"Điểm b: Gây ngộ độc ảnh hưởng nghiêm trọng sức khỏe 201 người trở lên",Điểm
+P4C_317,"Điểm c: Gây tổn hại sức khỏe 03 người trở lên tổng tỷ lệ 201% trở lên",Điểm
+P4D_317,"Điểm d: Thực phẩm dùng chất cấm trị giá 500 triệu trở lên hoặc thu lợi bất chính 300 triệu trở lên",Điểm
+P4DD_317,"Điểm đ: Thực phẩm dùng động vật chết bệnh trị giá 500 triệu trở lên",Điểm
+P4E_317,"Điểm e: Thực phẩm dùng chất chưa được lưu hành trị giá 1 tỷ trở lên hoặc thu lợi bất chính 500 triệu trở lên",Điểm
+HP4_317,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+K5_317,"Khoản 5 Điều 317",Khoản
+HV5_317,"Người phạm tội vi phạm quy định về an toàn thực phẩm",Hành vi chính
+HP5_317,"Phạt tiền từ 40-200 triệu đồng, cấm đảm nhiệm chức vụ, hành nghề hoặc công việc nhất định 01-05 năm",Hình phạt
+D318,"Điều 318. Tội gây rối trật tự công cộng",Điều
+K1_318,"Khoản 1 Điều 318",Khoản
+HV1_318,"Gây rối trật tự công cộng gây ảnh hưởng xấu hoặc đã bị xử lý mà còn vi phạm",Hành vi chính
+HP1_318,"Phạt tiền từ 5-50 triệu đồng, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm",Hình phạt
+K2_318,"Khoản 2 Điều 318",Khoản
+HV2_318,"Phạm tội gây rối trật tự công cộng",Hành vi chính
+OR2_318,"Thuộc một trong các trường hợp Khoản 2 Điều 318",Node Logic OR
+P2A_318,"Điểm a: Có tổ chức",Điểm
+P2B_318,"Điểm b: Dùng vũ khí, hung khí hoặc có hành vi phá phách",Điểm
+P2C_318,"Điểm c: Gây cản trở giao thông nghiêm trọng hoặc gây đình trệ hoạt động công cộng",Điểm
+P2D_318,"Điểm d: Xúi giục người khác gây rối",Điểm
+P2DD_318,"Điểm đ: Hành hung người can thiệp bảo vệ trật tự công cộng",Điểm
+P2E_318,"Điểm e: Tái phạm nguy hiểm",Điểm
+HP2_318,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D319,"Điều 319. Tội xâm phạm thi thể, mồ mả, hài cốt",Điều
+K1_319,"Khoản 1 Điều 319",Khoản
+HV1_319,"Đào, phá mồ mả, chiếm đoạt đồ vật trên/trong mộ hoặc hành vi khác xâm phạm thi thể, mồ mả, hài cốt",Hành vi chính
+HP1_319,"Phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm",Hình phạt
+K2_319,"Khoản 2 Điều 319",Khoản
+HV2_319,"Phạm tội xâm phạm thi thể, mồ mả, hài cốt",Hành vi chính
+OR2_319,"Thuộc một trong các trường hợp Khoản 2 Điều 319",Node Logic OR
+P2A_319,"Điểm a: Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội",Điểm
+P2B_319,"Điểm b: Chiếm đoạt hoặc hủy hoại vật có giá trị lịch sử, văn hóa",Điểm
+P2C_319,"Điểm c: Vì động cơ đê hèn",Điểm
+P2D_319,"Điểm d: Chiếm đoạt bộ phận thi thể, hài cốt",Điểm
+HP2_319,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D320,"Điều 320. Tội hành nghề mê tín, dị đoan",Điều
+K1_320,"Khoản 1 Điều 320",Khoản
+HV1_320,"Dùng bói toán, đồng bóng hoặc mê tín, dị đoan khác đã bị xử lý mà còn vi phạm",Hành vi chính
+HP1_320,"Phạt tiền từ 10-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_320,"Khoản 2 Điều 320",Khoản
+HV2_320,"Phạm tội hành nghề mê tín, dị đoan",Hành vi chính
+OR2_320,"Thuộc một trong các trường hợp Khoản 2 Điều 320",Node Logic OR
+P2A_320,"Điểm a: Làm chết người",Điểm
+P2B_320,"Điểm b: Thu lợi bất chính 200.000.000 đồng trở lên",Điểm
+P2C_320,"Điểm c: Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội",Điểm
+HP2_320,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_320,"Khoản 3 Điều 320",Khoản
+HV3_320,"Người phạm tội hành nghề mê tín, dị đoan",Hành vi chính
+HP3_320,"Phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng",Hình phạt
+D321,"Điều 321. Tội đánh bạc",Điều
+K1_321,"Khoản 1 Điều 321",Khoản
+HV1_321,"Đánh bạc trái phép trị giá từ 5 đến dưới 50 triệu đồng; hoặc dưới 5 triệu đồng nhưng đã bị xử lý",Hành vi chính
+HP1_321,"Phạt tiền từ 20-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_321,"Khoản 2 Điều 321",Khoản
+HV2_321,"Phạm tội đánh bạc",Hành vi chính
+OR2_321,"Thuộc một trong các trường hợp Khoản 2 Điều 321",Node Logic OR
+P2A_321,"Điểm a: Có tính chất chuyên nghiệp",Điểm
+P2B_321,"Điểm b: Tiền hoặc hiện vật dùng đánh bạc trị giá 50.000.000 đồng trở lên",Điểm
+P2C_321,"Điểm c: Sử dụng mạng internet, mạng máy tính, mạng viễn thông, phương tiện điện tử để phạm tội",Điểm
+P2D_321,"Điểm d: Tái phạm nguy hiểm",Điểm
+HP2_321,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+K3_321,"Khoản 3 Điều 321",Khoản
+HV3_321,"Người phạm tội đánh bạc",Hành vi chính
+HP3_321,"Phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng",Hình phạt
+D322,"Điều 322. Tội tổ chức đánh bạc hoặc gá bạc",Điều
+K1_322,"Khoản 1 Điều 322",Khoản
+HV1_322,"Tổ chức đánh bạc hoặc gá bạc trái phép",Hành vi chính
+OR1_322,"Thuộc một trong các trường hợp Khoản 1 Điều 322",Node Logic OR
+P1A_322,"Điểm a: Tổ chức cho 10 người đánh bạc trở lên cùng lúc hoặc 02 chiếu bạc trở lên tổng trị giá 5 triệu đồng trở lên",Điểm
+P1B_322,"Điểm b: Sử dụng địa điểm của mình cho 10 người đánh bạc hoặc 02 chiếu bạc trở lên tổng trị giá 5 triệu đồng trở lên",Điểm
+P1C_322,"Điểm c: Tổng số tiền, hiện vật dùng đánh bạc trong cùng 01 lần trị giá 20.000.000 đồng trở lên",Điểm
+P1D_322,"Điểm d: Tổ chức nơi cầm cố tài sản, lắp trang thiết bị, phân công canh gác hoặc sắp đặt lối thoát",Điểm
+P1DD_322,"Điểm đ: Đã bị xử phạt vi phạm hành chính hoặc đã bị kết án chưa xóa án tích mà còn vi phạm",Điểm
+HP1_322,"Phạt tiền từ 50-300 triệu đồng hoặc phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_322,"Khoản 2 Điều 322",Khoản
+HV2_322,"Phạm tội tổ chức đánh bạc hoặc gá bạc",Hành vi chính
+OR2_322,"Thuộc một trong các trường hợp Khoản 2 Điều 322",Node Logic OR
+P2A_322,"Điểm a: Có tính chất chuyên nghiệp",Điểm
+P2B_322,"Điểm b: Thu lợi bất chính 50.000.000 đồng trở lên",Điểm
+P2C_322,"Điểm c: Sử dụng mạng internet, mạng máy tính, mạng viễn thông hoặc phương tiện điện tử",Điểm
+P2D_322,"Điểm d: Tái phạm nguy hiểm",Điểm
+HP2_322,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+K3_322,"Khoản 3 Điều 322",Khoản
+HV3_322,"Người phạm tội tổ chức đánh bạc hoặc gá bạc",Hành vi chính
+HP3_322,"Phạt tiền từ 20-100 triệu đồng hoặc tịch thu một phần hoặc toàn bộ tài sản",Hình phạt
+D323,"Điều 323. Tội chứa chấp hoặc tiêu thụ tài sản do người khác phạm tội mà có",Điều
+K1_323,"Khoản 1 Điều 323",Khoản
+HV1_323,"Không hứa hẹn trước mà chứa chấp, tiêu thụ tài sản biết rõ do người khác phạm tội mà có",Hành vi chính
+HP1_323,"Phạt tiền từ 10-100 triệu đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_323,"Khoản 2 Điều 323",Khoản
+HV2_323,"Phạm tội chứa chấp hoặc tiêu thụ tài sản do người khác phạm tội mà có",Hành vi chính
+OR2_323,"Thuộc một trong các trường hợp Khoản 2 Điều 323",Node Logic OR
+P2A_323,"Điểm a: Có tổ chức",Điểm
+P2B_323,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+P2C_323,"Điểm c: Tài sản, vật phạm pháp trị giá từ 100.000.000 đồng đến dưới 300.000.000 đồng",Điểm
+P2D_323,"Điểm d: Thu lợi bất chính từ 20.000.000 đồng đến dưới 100.000.000 đồng",Điểm
+P2DD_323,"Điểm đ: Tái phạm nguy hiểm",Điểm
+HP2_323,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+K3_323,"Khoản 3 Điều 323",Khoản
+HV3_323,"Phạm tội chứa chấp hoặc tiêu thụ tài sản do người khác phạm tội mà có",Hành vi chính
+OR3_323,"Thuộc một trong các trường hợp Khoản 3 Điều 323",Node Logic OR
+P3A_323,"Điểm a: Tài sản, vật phạm pháp trị giá từ 300.000.000 đồng đến dưới 1.000.000.000 đồng",Điểm
+P3B_323,"Điểm b: Thu lợi bất chính từ 100.000.000 đồng đến dưới 300.000.000 đồng",Điểm
+HP3_323,"Phạt tù từ 07 năm đến 10 năm",Hình phạt
+K4_323,"Khoản 4 Điều 323",Khoản
+HV4_323,"Phạm tội chứa chấp hoặc tiêu thụ tài sản do người khác phạm tội mà có",Hành vi chính
+OR4_323,"Thuộc một trong các trường hợp Khoản 4 Điều 323",Node Logic OR
+P4A_323,"Điểm a: Tài sản, vật phạm pháp trị giá 1.000.000.000 đồng trở lên",Điểm
+P4B_323,"Điểm b: Thu lợi bất chính 300.000.000 đồng trở lên",Điểm
+HP4_323,"Phạt tù từ 10 năm đến 15 năm",Hình phạt
+K5_323,"Khoản 5 Điều 323",Khoản
+HV5_323,"Người phạm tội chứa chấp hoặc tiêu thụ tài sản do người khác phạm tội mà có",Hành vi chính
+HP5_323,"Phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng hoặc tịch thu một phần hoặc toàn bộ tài sản",Hình phạt
+D324,"Điều 324. Tội rửa tiền",Điều
+K1_324,"Khoản 1 Điều 324",Khoản
+HV1_324,"Thực hiện hành vi che giấu nguồn gốc bất hợp pháp của tiền, tài sản",Hành vi chính
+OR1_324,"Thực hiện một trong các hành vi Khoản 1 Điều 324",Node Logic OR
+P1A_324,"Điểm a: Tham gia giao dịch tài chính, ngân hàng nhằm che giấu nguồn gốc bất hợp pháp của tiền, tài sản",Điểm
+P1B_324,"Điểm b: Sử dụng tiền, tài sản do phạm tội mà có vào hoạt động kinh doanh hoặc hoạt động khác",Điểm
+P1C_324,"Điểm c: Che giấu thông tin về nguồn gốc, bản chất thực sự, vị trí... tiền, tài sản do phạm tội mà có",Điểm
+P1D_324,"Điểm d: Thực hiện hành vi tại điểm a, b, c đối với tiền, tài sản biết là chuyển dịch từ tội phạm",Điểm
+HP1_324,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_324,"Khoản 2 Điều 324",Khoản
+HV2_324,"Phạm tội rửa tiền",Hành vi chính
+OR2_324,"Thuộc một trong các trường hợp Khoản 2 Điều 324",Node Logic OR
+P2A_324,"Điểm a: Có tổ chức",Điểm
+P2B_324,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+P2C_324,"Điểm c: Phạm tội 02 lần trở lên",Điểm
+P2D_324,"Điểm d: Có tính chất chuyên nghiệp",Điểm
+P2DD_324,"Điểm đ: Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+P2E_324,"Điểm e: Tiền, tài sản phạm tội trị giá từ 200.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P2G_324,"Điểm g: Thu lợi bất chính từ 50.000.000 đồng đến dưới 100.000.000 đồng",Điểm
+P2H_324,"Điểm h: Tái phạm nguy hiểm",Điểm
+HP2_324,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+K3_324,"Khoản 3 Điều 324",Khoản
+HV3_324,"Phạm tội rửa tiền",Hành vi chính
+OR3_324,"Thuộc một trong các trường hợp Khoản 3 Điều 324",Node Logic OR
+P3A_324,"Điểm a: Tiền, tài sản phạm tội trị giá 500.000.000 đồng trở lên",Điểm
+P3B_324,"Điểm b: Thu lợi bất chính 100.000.000 đồng trở lên",Điểm
+P3C_324,"Điểm c: Gây ảnh hưởng xấu đến an toàn hệ thống tài chính, tiền tệ quốc gia",Điểm
+HP3_324,"Phạt tù từ 10 năm đến 15 năm",Hình phạt
+K4_324,"Khoản 4 Điều 324",Khoản
+HV4_324,"Chuẩn bị phạm tội rửa tiền",Hành vi chính
+HP4_324,"Phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K5_324,"Khoản 5 Điều 324",Khoản
+HV5_324,"Người phạm tội rửa tiền",Hành vi chính
+HP5_324,"Phạt tiền từ 20-100 triệu đồng, cấm đảm nhiệm chức vụ, hành nghề 01-05 năm hoặc tịch thu tài sản",Hình phạt
+K6_324,"Khoản 6 Điều 324",Khoản
+HV6_324,"Pháp nhân thương mại phạm tội rửa tiền",Hành vi chính
+OR6_324,"Thuộc một trong các trường hợp Khoản 6 Điều 324",Node Logic OR
+P6A_324,"Điểm a: Phạm tội thuộc trường hợp quy định tại khoản 1 Điều này",Điểm
+P6B_324,"Điểm b: Phạm tội thuộc một trong các trường hợp quy định tại các điểm a, c, d, đ, e, g và h khoản 2 Điều này",Điểm
+P6C_324,"Điểm c: Phạm tội thuộc trường hợp quy định tại khoản 3 Điều này",Điểm
+P6D_324,"Điểm d: Phạm tội thuộc trường hợp quy định tại Điều 79 của Bộ luật này",Điểm
+P6DD_324,"Điểm đ: Hình phạt bổ sung áp dụng cho pháp nhân thương mại",Điểm
+HP6_324,"Phạt tiền từ 1 tỷ đến 20 tỷ đồng, đình chỉ hoạt động có thời hạn hoặc vĩnh viễn, cấm kinh doanh hoặc huy động vốn",Hình phạt
+D325,"Điều 325. Tội dụ dỗ, ép buộc hoặc chứa chấp người dưới 18 tuổi phạm pháp",Điều
+K1_325,"Khoản 1 Điều 325",Khoản
+HV1_325,"Người đủ 18 tuổi trở lên thực hiện hành vi dụ dỗ, ép buộc hoặc chứa chấp",Hành vi chính
+OR1_325,"Thực hiện một trong các hành vi Khoản 1 Điều 325",Node Logic OR
+P1A_325,"Điểm a: Rủ rê, lôi kéo, mua chuộc, kích động, xúi giục người dưới 18 tuổi phạm tội hoặc sống sa đọa",Điểm
+P1B_325,"Điểm b: Đe dọa, uy hiếp, dùng vũ lực ép buộc người dưới 18 tuổi phạm tội hoặc sống sa đọa",Điểm
+P1C_325,"Điểm c: Chứa chấp người dưới 18 tuổi phạm pháp",Điểm
+HP1_325,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_325,"Khoản 2 Điều 325",Khoản
+HV2_325,"Phạm tội dụ dỗ, ép buộc hoặc chứa chấp người dưới 18 tuổi phạm pháp",Hành vi chính
+OR2_325,"Thuộc một trong các trường hợp Khoản 2 Điều 325",Node Logic OR
+P2A_325,"Điểm a: Có tổ chức",Điểm
+P2B_325,"Điểm b: Đối với 02 người trở lên",Điểm
+P2C_325,"Điểm c: Đối với người dưới 13 tuổi",Điểm
+P2D_325,"Điểm d: Ép buộc, xúi giục người dưới 18 tuổi thực hiện tội phạm rất nghiêm trọng hoặc đặc biệt nghiêm trọng",Điểm
+P2DD_325,"Điểm đ: Tái phạm nguy hiểm",Điểm
+HP2_325,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+K3_325,"Khoản 3 Điều 325",Khoản
+HV3_325,"Người phạm tội dụ dỗ, ép buộc hoặc chứa chấp người dưới 18 tuổi",Hành vi chính
+HP3_325,"Phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng",Hình phạt
+D326,"Điều 326. Tội truyền bá văn hóa phẩm đồi trụy",Điều
+K1_326,"Khoản 1 Điều 326",Khoản
+HV1_326,"Làm ra, sao chép, lưu hành, tàng trữ nhằm phổ biến vật phẩm có nội dung khiêu dâm, đồi trụy",Hành vi chính
+OR1_326,"Thuộc một trong các trường hợp Khoản 1 Điều 326",Node Logic OR
+P1A_326,"Điểm a: Dữ liệu được số hóa có dung lượng từ 01 GB đến dưới 05 GB",Điểm
+P1B_326,"Điểm b: Ảnh có số lượng từ 100 ảnh đến dưới 200 ảnh",Điểm
+P1C_326,"Điểm c: Sách in, báo in hoặc vật phẩm khác có số lượng từ 50 đơn vị đến dưới 100 đơn vị",Điểm
+P1D_326,"Điểm d: Phổ biến cho từ 10 người đến 20 người",Điểm
+P1DD_326,"Điểm đ: Đã bị xử phạt vi phạm hành chính hoặc bị kết án chưa xóa án tích mà còn vi phạm",Điểm
+HP1_326,"Phạt tiền từ 10-100 triệu đồng, cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_326,"Khoản 2 Điều 326",Khoản
+HV2_326,"Phạm tội truyền bá văn hóa phẩm đồi trụy",Hành vi chính
+OR2_326,"Thuộc một trong các trường hợp Khoản 2 Điều 326",Node Logic OR
+P2A_326,"Điểm a: Có tổ chức",Điểm
+P2B_326,"Điểm b: Dữ liệu được số hóa có dung lượng từ 05 GB đến dưới 10 GB",Điểm
+P2C_326,"Điểm c: Ảnh có số lượng từ 200 ảnh đến dưới 500 ảnh",Điểm
+P2D_326,"Điểm d: Sách in, báo in hoặc vật phẩm khác có số lượng từ 100 đơn vị đến dưới 200 đơn vị",Điểm
+P2DD_326,"Điểm đ: Phổ biến cho từ 21 người đến 100 người",Điểm
+P2E_326,"Điểm e: Phổ biến cho người dưới 18 tuổi",Điểm
+P2G_326,"Điểm g: Sử dụng mạng internet, máy tính, viễn thông hoặc phương tiện điện tử",Điểm
+P2H_326,"Điểm h: Tái phạm nguy hiểm",Điểm
+HP2_326,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+K3_326,"Khoản 3 Điều 326",Khoản
+HV3_326,"Phạm tội truyền bá văn hóa phẩm đồi trụy",Hành vi chính
+OR3_326,"Thuộc một trong các trường hợp Khoản 3 Điều 326",Node Logic OR
+P3A_326,"Điểm a: Dữ liệu được số hóa có dung lượng 10 GB trở lên",Điểm
+P3B_326,"Điểm b: Ảnh có số lượng 500 ảnh trở lên",Điểm
+P3C_326,"Điểm c: Sách in, báo in hoặc vật phẩm khác có số lượng 200 đơn vị trở lên",Điểm
+P3D_326,"Điểm d: Phổ biến cho 101 người trở lên",Điểm
+HP3_326,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_326,"Khoản 4 Điều 326",Khoản
+HV4_326,"Người phạm tội truyền bá văn hóa phẩm đồi trụy",Hành vi chính
+HP4_326,"Phạt tiền từ 5-30 triệu đồng, cấm hành nghề hoặc công việc nhất định 01-05 năm",Hình phạt
+C21,"Chương XXI: CÁC TỘI XÂM PHẠM AN TOÀN CÔNG CỘNG, TRẬT TỰ CÔNG CỘNG",Chương
+D327,"Điều 327. Tội chứa mại dâm",Điều
+K1_327,"Khoản 1 Điều 327",Khoản
+HV1_327,"Chứa mại dâm",Hành vi chính
+HP1_327,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_327,"Khoản 2 Điều 327",Khoản
+HV2_327,"Phạm tội chứa mại dâm",Hành vi chính
+OR2_327,"Thuộc một trong các trường hợp Khoản 2 Điều 327",Node Logic OR
+P2A_327,"Điểm a: Có tổ chức",Điểm
+P2B_327,"Điểm b: Cưỡng bức mại dâm",Điểm
+P2C_327,"Điểm c: Phạm tội 02 lần trở lên",Điểm
+P2D_327,"Điểm d: Chứa mại dâm 04 người trở lên",Điểm
+P2DD_327,"Điểm đ: Đối với người từ đủ 16 tuổi đến dưới 18 tuổi",Điểm
+P2E_327,"Điểm e: Gây rối loạn tâm thần và hành vi của người bán dâm mà tỷ lệ tổn thương cơ thể từ 31% đến 60%",Điểm
+P2G_327,"Điểm g: Thu lợi bất chính từ 50.000.000 đồng đến dưới 200.000.000 đồng",Điểm
+P2H_327,"Điểm h: Tái phạm nguy hiểm",Điểm
+HP2_327,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+K3_327,"Khoản 3 Điều 327",Khoản
+HV3_327,"Phạm tội chứa mại dâm",Hành vi chính
+OR3_327,"Thuộc một trong các trường hợp Khoản 3 Điều 327",Node Logic OR
+P3A_327,"Điểm a: Đối với người từ đủ 13 tuổi đến dưới 16 tuổi",Điểm
+P3B_327,"Điểm b: Thu lợi bất chính từ 200.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P3C_327,"Điểm c: Gây rối loạn tâm thần và hành vi của người bán dâm mà tỷ lệ tổn thương cơ thể 61% trở lên",Điểm
+HP3_327,"Phạt tù từ 10 năm đến 15 năm",Hình phạt
+K4_327,"Khoản 4 Điều 327",Khoản
+HV4_327,"Phạm tội chứa mại dâm",Hành vi chính
+OR4_327,"Thuộc một trong các trường hợp Khoản 4 Điều 327",Node Logic OR
+P4A_327,"Điểm a: Đối với 02 người trở lên từ đủ 13 tuổi đến dưới 16 tuổi",Điểm
+P4B_327,"Điểm b: Thu lợi bất chính 500.000.000 đồng trở lên",Điểm
+P4C_327,"Điểm c: Cưỡng bức mại dâm dẫn đến người đó chết hoặc tự sát",Điểm
+HP4_327,"Phạt tù từ 15 năm đến 20 năm hoặc tù chung thân",Hình phạt
+K5_327,"Khoản 5 Điều 327",Khoản
+HV5_327,"Người phạm tội chứa mại dâm",Hành vi chính
+HP5_327,"Phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng, phạt quản chế từ 01 năm đến 05 năm hoặc tịch thu tài sản",Hình phạt
+D328,"Điều 328. Tội môi giới mại dâm",Điều
+K1_328,"Khoản 1 Điều 328",Khoản
+HV1_328,"Làm trung gian dụ dỗ, dẫn dắt để người khác thực hiện việc mua dâm, bán dâm",Hành vi chính
+HP1_328,"Phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_328,"Khoản 2 Điều 328",Khoản
+HV2_328,"Phạm tội môi giới mại dâm",Hành vi chính
+OR2_328,"Thuộc một trong các trường hợp Khoản 2 Điều 328",Node Logic OR
+P2A_328,"Điểm a: Đối với người từ đủ 16 tuổi đến dưới 18 tuổi",Điểm
+P2B_328,"Điểm b: Có tổ chức",Điểm
+P2C_328,"Điểm c: Có tính chất chuyên nghiệp",Điểm
+P2D_328,"Điểm d: Phạm tội 02 lần trở lên",Điểm
+P2DD_328,"Điểm đ: Đối với 02 người trở lên",Điểm
+P2E_328,"Điểm e: Thu lợi bất chính từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P2G_328,"Điểm g: Tái phạm nguy hiểm",Điểm
+HP2_328,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+K3_328,"Khoản 3 Điều 328",Khoản
+HV3_328,"Phạm tội môi giới mại dâm",Hành vi chính
+OR3_328,"Thuộc một trong các trường hợp Khoản 3 Điều 328",Node Logic OR
+P3A_328,"Điểm a: Đối với người từ đủ 13 tuổi đến dưới 16 tuổi",Điểm
+P3B_328,"Điểm b: Thu lợi bất chính 500.000.000 đồng trở lên",Điểm
+HP3_328,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_328,"Khoản 4 Điều 328",Khoản
+HV4_328,"Người phạm tội môi giới mại dâm",Hành vi chính
+HP4_328,"Phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng",Hình phạt
+D329,"Điều 329. Tội mua dâm người dưới 18 tuổi",Điều
+K1_329,"Khoản 1 Điều 329",Khoản
+HV1_329,"Người đủ 18 tuổi trở lên mua dâm người dưới 18 tuổi (trừ trường hợp tại điểm b khoản 1 Điều 142)",Hành vi chính
+HP1_329,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_329,"Khoản 2 Điều 329",Khoản
+HV2_329,"Phạm tội mua dâm người dưới 18 tuổi",Hành vi chính
+OR2_329,"Thuộc một trong các trường hợp Khoản 2 Điều 329",Node Logic OR
+P2A_329,"Điểm a: Mua dâm 02 lần trở lên",Điểm
+P2B_329,"Điểm b: Mua dâm người từ đủ 13 tuổi đến dưới 16 tuổi",Điểm
+P2C_329,"Điểm c: Gây tổn hại cho sức khỏe của nạn nhân mà tỷ lệ tổn thương cơ thể từ 31% đến 60%",Điểm
+HP2_329,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+K3_329,"Khoản 3 Điều 329",Khoản
+HV3_329,"Phạm tội mua dâm người dưới 18 tuổi",Hành vi chính
+OR3_329,"Thuộc một trong các trường hợp Khoản 3 Điều 329",Node Logic OR
+P3A_329,"Điểm a: Phạm tội 02 lần trở lên đối với người từ đủ 13 tuổi đến dưới 16 tuổi",Điểm
+P3B_329,"Điểm b: Gây tổn hại cho sức khỏe của nạn nhân mà tỷ lệ tổn thương cơ thể 61% trở lên",Điểm
+HP3_329,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K4_329,"Khoản 4 Điều 329",Khoản
+HV4_329,"Người phạm tội mua dâm người dưới 18 tuổi",Hành vi chính
+HP4_329,"Phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng",Hình phạt

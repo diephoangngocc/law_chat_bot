@@ -1,0 +1,59 @@
+ID,Name,Label
+C17,"Chương XVII: Các tội xâm phạm chế độ hôn nhân và gia đình",Chương
+D181,"Điều 181: Tội cưỡng ép kết hôn, ly hôn hoặc cản trở hôn nhân tự nguyện...",Điều
+D181_K1,"Nội dung Điều 181",Khoản
+D181_K1_HV,"Cưỡng ép kết hôn, cản trở kết hôn/ly hôn bằng hành hạ, uy hiếp... đã bị xử phạt VPHC mà còn vi phạm",Hành vi chính
+D181_K1_HP,"Phạt cảnh cáo, cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 03 tháng đến 03 năm",Hình phạt
+D182,"Điều 182: Tội vi phạm chế độ một vợ, một chồng",Điều
+D182_K1,"Khoản 1 Điều 182",Khoản
+D182_K1_HV,"Đang có vợ/chồng mà kết hôn/chung sống với người khác hoặc ngược lại",Hành vi chính
+D182_K1_OR,"Thuộc một trong các trường hợp sau (OR)",Node Logic OR
+D182_K1_Da,"Điểm a: Làm cho quan hệ hôn nhân của một hoặc hai bên dẫn đến ly hôn",Điểm
+D182_K1_Db,"Điểm b: Đã bị xử phạt vi phạm hành chính về hành vi này mà còn vi phạm",Điểm
+D182_K1_HP,"Phạt cảnh cáo, cải tạo không giam giữ đến 01 năm hoặc phạt tù từ 03 tháng đến 01 năm",Hình phạt
+D182_K2,"Khoản 2 Điều 182",Khoản
+D182_K2_HV,"Phạm tội thuộc trường hợp tăng nặng",Hành vi chính
+D182_K2_OR,"Thuộc một trong các trường hợp sau (OR)",Node Logic OR
+D182_K2_Da,"Điểm a: Làm cho vợ, chồng hoặc con của một trong hai bên tự sát",Điểm
+D182_K2_Db,"Điểm b: Đã có quyết định của Tòa án hủy/chấm dứt việc chung sống mà vẫn duy trì",Điểm
+D182_K2_HP,"Phạt tù từ 06 tháng đến 03 năm",Hình phạt
+D183,"Điều 183: Tội tổ chức tảo hôn",Điều
+D183_K1,"Nội dung Điều 183",Khoản
+D183_K1_HV,"Tổ chức lấy vợ, chồng cho người chưa đến tuổi kết hôn, đã bị xử phạt VPHC mà còn vi phạm",Hành vi chính
+D183_K1_HP,"Phạt tiền từ 10.000.000 đồng đến 30.000.000 đồng hoặc cải tạo không giam giữ đến 02 năm",Hình phạt
+D184,"Điều 184: Tội loạn luân",Điều
+D184_K1,"Nội dung Điều 184",Khoản
+D184_K1_HV,"Giao cấu với người biết rõ cùng dòng máu trực hệ, anh chị em cùng/khác cha mẹ",Hành vi chính
+D184_K1_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D185,"Điều 185: Tội ngược đãi hoặc hành hạ ông bà, cha mẹ, vợ chồng, con, cháu...",Điều
+D185_K1,"Khoản 1 Điều 185",Khoản
+D185_K1_HV,"Đối xử tồi tệ, bạo lực thân thể ông bà, cha mẹ, vợ chồng, con, cháu, người nuôi dưỡng",Hành vi chính
+D185_K1_OR,"Thuộc một trong những trường hợp sau (OR)",Node Logic OR
+D185_K1_Da,"Điểm a: Thường xuyên làm cho nạn nhân bị đau đớn về thể xác, tinh thần",Điểm
+D185_K1_Db,"Điểm b: Đã bị xử phạt vi phạm hành chính về hành vi này mà còn vi phạm",Điểm
+D185_K1_HP,"Phạt cảnh cáo, cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+D185_K2,"Khoản 2 Điều 185",Khoản
+D185_K2_HV,"Phạm tội thuộc trường hợp tăng nặng",Hành vi chính
+D185_K2_OR,"Thuộc một trong các trường hợp sau (OR)",Node Logic OR
+D185_K2_Da,"Điểm a: Đối với người dưới 16 tuổi, phụ nữ có thai, người già yếu",Điểm
+D185_K2_Db,"Điểm b: Đối với người khuyết tật nặng/đặc biệt nặng hoặc mắc bệnh hiểm nghèo",Điểm
+D185_K2_HP,"Phạt tù từ 02 năm đến 05 năm",Hình phạt
+D186,"Điều 186: Tội từ chối hoặc trốn tránh nghĩa vụ cấp dưỡng",Điều
+D186_K1,"Nội dung Điều 186",Khoản
+D186_K1_HV,"Có nghĩa vụ và khả năng nhưng từ chối/trốn tránh cấp dưỡng làm nạn nhân nguy hiểm tính mạng/sức khỏe hoặc đã bị xử phạt VPHC",Hành vi chính
+D186_K1_HP,"Phạt cảnh cáo, cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm",Hình phạt
+D187,"Điều 187: Tội tổ chức mang thai hộ vì mục đích thương mại",Điều
+D187_K1,"Khoản 1 Điều 187",Khoản
+D187_K1_HV,"Tổ chức mang thai hộ vì mục đích thương mại",Hành vi chính
+D187_K1_HP,"Phạt tiền từ 50-200 triệu, cải tạo không giam giữ đến 02 năm hoặc phạt tù 03 tháng - 02 năm",Hình phạt
+D187_K2,"Khoản 2 Điều 187",Khoản
+D187_K2_HV,"Phạm tội thuộc trường hợp tăng nặng",Hành vi chính
+D187_K2_OR,"Thuộc một trong các trường hợp sau (OR)",Node Logic OR
+D187_K2_Da,"Điểm a: Đối với 02 người trở lên",Điểm
+D187_K2_Db,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+D187_K2_Dc,"Điểm c: Lợi dụng danh nghĩa của cơ quan, tổ chức",Điểm
+D187_K2_Dd,"Điểm d: Tái phạm nguy hiểm",Điểm
+D187_K2_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D187_K3,"Khoản 3 Điều 187",Khoản
+D187_K3_HV,"Người phạm tội",Hành vi chính
+D187_K3_HP,"Phạt 10-50 triệu, cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt

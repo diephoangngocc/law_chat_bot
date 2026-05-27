@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "backend/api/chat.py",
+      "use": "@vercel/python"
+    },
+    {
+      "src": "frontend/public/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/chat",
+      "destination": "/backend/api/chat.py"
+    },
+    {
+      "source": "/",
+      "destination": "/frontend/public/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/frontend/public/$1"
+    }
+  ]
+}

@@ -14,21 +14,25 @@ class ChatLLM(Protocol):
 
 
 @dataclass(slots=True)
-class OpenAICompatibleLLM:
+class HuggingFaceLLM:
     model: str
     api_key: str
-    base_url: str = "https://api.openai.com/v1"
-    timeout: int = 90
+    base_url: str = "https://api-inference.huggingface.co/v1"
+    timeout: int = 120
 
     @classmethod
-    def from_env(cls) -> "OpenAICompatibleLLM":
-        api_key = os.environ.get("OPENAI_API_KEY", "")
+    def from_env(cls) -> "HuggingFaceLLM":
+        api_key = os.environ.get("HF_TOKEN", "")
         if not api_key:
-            raise RuntimeError("OPENAI_API_KEY is not set")
+            raise RuntimeError(
+                "HF_TOKEN is not set. Please set your Hugging Face API token:\n"
+                "   Windows: $env:HF_TOKEN='your-token-here'\n"
+                "   Linux/Mac: export HF_TOKEN='your-token-here'"
+            )
         return cls(
-            model=os.environ.get("OPENAI_MODEL", "gpt-4o-mini"),
+            model=os.environ.get("HF_MODEL_NAME", "Qwen/Qwen2.5-7B-Instruct"),
             api_key=api_key,
-            base_url=os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1").rstrip("/"),
+            base_url="https://api-inference.huggingface.co/v1",
         )
 
     def chat_json(self, messages: list[dict[str, str]], temperature: float = 0.0) -> dict[str, Any]:
@@ -36,11 +40,8 @@ class OpenAICompatibleLLM:
             "model": self.model,
             "messages": messages,
             "temperature": temperature,
+            "max_tokens": 2048,
         }
-        
-        # Only add response_format for OpenAI API (not compatible with LM Studio, Ollama, etc.)
-        if "openai.com" in self.base_url:
-            payload["response_format"] = {"type": "json_object"}
         
         data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
         request = urllib.request.Request(
@@ -79,3 +80,7 @@ def parse_json_object(content: str) -> dict[str, Any]:
         if isinstance(parsed, dict):
             return parsed
     raise ValueError("LLM response does not contain a JSON object")
+
+
+# Alias for backward compatibility
+OpenAICompatibleLLM = HuggingFaceLLM

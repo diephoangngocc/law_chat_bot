@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import logging
+import re
 from dataclasses import dataclass
 from typing import Any, Protocol
 
@@ -54,9 +55,6 @@ class HuggingFaceLLM:
         try:
             response = requests.post(url, headers=headers, json=payload, timeout=self.timeout)
             
-            # Try to parse as JSON first
-            content_type = response.headers.get("Content-Type", "")
-            
             # Check HTTP status and handle errors
             if response.status_code == 503:
                 try:
@@ -83,7 +81,6 @@ class HuggingFaceLLM:
             try:
                 body = response.json()
             except json.JSONDecodeError:
-                # Response is not JSON, treat as error
                 logger.warning("Non-JSON response from API: %s", response.text[:200])
                 raise RuntimeError(f"API trả về phản hồi không hợp lệ: {response.text[:100]}")
             
@@ -108,6 +105,7 @@ class HuggingFaceLLM:
                 logger.warning("Empty content in response")
                 return self._fallback_response("API trả về nội dung trống")
             
+            # Parse the content - this is where JSON parsing can fail
             return parse_json_object(content)
                 
         except requests.exceptions.Timeout:
@@ -129,45 +127,109 @@ class HuggingFaceLLM:
             "error": error_msg,
             "toi_danh_de_xuat": None,
             "dieu_luat": [],
-            "khung_hinh_phat_du_kien": None,
+            "khung_hinh_phat_du_kien": [],
             "phan_tich_vu_an": error_msg,
             "doi_chieu_dieu_kien": [],
             "thieu_thong_tin": ["LLM không khả dụng - sử dụng kết quả truy xuất KG"],
         }
 
 
+def clean_markdown_json(text: str) -> str:
+    """Remove markdown code blocks from JSON text."""
+    text = text.strip()
+    # Remove ```json ... ``` or ``` ... ```
+    text = re.sub(r'^```(?:json)?\s*', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'\s*```$', '', text)
+    return text.strip()
+
+
 def parse_json_object(content: str) -> dict[str, Any]:
+    """
+    Parse LLM response to JSON. 
+    If LLM returns plain text instead of JSON, wrap it into the expected format.
+    """
     if not content or not isinstance(content, str):
-        return {"phan_tich": str(content) if content else "", "raw_text": True}
+        return _wrap_raw_text(str(content) if content else "")
     
     content = content.strip()
     if not content:
-        return {"phan_tich": "", "raw_text": True}
+        return _wrap_raw_text("")
     
+    # Step 1: Try direct JSON parse
     try:
         parsed = json.loads(content)
         if isinstance(parsed, dict):
-            return parsed
+            return _ensure_valid_schema(parsed)
     except json.JSONDecodeError:
         pass
-
-    # Try to find JSON object in content
+    
+    # Step 2: Clean markdown and try again
+    cleaned = clean_markdown_json(content)
+    try:
+        parsed = json.loads(cleaned)
+        if isinstance(parsed, dict):
+            return _ensure_valid_schema(parsed)
+    except json.JSONDecodeError:
+        pass
+    
+    # Step 3: Try to find JSON object in content
     start = content.find("{")
     end = content.rfind("}")
     if start >= 0 and end > start:
+        json_part = content[start:end + 1]
         try:
-            parsed = json.loads(content[start : end + 1])
+            parsed = json.loads(json_part)
             if isinstance(parsed, dict):
-                return parsed
+                return _ensure_valid_schema(parsed)
         except json.JSONDecodeError:
             pass
     
-    # Return as plain text wrapped in a dict
-    logger.warning("Content is not valid JSON, wrapping as text: %s", content[:100])
+    # Step 4: LLM returned plain text - wrap it into expected format
+    logger.warning("LLM returned plain text instead of JSON. Wrapping into schema.")
+    return _wrap_raw_text(content)
+
+
+def _wrap_raw_text(raw_text: str) -> dict[str, Any]:
+    """Wrap raw text into the expected schema format."""
     return {
-        "phan_tich": content,
-        "raw_text": True,
+        "phan_tich_vu_an": raw_text,
+        "toi_danh_de_xuat": None,
+        "dieu_luat": [],
+        "khung_hinh_phat_du_kien": [],
+        "doi_chieu_dieu_kien": [],
+        "ung_vien_khac": [],
+        "thieu_thong_tin": ["LLM trả về phản hồi không đúng định dạng JSON"],
+        "do_tin_cay": 0.0,
+        "_raw_text": True,
     }
+
+
+def _ensure_valid_schema(data: dict[str, Any]) -> dict[str, Any]:
+    """Ensure the parsed data has all required keys with proper types."""
+    required_keys = {
+        "phan_tich_vu_an": "",
+        "toi_danh_de_xuat": None,
+        "dieu_luat": [],
+        "khung_hinh_phat_du_kien": [],
+        "doi_chieu_dieu_kien": [],
+        "ung_vien_khac": [],
+        "thieu_thong_tin": [],
+        "do_tin_cay": 0.0,
+    }
+    
+    result = {}
+    for key, default in required_keys.items():
+        if key in data:
+            result[key] = data[key]
+        else:
+            result[key] = default
+    
+    # Preserve any extra keys (like error, facts from extraction)
+    for key, value in data.items():
+        if key not in required_keys:
+            result[key] = value
+    
+    return result
 
 
 # Alias for backward compatibility

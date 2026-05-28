@@ -52,37 +52,63 @@ class HuggingFaceLLM:
         }
 
         try:
-            with requests.post(url, headers=headers, json=payload, timeout=self.timeout) as response:
-                # Check for HTTP errors
-                if response.status_code == 503:
+            response = requests.post(url, headers=headers, json=payload, timeout=self.timeout)
+            
+            # Try to parse as JSON first
+            content_type = response.headers.get("Content-Type", "")
+            
+            # Check HTTP status and handle errors
+            if response.status_code == 503:
+                try:
                     error_detail = response.json().get("error", "")
-                    if "currently loading" in str(error_detail).lower() or "is loading" in str(error_detail).lower():
-                        raise RuntimeError(
-                            f"Model '{self.model}' đang được load trên Hugging Face. Vui lòng chờ vài phút rồi thử lại.\n"
-                            f"Chi tiết: {error_detail}"
-                        )
-                    raise RuntimeError(f"Model không khả dụng: {error_detail}")
-                
-                if response.status_code == 401:
-                    raise RuntimeError("API token không hợp lệ. Vui lòng kiểm tra HF_TOKEN.")
-                
-                if response.status_code == 422:
-                    raise RuntimeError(f"Request không hợp lệ: {response.text}")
-                
-                response.raise_for_status()
+                except:
+                    error_detail = response.text[:200]
+                if "loading" in str(error_detail).lower():
+                    raise RuntimeError(
+                        f"Model '{self.model}' đang được load trên Hugging Face. Vui lòng chờ vài phút rồi thử lại."
+                    )
+                raise RuntimeError(f"Model không khả dụng: {error_detail}")
+            
+            if response.status_code == 401:
+                raise RuntimeError("API token không hợp lệ. Vui lòng kiểm tra HF_TOKEN.")
+            
+            if response.status_code >= 400:
+                try:
+                    error_detail = response.json().get("error", response.text[:200])
+                except:
+                    error_detail = response.text[:200]
+                raise RuntimeError(f"Lỗi HTTP {response.status_code}: {error_detail}")
+            
+            # Try to parse JSON response
+            try:
                 body = response.json()
-                
-                # Validate response structure
-                if "choices" not in body or not body["choices"]:
-                    logger.warning("Invalid API response: no choices in body: %s", str(body)[:200])
-                    return self._fallback_response("Response không hợp lệ từ API")
-                
-                content = body["choices"][0].get("message", {}).get("content")
-                if not content:
-                    logger.warning("Empty content in response: %s", str(body)[:200])
-                    return self._fallback_response("API trả về nội dung trống")
-                
-                return parse_json_object(content)
+            except json.JSONDecodeError:
+                # Response is not JSON, treat as error
+                logger.warning("Non-JSON response from API: %s", response.text[:200])
+                raise RuntimeError(f"API trả về phản hồi không hợp lệ: {response.text[:100]}")
+            
+            # Validate response structure
+            if not isinstance(body, dict):
+                raise RuntimeError(f"API trả về định dạng không đúng: {type(body)}")
+            
+            if "choices" not in body or not body["choices"]:
+                logger.warning("Invalid API response: no choices in body")
+                return self._fallback_response("Response không hợp lệ từ API")
+            
+            first_choice = body["choices"][0]
+            if not isinstance(first_choice, dict):
+                return self._fallback_response("Response structure invalid")
+            
+            message = first_choice.get("message", {})
+            if not isinstance(message, dict):
+                return self._fallback_response("Message structure invalid")
+            
+            content = message.get("content")
+            if not content:
+                logger.warning("Empty content in response")
+                return self._fallback_response("API trả về nội dung trống")
+            
+            return parse_json_object(content)
                 
         except requests.exceptions.Timeout:
             logger.error("Hugging Face API timeout after %d seconds", self.timeout)
@@ -90,9 +116,6 @@ class HuggingFaceLLM:
         except requests.exceptions.ConnectionError as exc:
             logger.error("Connection error: %s", str(exc))
             return self._fallback_response("Lỗi kết nối - vui lòng kiểm tra mạng")
-        except requests.exceptions.HTTPError as exc:
-            logger.error("HTTP error: %s", str(exc))
-            return self._fallback_response(f"Lỗi HTTP: {exc.response.status_code}")
         except RuntimeError:
             # Re-raise RuntimeError for model loading issues
             raise
@@ -115,9 +138,12 @@ class HuggingFaceLLM:
 
 def parse_json_object(content: str) -> dict[str, Any]:
     if not content or not isinstance(content, str):
-        raise ValueError("Empty or invalid content")
+        return {"phan_tich": str(content) if content else "", "raw_text": True}
     
     content = content.strip()
+    if not content:
+        return {"phan_tich": "", "raw_text": True}
+    
     try:
         parsed = json.loads(content)
         if isinstance(parsed, dict):

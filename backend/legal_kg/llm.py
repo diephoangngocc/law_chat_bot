@@ -2,10 +2,13 @@ from __future__ import annotations
 
 import json
 import os
-import urllib.error
-import urllib.request
+import logging
 from dataclasses import dataclass
 from typing import Any, Protocol
+
+import requests
+
+logger = logging.getLogger(__name__)
 
 
 class ChatLLM(Protocol):
@@ -18,7 +21,7 @@ class HuggingFaceLLM:
     model: str
     api_key: str
     base_url: str = "https://api-inference.huggingface.co/v1"
-    timeout: int = 120
+    timeout: int = 60
 
     @classmethod
     def from_env(cls) -> "HuggingFaceLLM":
@@ -36,32 +39,52 @@ class HuggingFaceLLM:
         )
 
     def chat_json(self, messages: list[dict[str, str]], temperature: float = 0.0) -> dict[str, Any]:
+        url = f"{self.base_url}/chat/completions"
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json",
+        }
         payload = {
             "model": self.model,
             "messages": messages,
             "temperature": temperature,
             "max_tokens": 2048,
         }
-        
-        data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
-        request = urllib.request.Request(
-            f"{self.base_url}/chat/completions",
-            data=data,
-            method="POST",
-            headers={
-                "Authorization": f"Bearer {self.api_key}",
-                "Content-Type": "application/json",
-            },
-        )
-        try:
-            with urllib.request.urlopen(request, timeout=self.timeout) as response:
-                body = json.loads(response.read().decode("utf-8"))
-        except urllib.error.HTTPError as exc:
-            detail = exc.read().decode("utf-8", errors="replace")
-            raise RuntimeError(f"LLM HTTP error {exc.code}: {detail}") from exc
 
-        content = body["choices"][0]["message"]["content"]
-        return parse_json_object(content)
+        try:
+            with requests.post(url, headers=headers, json=payload, timeout=self.timeout) as response:
+                response.raise_for_status()
+                body = response.json()
+                content = body["choices"][0]["message"]["content"]
+                return parse_json_object(content)
+                
+        except requests.exceptions.Timeout:
+            logger.error("Hugging Face API timeout after %d seconds", self.timeout)
+            return {
+                "error": "Hugging Face API timeout. Please try again.",
+                "toi_danh_de_xuat": None,
+                "dieu_luat": [],
+                "khung_hinh_phat_du_kien": None,
+                "phan_tich_vu_an": "API timeout - vui lòng thử lại.",
+            }
+        except requests.exceptions.ConnectionError as exc:
+            logger.error("Connection error: %s", str(exc))
+            return {
+                "error": f"Connection error: {str(exc)}",
+                "toi_danh_de_xuat": None,
+                "dieu_luat": [],
+                "khung_hinh_phat_du_kien": None,
+                "phan_tich_vu_an": "Lỗi kết nối API - vui lòng thử lại sau.",
+            }
+        except requests.exceptions.RequestException as exc:
+            logger.error("API request error: %s", str(exc))
+            return {
+                "error": f"API error: {str(exc)}",
+                "toi_danh_de_xuat": None,
+                "dieu_luat": [],
+                "khung_hinh_phat_du_kien": None,
+                "phan_tich_vu_an": f"Lỗi API - vui lòng thử lại sau.",
+            }
 
 
 def parse_json_object(content: str) -> dict[str, Any]:

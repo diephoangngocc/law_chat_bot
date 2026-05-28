@@ -12,13 +12,13 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from legal_kg.llm import OpenAICompatibleLLM
+from legal_kg.llm import HuggingFaceLLM
 from legal_kg.pipeline import LegalReasoningPipeline
 
 
 @lru_cache(maxsize=2)
 def get_pipeline(use_llm: bool = False) -> LegalReasoningPipeline:
-    llm = OpenAICompatibleLLM.from_env() if use_llm else None
+    llm = HuggingFaceLLM.from_env() if use_llm else None
     return LegalReasoningPipeline(ROOT / "data", llm=llm)
 
 

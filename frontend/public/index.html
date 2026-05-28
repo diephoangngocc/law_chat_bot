@@ -18,6 +18,10 @@
       --soft-blue: #eef6ff;
       --soft-amber: #fff8eb;
       --sidebar-width: 300px;
+      --purple: #7c3aed;
+      --soft-purple: #f5f3ff;
+      --red: #dc2626;
+      --soft-red: #fef2f2;
     }
 
     *, *::before, *::after { box-sizing: border-box; }
@@ -360,6 +364,169 @@
       border-bottom-right-radius: 4px;
     }
 
+    /* ============================================
+       STRUCTURED RESPONSE STYLES
+       ============================================ */
+    .legal-response-container {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .response-section {
+      padding: 12px 14px;
+      border-radius: 10px;
+      margin-bottom: 8px;
+    }
+
+    .response-section:last-child {
+      margin-bottom: 0;
+    }
+
+    .response-section h4 {
+      margin: 0 0 10px 0;
+      font-size: 13px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .response-section ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .response-section li {
+      margin-bottom: 6px;
+      line-height: 1.5;
+    }
+
+    .response-section li:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Facts Section - Blue theme */
+    .response-section.facts {
+      background: var(--soft-blue);
+      border-left: 3px solid var(--blue);
+    }
+
+    .response-section.facts h4 {
+      color: var(--blue-dark);
+    }
+
+    .response-section.facts .fact-item {
+      margin-bottom: 6px;
+    }
+
+    .response-section.facts .fact-label {
+      font-weight: 600;
+      color: var(--ink);
+    }
+
+    .response-section.facts .fact-value {
+      color: #374151;
+    }
+
+    /* Candidates Section - Purple theme */
+    .response-section.candidates {
+      background: var(--soft-purple);
+      border-left: 3px solid var(--purple);
+    }
+
+    .response-section.candidates h4 {
+      color: var(--purple);
+    }
+
+    .response-section.candidates li {
+      display: flex;
+      gap: 8px;
+    }
+
+    .response-section.candidates .article-id {
+      font-weight: 600;
+      color: var(--purple);
+      min-width: 80px;
+    }
+
+    .response-section.candidates .article-title {
+      color: #374151;
+    }
+
+    .response-section.candidates .article-score {
+      font-size: 12px;
+      color: var(--muted);
+      margin-left: auto;
+    }
+
+    /* Result Section - Red/Amber theme */
+    .response-section.result {
+      background: var(--soft-amber);
+      border-left: 3px solid var(--amber);
+    }
+
+    .response-section.result h4 {
+      color: var(--amber);
+    }
+
+    .response-section.result .crime-name {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--red);
+      margin-bottom: 10px;
+      padding: 8px 12px;
+      background: rgba(220, 38, 38, 0.08);
+      border-radius: 6px;
+      display: inline-block;
+    }
+
+    .response-section.result .penalty-item {
+      padding: 6px 10px;
+      background: rgba(182, 92, 0, 0.08);
+      border-radius: 4px;
+      margin-bottom: 4px;
+      font-size: 13px;
+    }
+
+    .response-section.result .penalty-list {
+      margin-top: 8px;
+    }
+
+    /* Mode badge */
+    .mode-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+
+    .mode-badge.llm {
+      background: rgba(124, 58, 237, 0.1);
+      color: var(--purple);
+    }
+
+    .mode-badge.offline {
+      background: rgba(95, 107, 122, 0.1);
+      color: var(--muted);
+    }
+
+    /* Disclaimer */
+    .disclaimer {
+      margin-top: 12px;
+      padding: 10px 12px;
+      background: #f9fafb;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      font-size: 12px;
+      color: var(--muted);
+      font-style: italic;
+    }
+
     /* Chat Input Area */
     .chat-input-area {
       flex-shrink: 0;
@@ -595,6 +762,147 @@ Hãy nhập tóm tắt vụ án hoặc mô tả tình tiết, tôi sẽ:
     const statusDot = document.getElementById("statusDot");
     const statusText = document.getElementById("statusText");
 
+    // Vietnamese label mapping for facts
+    const factLabelMap = {
+      "hanh_vi": "Hành vi",
+      "doi_tuong_bi_xam_hai": "Đối tượng bị xâm hại",
+      "hau_qua": "Hậu quả",
+      "loi": "Lỗi",
+      "chu_the": "Chủ thể",
+      "tinh_tiet_dinh_khung": "Tình tiết định khung",
+      "tu_khoa_truy_van": "Từ khóa truy vấn",
+      "thieu_thong_tin": "Thiếu thông tin"
+    };
+
+    // Format label to Vietnamese
+    function formatLabel(key) {
+      return factLabelMap[key] || key.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+    }
+
+    // Escape HTML
+    function escapeHtml(text) {
+      if (typeof text !== 'string') return '';
+      const div = document.createElement("div");
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    // Render structured legal response
+    function renderStructuredResponse(data, mode) {
+      const container = document.createElement("div");
+      container.className = "legal-response-container";
+
+      // Mode badge
+      const modeBadge = document.createElement("div");
+      modeBadge.className = `mode-badge ${mode === 'LLM' ? 'llm' : 'offline'}`;
+      modeBadge.innerHTML = mode === 'LLM' 
+        ? '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg> Chế độ LLM'
+        : '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/></svg> Chế độ Offline';
+      container.appendChild(modeBadge);
+
+      // 1. FACTS SECTION
+      if (data.facts && Object.keys(data.facts).length > 0) {
+        const factsSection = document.createElement("div");
+        factsSection.className = "response-section facts";
+        factsSection.innerHTML = `<h4>🔍 Phân tích tình tiết</h4>`;
+
+        const factsList = document.createElement("ul");
+        for (const [key, value] of Object.entries(data.facts)) {
+          if (Array.isArray(value) && value.length > 0) {
+            const li = document.createElement("li");
+            li.className = "fact-item";
+            li.innerHTML = `<span class="fact-label">${formatLabel(key)}:</span> <span class="fact-value">${escapeHtml(value.join(", "))}</span>`;
+            factsList.appendChild(li);
+          } else if (typeof value === 'string' && value.trim()) {
+            const li = document.createElement("li");
+            li.className = "fact-item";
+            li.innerHTML = `<span class="fact-label">${formatLabel(key)}:</span> <span class="fact-value">${escapeHtml(value)}</span>`;
+            factsList.appendChild(li);
+          }
+        }
+        factsSection.appendChild(factsList);
+        container.appendChild(factsSection);
+      }
+
+      // 2. CANDIDATES SECTION
+      if (data.candidates && data.candidates.length > 0) {
+        const candidatesSection = document.createElement("div");
+        candidatesSection.className = "response-section candidates";
+        candidatesSection.innerHTML = `<h4>📚 Điều luật tham chiếu (Top ${Math.min(data.candidates.length, 5)})</h4>`;
+
+        const candidatesList = document.createElement("ul");
+        const topCandidates = data.candidates.slice(0, 5);
+        topCandidates.forEach((candidate, index) => {
+          const li = document.createElement("li");
+          li.innerHTML = `
+            <span class="article-id">${escapeHtml(candidate.article_id || '')}</span>
+            <span class="article-title">${escapeHtml(candidate.title || '')}</span>
+            <span class="article-score">${(candidate.score || 0).toFixed(2)}</span>
+          `;
+          candidatesList.appendChild(li);
+        });
+        candidatesSection.appendChild(candidatesList);
+        container.appendChild(candidatesSection);
+      }
+
+      // 3. RESULT SECTION
+      if (data.result) {
+        const resultSection = document.createElement("div");
+        resultSection.className = "response-section result";
+        resultSection.innerHTML = `<h4>⚖️ Kết luận dự kiến</h4>`;
+
+        const crime = data.result.toi_danh_de_xuat;
+        if (crime) {
+          const crimeEl = document.createElement("div");
+          crimeEl.className = "crime-name";
+          crimeEl.textContent = crime;
+          resultSection.appendChild(crimeEl);
+        }
+
+        const laws = data.result.dieu_luat;
+        if (laws && laws.length > 0) {
+          const lawsList = document.createElement("ul");
+          laws.forEach(law => {
+            const li = document.createElement("li");
+            li.innerHTML = `<strong>${escapeHtml(law.article_id || '')}:</strong> ${escapeHtml(law.title || '')} ${law.clause ? `- ${escapeHtml(law.clause)}` : ''}`;
+            lawsList.appendChild(li);
+          });
+          resultSection.appendChild(lawsList);
+        }
+
+        const penalties = data.result.khung_hinh_phat_du_kien;
+        if (penalties && penalties.length > 0) {
+          const penaltyTitle = document.createElement("p");
+          penaltyTitle.style.margin = "10px 0 4px 0";
+          penaltyTitle.style.fontWeight = "600";
+          penaltyTitle.textContent = "Khung hình phạt:";
+          resultSection.appendChild(penaltyTitle);
+
+          const penaltyList = document.createElement("div");
+          penaltyList.className = "penalty-list";
+          penalties.forEach(penalty => {
+            const penaltyItem = document.createElement("div");
+            penaltyItem.className = "penalty-item";
+            penaltyItem.textContent = penalty;
+            penaltyList.appendChild(penaltyItem);
+          });
+          resultSection.appendChild(penaltyList);
+        }
+
+        container.appendChild(resultSection);
+      }
+
+      // Disclaimer
+      const disclaimer = document.createElement("div");
+      disclaimer.className = "disclaimer";
+      disclaimer.textContent = mode === 'LLM' 
+        ? "Lưu ý: Kết quả từ LLM cần được kiểm tra thủ công theo hồ sơ vụ án và quy định pháp luật hiện hành."
+        : "Lưu ý: Kết quả truy xuất offline. Bật LLM để phân tích chi tiết hơn về các yếu tố cấu thành tội phạm.";
+      container.appendChild(disclaimer);
+
+      return container;
+    }
+
     // Auto-resize textarea
     inputEl.addEventListener("input", function() {
       this.style.height = "auto";
@@ -612,13 +920,6 @@ Hãy nhập tóm tắt vụ án hoặc mô tả tình tiết, tôi sẽ:
     // Send on button click
     sendBtn.addEventListener("click", submitMessage);
 
-    // Escape HTML
-    function escapeHtml(text) {
-      const div = document.createElement("div");
-      div.textContent = text;
-      return div.innerHTML;
-    }
-
     // Update status
     function setStatus(status, text) {
       statusDot.className = "status-dot";
@@ -634,18 +935,30 @@ Hãy nhập tóm tắt vụ án hoặc mô tả tình tiết, tôi sẽ:
     }
 
     // Add message to chat
-    function addMessage(role, content) {
+    function addMessage(role, content, structuredData = null, mode = null) {
       const messageEl = document.createElement("div");
       messageEl.className = `message ${role}`;
       
       const avatarText = role === "user" ? "Bạn" : "KG";
       
+      const bubbleContent = document.createElement("div");
+      bubbleContent.className = "message-bubble";
+      
+      if (role === "user") {
+        bubbleContent.textContent = content;
+      } else if (structuredData && mode) {
+        // Render structured response
+        const structuredEl = renderStructuredResponse(structuredData, mode);
+        bubbleContent.appendChild(structuredEl);
+      } else {
+        bubbleContent.textContent = content;
+      }
+      
       messageEl.innerHTML = `
         <div class="message-avatar">${avatarText}</div>
-        <div class="message-content">
-          <div class="message-bubble">${escapeHtml(content)}</div>
-        </div>
+        <div class="message-content"></div>
       `;
+      messageEl.querySelector(".message-content").appendChild(bubbleContent);
       
       messagesEl.appendChild(messageEl);
       
@@ -699,8 +1012,9 @@ Hãy nhập tóm tắt vụ án hoặc mô tả tình tiết, tôi sẽ:
           throw new Error(data.error || "Có lỗi xảy ra");
         }
 
-        // Add assistant response
-        addMessage("assistant", data.reply);
+        // Add assistant response with structured data
+        const mode = data.mode || "Offline";
+        addMessage("assistant", data.reply || "", data.data || null, mode);
         setStatus("ready", "Đã xong");
         
       } catch (error) {

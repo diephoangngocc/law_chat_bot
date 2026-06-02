@@ -1,0 +1,521 @@
+ID,Name,Label
+CH20,"Chương XX: Các tội phạm về ma túy",Chương
+D247,"Điều 247: Tội trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy",Điều
+K1_D247,"Khoản 1 Điều 247",Khoản
+HV_K1_D247,"Người nào trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy do Chính phủ quy định",Hành vi chính
+NL_OR_K1_D247,"Thuộc một trong các trường hợp tại khoản 1 Điều 247",Node Logic OR
+P1a_D247,"Điểm a: Đã được giáo dục 02 lần và đã được tạo điều kiện ổn định cuộc sống",Điểm
+P1b_D247,"Điểm b: Đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm",Điểm
+P1c_D247,"Điểm c: Với số lượng từ 500 cây đến dưới 3.000 cây",Điểm
+HP_K1_D247,"Phạt tù từ 06 tháng đến 03 năm",Hình phạt
+K2_D247,"Khoản 2 Điều 247",Khoản
+HV_K2_D247,"Người phạm tội trồng cây có chứa chất ma túy với mức độ nghiêm trọng",Hành vi chính
+NL_OR_K2_D247,"Thuộc một trong các trường hợp tại khoản 2 Điều 247",Node Logic OR
+P2a_D247,"Điểm a: Có tổ chức",Điểm
+P2b_D247,"Điểm b: Với số lượng 3.000 cây trở lên",Điểm
+P2c_D247,"Điểm c: Tái phạm nguy hiểm",Điểm
+HP_K2_D247,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+K3_D247,"Khoản 3 Điều 247",Khoản
+HV_K3_D247,"Người phạm tội trồng cây có chứa chất ma túy (Hình phạt bổ sung)",Hành vi chính
+HP_K3_D247,"Phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng",Hình phạt
+K4_D247,"Khoản 4 Điều 247",Khoản
+HV_K4_D247,"Người phạm tội thuộc khoản 1 có hành động khắc phục",Hành vi chính
+NL_AND_K4_D247,"Thỏa mãn đồng thời các điều kiện tại khoản 4 Điều 247",Node Logic AND
+P4a_D247,"Điều kiện 1: Thuộc khoản 1 Điều 247",Điểm
+P4b_D247,"Điều kiện 2: Đã tự nguyện phá bỏ, giao nộp cho cơ quan chức năng có thẩm quyền trước khi thu hoạch",Điểm
+HP_K4_D247,"Có thể được miễn trách nhiệm hình sự",Hình phạt
+D248,"Điều 248: Tội sản xuất trái phép chất ma túy",Điều
+K1_D248,"Khoản 1 Điều 248",Khoản
+HV_K1_D248,"Sản xuất trái phép chất ma túy dưới bất kỳ hình thức nào",Hành vi chính
+HP_K1_D248,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+K2_D248,"Khoản 2 Điều 248",Khoản
+HV_K2_D248,"Phạm tội sản xuất trái phép chất ma túy (mức độ nghiêm trọng)",Hành vi chính
+NL_OR_K2_D248,"Thuộc một trong các trường hợp tại khoản 2 Điều 248",Node Logic OR
+P2a_D248,"Điểm a: Có tổ chức",Điểm
+P2b_D248,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+P2c_D248,"Điểm c: Lợi dụng chức vụ, quyền hạn",Điểm
+P2d_D248,"Điểm d: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+P2dd_D248,"Điểm đ: Nhựa thuốc phiện, nhựa cần sa hoặc cao côca có khối lượng từ 500 gam đến dưới 01 kilôgam",Điểm
+P2e_D248,"Điểm e: Heroine, Cocaine, Methamphetamine... có khối lượng từ 05 gam đến dưới 30 gam",Điểm
+P2g_D248,"Điểm g: Các chất ma túy khác ở thể rắn có khối lượng từ 20 gam đến dưới 100 gam",Điểm
+P2h_D248,"Điểm h: Các chất ma túy khác ở thể lỏng có thể tích từ 100 mililít đến dưới 200 mililít",Điểm
+P2i_D248,"Điểm i: Tái phạm nguy hiểm",Điểm
+P2k_D248,"Điểm k: Có 02 chất ma túy trở lên mà tổng khối lượng/thể tích tương đương các điểm từ đ đến h",Điểm
+HP_K2_D248,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K3_D248,"Khoản 3 Điều 248",Khoản
+HV_K3_D248,"Phạm tội sản xuất trái phép chất ma túy (mức độ rất nghiêm trọng)",Hành vi chính
+NL_OR_K3_D248,"Thuộc một trong các trường hợp tại khoản 3 Điều 248",Node Logic OR
+P3a_D248,"Điểm a: Có tính chất chuyên nghiệp",Điểm
+P3b_D248,"Điểm b: Nhựa thuốc phiện, nhựa cần sa... khối lượng từ 01 kilôgam đến dưới 05 kilôgam",Điểm
+P3c_D248,"Điểm c: Heroine, Cocaine, Methamphetamine... khối lượng từ 30 gam đến dưới 100 gam",Điểm
+P3d_D248,"Điểm d: Các chất ma túy khác ở thể rắn khối lượng từ 100 gam đến dưới 300 gam",Điểm
+P3dd_D248,"Điểm đ: Các chất ma túy khác ở thể lỏng thể tích từ 200 mililít đến dưới 750 mililít",Điểm
+P3e_D248,"Điểm e: Có 02 chất ma túy trở lên mà tổng khối lượng/thể tích tương đương các điểm từ b đến đ",Điểm
+HP_K3_D248,"Phạt tù từ 15 năm đến 20 năm",Hình phạt
+K4_D248,"Khoản 4 Điều 248",Khoản
+HV_K4_D248,"Phạm tội sản xuất trái phép chất ma túy (mức độ đặc biệt nghiêm trọng)",Hành vi chính
+NL_OR_K4_D248,"Thuộc một trong các trường hợp tại khoản 4 Điều 248",Node Logic OR
+P4a_D248,"Điểm a: Nhựa thuốc phiện, nhựa cần sa... khối lượng từ 05 kilôgam đến dưới 30 kilôgam",Điểm
+P4b_D248,"Điểm b: Heroine, Cocaine, Methamphetamine... khối lượng từ 100 gam đến dưới 03 kilôgam",Điểm
+P4c_D248,"Điểm c: Các chất ma túy khác ở thể rắn khối lượng từ 300 gam đến dưới 09 kilôgam",Điểm
+P4d_D248,"Điểm d: Các chất ma túy khác ở thể lỏng thể tích từ 750 mililít đến dưới 22 lít",Điểm
+P4dd_D248,"Điểm đ: Có 02 chất ma túy trở lên mà tổng khối lượng/thể tích tương đương các điểm từ a đến d",Điểm
+HP_K4_D248,"Phạt tù 20 năm hoặc tù chung thân",Hình phạt
+K5_D248,"Khoản 5 Điều 248",Khoản
+HV_K5_D248,"Phạm tội sản xuất trái phép chất ma túy (mức độ cao nhất)",Hành vi chính
+NL_OR_K5_D248,"Thuộc một trong các trường hợp tại khoản 5 Điều 248",Node Logic OR
+P5a_D248,"Điểm a: Nhựa thuốc phiện, nhựa cần sa... khối lượng 30 kilôgam trở lên",Điểm
+P5b_D248,"Điểm b: Heroine, Cocaine, Methamphetamine... khối lượng 03 kilôgam trở lên",Điểm
+P5c_D248,"Điểm c: Các chất ma túy khác ở thể rắn khối lượng 09 kilôgam trở lên",Điểm
+P5d_D248,"Điểm d: Các chất ma túy khác ở thể lỏng thể tích 22 lít trở lên",Điểm
+P5dd_D248,"Điểm đ: Có 02 chất ma túy trở lên mà tổng khối lượng/thể tích tương đương các điểm từ a đến d",Điểm
+HP_K5_D248,"Phạt tù chung thân hoặc tử hình",Hình phạt
+K6_D248,"Khoản 6 Điều 248",Khoản
+HV_K6_D248,"Người phạm tội sản xuất trái phép chất ma túy (Hình phạt bổ sung)",Hành vi chính
+HP_K6_D248,"Phạt tiền từ 5.000.000đ đến 500.000.000đ, cấm đảm nhiệm chức vụ/hành nghề 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D249,"Điều 249: Tội tàng trữ trái phép chất ma túy",Điều
+K1_D249,"Khoản 1 Điều 249",Khoản
+HV_K1_D249,"Tàng trữ trái phép chất ma túy mà không nhằm mục đích mua bán, vận chuyển, sản xuất trái phép",Hành vi chính
+NL_OR_K1_D249,"Thuộc một trong các trường hợp tại khoản 1 Điều 249",Node Logic OR
+P1a_D249,"Điểm a: Đã bị xử phạt VPHC hoặc đã bị kết án về tội này/các tội 248, 250, 251, 252, 256a chưa được xóa án tích",Điểm
+P1b_D249,"Điểm b: Nhựa thuốc phiện, nhựa cần sa hoặc cao côca khối lượng từ 01 gam đến dưới 500 gam",Điểm
+P1c_D249,"Điểm c: Heroine, Cocaine, Methamphetamine... khối lượng từ 0,1 gam đến dưới 05 gam",Điểm
+P1d_D249,"Điểm d: Lá cây côca; lá khát; lá, rễ, thân, cành... cây cần sa/cây khác khối lượng từ 01 kilôgam đến dưới 10 kilôgam",Điểm
+P1dd_D249,"Điểm đ: Quả thuốc phiện khô khối lượng từ 05 kilôgam đến dưới 50 kilôgam",Điểm
+P1e_D249,"Điểm e: Quả thuốc phiện tươi khối lượng từ 01 kilôgam đến dưới 10 kilôgam",Điểm
+P1g_D249,"Điểm g: Các chất ma túy khác ở thể rắn khối lượng từ 01 gam đến dưới 20 gam",Điểm
+P1h_D249,"Điểm h: Các chất ma túy khác ở thể lỏng thể tích từ 10 mililít đến dưới 100 mililít",Điểm
+P1i_D249,"Điểm i: Có 02 chất ma túy trở lên tổng khối lượng/thể tích tương đương các điểm từ b đến h",Điểm
+HP_K1_D249,"Phạt tù từ 03 năm đến 05 năm",Hình phạt
+K2_D249,"Khoản 2 Điều 249",Khoản
+HV_K2_D249,"Phạm tội tàng trữ trái phép chất ma túy (mức độ nghiêm trọng)",Hành vi chính
+NL_OR_K2_D249,"Thuộc một trong các trường hợp tại khoản 2 Điều 249",Node Logic OR
+P2a_D249,"Điểm a: Có tổ chức",Điểm
+P2b_D249,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+P2c_D249,"Điểm c: Lợi dụng chức vụ, quyền hạn",Điểm
+P2d_D249,"Điểm d: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+P2dd_D249,"Điểm đ: Sử dụng người dưới 16 tuổi vào việc phạm tội",Điểm
+P2e_D249,"Điểm e: Nhựa thuốc phiện, nhựa cần sa, cao côca khối lượng từ 500 gam đến dưới 01 kilôgam",Điểm
+P2g_D249,"Điểm g: Heroine, Cocaine, Methamphetamine... khối lượng từ 05 gam đến dưới 30 gam",Điểm
+P2h_D249,"Điểm h: Lá cây côca; lá khát; lá, rễ, thân, cành... cây cần sa/cây khác khối lượng từ 10 kilôgam đến dưới 25 kilôgam",Điểm
+P2i_D249,"Điểm i: Quả thuốc phiện khô khối lượng từ 50 kilôgam đến dưới 200 kilôgam",Điểm
+P2k_D249,"Điểm k: Quả thuốc phiện tươi khối lượng từ 10 kilôgam đến dưới 50 kilôgam",Điểm
+P2l_D249,"Điểm l: Các chất ma túy khác ở thể rắn khối lượng từ 20 gam đến dưới 100 gam",Điểm
+P2m_D249,"Điểm m: Các chất ma túy khác ở thể lỏng thể tích từ 100 mililít đến dưới 250 mililít",Điểm
+P2n_D249,"Điểm n: Có 02 chất ma túy trở lên tổng khối lượng/thể tích tương đương các điểm từ e đến m",Điểm
+P2o_D249,"Điểm o: Tái phạm nguy hiểm",Điểm
+HP_K2_D249,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+K3_D249,"Khoản 3 Điều 249",Khoản
+HV_K3_D249,"Phạm tội tàng trữ trái phép chất ma túy (mức độ rất nghiêm trọng)",Hành vi chính
+NL_OR_K3_D249,"Thuộc một trong các trường hợp tại khoản 3 Điều 249",Node Logic OR
+P3a_D249,"Điểm a: Nhựa thuốc phiện, nhựa cần sa, cao côca khối lượng từ 01 kilôgam đến dưới 05 kilôgam",Điểm
+P3b_D249,"Điểm b: Heroine, Cocaine, Methamphetamine... khối lượng từ 30 gam đến dưới 100 gam",Điểm
+P3c_D249,"Điểm c: Lá cây côca; lá khát; lá, rễ... cây cần sa/cây khác khối lượng từ 25 kilôgam đến dưới 75 kilôgam",Điểm
+P3d_D249,"Điểm d: Quả thuốc phiện khô khối lượng từ 200 kilôgam đến dưới 600 kilôgam",Điểm
+P3dd_D249,"Điểm đ: Quả thuốc phiện tươi khối lượng từ 50 kilôgam đến dưới 150 kilôgam",Điểm
+P3e_D249,"Điểm e: Các chất ma túy khác ở thể rắn khối lượng từ 100 gam đến dưới 300 gam",Điểm
+P3g_D249,"Điểm g: Các chất ma túy khác ở thể lỏng thể tích từ 250 mililít đến dưới 750 mililít",Điểm
+P3h_D249,"Điểm h: Có 02 chất ma túy trở lên tổng khối lượng/thể tích tương đương các điểm từ a đến g",Điểm
+HP_K3_D249,"Phạt tù từ 10 năm đến 15 năm",Hình phạt
+K4_D249,"Khoản 4 Điều 249",Khoản
+HV_K4_D249,"Phạm tội tàng trữ trái phép chất ma túy (mức độ đặc biệt nghiêm trọng)",Hành vi chính
+NL_OR_K4_D249,"Thuộc một trong các trường hợp tại khoản 4 Điều 249",Node Logic OR
+P4a_D249,"Điểm a: Nhựa thuốc phiện, nhựa cần sa, cao côca khối lượng 05 kilôgam trở lên",Điểm
+P4b_D249,"Điểm b: Heroine, Cocaine, Methamphetamine... khối lượng 100 gam trở lên",Điểm
+P4c_D249,"Điểm c: Lá cây côca; lá khát; lá, rễ... cây cần sa/cây khác khối lượng 75 kilôgam trở lên",Điểm
+P4d_D249,"Điểm d: Quả thuốc phiện khô khối lượng 600 kilôgam trở lên",Điểm
+P4dd_D249,"Điểm đ: Quả thuốc phiện tươi khối lượng 150 kilôgam trở lên",Điểm
+P4e_D249,"Điểm e: Các chất ma túy khác ở thể rắn khối lượng 300 gam trở lên",Điểm
+P4g_D249,"Điểm g: Các chất ma túy khác ở thể lỏng thể tích 750 mililít trở lên",Điểm
+P4h_D249,"Điểm h: Có 02 chất ma túy trở lên tổng khối lượng/thể tích tương đương các điểm từ a đến g",Điểm
+HP_K4_D249,"Phạt tù từ 15 năm đến 20 năm hoặc tù chung thân",Hình phạt
+K5_D249,"Khoản 5 Điều 249",Khoản
+HV_K5_D249,"Người phạm tội tàng trữ trái phép chất ma túy (Hình phạt bổ sung)",Hành vi chính
+HP_K5_D249,"Phạt tiền từ 5.000.000đ đến 500.000.000đ, cấm đảm nhiệm chức vụ/hành nghề 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D250,"Điều 250: Tội vận chuyển trái phép chất ma túy",Điều
+K1_D250,"Khoản 1 Điều 250",Khoản
+HV_K1_D250,"Vận chuyển trái phép chất ma túy mà không nhằm mục đích sản xuất, mua bán, tàng trữ trái phép",Hành vi chính
+NL_OR_K1_D250,"Thuộc một trong các trường hợp tại khoản 1 Điều 250",Node Logic OR
+P1a_D250,"Điểm a: Đã bị xử phạt VPHC hoặc đã bị kết án về tội này/các tội 248, 249, 251, 252, 256a chưa được xóa án tích",Điểm
+P1b_D250,"Điểm b: Nhựa thuốc phiện, nhựa cần sa hoặc cao côca khối lượng từ 01 gam đến dưới 500 gam",Điểm
+P1c_D250,"Điểm c: Heroine, Cocaine, Methamphetamine... khối lượng từ 0,1 gam đến dưới 05 gam",Điểm
+P1d_D250,"Điểm d: Lá cây côca; lá khát; lá, rễ, thân... cây cần sa/cây khác khối lượng từ 01 kilôgam đến dưới 10 kilôgam",Điểm
+P1dd_D250,"Điểm đ: Quả thuốc phiện khô khối lượng từ 05 kilôgam đến dưới 50 kilôgam",Điểm
+P1e_D250,"Điểm e: Quả thuốc phiện tươi khối lượng từ 01 kilôgam đến dưới 10 kilôgam",Điểm
+P1g_D250,"Điểm g: Các chất ma túy khác ở thể rắn khối lượng từ 01 gam đến dưới 20 gam",Điểm
+P1h_D250,"Điểm h: Các chất ma túy khác ở thể lỏng thể tích từ 10 mililít đến dưới 100 mililít",Điểm
+P1i_D250,"Điểm i: Có 02 chất ma túy trở lên tổng khối lượng/thể tích tương đương các điểm từ b đến h",Điểm
+HP_K1_D250,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+K2_D250,"Khoản 2 Điều 250",Khoản
+HV_K2_D250,"Phạm tội vận chuyển trái phép chất ma túy (mức độ nghiêm trọng)",Hành vi chính
+NL_OR_K2_D250,"Thuộc một trong các trường hợp tại khoản 2 Điều 250",Node Logic OR
+P2a_D250,"Điểm a: Có tổ chức",Điểm
+P2b_D250,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+P2c_D250,"Điểm c: Lợi dụng chức vụ, quyền hạn",Điểm
+P2d_D250,"Điểm d: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+P2dd_D250,"Điểm đ: Sử dụng người dưới 16 tuổi vào việc phạm tội",Điểm
+P2e_D250,"Điểm e: Qua biên giới",Điểm
+P2g_D250,"Điểm g: Nhựa thuốc phiện, nhựa cần sa, cao côca khối lượng từ 500 gam đến dưới 01 kilôgam",Điểm
+P2h_D250,"Điểm h: Heroine, Cocaine, Methamphetamine... khối lượng từ 05 gam đến dưới 30 gam",Điểm
+P2i_D250,"Điểm i: Lá cây côca; lá khát; lá, rễ... cây cần sa/cây khác khối lượng từ 10 kilôgam đến dưới 25 kilôgam",Điểm
+P2k_D250,"Điểm k: Quả thuốc phiện khô khối lượng từ 50 kilôgam đến dưới 200 kilôgam",Điểm
+P2l_D250,"Điểm l: Quả thuốc phiện tươi khối lượng từ 10 kilôgam đến dưới 50 kilôgam",Điểm
+P2m_D250,"Điểm m: Các chất ma túy khác ở thể rắn khối lượng từ 20 gam đến dưới 100 gam",Điểm
+P2n_D250,"Điểm n: Các chất ma túy khác ở thể lỏng thể tích từ 100 mililít đến dưới 250 mililít",Điểm
+P2o_D250,"Điểm o: Có 02 chất ma túy trở lên tổng khối lượng/thể tích tương đương các điểm từ g đến n",Điểm
+P2p_D250,"Điểm p: Tái phạm nguy hiểm",Điểm
+HP_K2_D250,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K3_D250,"Khoản 3 Điều 250",Khoản
+HV_K3_D250,"Phạm tội vận chuyển trái phép chất ma túy (mức độ rất nghiêm trọng)",Hành vi chính
+NL_OR_K3_D250,"Thuộc một trong các trường hợp tại khoản 3 Điều 250",Node Logic OR
+P3a_D250,"Điểm a: Nhựa thuốc phiện, nhựa cần sa, cao côca khối lượng từ 01 kilôgam đến dưới 05 kilôgam",Điểm
+P3b_D250,"Điểm b: Heroine, Cocaine, Methamphetamine... khối lượng từ 30 gam đến dưới 100 gam",Điểm
+P3c_D250,"Điểm c: Lá cây côca; lá khát; lá, rễ... cây cần sa/cây khác khối lượng từ 25 kilôgam đến dưới 75 kilôgam",Điểm
+P3d_D250,"Điểm d: Quả thuốc phiện khô khối lượng từ 200 kilôgam đến dưới 600 kilôgam",Điểm
+P3dd_D250,"Điểm đ: Quả thuốc phiện tươi khối lượng từ 50 kilôgam đến dưới 150 kilôgam",Điểm
+P3e_D250,"Điểm e: Các chất ma túy khác ở thể rắn khối lượng từ 100 gam đến dưới 300 gam",Điểm
+P3g_D250,"Điểm g: Các chất ma túy khác ở thể lỏng thể tích từ 250 mililít đến dưới 750 mililít",Điểm
+P3h_D250,"Điểm h: Có 02 chất ma túy trở lên tổng khối lượng/thể tích tương đương các điểm từ a đến g",Điểm
+HP_K3_D250,"Phạt tù từ 15 năm đến 20 năm",Hình phạt
+K4_D250,"Khoản 4 Điều 250",Khoản
+HV_K4_D250,"Phạm tội vận chuyển trái phép chất ma túy (mức độ đặc biệt nghiêm trọng)",Hành vi chính
+NL_OR_K4_D250,"Thuộc một trong các trường hợp tại khoản 4 Điều 250",Node Logic OR
+P4a_D250,"Điểm a: Nhựa thuốc phiện, nhựa cần sa, cao côca khối lượng 05 kilôgam trở lên",Điểm
+P4b_D250,"Điểm b: Heroine, Cocaine, Methamphetamine... khối lượng 100 gam trở lên",Điểm
+P4c_D250,"Điểm c: Lá cây côca; lá khát; lá, rễ... cây cần sa/cây khác khối lượng 75 kilôgam trở lên",Điểm
+P4d_D250,"Điểm d: Quả thuốc phiện khô khối lượng 600 kilôgam trở lên",Điểm
+P4dd_D250,"Điểm đ: Quả thuốc phiện tươi khối lượng 150 kilôgam trở lên",Điểm
+P4e_D250,"Điểm e: Các chất ma túy khác ở thể rắn khối lượng 300 gam trở lên",Điểm
+P4g_D250,"Điểm g: Các chất ma túy khác ở thể lỏng thể tích 750 mililít trở lên",Điểm
+P4h_D250,"Điểm h: Có 02 chất ma túy trở lên tổng khối lượng/thể tích tương đương các điểm từ a đến g",Điểm
+HP_K4_D250,"Phạt tù 20 năm hoặc tù chung thân",Hình phạt
+K5_D250,"Khoản 5 Điều 250",Khoản
+HV_K5_D250,"Người phạm tội vận chuyển trái phép chất ma túy (Hình phạt bổ sung)",Hành vi chính
+HP_K5_D250,"Phạt tiền từ 5.000.000đ đến 500.000.000đ, cấm đảm nhiệm chức vụ/hành nghề 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D251,"Điều 251: Tội mua bán trái phép chất ma túy",Điều
+K1_D251,"Khoản 1 Điều 251",Khoản
+HV_K1_D251,"Người nào mua bán trái phép chất ma túy",Hành vi chính
+HP_K1_D251,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+K2_D251,"Khoản 2 Điều 251",Khoản
+HV_K2_D251,"Phạm tội mua bán trái phép chất ma túy (mức độ nghiêm trọng)",Hành vi chính
+NL_OR_K2_D251,"Thuộc một trong các trường hợp tại khoản 2 Điều 251",Node Logic OR
+P2a_D251,"Điểm a: Có tổ chức",Điểm
+P2b_D251,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+P2c_D251,"Điểm c: Đối với 02 người trở lên",Điểm
+P2d_D251,"Điểm d: Lợi dụng chức vụ, quyền hạn",Điểm
+P2dd_D251,"Điểm đ: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+P2e_D251,"Điểm e: Sử dụng người dưới 16 tuổi vào việc phạm tội hoặc bán ma túy cho người dưới 16 tuổi",Điểm
+P2g_D251,"Điểm g: Qua biên giới",Điểm
+P2h_D251,"Điểm h: Nhựa thuốc phiện, nhựa cần sa hoặc cao côca khối lượng từ 500 gam đến dưới 01 kilôgam",Điểm
+P2i_D251,"Điểm i: Heroine, Cocaine, Methamphetamine... khối lượng từ 05 gam đến dưới 30 gam",Điểm
+P2k_D251,"Điểm k: Lá cây côca; lá khát; lá, rễ, thân... cây cần sa/cây khác khối lượng từ 10 kilôgam đến dưới 25 kilôgam",Điểm
+P2l_D251,"Điểm l: Quả thuốc phiện khô khối lượng từ 50 kilôgam đến dưới 200 kilôgam",Điểm
+P2m_D251,"Điểm m: Quả thuốc phiện tươi khối lượng từ 10 kilôgam đến dưới 50 kilôgam",Điểm
+P2n_D251,"Điểm n: Các chất ma túy khác ở thể rắn khối lượng từ 20 gam đến dưới 100 gam",Điểm
+P2o_D251,"Điểm o: Các chất ma túy khác ở thể lỏng thể tích từ 100 mililít đến dưới 250 mililít",Điểm
+P2p_D251,"Điểm p: Có 02 chất ma túy trở lên tổng khối lượng/thể tích tương đương các điểm từ h đến o",Điểm
+P2q_D251,"Điểm q: Tái phạm nguy hiểm",Điểm
+HP_K2_D251,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K3_D251,"Khoản 3 Điều 251",Khoản
+HV_K3_D251,"Phạm tội mua bán trái phép chất ma túy (mức độ rất nghiêm trọng)",Hành vi chính
+NL_OR_K3_D251,"Thuộc một trong các trường hợp tại khoản 3 Điều 251",Node Logic OR
+P3a_D251,"Điểm a: Nhựa thuốc phiện, nhựa cần sa hoặc cao côca khối lượng từ 01 kilôgam đến dưới 05 kilôgam",Điểm
+P3b_D251,"Điểm b: Heroine, Cocaine, Methamphetamine... khối lượng từ 30 gam đến dưới 100 gam",Điểm
+P3c_D251,"Điểm c: Lá cây côca; lá khát; lá, rễ... cây cần sa/cây khác khối lượng từ 25 kilôgam đến dưới 75 kilôgam",Điểm
+P3d_D251,"Điểm d: Quả thuốc phiện khô khối lượng từ 200 kilôgam đến dưới 600 kilôgam",Điểm
+P3dd_D251,"Điểm đ: Quả thuốc phiện tươi khối lượng từ 50 kilôgam đến dưới 150 kilôgam",Điểm
+P3e_D251,"Điểm e: Các chất ma túy khác ở thể rắn khối lượng từ 100 gam đến dưới 300 gam",Điểm
+P3g_D251,"Điểm g: Các chất ma túy khác ở thể lỏng thể tích từ 250 mililít đến dưới 750 mililít",Điểm
+P3h_D251,"Điểm h: Có 02 chất ma túy trở lên tổng khối lượng/thể tích tương đương các điểm từ a đến g",Điểm
+HP_K3_D251,"Phạt tù từ 15 năm đến 20 năm",Hình phạt
+K4_D251,"Khoản 4 Điều 251",Khoản
+HV_K4_D251,"Phạm tội mua bán trái phép chất ma túy (mức độ đặc biệt nghiêm trọng)",Hành vi chính
+NL_OR_K4_D251,"Thuộc một trong các trường hợp tại khoản 4 Điều 251",Node Logic OR
+P4a_D251,"Điểm a: Nhựa thuốc phiện, nhựa cần sa hoặc cao côca khối lượng từ 05 kilôgam đến dưới 30 kilôgam",Điểm
+P4b_D251,"Điểm b: Heroine, Cocaine, Methamphetamine... khối lượng từ 100 gam đến dưới 03 kilôgam",Điểm
+P4c_D251,"Điểm c: Lá cây côca; lá khát; lá, rễ... cây cần sa/cây khác khối lượng từ 75 kilôgam đến dưới 150 kilôgam",Điểm
+P4d_D251,"Điểm d: Quả thuốc phiện khô khối lượng từ 600 kilôgam đến dưới 1.200 kilôgam",Điểm
+P4dd_D251,"Điểm đ: Quả thuốc phiện tươi khối lượng từ 150 kilôgam đến dưới 300 kilôgam",Điểm
+P4e_D251,"Điểm e: Các chất ma túy khác ở thể rắn khối lượng từ 300 gam đến dưới 09 kilôgam",Điểm
+P4g_D251,"Điểm g: Các chất ma túy khác ở thể lỏng thể tích từ 750 mililít đến dưới 22 lít",Điểm
+P4h_D251,"Điểm h: Có 02 chất ma túy trở lên tổng khối lượng/thể tích tương đương các điểm từ a đến g",Điểm
+HP_K4_D251,"Phạt tù 20 năm hoặc tù chung thân",Hình phạt
+K5_D251,"Khoản 5 Điều 251",Khoản
+HV_K5_D251,"Phạm tội mua bán trái phép chất ma túy (mức độ cao nhất)",Hành vi chính
+NL_OR_K5_D251,"Thuộc một trong các trường hợp tại khoản 5 Điều 251",Node Logic OR
+P5a_D251,"Điểm a: Nhựa thuốc phiện, nhựa cần sa hoặc cao côca khối lượng 30 kilôgam trở lên",Điểm
+P5b_D251,"Điểm b: Heroine, Cocaine, Methamphetamine... khối lượng 03 kilôgam trở lên",Điểm
+P5c_D251,"Điểm c: Lá cây côca; lá khát; lá, rễ... cây cần sa/cây khác khối lượng 150 kilôgam trở lên",Điểm
+P5d_D251,"Điểm d: Quả thuốc phiện khô khối lượng 1.200 kilôgam trở lên",Điểm
+P5dd_D251,"Điểm đ: Quả thuốc phiện tươi khối lượng 300 kilôgam trở lên",Điểm
+P5e_D251,"Điểm e: Các chất ma túy khác ở thể rắn khối lượng 09 kilôgam trở lên",Điểm
+P5g_D251,"Điểm g: Các chất ma túy khác ở thể lỏng thể tích 22 lít trở lên",Điểm
+P5h_D251,"Điểm h: Có 02 chất ma túy trở lên tổng khối lượng/thể tích tương đương các điểm từ a đến g",Điểm
+HP_K5_D251,"Phạt tù chung thân hoặc tử hình",Hình phạt
+K6_D251,"Khoản 6 Điều 251",Khoản
+HV_K6_D251,"Người phạm tội mua bán trái phép chất ma túy (Hình phạt bổ sung)",Hành vi chính
+HP_K6_D251,"Phạt tiền từ 5.000.000đ đến 500.000.000đ, cấm đảm nhiệm chức vụ/hành nghề 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D252,"Điều 252: Tội chiếm đoạt chất ma túy",Điều
+K1_D252,"Khoản 1 Điều 252",Khoản
+HV_K1_D252,"Chiếm đoạt chất ma túy dưới bất kỳ hình thức nào",Hành vi chính
+NL_OR_K1_D252,"Thuộc một trong các trường hợp tại khoản 1 Điều 252",Node Logic OR
+P1a_D252,"Điểm a: Đã bị xử phạt VPHC hoặc đã bị kết án về tội này/các tội 248, 249, 250, 251, 256a chưa được xóa án tích",Điểm
+P1b_D252,"Điểm b: Nhựa thuốc phiện, nhựa cần sa hoặc cao côca khối lượng từ 01 gam đến dưới 500 gam",Điểm
+P1c_D252,"Điểm c: Heroine, Cocaine, Methamphetamine... khối lượng từ 0,1 gam đến dưới 05 gam",Điểm
+P1d_D252,"Điểm d: Lá cây côca; lá khát; lá, rễ, thân... cây cần sa/cây khác khối lượng từ 01 kilôgam đến dưới 10 kilôgam",Điểm
+P1dd_D252,"Điểm đ: Quả thuốc phiện khô khối lượng từ 05 kilôgam đến dưới 50 kilôgam",Điểm
+P1e_D252,"Điểm e: Quả thuốc phiện tươi khối lượng từ 01 kilôgam đến dưới 10 kilôgam",Điểm
+P1g_D252,"Điểm g: Các chất ma túy khác ở thể rắn khối lượng từ 01 gam đến dưới 20 gam",Điểm
+P1h_D252,"Điểm h: Các chất ma túy khác ở thể lỏng thể tích từ 10 mililít đến dưới 100 mililít",Điểm
+P1i_D252,"Điểm i: Có 02 chất ma túy trở lên tổng khối lượng/thể tích tương đương các điểm từ b đến h",Điểm
+HP_K1_D252,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_D252,"Khoản 2 Điều 252",Khoản
+HV_K2_D252,"Phạm tội chiếm đoạt chất ma túy (mức độ nghiêm trọng)",Hành vi chính
+NL_OR_K2_D252,"Thuộc một trong các trường hợp tại khoản 2 Điều 252",Node Logic OR
+P2a_D252,"Điểm a: Có tổ chức",Điểm
+P2b_D252,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+P2c_D252,"Điểm c: Lợi dụng chức vụ, quyền hạn",Điểm
+P2d_D252,"Điểm d: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+P2dd_D252,"Điểm đ: Sử dụng người dưới 16 tuổi vào việc phạm tội",Điểm
+P2e_D252,"Điểm e: Nhựa thuốc phiện, nhựa cần sa hoặc cao côca khối lượng từ 500 gam đến dưới 01 kilôgam",Điểm
+P2g_D252,"Điểm g: Heroine, Cocaine, Methamphetamine... khối lượng từ 05 gam đến dưới 30 gam",Điểm
+P2h_D252,"Điểm h: Lá cây côca; lá khát; lá, rễ... cây cần sa/cây khác khối lượng từ 10 kilôgam đến dưới 25 kilôgam",Điểm
+P2i_D252,"Điểm i: Quả thuốc phiện khô khối lượng từ 50 kilôgam đến dưới 200 kilôgam",Điểm
+P2k_D252,"Điểm k: Quả thuốc phiện tươi khối lượng từ 10 kilôgam đến dưới 50 kilôgam",Điểm
+P2l_D252,"Điểm l: Các chất ma túy khác ở thể rắn khối lượng từ 20 gam đến dưới 100 gam",Điểm
+P2m_D252,"Điểm m: Các chất ma túy khác ở thể lỏng thể tích từ 100 mililít đến dưới 250 mililít",Điểm
+P2n_D252,"Điểm n: Có 02 chất ma túy trở lên tổng khối lượng/thể tích tương đương các điểm từ e đến m",Điểm
+P2o_D252,"Điểm o: Tái phạm nguy hiểm",Điểm
+HP_K2_D252,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+K3_D252,"Khoản 3 Điều 252",Khoản
+HV_K3_D252,"Phạm tội chiếm đoạt chất ma túy (mức độ rất nghiêm trọng)",Hành vi chính
+NL_OR_K3_D252,"Thuộc một trong các trường hợp tại khoản 3 Điều 252",Node Logic OR
+P3a_D252,"Điểm a: Nhựa thuốc phiện, nhựa cần sa hoặc cao côca khối lượng từ 01 kilôgam đến dưới 05 kilôgam",Điểm
+P3b_D252,"Điểm b: Heroine, Cocaine, Methamphetamine... khối lượng từ 30 gam đến dưới 100 gam",Điểm
+P3c_D252,"Điểm c: Lá cây côca; lá khát; lá, rễ... cây cần sa/cây khác khối lượng từ 25 kilôgam đến dưới 75 kilôgam",Điểm
+P3d_D252,"Điểm d: Quả thuốc phiện khô khối lượng từ 200 kilôgam đến dưới 600 kilôgam",Điểm
+P3dd_D252,"Điểm đ: Quả thuốc phiện tươi khối lượng từ 50 kilôgam đến dưới 150 kilôgam",Điểm
+P3e_D252,"Điểm e: Các chất ma túy khác ở thể rắn khối lượng từ 100 gam đến dưới 300 gam",Điểm
+P3g_D252,"Điểm g: Các chất ma túy khác ở thể lỏng thể tích từ 250 mililít đến dưới 750 mililít",Điểm
+P3h_D252,"Điểm h: Có 02 chất ma túy trở lên tổng khối lượng/thể tích tương đương các điểm từ a đến g",Điểm
+HP_K3_D252,"Phạt tù từ 10 năm đến 15 năm",Hình phạt
+K4_D252,"Khoản 4 Điều 252",Khoản
+HV_K4_D252,"Phạm tội chiếm đoạt chất ma túy (mức độ đặc biệt nghiêm trọng)",Hành vi chính
+NL_OR_K4_D252,"Thuộc một trong các trường hợp tại khoản 4 Điều 252",Node Logic OR
+P4a_D252,"Điểm a: Nhựa thuốc phiện, nhựa cần sa hoặc cao côca khối lượng 05 kilôgam trở lên",Điểm
+P4b_D252,"Điểm b: Heroine, Cocaine, Methamphetamine... khối lượng 100 gam trở lên",Điểm
+P4c_D252,"Điểm c: Lá cây côca; lá khát; lá, rễ... cây cần sa/cây khác khối lượng 75 kilôgam trở lên",Điểm
+P4d_D252,"Điểm d: Quả thuốc phiện khô khối lượng 600 kilôgam trở lên",Điểm
+P4dd_D252,"Điểm đ: Quả thuốc phiện tươi khối lượng 150 kilôgam trở lên",Điểm
+P4e_D252,"Điểm e: Các chất ma túy khác ở thể rắn khối lượng 300 gam trở lên",Điểm
+P4g_D252,"Điểm g: Các chất ma túy khác ở thể lỏng thể tích 750 mililít trở lên",Điểm
+P4h_D252,"Điểm h: Có 02 chất ma túy trở lên tổng khối lượng/thể tích tương đương các điểm từ a đến g",Điểm
+HP_K4_D252,"Phạt tù từ 15 năm đến 20 năm hoặc tù chung thân",Hình phạt
+K5_D252,"Khoản 5 Điều 252",Khoản
+HV_K5_D252,"Người phạm tội chiếm đoạt chất ma túy (Hình phạt bổ sung)",Hành vi chính
+HP_K5_D252,"Phạt tiền từ 5.000.000đ đến 500.000.000đ, cấm đảm nhiệm chức vụ/hành nghề 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D253,"Điều 253: Tội tàng trữ, vận chuyển, mua bán hoặc chiếm đoạt tiền chất dùng vào việc sản xuất trái phép chất ma túy",Điều
+K1_D253,"Khoản 1 Điều 253",Khoản
+HV_K1_D253,"Tàng trữ, vận chuyển, mua bán hoặc chiếm đoạt tiền chất dùng vào việc sản xuất trái phép chất ma túy",Hành vi chính
+NL_OR_K1_D253,"Thuộc một trong các trường hợp tại khoản 1 Điều 253",Node Logic OR
+P1a_D253,"Điểm a: Đã bị xử phạt VPHC về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích",Điểm
+P1b_D253,"Điểm b: Tiền chất ở thể rắn khối lượng từ 50 gam đến dưới 200 gam",Điểm
+P1c_D253,"Điểm c: Tiền chất ở thể lỏng thể tích từ 75 mililít đến dưới 300 mililít",Điểm
+HP_K1_D253,"Phạt tù từ 01 năm đến 06 năm",Hình phạt
+K2_D253,"Khoản 2 Điều 253",Khoản
+HV_K2_D253,"Phạm tội về tiền chất ma túy (mức độ nghiêm trọng)",Hành vi chính
+NL_OR_K2_D253,"Thuộc một trong các trường hợp tại khoản 2 Điều 253",Node Logic OR
+P2a_D253,"Điểm a: Có tổ chức",Điểm
+P2b_D253,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+P2c_D253,"Điểm c: Lợi dụng chức vụ, quyền hạn",Điểm
+P2d_D253,"Điểm d: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+P2dd_D253,"Điểm đ: Tiền chất ở thể rắn khối lượng từ 200 gam đến dưới 500 gam",Điểm
+P2e_D253,"Điểm e: Tiền chất ở thể lỏng thể tích từ 300 mililít đến dưới 750 mililít",Điểm
+P2g_D253,"Điểm g: Sử dụng người dưới 16 tuổi vào việc phạm tội",Điểm
+P2h_D253,"Điểm h: Vận chuyển, mua bán qua biên giới",Điểm
+P2i_D253,"Điểm i: Tái phạm nguy hiểm",Điểm
+HP_K2_D253,"Phạt tù từ 06 năm đến 13 năm",Hình phạt
+K3_D253,"Khoản 3 Điều 253",Khoản
+HV_K3_D253,"Phạm tội về tiền chất ma túy (mức độ rất nghiêm trọng)",Hành vi chính
+NL_OR_K3_D253,"Thuộc một trong các trường hợp tại khoản 3 Điều 253",Node Logic OR
+P3a_D253,"Điểm a: Tiền chất ở thể rắn khối lượng từ 500 gam đến dưới 1.200 gam",Điểm
+P3b_D253,"Điểm b: Tiền chất ở thể lỏng thể tích từ 750 mililít đến dưới 1.800 mililít",Điểm
+HP_K3_D253,"Phạt tù từ 13 năm đến 20 năm",Hình phạt
+K4_D253,"Khoản 4 Điều 253",Khoản
+HV_K4_D253,"Phạm tội về tiền chất ma túy (mức độ đặc biệt nghiêm trọng)",Hành vi chính
+NL_OR_K4_D253,"Thuộc một trong các trường hợp tại khoản 4 Điều 253",Node Logic OR
+P4a_D253,"Điểm a: Tiền chất ở thể rắn khối lượng 1.200 gam trở lên",Điểm
+P4b_D253,"Điểm b: Tiền chất ở thể lỏng thể tích 1.800 mililít trở lên",Điểm
+HP_K4_D253,"Phạt tù 20 năm hoặc tù chung thân",Hình phạt
+K5_D253,"Khoản 5 Điều 253",Khoản
+HV_K5_D253,"Phạm tội có cả tiền chất ở thể rắn và thể lỏng (Quy đổi tỷ lệ 1g rắn = 1,5ml lỏng)",Hành vi chính
+HP_K5_D253,"Truy cứu trách nhiệm hình sự theo khoản tương ứng với số lượng sau khi quy đổi",Hình phạt
+K6_D253,"Khoản 6 Điều 253",Khoản
+HV_K6_D253,"Người phạm tội về tiền chất ma túy (Hình phạt bổ sung)",Hành vi chính
+HP_K6_D253,"Phạt tiền từ 5.000.000đ đến 50.000.000đ, cấm đảm nhiệm chức vụ/hành nghề 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D254,"Điều 254: Tội sản xuất, tàng trữ, vận chuyển hoặc mua bán phương tiện, dụng cụ dùng vào việc sản xuất hoặc sử dụng trái phép chất ma túy",Điều
+K1_D254,"Khoản 1 Điều 254",Khoản
+HV_K1_D254,"Sản xuất, tàng trữ, vận chuyển hoặc mua bán phương tiện, dụng cụ dùng vào việc sản xuất hoặc sử dụng trái phép chất ma túy",Hành vi chính
+NL_OR_K1_D254,"Thuộc một trong các trường hợp tại khoản 1 Điều 254",Node Logic OR
+P1a_D254,"Điểm a: Đã bị xử phạt VPHC hoặc đã bị kết án về tội này, chưa được xóa án tích",Điểm
+P1b_D254,"Điểm b: Có số lượng từ 06 đơn vị đến 19 đơn vị dụng cụ, phương tiện",Điểm
+HP_K1_D254,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_D254,"Khoản 2 Điều 254",Khoản
+HV_K2_D254,"Phạm tội về phương tiện, dụng cụ ma túy (mức độ nghiêm trọng)",Hành vi chính
+NL_OR_K2_D254,"Thuộc một trong các trường hợp tại khoản 2 Điều 254",Node Logic OR
+P2a_D254,"Điểm a: Có tổ chức",Điểm
+P2b_D254,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+P2c_D254,"Điểm c: Lợi dụng chức vụ, quyền hạn",Điểm
+P2d_D254,"Điểm d: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+P2dd_D254,"Điểm đ: Có số lượng 20 đơn vị dụng cụ, phương tiện trở lên",Điểm
+P2e_D254,"Điểm e: Vận chuyển, mua bán qua biên giới",Điểm
+P2g_D254,"Điểm g: Sử dụng người dưới 16 tuổi vào việc phạm tội",Điểm
+P2h_D254,"Điểm h: Tái phạm nguy hiểm",Điểm
+HP_K2_D254,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+K3_D254,"Khoản 3 Điều 254",Khoản
+HV_K3_D254,"Người phạm tội về phương tiện, dụng cụ ma túy (Hình phạt bổ sung)",Hành vi chính
+HP_K3_D254,"Phạt tiền từ 5.000.000đ đến 500.000.000đ, cấm đảm nhiệm chức vụ/hành nghề 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D255,"Điều 255: Tội tổ chức sử dụng trái phép chất ma túy",Điều
+K1_D255,"Khoản 1 Điều 255",Khoản
+HV_K1_D255,"Tổ chức sử dụng trái phép chất ma túy dưới bất kỳ hình thức nào",Hành vi chính
+HP_K1_D255,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+K2_D255,"Khoản 2 Điều 255",Khoản
+HV_K2_D255,"Tổ chức sử dụng trái phép chất ma túy (mức độ nghiêm trọng)",Hành vi chính
+NL_OR_K2_D255,"Thuộc một trong các trường hợp tại khoản 2 Điều 255",Node Logic OR
+P2a_D255,"Điểm a: Phạm tội 02 lần trở lên",Điểm
+P2b_D255,"Điểm b: Đối với 02 người trở lên",Điểm
+P2c_D255,"Điểm c: Đối với người từ đủ 13 tuổi đến dưới 18 tuổi",Điểm
+P2d_D255,"Điểm d: Đối với phụ nữ mà biết là có thai",Điểm
+P2dd_D255,"Điểm đ: Đối với người đang cai nghiện",Điểm
+P2e_D255,"Điểm e: Gây tổn hại sức khỏe người khác với tỷ lệ từ 31% đến 60%",Điểm
+P2g_D255,"Điểm g: Gây bệnh nguy hiểm cho người khác",Điểm
+P2h_D255,"Điểm h: Tái phạm nguy hiểm",Điểm
+HP_K2_D255,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K3_D255,"Khoản 3 Điều 255",Khoản
+HV_K3_D255,"Tổ chức sử dụng trái phép chất ma túy (mức độ rất nghiêm trọng)",Hành vi chính
+NL_OR_K3_D255,"Thuộc một trong các trường hợp tại khoản 3 Điều 255",Node Logic OR
+P3a_D255,"Điểm a: Gây tổn hại sức khỏe người khác với tỷ lệ 61% trở lên hoặc gây chết người",Điểm
+P3b_D255,"Điểm b: Gây tổn hại sức khỏe của 02 người trở lên với tỷ lệ mỗi người từ 31% đến 60%",Điểm
+P3c_D255,"Điểm c: Gây bệnh nguy hiểm cho 02 người trở lên",Điểm
+P3d_D255,"Điểm d: Đối với người dưới 13 tuổi",Điểm
+HP_K3_D255,"Phạt tù từ 15 năm đến 20 năm",Hình phạt
+K4_D255,"Khoản 4 Điều 255",Khoản
+HV_K4_D255,"Tổ chức sử dụng trái phép chất ma túy (mức độ đặc biệt nghiêm trọng)",Hành vi chính
+NL_OR_K4_D255,"Thuộc một trong các trường hợp tại khoản 4 Điều 255",Node Logic OR
+P4a_D255,"Điểm a: Gây tổn hại sức khỏe của 02 người trở lên với tỷ lệ mỗi người 61% trở lên",Điểm
+P4b_D255,"Điểm b: Làm chết 02 người trở lên",Điểm
+HP_K4_D255,"Phạt tù 20 năm hoặc tù chung thân",Hình phạt
+K5_D255,"Khoản 5 Điều 255",Khoản
+HV_K5_D255,"Người phạm tội tổ chức sử dụng trái phép chất ma túy (Hình phạt bổ sung)",Hành vi chính
+HP_K5_D255,"Phạt tiền từ 50.000.000đ đến 500.000.000đ, phạt quản chế, cấm cư trú 01-05 năm hoặc tịch thu tài sản",Hình phạt
+D256,"Điều 256: Tội chứa chấp việc sử dụng trái phép chất ma túy",Điều
+K1_D256,"Khoản 1 Điều 256",Khoản
+HV_K1_D256,"Cho thuê, cho mượn địa điểm hoặc chứa chấp sử dụng ma túy (không thuộc Điều 255)",Hành vi chính
+HP_K1_D256,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+K2_D256,"Khoản 2 Điều 256",Khoản
+HV_K2_D256,"Chứa chấp việc sử dụng trái phép chất ma túy (mức độ nghiêm trọng)",Hành vi chính
+NL_OR_K2_D256,"Thuộc một trong các trường hợp tại khoản 2 Điều 256",Node Logic OR
+P2a_D256,"Điểm a: Lợi dụng chức vụ, quyền hạn",Điểm
+P2b_D256,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+P2c_D256,"Điểm c: Đối với người dưới 16 tuổi",Điểm
+P2d_D256,"Điểm d: Đối với 02 người trở lên",Điểm
+P2dd_D256,"Điểm đ: Tái phạm nguy hiểm",Điểm
+HP_K2_D256,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K3_D256,"Khoản 3 Điều 256",Khoản
+HV_K3_D256,"Người phạm tội chứa chấp việc sử dụng trái phép chất ma túy (Hình phạt bổ sung)",Hành vi chính
+HP_K3_D256,"Phạt tiền từ 50.000.000đ đến 200.000.000đ hoặc tịch thu một phần/toàn bộ tài sản",Hình phạt
+D256a,"Điều 256a: Tội sử dụng trái phép chất ma túy",Điều
+K1_D256a,"Khoản 1 Điều 256a",Khoản
+HV_K1_D256a,"Sử dụng trái phép chất ma túy",Hành vi chính
+NL_OR_K1_D256a,"Thuộc một trong các trường hợp tại khoản 1 Điều 256a",Node Logic OR
+P1a_D256a,"Điểm a: Đang trong thời hạn cai nghiện ma túy hoặc điều trị bằng thuốc thay thế",Điểm
+P1b_D256a,"Điểm b: Đang trong thời hạn quản lý sau cai nghiện ma túy",Điểm
+P1c_D256a,"Điểm c: Đang trong thời hạn 02 năm kể từ ngày hết quản lý sau cai và trong thời hạn quản lý người sử dụng trái phép",Điểm
+P1d_D256a,"Điểm d: Đang trong thời hạn 02 năm kể từ khi tự ý chấm dứt cai nghiện tự nguyện/điều trị thay thế",Điểm
+HP_K1_D256a,"Phạt tù từ 02 năm đến 03 năm",Hình phạt
+K2_D256a,"Khoản 2 Điều 256a",Khoản
+HV_K2_D256a,"Tái phạm về tội sử dụng trái phép chất ma túy",Hành vi chính
+HP_K2_D256a,"Phạt tù từ 03 năm đến 05 năm",Hình phạt
+D257,"Điều 257: Tội cưỡng bức người khác sử dụng trái phép chất ma túy",Điều
+K1_D257,"Khoản 1 Điều 257",Khoản
+HV_K1_D257,"Dùng vũ lực, đe dọa dùng vũ lực hoặc dùng thủ đoạn khác uy hiếp tinh thần người khác để buộc họ sử dụng trái phép chất ma túy",Hành vi chính
+HP_K1_D257,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+K2_D257,"Khoản 2 Điều 257",Khoản
+HV_K2_D257,"Phạm tội cưỡng bức sử dụng trái phép chất ma túy (mức độ nghiêm trọng)",Hành vi chính
+NL_OR_K2_D257,"Thuộc một trong các trường hợp tại khoản 2 Điều 257",Node Logic OR
+P2a_D257,"Điểm a: Có tổ chức",Điểm
+P2b_D257,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+P2c_D257,"Điểm c: Vì động cơ đê hèn hoặc vì tư lợi",Điểm
+P2d_D257,"Điểm d: Đối với người từ đủ 13 tuổi đến dưới 18 tuổi",Điểm
+P2dd_D257,"Điểm đ: Đối với phụ nữ mà biết là có thai",Điểm
+P2e_D257,"Điểm e: Đối với 02 người trở lên",Điểm
+P2g_D257,"Điểm g: Đối với người đang cai nghiện",Điểm
+P2h_D257,"Điểm h: Gây tổn hại cho sức khỏe của người khác mà tỷ lệ tổn thương cơ thể từ 31% đến 60%",Điểm
+P2i_D257,"Điểm i: Gây bệnh nguy hiểm cho người khác",Điểm
+P2k_D257,"Điểm k: Tái phạm nguy hiểm",Điểm
+HP_K2_D257,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+K3_D257,"Khoản 3 Điều 257",Khoản
+HV_K3_D257,"Phạm tội cưỡng bức sử dụng trái phép chất ma túy (mức độ rất nghiêm trọng)",Hành vi chính
+NL_OR_K3_D257,"Thuộc một trong các trường hợp tại khoản 3 Điều 257",Node Logic OR
+P3a_D257,"Điểm a: Gây tổn hại cho sức khỏe của người khác mà tỷ lệ tổn thương cơ thể từ 61% trở lên hoặc gây chết người",Điểm
+P3b_D257,"Điểm b: Gây bệnh nguy hiểm cho 02 người trở lên",Điểm
+P3c_D257,"Điểm c: Đối với người dưới 13 tuổi",Điểm
+HP_K3_D257,"Phạt tù từ 15 năm đến 20 năm",Hình phạt
+K4_D257,"Khoản 4 Điều 257",Khoản
+HV_K4_D257,"Phạm tội trong trường hợp làm chết 02 người trở lên",Hành vi chính
+HP_K4_D257,"Phạt tù 20 năm hoặc tù chung thân",Hình phạt
+K5_D257,"Khoản 5 Điều 257",Khoản
+HV_K5_D257,"Người phạm tội cưỡng bức sử dụng trái phép chất ma túy (Hình phạt bổ sung)",Hành vi chính
+HP_K5_D257,"Phạt tiền từ 5.000.000đ đến 100.000.000đ",Hình phạt
+D258,"Điều 258: Tội lôi kéo người khác sử dụng trái phép chất ma túy",Điều
+K1_D258,"Khoản 1 Điều 258",Khoản
+HV_K1_D258,"Rủ rê, dụ dỗ, xúi giục hoặc bằng các thủ đoạn khác nhằm lôi kéo người khác sử dụng trái phép chất ma túy",Hành vi chính
+HP_K1_D258,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_D258,"Khoản 2 Điều 258",Khoản
+HV_K2_D258,"Phạm tội lôi kéo sử dụng trái phép chất ma túy (mức độ nghiêm trọng)",Hành vi chính
+NL_OR_K2_D258,"Thuộc một trong các trường hợp tại khoản 2 Điều 258",Node Logic OR
+P2a_D258,"Điểm a: Có tổ chức",Điểm
+P2b_D258,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+P2c_D258,"Điểm c: Vì động cơ đê hèn hoặc vì tư lợi",Điểm
+P2d_D258,"Điểm d: Đối với người từ đủ 13 tuổi đến dưới 18 tuổi",Điểm
+P2dd_D258,"Điểm đ: Đối với phụ nữ mà biết là có thai",Điểm
+P2e_D258,"Điểm e: Đối với 02 người trở lên",Điểm
+P2g_D258,"Điểm g: Đối với người đang cai nghiện",Điểm
+P2h_D258,"Điểm h: Gây tổn hại cho sức khỏe của người khác mà tỷ lệ tổn thương cơ thể từ 31% đến 60%",Điểm
+P2i_D258,"Điểm i: Gây bệnh nguy hiểm cho người khác",Điểm
+P2k_D258,"Điểm k: Tái phạm nguy hiểm",Điểm
+HP_K2_D258,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+K3_D258,"Khoản 3 Điều 258",Khoản
+HV_K3_D258,"Phạm tội lôi kéo sử dụng trái phép chất ma túy (mức độ rất nghiêm trọng)",Hành vi chính
+NL_OR_K3_D258,"Thuộc một trong các trường hợp tại khoản 3 Điều 258",Node Logic OR
+P3a_D258,"Điểm a: Gây tổn hại cho sức khỏe của người khác mà tỷ lệ tổn thương cơ thể 61% trở lên hoặc gây chết người",Điểm
+P3b_D258,"Điểm b: Gây bệnh nguy hiểm cho 02 người trở lên",Điểm
+P3c_D258,"Điểm c: Đối với người dưới 13 tuổi",Điểm
+HP_K3_D258,"Phạt tù từ 10 năm đến 15 năm",Hình phạt
+K4_D258,"Khoản 4 Điều 258",Khoản
+HV_K4_D258,"Phạm tội trong trường hợp gây chết 02 người trở lên",Hành vi chính
+HP_K4_D258,"Phạt tù từ 15 năm đến 20 năm hoặc tù chung thân",Hình phạt
+K5_D258,"Khoản 5 Điều 258",Khoản
+HV_K5_D258,"Người phạm tội lôi kéo sử dụng trái phép chất ma túy (Hình phạt bổ sung)",Hành vi chính
+HP_K5_D258,"Phạt tiền từ 5.000.000đ đến 100.000.000đ",Hình phạt
+D259,"Điều 259: Tội vi phạm quy định về quản lý chất ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần",Điều
+K1_D259,"Khoản 1 Điều 259",Khoản
+HV_K1_D259,"Người có trách nhiệm quản lý đã bị xử lý kỷ luật/XPVPHC/kết án chưa xóa án tích mà còn thực hiện hành vi vi phạm",Hành vi chính
+NL_OR_K1_D259,"Thực hiện một trong các hành vi tại khoản 1 Điều 259",Node Logic OR
+P1a_D259,"Điểm a: Vi phạm quy định về xuất khẩu, nhập khẩu, tạm nhập, tái xuất, quá cảnh chất ma túy, tiền chất, thuốc gây nghiện/hướng thần",Điểm
+P1b_D259,"Điểm b: Vi phạm quy định về nghiên cứu, giám định, sản xuất, bảo quản",Điểm
+P1c_D259,"Điểm c: Vi phạm quy định về giao nhận, vận chuyển",Điểm
+P1d_D259,"Điểm d: Vi phạm quy định về phân phối, mua bán, trao đổi",Điểm
+P1dd_D259,"Điểm đ: Vi phạm quy định về quản lý, kiểm soát, lưu giữ tại khu vực cửa khẩu, biên giới, biển",Điểm
+P1e_D259,"Điểm e: Vi phạm quy định về cấp phát, cho phép sử dụng",Điểm
+HP_K1_D259,"Phạt tiền từ 10.000.000đ đến 100.000.000đ hoặc phạt tù từ 01 năm đến 05 năm",Hình phạt
+K2_D259,"Khoản 2 Điều 259",Khoản
+HV_K2_D259,"Vi phạm quy định quản lý chất ma túy (mức độ nghiêm trọng)",Hành vi chính
+NL_OR_K2_D259,"Thuộc một trong các trường hợp tại khoản 2 Điều 259",Node Logic OR
+P2a_D259,"Điểm a: Có tổ chức",Điểm
+P2b_D259,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+P2c_D259,"Điểm c: Tái phạm nguy hiểm",Điểm
+HP_K2_D259,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+K3_D259,"Khoản 3 Điều 259",Khoản
+HV_K3_D259,"Người phạm tội vi phạm quy định quản lý ma túy (Hình phạt bổ sung)",Hành vi chính
+HP_K3_D259,"Phạt tiền từ 10.000.000đ đến 50.000.000đ, cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt

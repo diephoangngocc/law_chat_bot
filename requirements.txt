@@ -1,0 +1,3 @@
+# Repo MVP dùng chủ yếu Python standard library.
+# requests chỉ cần nếu bạn muốn thay urllib bằng client khác sau này.
+requests>=2.31.0

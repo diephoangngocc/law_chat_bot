@@ -1,0 +1,8 @@
+From,To,Relationship
+D123,K123_1,Gồm
+D123,HV_GIET_NGUOI,Quy định
+K123_1,HP123_1,Áp dụng
+K123_1,DK_VU_KHI,Cần điều kiện
+D168,HV_CUOP,Quy định
+D168,HP168,Áp dụng
+D174,HV_LUA_DAO,Quy định

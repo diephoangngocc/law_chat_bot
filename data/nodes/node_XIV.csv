@@ -1,0 +1,672 @@
+ID,Name,Label
+C14,"Chương XIV: Các tội xâm phạm tính mạng, sức khỏe, nhân phẩm, danh dự của con người",Chương
+D123,"Điều 123: Tội giết người",Điều
+D123_K1,"Khoản 1 Điều 123",Khoản
+D123_K1_HV,"Giết người thuộc các trường hợp đặc biệt nghiêm trọng",Hành vi chính
+D123_K1_OR,"Thuộc một trong các trường hợp sau (OR)",Node Logic OR
+D123_K1_Da,"Điểm a: Giết 02 người trở lên",Điểm
+D123_K1_Db,"Điểm b: Giết người dưới 16 tuổi",Điểm
+D123_K1_Dc,"Điểm c: Giết phụ nữ mà biết là có thai",Điểm
+D123_K1_Dd,"Điểm d: Giết người đang thi hành công vụ hoặc vì lý do công vụ",Điểm
+D123_K1_Dđ,"Điểm đ: Giết ông, bà, cha, mẹ, người nuôi dưỡng, thầy cô giáo",Điểm
+D123_K1_De,"Điểm e: Giết người liền trước/sau đó thực hiện tội phạm rất/đặc biệt nghiêm trọng",Điểm
+D123_K1_Dg,"Điểm g: Để thực hiện hoặc che giấu tội phạm khác",Điểm
+D123_K1_Dh,"Điểm h: Để lấy bộ phận cơ thể của nạn nhân",Điểm
+D123_K1_Di,"Điểm i: Thực hiện tội phạm một cách man rợ",Điểm
+D123_K1_Dk,"Điểm k: Bằng cách lợi dụng nghề nghiệp",Điểm
+D123_K1_Dl,"Điểm l: Bằng phương pháp có khả năng làm chết nhiều người",Điểm
+D123_K1_Dm,"Điểm m: Thuê giết người hoặc giết người thuê",Điểm
+D123_K1_Dn,"Điểm n: Có tính chất côn đồ",Điểm
+D123_K1_Do,"Điểm o: Có tổ chức",Điểm
+D123_K1_Dp,"Điểm p: Tái phạm nguy hiểm",Điểm
+D123_K1_Dq,"Điểm q: Vì động cơ đê hèn",Điểm
+D123_K1_HP,"Phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình",Hình phạt
+D123_K2,"Khoản 2 Điều 123",Khoản
+D123_K2_HV,"Phạm tội không thuộc các trường hợp quy định tại khoản 1",Hành vi chính
+D123_K2_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D123_K3,"Khoản 3 Điều 123",Khoản
+D123_K3_HV,"Người chuẩn bị phạm tội",Hành vi chính
+D123_K3_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D123_K4,"Khoản 4 Điều 123",Khoản
+D123_K4_HV,"Người phạm tội giết người",Hành vi chính
+D123_K4_HP,"Cấm hành nghề/công việc 01-05 năm, phạt quản chế hoặc cấm cư trú 01-05 năm",Hình phạt
+D124,"Điều 124: Tội giết hoặc vứt bỏ con mới đẻ",Điều
+D124_K1,"Khoản 1 Điều 124",Khoản
+D124_K1_HV,"Người mẹ giết con do mình đẻ ra trong 07 ngày tuổi do tư tưởng lạc hậu/hoàn cảnh",Hành vi chính
+D124_K1_HP,"Phạt tù từ 06 tháng đến 03 năm",Hình phạt
+D124_K2,"Khoản 2 Điều 124",Khoản
+D124_K2_HV,"Người mẹ vứt bỏ con đẻ trong 07 ngày tuổi dẫn đến hậu quả trẻ chết",Hành vi chính
+D124_K2_HP,"Phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm",Hình phạt
+D125,"Điều 125: Tội giết người trong trạng thái tinh thần bị kích động mạnh",Điều
+D125_K1,"Khoản 1 Điều 125",Khoản
+D125_K1_HV,"Giết người trong trạng thái kích động mạnh do hành vi trái pháp luật nghiêm trọng của nạn nhân",Hành vi chính
+D125_K1_HP,"Phạt tù từ 06 tháng đến 03 năm",Hình phạt
+D125_K2,"Khoản 2 Điều 125",Khoản
+D125_K2_HV,"Phạm tội đối với 02 người trở lên",Hành vi chính
+D125_K2_HP,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+D126,"Điều 126: Tội giết người do vượt quá phòng vệ hoặc bắt người",Điều
+D126_K1,"Khoản 1 Điều 126",Khoản
+D126_K1_HV,"Giết người vượt quá phòng vệ chính đáng hoặc mức cần thiết khi bắt người phạm tội",Hành vi chính
+D126_K1_HP,"Cải tạo không giam giữ đến 02 năm hoặc phạt tù 03 tháng đến 02 năm",Hình phạt
+D126_K2,"Khoản 2 Điều 126",Khoản
+D126_K2_HV,"Phạm tội đối với 02 người trở lên",Hành vi chính
+D126_K2_HP,"Phạt tù từ 02 năm đến 05 năm",Hình phạt
+D127,"Điều 127: Tội làm chết người trong khi thi hành công vụ",Điều
+D127_K1,"Khoản 1 Điều 127",Khoản
+D127_K1_HV,"Làm chết người do dùng vũ lực ngoài trường hợp cho phép khi thi hành công vụ",Hành vi chính
+D127_K1_HP,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+D127_K2,"Khoản 2 Điều 127",Khoản
+D127_K2_HV,"Phạm tội thuộc trường hợp tăng nặng",Hành vi chính
+D127_K2_OR,"Thuộc một trong các trường hợp sau (OR)",Node Logic OR
+D127_K2_Da,"Điểm a: Làm chết 02 người trở lên",Điểm
+D127_K2_Db,"Điểm b: Đối với người dưới 16 tuổi, phụ nữ biết là có thai",Điểm
+D127_K2_HP,"Phạt tù từ 08 năm đến 15 năm",Hình phạt
+D127_K3,"Khoản 3 Điều 127",Khoản
+D127_K3_HV,"Người phạm tội làm chết người khi thi hành công vụ",Hành vi chính
+D127_K3_HP,"Cấm đảm nhiệm chức vụ, hành nghề 01-05 năm",Hình phạt
+D128,"Điều 128: Tội vô ý làm chết người",Điều
+D128_K1,"Khoản 1 Điều 128",Khoản
+D128_K1_HV,"Vô ý làm chết người",Hành vi chính
+D128_K1_HP,"Cải tạo không giam giữ đến 03 năm hoặc phạt tù 01-05 năm",Hình phạt
+D128_K2,"Khoản 2 Điều 128",Khoản
+D128_K2_HV,"Làm chết 02 người trở lên",Hành vi chính
+D128_K2_HP,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+D129,"Điều 129: Tội vô ý làm chết người do vi phạm quy tắc",Điều
+D129_K1,"Khoản 1 Điều 129",Khoản
+D129_K1_HV,"Vô ý làm chết người do vi phạm quy tắc nghề nghiệp/hành chính",Hành vi chính
+D129_K1_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D129_K2,"Khoản 2 Điều 129",Khoản
+D129_K2_HV,"Làm chết 02 người trở lên",Hành vi chính
+D129_K2_HP,"Phạt tù từ 05 năm đến 12 năm",Hình phạt
+D129_K3,"Khoản 3 Điều 129",Khoản
+D129_K3_HV,"Người phạm tội vi phạm quy tắc",Hành vi chính
+D129_K3_HP,"Cấm đảm nhiệm chức vụ, hành nghề 01-05 năm",Hình phạt
+D130,"Điều 130: Tội bức tử",Điều
+D130_K1,"Khoản 1 Điều 130",Khoản
+D130_K1_HV,"Đối xử tàn ác, ức hiếp, ngược đãi người lệ thuộc làm họ tự sát",Hành vi chính
+D130_K1_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D130_K2,"Khoản 2 Điều 130",Khoản
+D130_K2_HV,"Phạm tội thuộc trường hợp tăng nặng",Hành vi chính
+D130_K2_OR,"Thuộc một trong các trường hợp sau (OR)",Node Logic OR
+D130_K2_Da,"Điểm a: Đối với 02 người trở lên",Điểm
+D130_K2_Db,"Điểm b: Đối với người dưới 16 tuổi, phụ nữ có thai",Điểm
+D130_K2_HP,"Phạt tù từ 05 năm đến 12 năm",Hình phạt
+D131,"Điều 131: Tội xúi giục hoặc giúp người khác tự sát",Điều
+D131_K1,"Khoản 1 Điều 131",Khoản
+D131_K1_HV,"Thực hiện hành vi xúi giục/giúp tự sát",Hành vi chính
+D131_K1_OR,"Thực hiện một trong các hành vi sau (OR)",Node Logic OR
+D131_K1_Da,"Điểm a: Kích động, dụ dỗ, thúc đẩy tự sát",Điểm
+D131_K1_Db,"Điểm b: Tạo điều kiện vật chất/tinh thần cho tự sát",Điểm
+D131_K1_HP,"Cải tạo không giam giữ đến 03 năm hoặc phạt tù 06 tháng đến 03 năm",Hình phạt
+D131_K2,"Khoản 2 Điều 131",Khoản
+D131_K2_HV,"Phạm tội làm 02 người trở lên tự sát",Hành vi chính
+D131_K2_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D132,"Điều 132: Tội không cứu giúp người đang nguy hiểm tính mạng",Điều
+D132_K1,"Khoản 1 Điều 132",Khoản
+D132_K1_HV,"Thấy người nguy hiểm tính mạng, có điều kiện mà không cứu dẫn đến chết",Hành vi chính
+D132_K1_HP,"Cảnh cáo, cải tạo không giam giữ đến 02 năm hoặc phạt tù 03 tháng đến 02 năm",Hình phạt
+D132_K2,"Khoản 2 Điều 132",Khoản
+D132_K2_HV,"Phạm tội thuộc trường hợp tăng nặng",Hành vi chính
+D132_K2_OR,"Thuộc một trong các trường hợp sau (OR)",Node Logic OR
+D132_K2_Da,"Điểm a: Là người đã vô ý gây ra tình trạng nguy hiểm",Điểm
+D132_K2_Db,"Điểm b: Là người có nghĩa vụ phải cứu giúp",Điểm
+D132_K2_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D132_K3,"Khoản 3 Điều 132",Khoản
+D132_K3_HV,"Dẫn đến hậu quả 02 người trở lên chết",Hành vi chính
+D132_K3_HP,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+D132_K4,"Khoản 4 Điều 132",Khoản
+D132_K4_HV,"Người phạm tội không cứu giúp",Hành vi chính
+D132_K4_HP,"Cấm đảm nhiệm chức vụ, hành nghề 01-05 năm",Hình phạt
+D133,"Điều 133: Tội đe dọa giết người",Điều
+D133_K1,"Khoản 1 Điều 133",Khoản
+D133_K1_HV,"Đe dọa giết người có căn cứ làm nạn nhân lo sợ",Hành vi chính
+D133_K1_HP,"Cải tạo không giam giữ đến 03 năm hoặc phạt tù 06 tháng đến 03 năm",Hình phạt
+D133_K2,"Khoản 2 Điều 133",Khoản
+D133_K2_HV,"Phạm tội thuộc trường hợp tăng nặng",Hành vi chính
+D133_K2_OR,"Thuộc một trong các trường hợp sau (OR)",Node Logic OR
+D133_K2_Da,"Điểm a: Đối với 02 người trở lên",Điểm
+D133_K2_Db,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+D133_K2_Dc,"Điểm c: Đối với người đang thi hành công vụ",Điểm
+D133_K2_Dd,"Điểm d: Đối với người dưới 16 tuổi",Điểm
+D133_K2_Dđ,"Điểm đ: Để che giấu/trốn tránh xử lý tội khác",Điểm
+D133_K2_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D134,"Điều 134: Tội cố ý gây thương tích",Điều
+D134_K1,"Khoản 1 Điều 134",Khoản
+D134_K1_HV,"Gây thương tích 11-30% hoặc dưới 11% thuộc các trường hợp đặc biệt",Hành vi chính
+D134_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D134_K1_Da,"Điểm a: Dùng vũ khí, hung khí nguy hiểm...",Điểm
+D134_K1_Db,"Điểm b: Dùng a-xít, hóa chất nguy hiểm",Điểm
+D134_K1_Dc,"Điểm c: Đối với người dưới 16, phụ nữ có thai, người già yếu...",Điểm
+D134_K1_Dd,"Điểm d: Đối với ông, bà, cha, mẹ, thầy cô, người nuôi dưỡng",Điểm
+D134_K1_Dđ,"Điểm đ: Có tổ chức",Điểm
+D134_K1_De,"Điểm e: Lợi dụng chức vụ, quyền hạn",Điểm
+D134_K1_Dg,"Điểm g: Trong thời gian bị giữ, tạm giam, chấp hành án...",Điểm
+D134_K1_Dh,"Điểm h: Thuê gây thương tích hoặc được thuê",Điểm
+D134_K1_Di,"Điểm i: Có tính chất côn đồ",Điểm
+D134_K1_Dk,"Điểm k: Đối với người đang thi hành công vụ",Điểm
+D134_K1_HP,"Cải tạo không giam giữ đến 03 năm hoặc phạt tù 06 tháng đến 03 năm",Hình phạt
+D134_K2,"Khoản 2 Điều 134",Khoản
+D134_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D134_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D134_K2_Da,"Điểm a: Thương tích 31% - 60%",Điểm
+D134_K2_Db,"Điểm b: 02 người trở lên, mỗi người 11% - 30%",Điểm
+D134_K2_Dc,"Điểm c: Phạm tội 02 lần trở lên",Điểm
+D134_K2_Dd,"Điểm d: Tái phạm nguy hiểm",Điểm
+D134_K2_Dđ,"Điểm đ: Thương tích 11-30% nhưng thuộc điểm a-k khoản 1",Điểm
+D134_K2_HP,"Phạt tù từ 02 năm đến 06 năm",Hình phạt
+D134_K3,"Khoản 3 Điều 134",Khoản
+D134_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D134_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D134_K3_Da,"Điểm a: Thương tích 61% trở lên (không thuộc điểm b k4)",Điểm
+D134_K3_Db,"Điểm b: 02 người trở lên, mỗi người 31% - 60%",Điểm
+D134_K3_Dc,"Điểm c: Thương tích 31-60% nhưng thuộc điểm a-k khoản 1",Điểm
+D134_K3_Dd,"Điểm d: 02 người trở lên (11-30%) nhưng thuộc điểm a-k khoản 1",Điểm
+D134_K3_HP,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+D134_K4,"Khoản 4 Điều 134",Khoản
+D134_K4_HV,"Phạm tội thuộc trường hợp khoản 4",Hành vi chính
+D134_K4_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D134_K4_Da,"Điểm a: Làm chết người",Điểm
+D134_K4_Db,"Điểm b: Biến dạng vùng mặt 61% trở lên",Điểm
+D134_K4_Dc,"Điểm c: 02 người trở lên, mỗi người 61% trở lên",Điểm
+D134_K4_Dd,"Điểm d: Thương tích 61% trở lên nhưng thuộc điểm a-k khoản 1",Điểm
+D134_K4_Dđ,"Điểm đ: 02 người trở lên (31-60%) nhưng thuộc điểm a-k khoản 1",Điểm
+D134_K4_HP,"Phạt tù từ 07 năm đến 14 năm",Hình phạt
+D134_K5,"Khoản 5 Điều 134",Khoản
+D134_K5_HV,"Phạm tội thuộc trường hợp khoản 5",Hành vi chính
+D134_K5_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D134_K5_Da,"Điểm a: Làm chết 02 người trở lên",Điểm
+D134_K5_Db,"Điểm b: 02 người (61% trở lên) thuộc điểm a-k khoản 1",Điểm
+D134_K5_HP,"Phạt tù từ 12 năm đến 20 năm hoặc chung thân",Hình phạt
+D134_K6,"Khoản 6 Điều 134",Khoản
+D134_K6_HV,"Chuẩn bị vũ khí, hung khí, lập nhóm nhằm gây thương tích",Hành vi chính
+D134_K6_HP,"Cải tạo không giam giữ đến 02 năm hoặc phạt tù 03 tháng đến 02 năm",Hình phạt
+D135,"Điều 135: Tội cố ý gây thương tích trong trạng thái bị kích động",Điều
+D135_K1,"Khoản 1 Điều 135",Khoản
+D135_K1_HV,"Thương tích 31-60% do kích động mạnh vì hành vi trái pháp luật của nạn nhân",Hành vi chính
+D135_K1_HP,"Phạt tiền 10-50 triệu hoặc cải tạo không giam giữ đến 03 năm",Hình phạt
+D135_K2,"Khoản 2 Điều 135",Khoản
+D135_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D135_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D135_K2_Da,"Điểm a: 02 người trở lên, mỗi người 31% trở lên",Điểm
+D135_K2_Db,"Điểm b: Thương tích 61% trở lên hoặc dẫn đến chết người",Điểm
+D135_K2_HP,"Phạt tù từ 06 tháng đến 03 năm",Hình phạt
+D136,"Điều 136: Tội gây thương tích do vượt quá phòng vệ/bắt người",Điều
+D136_K1,"Khoản 1 Điều 136",Khoản
+D136_K1_HV,"Thương tích 31-60% do vượt quá giới hạn",Hành vi chính
+D136_K1_HP,"Phạt tiền 5-20 triệu hoặc cải tạo không giam giữ đến 03 năm",Hình phạt
+D136_K2,"Khoản 2 Điều 136",Khoản
+D136_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D136_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D136_K2_Da,"Điểm a: 02 người trở lên (31-60%)",Điểm
+D136_K2_Db,"Điểm b: Thương tích 61% trở lên",Điểm
+D136_K2_HP,"Phạt tù từ 03 tháng đến 02 năm",Hình phạt
+D136_K3,"Khoản 3 Điều 136",Khoản
+D136_K3_HV,"Dẫn đến chết người hoặc 02 người trở lên 61%",Hành vi chính
+D136_K3_HP,"Phạt tù từ 01 năm đến 03 năm",Hình phạt
+D137,"Điều 137: Tội gây thương tích trong thi hành công vụ",Điều
+D137_K1,"Khoản 1 Điều 137",Khoản
+D137_K1_HV,"Thương tích 31-60% do dùng vũ lực trái phép khi công vụ",Hành vi chính
+D137_K1_HP,"Cải tạo không giam giữ đến 03 năm hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D137_K2,"Khoản 2 Điều 137",Khoản
+D137_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D137_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D137_K2_Da,"Điểm a: 02 người trở lên (31% trở lên)",Điểm
+D137_K2_Db,"Điểm b: Thương tích 61% trở lên",Điểm
+D137_K2_Dc,"Điểm c: Đối với người dưới 16, phụ nữ có thai, người già...",Điểm
+D137_K2_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D137_K3,"Khoản 3 Điều 137",Khoản
+D137_K3_HV,"Người phạm tội",Hành vi chính
+D137_K3_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D138,"Điều 138: Tội vô ý gây thương tích",Điều
+D138_K1,"Khoản 1 Điều 138",Khoản
+D138_K1_HV,"Vô ý gây thương tích 31-60%",Hành vi chính
+D138_K1_HP,"Cảnh cáo, phạt tiền 5-20 triệu, cải tạo không giam giữ đến 01 năm",Hình phạt
+D138_K2,"Khoản 2 Điều 138",Khoản
+D138_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D138_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D138_K2_Da,"Điểm a: 02 người trở lên (31-60%)",Điểm
+D138_K2_Db,"Điểm b: Thương tích 61% trở lên",Điểm
+D138_K2_HP,"Cải tạo không giam giữ 01-02 năm hoặc phạt tù 03 tháng - 02 năm",Hình phạt
+D138_K3,"Khoản 3 Điều 138",Khoản
+D138_K3_HV,"Đối với 02 người trở lên, mỗi người 61% trở lên",Hành vi chính
+D138_K3_HP,"Cải tạo không giam giữ 02-03 năm hoặc phạt tù 01-03 năm",Hình phạt
+D139,"Điều 139: Tội vô ý gây thương tích do vi phạm quy tắc",Điều
+D139_K1,"Khoản 1 Điều 139",Khoản
+D139_K1_HV,"Vô ý gây thương tích 31-60% do vi phạm quy tắc",Hành vi chính
+D139_K1_HP,"Phạt tiền 20-100 triệu, cải tạo không giam giữ đến 02 năm, phạt tù 03 tháng - 01 năm",Hình phạt
+D139_K2,"Khoản 2 Điều 139",Khoản
+D139_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D139_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D139_K2_Da,"Điểm a: 02 người trở lên (31-60%)",Điểm
+D139_K2_Db,"Điểm b: Thương tích 61% trở lên",Điểm
+D139_K2_HP,"Cải tạo không giam giữ 02-03 năm hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D139_K3,"Khoản 3 Điều 139",Khoản
+D139_K3_HV,"02 người trở lên, mỗi người 61% trở lên",Hành vi chính
+D139_K3_HP,"Phạt tù từ 02 năm đến 05 năm",Hình phạt
+D139_K4,"Khoản 4 Điều 139",Khoản
+D139_K4_HV,"Người phạm tội",Hành vi chính
+D139_K4_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D140,"Điều 140: Tội hành hạ người khác",Điều
+D140_K1,"Khoản 1 Điều 140",Khoản
+D140_K1_HV,"Đối xử tàn ác, làm nhục người lệ thuộc (không thuộc Đ185)",Hành vi chính
+D140_K1_HP,"Cải tạo không giam giữ đến 03 năm hoặc phạt tù 03 tháng - 02 năm",Hình phạt
+D140_K2,"Khoản 2 Điều 140",Khoản
+D140_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D140_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D140_K2_Da,"Điểm a: Đối với người dưới 16, phụ nữ có thai, già yếu...",Điểm
+D140_K2_Db,"Điểm b: Gây rối loạn tâm thần 31% trở lên",Điểm
+D140_K2_Dc,"Điểm c: Đối với 02 người trở lên",Điểm
+D140_K2_HP,"Phạt tù từ 01 năm đến 03 năm",Hình phạt
+D141,"Điều 141: Tội hiếp dâm",Điều
+D141_K1,"Khoản 1 Điều 141",Khoản
+D141_K1_HV,"Dùng vũ lực, lợi dụng tình trạng không thể tự vệ giao cấu trái ý muốn",Hành vi chính
+D141_K1_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D141_K2,"Khoản 2 Điều 141",Khoản
+D141_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D141_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D141_K2_Da,"Điểm a: Có tổ chức",Điểm
+D141_K2_Db,"Điểm b: Đối với người mình có trách nhiệm chăm sóc, giáo dục",Điểm
+D141_K2_Dc,"Điểm c: Nhiều người hiếp một người",Điểm
+D141_K2_Dd,"Điểm d: Phạm tội 02 lần trở lên",Điểm
+D141_K2_Dđ,"Điểm đ: Đối với 02 người trở lên",Điểm
+D141_K2_De,"Điểm e: Có tính chất loạn luân",Điểm
+D141_K2_Dg,"Điểm g: Làm nạn nhân có thai",Điểm
+D141_K2_Dh,"Điểm h: Gây thương tích/rối loạn tâm thần 31-60%",Điểm
+D141_K2_Di,"Điểm i: Tái phạm nguy hiểm",Điểm
+D141_K2_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D141_K3,"Khoản 3 Điều 141",Khoản
+D141_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D141_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D141_K3_Da,"Điểm a: Gây thương tích/rối loạn tâm thần 61% trở lên",Điểm
+D141_K3_Db,"Điểm b: Biết nhiễm HIV mà vẫn phạm tội",Điểm
+D141_K3_Dc,"Điểm c: Làm nạn nhân chết hoặc tự sát",Điểm
+D141_K3_HP,"Phạt tù từ 12 năm đến 20 năm hoặc chung thân",Hình phạt
+D141_K4,"Khoản 4 Điều 141",Khoản
+D141_K4_HV,"Phạm tội đối với người từ đủ 16 đến dưới 18",Hành vi chính
+D141_K4_HP,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+D141_K5,"Khoản 5 Điều 141",Khoản
+D141_K5_HV,"Người phạm tội",Hành vi chính
+D141_K5_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D142,"Điều 142: Tội hiếp dâm người dưới 16 tuổi",Điều
+D142_K1,"Khoản 1 Điều 142",Khoản
+D142_K1_HV,"Thực hiện hành vi hiếp dâm người dưới 16 tuổi",Hành vi chính
+D142_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D142_K1_Da,"Điểm a: Hiếp dâm người từ đủ 13 đến dưới 16 tuổi",Điểm
+D142_K1_Db,"Điểm b: Giao cấu/quan hệ tình dục với người dưới 13 tuổi",Điểm
+D142_K1_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D142_K2,"Khoản 2 Điều 142",Khoản
+D142_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D142_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D142_K2_Da,"Điểm a: Có tính chất loạn luân",Điểm
+D142_K2_Db,"Điểm b: Làm nạn nhân có thai",Điểm
+D142_K2_Dc,"Điểm c: Gây thương tích/rối loạn tâm thần 31-60%",Điểm
+D142_K2_Dd,"Điểm d: Đối với người có trách nhiệm chăm sóc",Điểm
+D142_K2_Dđ,"Điểm đ: Phạm tội 02 lần trở lên",Điểm
+D142_K2_De,"Điểm e: Đối với 02 người trở lên",Điểm
+D142_K2_Dg,"Điểm g: Tái phạm nguy hiểm",Điểm
+D142_K2_HP,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+D142_K3,"Khoản 3 Điều 142",Khoản
+D142_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D142_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D142_K3_Da,"Điểm a: Có tổ chức",Điểm
+D142_K3_Db,"Điểm b: Nhiều người hiếp một người",Điểm
+D142_K3_Dc,"Điểm c: Đối với người dưới 10 tuổi",Điểm
+D142_K3_Dd,"Điểm d: Gây thương tích/rối loạn tâm thần 61% trở lên",Điểm
+D142_K3_Dđ,"Điểm đ: Biết nhiễm HIV mà vẫn phạm tội",Điểm
+D142_K3_De,"Điểm e: Làm nạn nhân chết hoặc tự sát",Điểm
+D142_K3_HP,"Phạt tù 20 năm, chung thân hoặc tử hình",Hình phạt
+D142_K4,"Khoản 4 Điều 142",Khoản
+D142_K4_HV,"Người phạm tội",Hành vi chính
+D142_K4_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D143,"Điều 143: Tội cưỡng dâm",Điều
+D143_K1,"Khoản 1 Điều 143",Khoản
+D143_K1_HV,"Dùng thủ đoạn khiến người lệ thuộc/quẫn bách miễn cưỡng giao cấu",Hành vi chính
+D143_K1_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D143_K2,"Khoản 2 Điều 143",Khoản
+D143_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D143_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D143_K2_Da,"Điểm a: Nhiều người cưỡng dâm một người",Điểm
+D143_K2_Db,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+D143_K2_Dc,"Điểm c: Đối với 02 người trở lên",Điểm
+D143_K2_Dd,"Điểm d: Có tính chất loạn luân",Điểm
+D143_K2_Dđ,"Điểm đ: Làm nạn nhân có thai",Điểm
+D143_K2_De,"Điểm e: Gây thương tích/rối loạn tâm thần 31-60%",Điểm
+D143_K2_Dg,"Điểm g: Tái phạm nguy hiểm",Điểm
+D143_K2_HP,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+D143_K3,"Khoản 3 Điều 143",Khoản
+D143_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D143_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D143_K3_Da,"Điểm a: Gây thương tích/rối loạn tâm thần 61% trở lên",Điểm
+D143_K3_Db,"Điểm b: Biết nhiễm HIV mà vẫn phạm tội",Điểm
+D143_K3_Dc,"Điểm c: Làm nạn nhân chết hoặc tự sát",Điểm
+D143_K3_HP,"Phạt tù từ 10 năm đến 18 năm",Hình phạt
+D143_K4,"Khoản 4 Điều 143",Khoản
+D143_K4_HV,"Cưỡng dâm người từ đủ 16 đến dưới 18 tuổi",Hành vi chính
+D143_K4_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D143_K5,"Khoản 5 Điều 143",Khoản
+D143_K5_HV,"Người phạm tội",Hành vi chính
+D143_K5_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D144,"Điều 144: Tội cưỡng dâm người 13-dưới 16 tuổi",Điều
+D144_K1,"Khoản 1 Điều 144",Khoản
+D144_K1_HV,"Cưỡng dâm người từ đủ 13 đến dưới 16 tuổi",Hành vi chính
+D144_K1_HP,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+D144_K2,"Khoản 2 Điều 144",Khoản
+D144_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D144_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D144_K2_Da,"Điểm a: Có tính chất loạn luân",Điểm
+D144_K2_Db,"Điểm b: Làm nạn nhân có thai",Điểm
+D144_K2_Dc,"Điểm c: Gây thương tích/rối loạn tâm thần 31-60%",Điểm
+D144_K2_Dd,"Điểm d: Phạm tội 02 lần trở lên",Điểm
+D144_K2_Dđ,"Điểm đ: Đối với 02 người trở lên",Điểm
+D144_K2_De,"Điểm e: Tái phạm nguy hiểm",Điểm
+D144_K2_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D144_K3,"Khoản 3 Điều 144",Khoản
+D144_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D144_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D144_K3_Da,"Điểm a: Nhiều người cưỡng dâm một người",Điểm
+D144_K3_Db,"Điểm b: Gây thương tích/rối loạn tâm thần 61% trở lên",Điểm
+D144_K3_Dc,"Điểm c: Biết nhiễm HIV mà vẫn phạm tội",Điểm
+D144_K3_Dd,"Điểm d: Làm nạn nhân chết hoặc tự sát",Điểm
+D144_K3_HP,"Phạt tù từ 12 năm đến 20 năm hoặc chung thân",Hình phạt
+D144_K4,"Khoản 4 Điều 144",Khoản
+D144_K4_HV,"Người phạm tội",Hành vi chính
+D144_K4_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D145,"Điều 145: Tội giao cấu với người 13-dưới 16 tuổi",Điều
+D145_K1,"Khoản 1 Điều 145",Khoản
+D145_K1_HV,"Người đủ 18 giao cấu với người 13 đến dưới 16 (không thuộc Đ142, 144)",Hành vi chính
+D145_K1_HP,"Phạt tù từ 01 năm đến 05 năm",Hình phạt
+D145_K2,"Khoản 2 Điều 145",Khoản
+D145_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D145_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D145_K2_Da,"Điểm a: Phạm tội 02 lần trở lên",Điểm
+D145_K2_Db,"Điểm b: Đối với 02 người trở lên",Điểm
+D145_K2_Dc,"Điểm c: Có tính chất loạn luân",Điểm
+D145_K2_Dd,"Điểm d: Làm nạn nhân có thai",Điểm
+D145_K2_Dđ,"Điểm đ: Gây thương tích 31-60%",Điểm
+D145_K2_De,"Điểm e: Đối với người có trách nhiệm chăm sóc",Điểm
+D145_K2_HP,"Phạt tù từ 03 năm đến 10 năm",Hình phạt
+D145_K3,"Khoản 3 Điều 145",Khoản
+D145_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D145_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D145_K3_Da,"Điểm a: Gây thương tích 61% trở lên",Điểm
+D145_K3_Db,"Điểm b: Biết nhiễm HIV mà vẫn phạm tội",Điểm
+D145_K3_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D145_K4,"Khoản 4 Điều 145",Khoản
+D145_K4_HV,"Người phạm tội",Hành vi chính
+D145_K4_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D146,"Điều 146: Tội dâm ô với người dưới 16 tuổi",Điều
+D146_K1,"Khoản 1 Điều 146",Khoản
+D146_K1_HV,"Người đủ 18 có hành vi dâm ô với người dưới 16 (không nhằm giao cấu)",Hành vi chính
+D146_K1_HP,"Phạt tù từ 06 tháng đến 03 năm",Hình phạt
+D146_K2,"Khoản 2 Điều 146",Khoản
+D146_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D146_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D146_K2_Da,"Điểm a: Phạm tội có tổ chức",Điểm
+D146_K2_Db,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+D146_K2_Dc,"Điểm c: Đối với 02 người trở lên",Điểm
+D146_K2_Dd,"Điểm d: Đối với người có trách nhiệm chăm sóc",Điểm
+D146_K2_Dđ,"Điểm đ: Gây rối loạn tâm thần 31-60%",Điểm
+D146_K2_De,"Điểm e: Tái phạm nguy hiểm",Điểm
+D146_K2_HP,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+D146_K3,"Khoản 3 Điều 146",Khoản
+D146_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D146_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D146_K3_Da,"Điểm a: Gây rối loạn tâm thần 61% trở lên",Điểm
+D146_K3_Db,"Điểm b: Làm nạn nhân tự sát",Điểm
+D146_K3_HP,"Phạt tù từ 07 năm đến 12 năm",Hình phạt
+D146_K4,"Khoản 4 Điều 146",Khoản
+D146_K4_HV,"Người phạm tội",Hành vi chính
+D146_K4_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D147,"Điều 147: Sử dụng người dưới 16 khiêu dâm",Điều
+D147_K1,"Khoản 1 Điều 147",Khoản
+D147_K1_HV,"Người đủ 18 lôi kéo ép buộc người dưới 16 trình diễn/chứng kiến khiêu dâm",Hành vi chính
+D147_K1_HP,"Phạt tù từ 06 tháng đến 03 năm",Hình phạt
+D147_K2,"Khoản 2 Điều 147",Khoản
+D147_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D147_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D147_K2_Da,"Điểm a: Phạm tội có tổ chức",Điểm
+D147_K2_Db,"Điểm b: Phạm tội 02 lần trở lên",Điểm
+D147_K2_Dc,"Điểm c: Đối với 02 người trở lên",Điểm
+D147_K2_Dd,"Điểm d: Đối với người có trách nhiệm chăm sóc",Điểm
+D147_K2_Dđ,"Điểm đ: Có mục đích thương mại",Điểm
+D147_K2_De,"Điểm e: Gây rối loạn tâm thần 31-60%",Điểm
+D147_K2_Dg,"Điểm g: Tái phạm nguy hiểm",Điểm
+D147_K2_HP,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+D147_K3,"Khoản 3 Điều 147",Khoản
+D147_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D147_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D147_K3_Da,"Điểm a: Gây rối loạn tâm thần 61% trở lên",Điểm
+D147_K3_Db,"Điểm b: Làm nạn nhân tự sát",Điểm
+D147_K3_HP,"Phạt tù từ 07 năm đến 12 năm",Hình phạt
+D147_K4,"Khoản 4 Điều 147",Khoản
+D147_K4_HV,"Người phạm tội",Hành vi chính
+D147_K4_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D148,"Điều 148: Tội lây truyền HIV",Điều
+D148_K1,"Khoản 1 Điều 148",Khoản
+D148_K1_HV,"Biết nhiễm HIV mà cố ý lây truyền (trừ nạn nhân tự nguyện)",Hành vi chính
+D148_K1_HP,"Phạt tù từ 01 năm đến 03 năm",Hình phạt
+D148_K2,"Khoản 2 Điều 148",Khoản
+D148_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D148_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D148_K2_Da,"Điểm a: Đối với 02 người trở lên",Điểm
+D148_K2_Db,"Điểm b: Đối với người dưới 18 (không thuộc Đ142, 145)",Điểm
+D148_K2_Dc,"Điểm c: Đối với phụ nữ có thai",Điểm
+D148_K2_Dd,"Điểm d: Đối với thầy thuốc, y tế chữa bệnh",Điểm
+D148_K2_Dđ,"Điểm đ: Đối với người đang thi hành công vụ",Điểm
+D148_K2_HP,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+D149,"Điều 149: Tội cố ý truyền HIV",Điều
+D149_K1,"Khoản 1 Điều 149",Khoản
+D149_K1_HV,"Cố ý truyền HIV (không thuộc Đ148)",Hành vi chính
+D149_K1_HP,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+D149_K2,"Khoản 2 Điều 149",Khoản
+D149_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D149_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D149_K2_Da,"Điểm a: Có tổ chức",Điểm
+D149_K2_Db,"Điểm b: Đối với người đang thi hành công vụ",Điểm
+D149_K2_Dc,"Điểm c: Đối với người dưới 18 tuổi",Điểm
+D149_K2_Dd,"Điểm d: Đối với từ 02 đến 05 người",Điểm
+D149_K2_Dđ,"Điểm đ: Lợi dụng nghề nghiệp",Điểm
+D149_K2_De,"Điểm e: Gây rối loạn tâm thần 31-60%",Điểm
+D149_K2_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D149_K3,"Khoản 3 Điều 149",Khoản
+D149_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D149_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D149_K3_Da,"Điểm a: Đối với phụ nữ có thai",Điểm
+D149_K3_Db,"Điểm b: Đối với 06 người trở lên",Điểm
+D149_K3_Dc,"Điểm c: Gây rối loạn tâm thần 61% trở lên",Điểm
+D149_K3_Dd,"Điểm d: Làm nạn nhân tự sát",Điểm
+D149_K3_HP,"Phạt tù từ 12 năm đến 20 năm hoặc chung thân",Hình phạt
+D149_K4,"Khoản 4 Điều 149",Khoản
+D149_K4_HV,"Người phạm tội",Hành vi chính
+D149_K4_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D150,"Điều 150: Tội mua bán người",Điều
+D150_K1,"Khoản 1 Điều 150",Khoản
+D150_K1_HV,"Dùng thủ đoạn, lừa gạt mua bán người",Hành vi chính
+D150_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D150_K1_Da,"Điểm a: Chuyển giao/tiếp nhận để nhận tiền/vật chất",Điểm
+D150_K1_Db,"Điểm b: Chuyển giao/tiếp nhận để bóc lột, lấy nội tạng",Điểm
+D150_K1_Dc,"Điểm c: Tuyển mộ, vận chuyển, chứa chấp...",Điểm
+D150_K1_HP,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+D150_K2,"Khoản 2 Điều 150",Khoản
+D150_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D150_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D150_K2_Da,"Điểm a: Có tổ chức",Điểm
+D150_K2_Db,"Điểm b: Vì động cơ đê hèn",Điểm
+D150_K2_Dc,"Điểm c: Gây thương tích/tâm thần 31-60%",Điểm
+D150_K2_Dd,"Điểm d: Đưa nạn nhân ra khỏi biên giới",Điểm
+D150_K2_Dđ,"Điểm đ: Đối với từ 02 đến 05 người",Điểm
+D150_K2_De,"Điểm e: Phạm tội 02 lần trở lên",Điểm
+D150_K2_HP,"Phạt tù từ 08 năm đến 15 năm",Hình phạt
+D150_K3,"Khoản 3 Điều 150",Khoản
+D150_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D150_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D150_K3_Da,"Điểm a: Có tính chất chuyên nghiệp",Điểm
+D150_K3_Db,"Điểm b: Đã lấy bộ phận cơ thể của nạn nhân",Điểm
+D150_K3_Dc,"Điểm c: Gây thương tích/tâm thần 61% trở lên",Điểm
+D150_K3_Dd,"Điểm d: Làm nạn nhân chết hoặc tự sát",Điểm
+D150_K3_Dđ,"Điểm đ: Đối với 06 người trở lên",Điểm
+D150_K3_De,"Điểm e: Tái phạm nguy hiểm",Điểm
+D150_K3_HP,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+D150_K4,"Khoản 4 Điều 150",Khoản
+D150_K4_HV,"Người phạm tội",Hành vi chính
+D150_K4_HP,"Phạt 20-100 triệu, quản chế, cấm cư trú 01-05 năm, tịch thu tài sản",Hình phạt
+D151,"Điều 151: Tội mua bán người dưới 16 tuổi",Điều
+D151_K1,"Khoản 1 Điều 151",Khoản
+D151_K1_HV,"Mua bán người dưới 16 tuổi",Hành vi chính
+D151_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D151_K1_Da,"Điểm a: Chuyển giao/tiếp nhận nhận vật chất",Điểm
+D151_K1_Db,"Điểm b: Chuyển giao/tiếp nhận bóc lột/nội tạng",Điểm
+D151_K1_Dc,"Điểm c: Tuyển mộ, vận chuyển, chứa chấp",Điểm
+D151_K1_HP,"Phạt tù từ 07 năm đến 12 năm",Hình phạt
+D151_K2,"Khoản 2 Điều 151",Khoản
+D151_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D151_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D151_K2_Da,"Điểm a: Lợi dụng chức vụ, quyền hạn",Điểm
+D151_K2_Db,"Điểm b: Lợi dụng hoạt động con nuôi",Điểm
+D151_K2_Dc,"Điểm c: Đối với từ 02 đến 05 người",Điểm
+D151_K2_Dd,"Điểm d: Đối với người có trách nhiệm chăm sóc",Điểm
+D151_K2_Dđ,"Điểm đ: Đưa nạn nhân ra khỏi biên giới",Điểm
+D151_K2_De,"Điểm e: Phạm tội 02 lần trở lên",Điểm
+D151_K2_Dg,"Điểm g: Vì động cơ đê hèn",Điểm
+D151_K2_Dh,"Điểm h: Gây thương tích/tâm thần 31-60%",Điểm
+D151_K2_HP,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+D151_K3,"Khoản 3 Điều 151",Khoản
+D151_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D151_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D151_K3_Da,"Điểm a: Có tổ chức",Điểm
+D151_K3_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D151_K3_Dc,"Điểm c: Gây thương tích/tâm thần 61% trở lên",Điểm
+D151_K3_Dd,"Điểm d: Đã lấy bộ phận cơ thể",Điểm
+D151_K3_Dđ,"Điểm đ: Làm nạn nhân chết hoặc tự sát",Điểm
+D151_K3_De,"Điểm e: Đối với 06 người trở lên",Điểm
+D151_K3_Dg,"Điểm g: Tái phạm nguy hiểm",Điểm
+D151_K3_HP,"Phạt tù từ 18 năm đến 20 năm hoặc chung thân",Hình phạt
+D151_K4,"Khoản 4 Điều 151",Khoản
+D151_K4_HV,"Người phạm tội",Hành vi chính
+D151_K4_HP,"Phạt 50-200 triệu, quản chế, cấm hành nghề 01-05 năm, tịch thu tài sản",Hình phạt
+D152,"Điều 152: Tội đánh tráo người dưới 01 tuổi",Điều
+D152_K1,"Khoản 1 Điều 152",Khoản
+D152_K1_HV,"Đánh tráo người dưới 01 tuổi",Hành vi chính
+D152_K1_HP,"Phạt tù từ 02 năm đến 05 năm",Hình phạt
+D152_K2,"Khoản 2 Điều 152",Khoản
+D152_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D152_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D152_K2_Da,"Điểm a: Có tổ chức",Điểm
+D152_K2_Db,"Điểm b: Lợi dụng chức vụ, nghề nghiệp",Điểm
+D152_K2_Dc,"Điểm c: Đối với người mình có trách nhiệm chăm sóc",Điểm
+D152_K2_Dd,"Điểm d: Phạm tội 02 lần trở lên",Điểm
+D152_K2_HP,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+D152_K3,"Khoản 3 Điều 152",Khoản
+D152_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D152_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D152_K3_Da,"Điểm a: Có tính chất chuyên nghiệp",Điểm
+D152_K3_Db,"Điểm b: Tái phạm nguy hiểm",Điểm
+D152_K3_HP,"Phạt tù từ 07 năm đến 12 năm",Hình phạt
+D152_K4,"Khoản 4 Điều 152",Khoản
+D152_K4_HV,"Người phạm tội",Hành vi chính
+D152_K4_HP,"Phạt 10-50 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D153,"Điều 153: Tội chiếm đoạt người dưới 16 tuổi",Điều
+D153_K1,"Khoản 1 Điều 153",Khoản
+D153_K1_HV,"Chiếm giữ hoặc giao cho người khác chiếm giữ người dưới 16 tuổi",Hành vi chính
+D153_K1_HP,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+D153_K2,"Khoản 2 Điều 153",Khoản
+D153_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D153_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D153_K2_Da,"Điểm a: Có tổ chức",Điểm
+D153_K2_Db,"Điểm b: Lợi dụng chức vụ, nghề nghiệp",Điểm
+D153_K2_Dc,"Điểm c: Đối với người mình có trách nhiệm chăm sóc",Điểm
+D153_K2_Dd,"Điểm d: Đối với từ 02 đến 05 người",Điểm
+D153_K2_Dđ,"Điểm đ: Phạm tội 02 lần trở lên",Điểm
+D153_K2_De,"Điểm e: Gây thương tích/tâm thần 31-60%",Điểm
+D153_K2_HP,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+D153_K3,"Khoản 3 Điều 153",Khoản
+D153_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D153_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D153_K3_Da,"Điểm a: Có tính chất chuyên nghiệp",Điểm
+D153_K3_Db,"Điểm b: Đối với 06 người trở lên",Điểm
+D153_K3_Dc,"Điểm c: Gây thương tích/tâm thần 61% trở lên",Điểm
+D153_K3_Dd,"Điểm d: Làm nạn nhân chết",Điểm
+D153_K3_Dđ,"Điểm đ: Tái phạm nguy hiểm",Điểm
+D153_K3_HP,"Phạt tù từ 10 năm đến 15 năm",Hình phạt
+D153_K4,"Khoản 4 Điều 153",Khoản
+D153_K4_HV,"Người phạm tội",Hành vi chính
+D153_K4_HP,"Phạt 10-50 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D154,"Điều 154: Mua bán, chiếm đoạt mô/bộ phận cơ thể",Điều
+D154_K1,"Khoản 1 Điều 154",Khoản
+D154_K1_HV,"Mua bán, chiếm đoạt mô/bộ phận cơ thể người",Hành vi chính
+D154_K1_HP,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+D154_K2,"Khoản 2 Điều 154",Khoản
+D154_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D154_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D154_K2_Da,"Điểm a: Có tổ chức",Điểm
+D154_K2_Db,"Điểm b: Vì mục đích thương mại",Điểm
+D154_K2_Dc,"Điểm c: Lợi dụng chức vụ, nghề nghiệp",Điểm
+D154_K2_Dd,"Điểm d: Đối với từ 02 đến 05 người",Điểm
+D154_K2_Dđ,"Điểm đ: Phạm tội 02 lần trở lên",Điểm
+D154_K2_De,"Điểm e: Gây thương tích 31-60%",Điểm
+D154_K2_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D154_K3,"Khoản 3 Điều 154",Khoản
+D154_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D154_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D154_K3_Da,"Điểm a: Có tính chất chuyên nghiệp",Điểm
+D154_K3_Db,"Điểm b: Gây thương tích 61% trở lên",Điểm
+D154_K3_Dc,"Điểm c: Đối với 06 người trở lên",Điểm
+D154_K3_Dd,"Điểm d: Gây chết người",Điểm
+D154_K3_Dđ,"Điểm đ: Tái phạm nguy hiểm",Điểm
+D154_K3_HP,"Phạt tù từ 12 năm đến 20 năm hoặc chung thân",Hình phạt
+D154_K4,"Khoản 4 Điều 154",Khoản
+D154_K4_HV,"Người phạm tội",Hành vi chính
+D154_K4_HP,"Phạt 10-100 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D155,"Điều 155: Tội làm nhục người khác",Điều
+D155_K1,"Khoản 1 Điều 155",Khoản
+D155_K1_HV,"Xúc phạm nghiêm trọng nhân phẩm, danh dự người khác",Hành vi chính
+D155_K1_HP,"Phạt cảnh cáo, phạt 10-30 triệu hoặc cải tạo không giam giữ đến 03 năm",Hình phạt
+D155_K2,"Khoản 2 Điều 155",Khoản
+D155_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D155_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D155_K2_Da,"Điểm a: Phạm tội 02 lần trở lên",Điểm
+D155_K2_Db,"Điểm b: Đối với 02 người trở lên",Điểm
+D155_K2_Dc,"Điểm c: Lợi dụng chức vụ, quyền hạn",Điểm
+D155_K2_Dd,"Điểm d: Đối với người đang thi hành công vụ",Điểm
+D155_K2_Dđ,"Điểm đ: Đối với người dạy dỗ, nuôi dưỡng",Điểm
+D155_K2_De,"Điểm e: Sử dụng mạng máy tính, viễn thông",Điểm
+D155_K2_Dg,"Điểm g: Gây rối loạn tâm thần 31-60%",Điểm
+D155_K2_HP,"Phạt tù từ 03 tháng đến 02 năm",Hình phạt
+D155_K3,"Khoản 3 Điều 155",Khoản
+D155_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D155_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D155_K3_Da,"Điểm a: Gây rối loạn tâm thần 61% trở lên",Điểm
+D155_K3_Db,"Điểm b: Làm nạn nhân tự sát",Điểm
+D155_K3_HP,"Phạt tù từ 02 năm đến 05 năm",Hình phạt
+D155_K4,"Khoản 4 Điều 155",Khoản
+D155_K4_HV,"Người phạm tội",Hành vi chính
+D155_K4_HP,"Cấm đảm nhiệm chức vụ/hành nghề 01-05 năm",Hình phạt
+D156,"Điều 156: Tội vu khống",Điều
+D156_K1,"Khoản 1 Điều 156",Khoản
+D156_K1_HV,"Thực hiện hành vi vu khống",Hành vi chính
+D156_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D156_K1_Da,"Điểm a: Bịa đặt, loan truyền sai sự thật xúc phạm nhân phẩm/quyền lợi",Điểm
+D156_K1_Db,"Điểm b: Bịa đặt người khác phạm tội tố cáo",Điểm
+D156_K1_HP,"Phạt 10-50 triệu, cải tạo không giam giữ đến 02 năm hoặc phạt tù 03 tháng - 01 năm",Hình phạt
+D156_K2,"Khoản 2 Điều 156",Khoản
+D156_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D156_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D156_K2_Da,"Điểm a: Có tổ chức",Điểm
+D156_K2_Db,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+D156_K2_Dc,"Điểm c: Đối với 02 người trở lên",Điểm
+D156_K2_Dd,"Điểm d: Đối với ông, bà, cha, mẹ, người dạy dỗ",Điểm
+D156_K2_Dđ,"Điểm đ: Đối với người đang thi hành công vụ",Điểm
+D156_K2_De,"Điểm e: Sử dụng mạng máy tính, viễn thông",Điểm
+D156_K2_Dg,"Điểm g: Gây rối loạn tâm thần 31-60%",Điểm
+D156_K2_Dh,"Điểm h: Vu khống phạm tội rất/đặc biệt nghiêm trọng",Điểm
+D156_K2_HP,"Phạt tù từ 01 năm đến 03 năm",Hình phạt
+D156_K3,"Khoản 3 Điều 156",Khoản
+D156_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D156_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D156_K3_Da,"Điểm a: Vì động cơ đê hèn",Điểm
+D156_K3_Db,"Điểm b: Gây rối loạn tâm thần 61% trở lên",Điểm
+D156_K3_Dc,"Điểm c: Làm nạn nhân tự sát",Điểm
+D156_K3_HP,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+D156_K4,"Khoản 4 Điều 156",Khoản
+D156_K4_HV,"Người phạm tội",Hành vi chính
+D156_K4_HP,"Phạt 10-50 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt

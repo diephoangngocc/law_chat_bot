@@ -1,0 +1,65 @@
+ID,Name,Label
+C19,"Chương XIX: Các tội phạm về môi trường",Chương
+D245,"Điều 245: Tội vi phạm quy định về quản lý khu bảo tồn thiên nhiên",Điều
+D245_K1,"Khoản 1 Điều 245",Khoản
+D245_K1_HV,"Vi phạm quy định quản lý khu bảo tồn thiên nhiên mức độ khoản 1",Hành vi chính
+D245_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D245_K1_Da,"Điểm a: Gây thiệt hại về tài sản 50-200tr",Điểm
+D245_K1_Db,"Điểm b: Gây thiệt hại cảnh quan, hệ sinh thái phân khu bảo vệ nghiêm ngặt 300-500 m2",Điểm
+D245_K1_Dc,"Điểm c: Đã bị xử phạt VPHC hoặc kết án chưa xóa án",Điểm
+D245_K1_HP,"Phạt tiền 100-600 triệu, cải tạo KGG đến 03 năm hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D245_K2,"Khoản 2 Điều 245",Khoản
+D245_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D245_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D245_K2_Da,"Điểm a: Gây thiệt hại về tài sản 200 triệu trở lên",Điểm
+D245_K2_Db,"Điểm b: Gây thiệt hại cảnh quan, hệ sinh thái phân khu bảo vệ nghiêm ngặt 500 m2 trở lên",Điểm
+D245_K2_Dc,"Điểm c: Có tổ chức",Điểm
+D245_K2_Dd,"Điểm d: Sử dụng công cụ, phương tiện, biện pháp bị cấm",Điểm
+D245_K2_Dđ,"Điểm đ: Tái phạm nguy hiểm",Điểm
+D245_K2_HP,"Phạt tù 03-07 năm",Hình phạt
+D245_K3,"Khoản 3 Điều 245",Khoản
+D245_K3_HV,"Người phạm tội",Hành vi chính
+D245_K3_HP,"Phạt 20-200 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D245_K4,"Khoản 4 Điều 245",Khoản
+D245_K4_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D245_K4_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D245_K4_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D245_K4_HP_a,"Phạt tiền 600 triệu - 2 tỷ",Hình phạt
+D245_K4_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D245_K4_Db,"Điểm b: Phạm tội thuộc khoản 2",Điểm
+D245_K4_HP_b,"Phạt tiền 2 tỷ - 6 tỷ hoặc đình chỉ hoạt động 06 tháng - 03 năm",Hình phạt
+D245_K4_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D245_K4_Dc,"Điểm c: Phạm tội thuộc Điều 79",Điểm
+D245_K4_HP_c,"Đình chỉ hoạt động vĩnh viễn",Hình phạt
+D245_K4_OR_d,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D245_K4_Dd,"Điểm d: Hình phạt bổ sung",Điểm
+D245_K4_HP_d,"Phạt 100tr-1 tỷ, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt
+D246,"Điều 246: Tội nhập khẩu, phát tán các loài ngoại lai xâm hại",Điều
+D246_K1,"Khoản 1 Điều 246",Khoản
+D246_K1_HV,"Nhập khẩu/phát tán loài ngoại lai xâm hại mức độ khoản 1",Hành vi chính
+D246_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D246_K1_Da,"Điểm a: Nhập khẩu trái phép trị giá 250-500tr hoặc dưới 250tr nhưng đã bị xử phạt VPHC",Điểm
+D246_K1_Db,"Điểm b: Phát tán gây thiệt hại tài sản 150-500tr",Điểm
+D246_K1_HP,"Phạt tiền 200tr-2 tỷ, cải tạo KGG đến 03 năm hoặc phạt tù 01-05 năm",Hình phạt
+D246_K2,"Khoản 2 Điều 246",Khoản
+D246_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D246_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D246_K2_Da,"Điểm a: Có tổ chức",Điểm
+D246_K2_Db,"Điểm b: Nhập khẩu trái phép trị giá 500 triệu trở lên",Điểm
+D246_K2_Dc,"Điểm c: Phát tán gây thiệt hại tài sản 500 triệu trở lên",Điểm
+D246_K2_Dd,"Điểm d: Tái phạm nguy hiểm",Điểm
+D246_K2_HP,"Phạt tù 03-07 năm",Hình phạt
+D246_K3,"Khoản 3 Điều 246",Khoản
+D246_K3_HV,"Người phạm tội",Hành vi chính
+D246_K3_HP,"Phạt 100tr-1 tỷ, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D246_K4,"Khoản 4 Điều 246",Khoản
+D246_K4_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D246_K4_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D246_K4_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D246_K4_HP_a,"Phạt tiền 2 tỷ - 6 tỷ",Hình phạt
+D246_K4_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D246_K4_Db,"Điểm b: Phạm tội thuộc khoản 2",Điểm
+D246_K4_HP_b,"Phạt tiền 6 tỷ - 10 tỷ hoặc đình chỉ hoạt động 06 tháng - 03 năm",Hình phạt
+D246_K4_OR_c,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D246_K4_Dc,"Điểm c: Hình phạt bổ sung",Điểm
+D246_K4_HP_c,"Phạt 200tr-2 tỷ, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt

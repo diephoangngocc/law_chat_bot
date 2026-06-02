@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.envrc
+.DS_Store
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.sqlite3
+*.db
+# local large indexes/models
+models/
+data/indexes/*.pkl
+data/indexes/*.faiss
+data/indexes/*.index

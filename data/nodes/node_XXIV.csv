@@ -1,0 +1,418 @@
+ID,Name,Label
+CH24,"Chương XXIV: CÁC TỘI XÂM PHẠM HOẠT ĐỘNG TƯ PHÁP",Chương
+D367,"Điều 367. Khái niệm tội xâm phạm hoạt động tư pháp",Điều
+K1_D367,"Khoản duy nhất Điều 367",Khoản
+HV_K1_D367,"Các tội xâm phạm hoạt động tư pháp là những hành vi xâm phạm sự đúng đắn của hoạt động tố tụng và thi hành án","Hành vi chính"
+D368,"Điều 368. Tội truy cứu trách nhiệm hình sự người không có tội",Điều
+K1_D368,"Khoản 1 Điều 368",Khoản
+HV_K1_D368,"Người nào có thẩm quyền mà truy cứu trách nhiệm hình sự người mà mình biết rõ là không có tội","Hành vi chính"
+HP_K1_D368,"Phạt tù từ 01 năm đến 05 năm","Hình phạt"
+K2_D368,"Khoản 2 Điều 368",Khoản
+OR_K2_D368,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D368,"a) Truy cứu trách nhiệm hình sự về tội xâm phạm an ninh quốc gia hoặc tội khác là tội phạm đặc biệt nghiêm trọng",Điểm
+P_b_K2_D368,"b) Đối với từ 02 người đến 05 người",Điểm
+P_c_K2_D368,"c) Đối với người dưới 18 tuổi, phụ nữ mà biết là có thai, người già yếu",Điểm
+P_d_K2_D368,"d) Gây rối loạn tâm thần và hành vi của nạn nhân mà tỷ lệ tổn thương cơ thể từ 31% đến 60%",Điểm
+P_dd_K2_D368,"đ) Dẫn đến việc kết án oan người vô tội về tội phạm ít nghiêm trọng hoặc tội phạm nghiêm trọng",Điểm
+P_e_K2_D368,"e) Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội",Điểm
+HP_K2_D368,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+K3_D368,"Khoản 3 Điều 368",Khoản
+OR_K3_D368,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D368,"a) Đối với 06 người trở lên",Điểm
+P_b_K3_D368,"b) Dẫn đến việc kết án oan người vô tội về tội phạm rất nghiêm trọng hoặc tội phạm đặc biệt nghiêm trọng",Điểm
+P_c_K3_D368,"c) Gây rối loạn tâm thần và hành vi của nạn nhân mà tỷ lệ tổn thương cơ thể 61% trở lên",Điểm
+P_d_K3_D368,"d) Làm người bị truy cứu trách nhiệm hình sự oan tự sát",Điểm
+HP_K3_D368,"Phạt tù từ 10 năm đến 15 năm","Hình phạt"
+K4_D368,"Khoản 4 Điều 368",Khoản
+HV_K4_D368,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D368,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm","Hình phạt"
+D369,"Điều 369. Tội không truy cứu trách nhiệm hình sự người có tội",Điều
+K1_D369,"Khoản 1 Điều 369",Khoản
+HV_K1_D369,"Người nào có thẩm quyền mà không truy cứu trách nhiệm hình sự người mà mình biết rõ là có tội","Hành vi chính"
+HP_K1_D369,"Phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D369,"Khoản 2 Điều 369",Khoản
+OR_K2_D369,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D369,"a) Không truy cứu trách nhiệm hình sự người thực hiện tội phạm rất nghiêm trọng",Điểm
+P_b_K2_D369,"b) Đối với 02 người đến 05 người",Điểm
+P_c_K2_D369,"c) Người không bị truy cứu trách nhiệm hình sự bỏ trốn hoặc thực hiện hành vi cản trở điều tra, truy tố, xét xử hoặc tiếp tục thực hiện tội phạm ít nghiêm trọng hoặc tội phạm nghiêm trọng",Điểm
+P_d_K2_D369,"d) Dẫn đến việc người không bị truy cứu trách nhiệm hình sự trả thù người tố giác, báo tin về tội phạm, người bị hại, nhân chứng",Điểm
+P_dd_K2_D369,"đ) Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội",Điểm
+HP_K2_D369,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D369,"Khoản 3 Điều 369",Khoản
+OR_K3_D369,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D369,"a) Đối với 06 người trở lên",Điểm
+P_b_K3_D369,"b) Không truy cứu trách nhiệm hình sự người phạm tội xâm phạm an ninh quốc gia hoặc tội khác là tội phạm đặc biệt nghiêm trọng",Điểm
+P_c_K3_D369,"c) Người không bị truy cứu trách nhiệm hình sự tiếp tục thực hiện tội phạm rất nghiêm trọng hoặc tội phạm đặc biệt nghiêm trọng",Điểm
+P_d_K3_D369,"d) Làm người bị hại tự sát",Điểm
+HP_K3_D369,"Phạt tù từ 07 năm đến 12 năm","Hình phạt"
+K4_D369,"Khoản 4 Điều 369",Khoản
+HV_K4_D369,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D369,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm","Hình phạt"
+D370,"Điều 370. Tội ra bản án trái pháp luật",Điều
+K1_D370,"Khoản 1 Điều 370",Khoản
+HV_K1_D370,"Thẩm phán, Hội thẩm nào ra bản án mà mình biết rõ là trái pháp luật","Hành vi chính"
+HP_K1_D370,"Phạt tù từ 01 năm đến 05 năm","Hình phạt"
+K2_D370,"Khoản 2 Điều 370",Khoản
+OR_K2_D370,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D370,"a) Phạm tội 02 lần trở lên",Điểm
+P_b_K2_D370,"b) Đối với người dưới 18 tuổi, phụ nữ mà biết là có thai, người già yếu",Điểm
+P_c_K2_D370,"c) Kết án oan người vô tội về tội phạm nghiêm trọng hoặc tội phạm rất nghiêm trọng",Điểm
+P_d_K2_D370,"d) Bỏ lọt tội phạm nghiêm trọng hoặc tội phạm rất nghiêm trọng; người phạm tội nghiêm trọng hoặc phạm tội rất nghiêm trọng",Điểm
+P_dd_K2_D370,"đ) Gây rối loạn tâm thần và hành vi của bị cáo, người bị hại, đương sự mà tỷ lệ tổn thương cơ thể từ 31% đến 60%",Điểm
+P_e_K2_D370,"e) Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.000.000.000 đồng",Điểm
+P_g_K2_D370,"g) Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội",Điểm
+HP_K2_D370,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+K3_D370,"Khoản 3 Điều 370",Khoản
+OR_K3_D370,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D370,"a) Kết án oan người vô tội về tội phạm đặc biệt nghiêm trọng",Điểm
+P_b_K3_D370,"b) Bỏ lọt tội phạm đặc biệt nghiêm trọng hoặc người phạm tội đặc biệt nghiêm trọng",Điểm
+P_c_K3_D370,"c) Gây rối loạn tâm thần và hành vi của bị cáo, người bị hại, đương sự mà tỷ lệ tổn thương cơ thể 61% trở lên",Điểm
+P_d_K3_D370,"d) Dẫn đến bị cáo, người bị hại, đương sự tự sát",Điểm
+P_dd_K3_D370,"đ) Gây thiệt hại về tài sản 1.000.000.000 đồng trở lên",Điểm
+HP_K3_D370,"Phạt tù từ 10 năm đến 15 năm","Hình phạt"
+K4_D370,"Khoản 4 Điều 370",Khoản
+HV_K4_D370,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D370,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm","Hình phạt"
+D371,"Điều 371. Tội ra quyết định trái pháp luật",Điều
+K1_D371,"Khoản 1 Điều 371",Khoản
+HV_K1_D371,"Người nào có thẩm quyền trong hoạt động tố tụng, thi hành án ra quyết định mà mình biết rõ là trái pháp luật gây thiệt hại về tài sản từ 50.000.000 đồng đến dưới 200.000.000 đồng hoặc gây thiệt hại đến lợi ích của Nhà nước, quyền, lợi ích hợp pháp của tổ chức, cá nhân, nếu không thuộc trường hợp quy định tại các điều 368, 369, 370, 377 và 378","Hành vi chính"
+HP_K1_D371,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D371,"Khoản 2 Điều 371",Khoản
+OR_K2_D371,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D371,"a) Có tổ chức",Điểm
+P_b_K2_D371,"b) Phạm tội 02 lần trở lên",Điểm
+P_c_K2_D371,"c) Đối với người dưới 18 tuổi, phụ nữ mà biết là có thai, người già yếu",Điểm
+P_d_K2_D371,"d) Gây rối loạn tâm thần và hành vi của người bị bắt, người bị tạm giữ, bị can, bị cáo, người bị kết án, người phải chấp hành án, người bị hại, đương sự mà tỷ lệ tổn thương cơ thể từ 31% đến 60%",Điểm
+P_dd_K2_D371,"đ) Gây thiệt hại về tài sản từ 200.000.000 đồng đến dưới 1.000.000.000 đồng",Điểm
+P_e_K2_D371,"e) Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội",Điểm
+HP_K2_D371,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D371,"Khoản 3 Điều 371",Khoản
+OR_K3_D371,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D371,"a) Gây rối loạn tâm thần và hành vi của người bị bắt, người bị tạm giữ, bị can, bị cáo, người bị kết án, người phải chấp hành án, người bị hại, đương sự mà tỷ lệ tổn thương cơ thể 61% trở lên",Điểm
+P_b_K3_D371,"b) Dẫn đến người bị bắt, người bị tạm giữ, bị can, bị cáo, người bị kết án, người phải chấp hành án, người bị hại, đương sự tự sát",Điểm
+P_c_K3_D371,"c) Gây thiệt hại về tài sản 1.000.000.000 đồng trở lên",Điểm
+HP_K3_D371,"Phạt tù từ 07 năm đến 12 năm","Hình phạt"
+K4_D371,"Khoản 4 Điều 371",Khoản
+HV_K4_D371,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D371,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm","Hình phạt"
+D372,"Điều 372. Tội ép buộc người có thẩm quyền trong hoạt động tư pháp làm trái pháp luật",Điều
+K1_D372,"Khoản 1 Điều 372",Khoản
+HV_K1_D372,"Người nào lợi dụng chức vụ, quyền hạn ép buộc người có thẩm quyền trong hoạt động tố tụng, thi hành án làm trái pháp luật gây thiệt hại đến lợi ích của Nhà nước, quyền, lợi ích hợp pháp của tổ chức, cá nhân hoặc gây thiệt hại về tài sản từ 50.000.000 đồng đến dưới 200.000.000 đồng","Hành vi chính"
+HP_K1_D372,"Phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D372,"Khoản 2 Điều 372",Khoản
+OR_K2_D372,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D372,"a) Phạm tội 02 lần trở lên",Điểm
+P_b_K2_D372,"b) Dẫn đến ra bản án hoặc quyết định trái pháp luật",Điểm
+P_c_K2_D372,"c) Dùng vũ lực, đe dọa dùng vũ lực hoặc dùng thủ đoạn nguy hiểm, xảo quyệt khác",Điểm
+P_d_K2_D372,"d) Gây thiệt hại về tài sản từ 200.000.000 đồng đến dưới 1.000.000.000 đồng",Điểm
+P_dd_K2_D372,"đ) Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội",Điểm
+HP_K2_D372,"Phạt tù từ 02 năm đến 05 năm","Hình phạt"
+K3_D372,"Khoản 3 Điều 372",Khoản
+OR_K3_D372,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D372,"a) Dẫn đến làm oan người vô tội hoặc bỏ lọt tội phạm hoặc người phạm tội",Điểm
+P_b_K3_D372,"b) Gây thiệt hại về tài sản 1.000.000.000 đồng trở lên",Điểm
+HP_K3_D372,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+K4_D372,"Khoản 4 Điều 372",Khoản
+HV_K4_D372,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D372,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm","Hình phạt"
+D373,"Điều 373. Tội dùng nhục hình",Điều
+K1_D373,"Khoản 1 Điều 373",Khoản
+HV_K1_D373,"Người nào trong hoạt động tố tụng, thi hành án hoặc thi hành các biện pháp đưa vào trường giáo dưỡng, đưa vào cơ sở giáo dục bắt buộc, đưa vào cơ sở cai nghiện bắt buộc mà dùng nhục hình hoặc đối xử tàn bạo, hạ nhục nhân phẩm của người khác dưới bất kỳ hình thức nào","Hành vi chính"
+HP_K1_D373,"Phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D373,"Khoản 2 Điều 373",Khoản
+OR_K2_D373,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D373,"a) Phạm tội 02 lần trở lên",Điểm
+P_b_K2_D373,"b) Đối với 02 người trở lên",Điểm
+P_c_K2_D373,"c) Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+P_d_K2_D373,"d) Đối với người dưới 18 tuổi, phụ nữ mà biết là có thai, người già yếu, người khuyết tật nặng hoặc khuyết tật đặc biệt nặng",Điểm
+P_dd_K2_D373,"đ) Gây thương tích hoặc gây tổn hại về sức khỏe cho người khác mà tỷ lệ tổn thương cơ thể từ 11% đến 60%",Điểm
+HP_K2_D373,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D373,"Khoản 3 Điều 373",Khoản
+OR_K3_D373,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D373,"a) Gây thương tích hoặc gây tổn hại về sức khỏe cho người khác mà tỷ lệ tổn thương cơ thể 61% trở lên",Điểm
+P_b_K3_D373,"b) Làm người bị nhục hình tự sát",Điểm
+HP_K3_D373,"Phạt tù từ 07 năm đến 12 năm","Hình phạt"
+K4_D373,"Khoản 4 Điều 373",Khoản
+HV_K4_D373,"Phạm tội làm người bị nhục hình chết","Hành vi chính"
+HP_K4_D373,"Phạt tù từ 12 năm đến 20 năm hoặc tù chung thân","Hình phạt"
+K5_D373,"Khoản 5 Điều 373",Khoản
+HV_K5_D373,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K5_D373,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm","Hình phạt"
+D374,"Điều 374. Tội bức cung",Điều
+K1_D374,"Khoản 1 Điều 374",Khoản
+HV_K1_D374,"Người nào trong hoạt động tố tụng mà sử dụng thủ đoạn trái pháp luật ép buộc người bị lấy lời khai, người bị hỏi cung phải khai ra thông tin liên quan đến vụ án, vụ việc","Hành vi chính"
+HP_K1_D374,"Phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D374,"Khoản 2 Điều 374",Khoản
+OR_K2_D374,"Phạm tội thuộc một trong những trường hợp sau đây","Node Logic OR"
+P_a_K2_D374,"a) Phạm tội 02 lần trở lên",Điểm
+P_b_K2_D374,"b) Đối với 02 người trở lên",Điểm
+P_c_K2_D374,"c) Đối với người dưới 18 tuổi, phụ nữ mà biết là có thai, người già yếu, người khuyết tật nặng hoặc khuyết tật đặc biệt nặng",Điểm
+P_d_K2_D374,"d) Dùng nhục hình hoặc đối xử tàn bạo, hạ nhục nhân phẩm người bị lấy lời khai, người bị hỏi cung",Điểm
+P_dd_K2_D374,"đ) Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+P_e_K2_D374,"e) Dẫn đến làm sai lệch kết quả khởi tố, điều tra, truy tố, xét xử",Điểm
+P_g_K2_D374,"g) Ép buộc người bị lấy lời khai, người bị hỏi cung phải khai sai sự thật",Điểm
+HP_K2_D374,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D374,"Khoản 3 Điều 374",Khoản
+OR_K3_D374,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D374,"a) Làm người bị bức cung tự sát",Điểm
+P_b_K3_D374,"b) Dẫn đến bỏ lọt tội phạm ít nghiêm trọng hoặc tội phạm nghiêm trọng; người thực hiện tội phạm ít nghiêm trọng hoặc tội phạm nghiêm trọng",Điểm
+HP_K3_D374,"Phạt tù từ 07 năm đến 12 năm","Hình phạt"
+K4_D374,"Khoản 4 Điều 374",Khoản
+OR_K4_D374,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K4_D374,"a) Làm người bị bức cung chết",Điểm
+P_b_K4_D374,"b) Dẫn đến làm oan người vô tội",Điểm
+P_c_K4_D374,"c) Dẫn đến bỏ lọt tội phạm rất nghiêm trọng hoặc tội phạm đặc biệt nghiêm trọng; người thực hiện tội phạm rất nghiêm trọng hoặc tội phạm đặc biệt nghiêm trọng",Điểm
+HP_K4_D374,"Phạt tù từ 12 năm đến 20 năm hoặc tù chung thân","Hình phạt"
+K5_D374,"Khoản 5 Điều 374",Khoản
+HV_K5_D374,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K5_D374,"Cấm đảm nhiệm chức vụ, cấm hành nghề từ 01 năm đến 05 năm","Hình phạt"
+D375,"Điều 375. Tội làm sai lệch hồ sơ vụ án, vụ việc",Điều
+K1_D375,"Khoản 1 Điều 375",Khoản
+HV_K1_D375,"Điều tra viên, Kiểm sát viên, Thẩm phán, Hội thẩm, Thư ký Tòa án, người khác có nhiệm vụ, quyền hạn trong hoạt động tư pháp, người bào chữa, người bảo vệ quyền và lợi ích hợp pháp của bị hại, đương sự thêm, bớt, sửa đổi, đánh tráo, hủy hoặc làm hư hỏng tài liệu, vật chứng của vụ án, vụ việc hoặc bằng thủ đoạn khác nhằm làm sai lệch nội dung vụ án, vụ việc","Hành vi chính"
+HP_K1_D375,"Phạt tù từ 01 năm đến 05 năm","Hình phạt"
+K2_D375,"Khoản 2 Điều 375",Khoản
+OR_K2_D375,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D375,"a) Có tổ chức",Điểm
+P_b_K2_D375,"b) Dẫn đến việc giải quyết vụ án, vụ việc bị sai lệch",Điểm
+P_c_K2_D375,"c) Gây thiệt hại từ 500.000.000 đồng đến dưới 1.000.000.000 đồng",Điểm
+HP_K2_D375,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+K3_D375,"Khoản 3 Điều 375",Khoản
+OR_K3_D375,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D375,"a) Dẫn đến việc kết án oan người vô tội, bỏ lọt tội phạm hoặc người phạm tội",Điểm
+P_b_K3_D375,"b) Làm người bị bắt, người bị tạm giữ, bị can, bị cáo, người bị kết án, người phải chấp hành án, người bị hại, đương sự tự sát",Điểm
+P_c_K3_D375,"c) Gây thiệt hại 1.000.000.000 đồng trở lên",Điểm
+HP_K3_D375,"Phạt tù từ 10 năm đến 15 năm","Hình phạt"
+K4_D375,"Khoản 4 Điều 375",Khoản
+HV_K4_D375,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D375,"Cấm đảm nhiệm chức vụ, cấm làm công việc nhất định từ 01 năm đến 05 năm","Hình phạt"
+D376,"Điều 376. Tội thiếu trách nhiệm để người bị bắt, người bị tạm giữ, tạm giam, người đang chấp hành án phạt tù trốn",Điều
+K1_D376,"Khoản 1 Điều 376",Khoản
+HV_K1_D376,"Người nào được giao trách nhiệm trực tiếp quản lý, canh gác, áp giải người bị bắt, người bị tạm giữ, tạm giam, người đang chấp hành án phạt tù mà không thực hiện hoặc thực hiện không đúng quy định về quản lý, canh gác, áp giải để người thực hiện tội phạm ít nghiêm trọng hoặc tội phạm nghiêm trọng trốn","Hành vi chính"
+OR_K1_D376,"Thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K1_D376,"a) Làm vụ án bị tạm đình chỉ",Điểm
+P_b_K1_D376,"b) Người bỏ trốn trả thù người có thẩm quyền tiến hành tố tụng, người tham gia tố tụng",Điểm
+P_c_K1_D376,"c) Người bỏ trốn tiếp tục thực hiện tội phạm ít nghiêm trọng hoặc tội phạm nghiêm trọng",Điểm
+HP_K1_D376,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D376,"Khoản 2 Điều 376",Khoản
+OR_K2_D376,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D376,"a) Làm vụ án bị đình chỉ",Điểm
+P_b_K2_D376,"b) Người bỏ trốn tiếp tục thực hiện tội phạm rất nghiêm trọng",Điểm
+P_c_K2_D376,"c) Để từ 02 người đến 05 người bỏ trốn",Điểm
+P_d_K2_D376,"d) Để người thực hiện tội phạm rất nghiêm trọng bỏ trốn",Điểm
+P_dd_K2_D376,"đ) Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội",Điểm
+HP_K2_D376,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D376,"Khoản 3 Điều 376",Khoản
+OR_K3_D376,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D376,"a) Người bỏ trốn tiếp tục thực hiện tội phạm đặc biệt nghiêm trọng",Điểm
+P_b_K3_D376,"b) Để 06 người trở lên bỏ trốn",Điểm
+P_c_K3_D376,"c) Để người thực hiện tội phạm đặc biệt nghiêm trọng bỏ trốn",Điểm
+HP_K3_D376,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+K4_D376,"Khoản 4 Điều 376",Khoản
+HV_K4_D376,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D376,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm","Hình phạt"
+D377,"Điều 377. Tội lợi dụng chức vụ, quyền hạn bắt, giữ, giam người trái pháp luật",Điều
+K1_D377,"Khoản 1 Điều 377",Khoản
+HV_K1_D377,"Người nào lợi dụng chức vụ, quyền hạn thực hiện hành vi vi phạm","Hành vi chính"
+OR_K1_D377,"Thực hiện một trong các hành vi sau đây","Node Logic OR"
+P_a_K1_D377,"a) Không ra quyết định trả tự do cho người được trả tự do theo quy định của luật",Điểm
+P_b_K1_D377,"b) Ra lệnh, quyết định bắt, giữ, giam người không có căn cứ theo quy định của luật",Điểm
+P_c_K1_D377,"c) Không chấp hành quyết định trả tự do cho người được trả tự do theo quy định của luật",Điểm
+P_d_K1_D377,"d) Thực hiện việc bắt, giữ, giam người không có lệnh, quyết định theo quy định của luật hoặc tuy có lệnh, quyết định nhưng chưa có hiệu lực thi hành",Điểm
+P_dd_K1_D377,"đ) Không ra lệnh, quyết định gia hạn tạm giữ, tạm giam hoặc thay đổi, hủy bỏ biện pháp tạm giữ, tạm giam khi hết thời hạn dẫn đến quá hạn",Điểm
+HP_K1_D377,"Phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D377,"Khoản 2 Điều 377",Khoản
+OR_K2_D377,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D377,"a) Giam, giữ trái pháp luật từ 02 người đến 05 người",Điểm
+P_b_K2_D377,"b) Làm người bị giam, giữ trái pháp luật tổn hại về sức khỏe với tỷ lệ tổn thương cơ thể từ 31% đến 60%",Điểm
+P_c_K2_D377,"c) Làm người bị giam, giữ hoặc gia đình họ lâm vào hoàn cảnh kinh tế đặc biệt khó khăn",Điểm
+P_d_K2_D377,"d) Đối với người dưới 18 tuổi, phụ nữ mà biết là có thai, người già yếu, người khuyết tật nặng hoặc khuyết tật đặc biệt nặng",Điểm
+HP_K2_D377,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D377,"Khoản 3 Điều 377",Khoản
+OR_K3_D377,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D377,"a) Giam, giữ trái pháp luật 06 người trở lên",Điểm
+P_b_K3_D377,"b) Làm người bị giam, giữ trái pháp luật tổn hại về sức khỏe với tỷ lệ tổn thương cơ thể 61% trở lên hoặc chết",Điểm
+P_c_K3_D377,"c) Làm người bị giam, giữ tự sát",Điểm
+P_d_K3_D377,"d) Làm gia đình người bị giam, giữ ly tán",Điểm
+HP_K3_D377,"Phạt tù từ 05 năm đến 12 năm","Hình phạt"
+K4_D377,"Khoản 4 Điều 377",Khoản
+HV_K4_D377,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D377,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm","Hình phạt"
+D378,"Điều 378. Tội tha trái pháp luật người bị bắt, người đang bị tạm giữ, tạm giam, người đang chấp hành án phạt tù",Điều
+K1_D378,"Khoản 1 Điều 378",Khoản
+HV_K1_D378,"Người nào lợi dụng chức vụ, quyền hạn hoặc lạm quyền tha trái pháp luật người bị bắt, người đang bị tạm giữ, tạm giam, người đang chấp hành án phạt tù","Hành vi chính"
+HP_K1_D378,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D378,"Khoản 2 Điều 378",Khoản
+OR_K2_D378,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D378,"a) Tha trái pháp luật người bị bắt, người đang bị tạm giữ, tạm giam, người đang chấp hành án phạt tù về tội phạm rất nghiêm trọng hoặc tội phạm đặc biệt nghiêm trọng",Điểm
+P_b_K2_D378,"b) Người được tha trái pháp luật bỏ trốn hoặc có hành vi cản trở việc điều tra, truy tố, xét xử hoặc tiếp tục thực hiện tội phạm ít nghiêm trọng hoặc tội phạm nghiêm trọng",Điểm
+P_c_K2_D378,"c) Người được tha trái pháp luật trả thù người có thẩm quyền tiến hành tố tụng, người tham gia tố tụng",Điểm
+P_d_K2_D378,"d) Tha trái pháp luật từ 02 người đến 05 người",Điểm
+HP_K2_D378,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D378,"Khoản 3 Điều 378",Khoản
+OR_K3_D378,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D378,"a) Tha trái pháp luật 06 người trở lên",Điểm
+P_b_K3_D378,"b) Người được tha trái pháp luật thực hiện tội phạm rất nghiêm trọng hoặc tội phạm đặc biệt nghiêm trọng",Điểm
+HP_K3_D378,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+K4_D378,"Khoản 4 Điều 378",Khoản
+HV_K4_D378,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D378,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm","Hình phạt"
+D379,"Điều 379. Tội không thi hành án",Điều
+K1_D379,"Khoản 1 Điều 379",Khoản
+HV_K1_D379,"Người nào có thẩm quyền mà cố ý không ra quyết định thi hành án hoặc không thi hành quyết định thi hành bản án, quyết định của Tòa án","Hành vi chính"
+OR_K1_D379,"Thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K1_D379,"a) Đã bị xử lý kỷ luật về hành vi này mà còn vi phạm",Điểm
+P_b_K1_D379,"b) Dẫn đến người bị kết án, người phải chấp hành án bỏ trốn",Điểm
+P_c_K1_D379,"c) Dẫn đến hết thời hiệu thi hành án",Điểm
+P_d_K1_D379,"d) Dẫn đến người bị kết án, người phải chấp hành án, người có nghĩa vụ thi hành án tẩu tán tài sản và không thi hành được nghĩa vụ từ 50.000.000 đồng đến dưới 200.000.000 đồng",Điểm
+HP_K1_D379,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D379,"Khoản 2 Điều 379",Khoản
+OR_K2_D379,"Phạm tội thuộc một trong những trường hợp sau đây","Node Logic OR"
+P_a_K2_D379,"a) Phạm tội 02 lần trở lên",Điểm
+P_b_K2_D379,"b) Dẫn đến người bị kết án, người phải chấp hành án tiếp tục thực hiện tội phạm ít nghiêm trọng hoặc tội phạm nghiêm trọng",Điểm
+P_c_K2_D379,"c) Dẫn đến tẩu tán tài sản và không thi hành được nghĩa vụ thi hành án với số tiền từ 200.000.000 đồng đến dưới 1.000.000.000 đồng",Điểm
+HP_K2_D379,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D379,"Khoản 3 Điều 379",Khoản
+OR_K3_D379,"Phạm tội thuộc một trong những trường hợp sau đây","Node Logic OR"
+P_a_K3_D379,"a) Dẫn đến người bị kết án, người phải chấp hành án tiếp tục thực hiện tội phạm rất nghiêm trọng hoặc tội phạm đặc biệt nghiêm trọng",Điểm
+P_b_K3_D379,"b) Dẫn đến tẩu tán tài sản và không thi hành được nghĩa vụ thi hành án với số tiền 1.000.000.000 đồng trở lên",Điểm
+HP_K3_D379,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+K4_D379,"Khoản 4 Điều 379",Khoản
+HV_K4_D379,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D379,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm","Hình phạt"
+D380,"Điều 380. Tội không chấp hành án",Điều
+K1_D380,"Khoản 1 Điều 380",Khoản
+HV_K1_D380,"Người nào có điều kiện mà không chấp hành bản án hoặc quyết định của Tòa án đã có hiệu lực pháp luật mặc dù đã bị áp dụng biện pháp cưỡng chế hoặc đã bị xử phạt hành chính về hành vi này mà còn vi phạm","Hành vi chính"
+HP_K1_D380,"Phạt tù từ 03 tháng đến 02 năm","Hình phạt"
+K2_D380,"Khoản 2 Điều 380",Khoản
+OR_K2_D380,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D380,"a) Chống lại chấp hành viên hoặc người đang thi hành công vụ",Điểm
+P_b_K2_D380,"b) Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+P_c_K2_D380,"c) Tẩu tán tài sản",Điểm
+HP_K2_D380,"Phạt tù từ 02 năm đến 05 năm","Hình phạt"
+K3_D380,"Khoản 3 Điều 380",Khoản
+HV_K3_D380,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K3_D380,"Phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng","Hình phạt"
+D381,"Điều 381. Tội cản trở việc thi hành án",Điều
+K1_D381,"Khoản 1 Điều 381",Khoản
+HV_K1_D381,"Người nào lợi dụng chức vụ, quyền hạn cố ý cản trở việc thi hành án","Hành vi chính"
+OR_K1_D381,"Thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K1_D381,"a) Dẫn đến người bị kết án, người phải chấp hành án bỏ trốn",Điểm
+P_b_K1_D381,"b) Dẫn đến hết thời hiệu thi hành án",Điểm
+P_c_K1_D381,"c) Dẫn đến người bị kết án, người phải chấp hành án, người có nghĩa vụ thi hành án tẩu tán tài sản và không thi hành được nghĩa vụ thi hành án với số tiền từ 50.000.000 đồng đến dưới 200.000.000 đồng",Điểm
+P_d_K1_D381,"d) Gây thiệt hại từ 50.000.000 đồng đến dưới 200.000.000 đồng",Điểm
+HP_K1_D381,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D381,"Khoản 2 Điều 381",Khoản
+OR_K2_D381,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D381,"a) Phạm tội 02 lần trở lên",Điểm
+P_b_K2_D381,"b) Dẫn đến người bị kết án, người phải chấp hành án tiếp tục thực hiện tội phạm",Điểm
+P_c_K2_D381,"c) Dẫn đến người bị kết án, người phải thi hành án, người có nghĩa vụ thi hành án tẩu tán tài sản và không thi hành được nghĩa vụ thi hành án với số tiền 200.000.000 đồng trở lên",Điểm
+P_d_K2_D381,"d) Gây thiệt hại 200.000.000 đồng trở lên",Điểm
+HP_K2_D381,"Phạt tù từ 02 năm đến 05 năm","Hình phạt"
+K3_D381,"Khoản 3 Điều 381",Khoản
+HV_K3_D381,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K3_D381,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm","Hình phạt"
+D382,"Điều 382. Tội cung cấp tài liệu sai sự thật hoặc khai báo gian dối",Điều
+K1_D382,"Khoản 1 Điều 382",Khoản
+HV_K1_D382,"Người làm chứng, người giám định, người định giá tài sản, người phiên dịch, người dịch thuật, người bào chữa nào mà kết luận, dịch, khai gian dối hoặc cung cấp những tài liệu mà mình biết rõ là sai sự thật","Hành vi chính"
+HP_K1_D382,"Phạt cảnh cáo, phạt cải tạo không giam giữ đến 01 năm hoặc phạt tù từ 03 tháng đến 01 năm","Hình phạt"
+K2_D382,"Khoản 2 Điều 382",Khoản
+OR_K2_D382,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D382,"a) Có tổ chức",Điểm
+P_b_K2_D382,"b) Dẫn đến việc giải quyết vụ án, vụ việc bị sai lệch",Điểm
+HP_K2_D382,"Phạt tù từ 01 năm đến 03 năm","Hình phạt"
+K3_D382,"Khoản 3 Điều 382",Khoản
+OR_K3_D382,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D382,"a) Phạm tội 02 lần trở lên",Điểm
+P_b_K3_D382,"b) Dẫn đến việc kết án oan người vô tội hoặc bỏ lọt tội phạm hoặc người phạm tội",Điểm
+HP_K3_D382,"Phạt tù từ 03 năm đến 07 năm","Hình phạt"
+K4_D382,"Khoản 4 Điều 382",Khoản
+HV_K4_D382,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K4_D382,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm","Hình phạt"
+D383,"Điều 383. Tội từ chối khai báo, từ chối kết luận giám định, định giá tài sản hoặc từ chối cung cấp tài liệu",Điều
+K1_D383,"Khoản 1 Điều 383",Khoản
+HV_K1_D383,"Người làm chứng nếu không thuộc trường hợp quy định tại khoản 2 Điều 19 của Bộ luật này, người giám định, người định giá tài sản, người dịch thuật từ chối khai báo, trốn tránh việc kết luận giám định, định giá tài sản hoặc từ chối cung cấp tài liệu mà không có lý do chính đáng","Hành vi chính"
+HP_K1_D383,"Phạt cảnh cáo, phạt cải tạo không giam giữ đến 01 năm hoặc phạt tù từ 03 tháng đến 01 năm","Hình phạt"
+K2_D383,"Khoản 2 Điều 383",Khoản
+HV_K2_D383,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K2_D383,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm","Hình phạt"
+D384,"Điều 384. Tội mua chuộc hoặc cưỡng ép người khác trong việc khai báo, cung cấp tài liệu",Điều
+K1_D384,"Khoản 1 Điều 384",Khoản
+HV_K1_D384,"Người nào mua chuộc hoặc cưỡng ép người làm chứng, người bị hại, đương sự trong các vụ án hình sự, hành chính, dân sự khai báo gian dối, cung cấp tài liệu sai sự thật hoặc không khai báo, không cung cấp tài liệu; mua chuộc hoặc cưỡng ép người giám định, người định giá tài sản kết luận gian dối, người phiên dịch, người dịch thuật dịch xuyên tạc","Hành vi chính"
+HP_K1_D384,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 03 tháng đến 03 năm","Hình phạt"
+K2_D384,"Khoản 2 Điều 384",Khoản
+OR_K2_D384,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D384,"a) Dùng vũ lực, đe dọa dùng vũ lực hoặc dùng thủ đoạn nguy hiểm khác",Điểm
+P_b_K2_D384,"b) Lợi dụng chức vụ, quyền hạn",Điểm
+P_c_K2_D384,"c) Dẫn đến việc giải quyết vụ án, vụ việc bị sai lệch",Điểm
+HP_K2_D384,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+D385,"Điều 385. Tội vi phạm việc niêm phong, kê biên tài sản, phong tỏa tài khoản",Điều
+K1_D385,"Khoản 1 Điều 385",Khoản
+HV_K1_D385,"Người nào được giao giữ, quản lý tài sản bị kê biên, bị niêm phong hoặc vật chứng bị niêm phong, tài khoản bị phong tỏa","Hành vi chính"
+OR_K1_D385,"Thực hiện một trong các hành vi sau đây","Node Logic OR"
+P_a_K1_D385,"a) Phá hủy niêm phong, giải tỏa việc phong tỏa tài khoản mà không có quyết định của người có thẩm quyền",Điểm
+P_b_K1_D385,"b) Tiêu dùng, chuyển nhượng, đánh tráo, cất giấu hoặc hủy hoại tài sản bị kê biên",Điểm
+HP_K1_D385,"Phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm","Hình phạt"
+K2_D385,"Khoản 2 Điều 385",Khoản
+OR_K2_D385,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D385,"a) Dẫn đến việc giải quyết vụ án, vụ việc bị sai lệch",Điểm
+P_b_K2_D385,"b) Dẫn đến bị can, bị cáo, người bị kết án, người phải thi hành án, người có nghĩa vụ thi hành án tẩu tán tài sản và không thi hành được nghĩa vụ thi hành án với số tiền 100.000.000 đồng trở lên",Điểm
+HP_K2_D385,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D385,"Khoản 3 Điều 385",Khoản
+HV_K3_D385,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K3_D385,"Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm","Hình phạt"
+D386,"Điều 386. Tội trốn khỏi nơi giam, giữ hoặc trốn khi đang bị áp giải, đang bị xét xử",Điều
+K1_D386,"Khoản 1 Điều 386",Khoản
+HV_K1_D386,"Người nào đang bị tạm giữ, tạm giam, áp giải, xét xử hoặc chấp hành án phạt tù mà bỏ trốn","Hành vi chính"
+HP_K1_D386,"Phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D386,"Khoản 2 Điều 386",Khoản
+OR_K2_D386,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D386,"a) Có tổ chức",Điểm
+P_b_K2_D386,"b) Dùng vũ lực đối với người canh gác hoặc người áp giải",Điểm
+HP_K2_D386,"Phạt tù từ 03 năm đến 10 năm","Hình phạt"
+D387,"Điều 387. Tội đánh tháo người bị bắt, bị tạm giữ, tạm giam, người đang bị áp giải, xét xử, chấp hành án phạt tù",Điều
+K1_D387,"Khoản 1 Điều 387",Khoản
+HV_K1_D387,"Người nào đánh tháo người bị bắt, tạm giữ, tạm giam, người đang bị áp giải, xét xử hoặc chấp hành án phạt tù, nếu không thuộc trường hợp quy định tại Điều 119","Hành vi chính"
+HP_K1_D387,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K2_D387,"Khoản 2 Điều 387",Khoản
+OR_K2_D387,"Phạm tội thuộc một trong những trường hợp sau đây","Node Logic OR"
+P_a_K2_D387,"a) Có tổ chức",Điểm
+P_b_K2_D387,"b) Lợi dụng chức vụ, quyền hạn",Điểm
+P_c_K2_D387,"c) Dùng vũ lực đối với người canh gác hoặc người áp giải",Điểm
+P_d_K2_D387,"d) Đánh tháo người bị kết án về tội xâm phạm an ninh quốc gia hoặc người bị kết án tử hình",Điểm
+HP_K2_D387,"Phạt tù từ 05 năm đến 12 năm","Hình phạt"
+K3_D387,"Khoản 3 Điều 387",Khoản
+HV_K3_D387,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K3_D387,"Cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm","Hình phạt"
+D388,"Điều 388. Tội vi phạm quy định về giam giữ",Điều
+K1_D388,"Khoản 1 Điều 388",Khoản
+HV_K1_D388,"Người nào vi phạm quy định của pháp luật về giam giữ, đã bị xử lý kỷ luật, xử phạt vi phạm hành chính hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm","Hành vi chính"
+OR_K1_D388,"Thực hiện một trong các hành vi sau đây","Node Logic OR"
+P_a_K1_D388,"a) Gây rối hoặc chống lại mệnh lệnh của người có thẩm quyền trong quản lý giam giữ",Điểm
+P_b_K1_D388,"b) Không có trách nhiệm mà đưa vào, tàng trữ, sử dụng thiết bị thông tin liên lạc cá nhân hoặc phương tiện ghi âm, ghi hình trong cơ sở giam giữ",Điểm
+HP_K1_D388,"Phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D388,"Khoản 2 Điều 388",Khoản
+OR_K2_D388,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D388,"a) Có tổ chức",Điểm
+P_b_K2_D388,"b) Lợi dụng chức vụ, quyền hạn",Điểm
+P_c_K2_D388,"c) Dùng thủ đoạn tinh vi, xảo quyệt",Điểm
+P_d_K2_D388,"d) Tái phạm nguy hiểm",Điểm
+HP_K2_D388,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D388,"Khoản 3 Điều 388",Khoản
+HV_K3_D388,"Người phạm tội bị áp dụng hình phạt bổ sung","Hành vi chính"
+HP_K3_D388,"Cấm cư trú từ 01 năm đến 03 năm, cấm đảm nhiệm chức vụ từ 01 năm đến 03 năm","Hình phạt"
+D390,"Điều 390. Tội không tố giác tội phạm",Điều
+K1_D390,"Khoản 1 Điều 390",Khoản
+HV_K1_D390,"Người nào biết rõ một trong các tội phạm quy định tại khoản 2 hoặc khoản 3 Điều 14 của Bộ luật này đang được chuẩn bị hoặc một trong các tội phạm quy định tại Điều 389 của Bộ luật này đang được thực hiện hoặc đã được thực hiện mà không tố giác, nếu không thuộc trường hợp quy định tại khoản 2 và khoản 3 Điều 19 của Bộ luật này","Hành vi chính"
+HP_K1_D390,"Phạt cảnh cáo, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D390,"Khoản 2 Điều 390",Khoản
+HV_K2_D390,"Người không tố giác nếu đã có hành động can ngăn người phạm tội hoặc hạn chế tác hại của tội phạm","Hành vi chính"
+HP_K2_D390,"Có thể được miễn trách nhiệm hình sự hoặc miễn hình phạt","Hình phạt"
+D391,"Điều 391. Tội gây rối trật tự phiên tòa, phiên họp",Điều
+K1_D391,"Khoản 1 Điều 391",Khoản
+HV_K1_D391,"Người nào tại phiên tòa, phiên họp mà thóa mạ, xúc phạm nghiêm trọng danh dự, nhân phẩm của Thẩm phán, Hội thẩm, người có thẩm quyền tiến hành tố tụng khác hoặc người tham gia phiên tòa, phiên họp hoặc có hành vi đập phá tài sản, nếu không thuộc trường hợp quy định tại Điều 178 của Bộ luật này","Hành vi chính"
+HP_K1_D391,"Phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 02 năm","Hình phạt"
+K2_D391,"Khoản 2 Điều 391",Khoản
+OR_K2_D391,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D391,"a) Dẫn đến phải dừng phiên tòa, phiên họp",Điểm
+P_b_K2_D391,"b) Hành hung Thẩm phán, Hội thẩm, người có thẩm quyền tiến hành tố tụng khác, nếu không thuộc trường hợp quy định tại Điều 134 của Bộ luật này",Điểm
+HP_K2_D391,"Phạt tù từ 01 năm đến 03 năm","Hình phạt"

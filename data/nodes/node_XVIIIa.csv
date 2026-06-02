@@ -1,0 +1,530 @@
+ID,Name,Label
+C18,"Chương XVIII: Các tội xâm phạm trật tự quản lý kinh tế",Chương
+D188,"Điều 188: Tội buôn lậu",Điều
+D188_K1,"Khoản 1 Điều 188",Khoản
+D188_K1_HV,"Buôn bán qua biên giới hàng hóa, tiền tệ... 100tr đến dưới 300tr hoặc dưới 100tr nhưng thuộc các trường hợp",Hành vi chính
+D188_K1_OR,"Thuộc một trong các trường hợp sau (OR)",Node Logic OR
+D188_K1_Da,"Điểm a: Đã bị xử phạt VPHC hoặc đã bị kết án chưa được xóa án tích",Điểm
+D188_K1_Db,"Điểm b: Vật phạm pháp là di vật, cổ vật",Điểm
+D188_K1_HP,"Phạt tiền từ 50-300 triệu hoặc phạt tù từ 06 tháng đến 03 năm",Hình phạt
+D188_K2,"Khoản 2 Điều 188",Khoản
+D188_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D188_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D188_K2_Da,"Điểm a: Có tổ chức",Điểm
+D188_K2_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D188_K2_Dc,"Điểm c: Vật phạm pháp trị giá 300tr đến dưới 500tr",Điểm
+D188_K2_Dd,"Điểm d: Thu lợi bất chính 100tr đến dưới 500tr",Điểm
+D188_K2_Dđ,"Điểm đ: Vật phạm pháp là bảo vật quốc gia",Điểm
+D188_K2_De,"Điểm e: Lợi dụng chức vụ, quyền hạn",Điểm
+D188_K2_Dg,"Điểm g: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+D188_K2_Dh,"Điểm h: Phạm tội 02 lần trở lên",Điểm
+D188_K2_Di,"Điểm i: Tái phạm nguy hiểm",Điểm
+D188_K2_HP,"Phạt tiền 300tr-1.5 tỷ hoặc phạt tù 03-07 năm",Hình phạt
+D188_K3,"Khoản 3 Điều 188",Khoản
+D188_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D188_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D188_K3_Da,"Điểm a: Vật phạm pháp 500tr đến dưới 1 tỷ",Điểm
+D188_K3_Db,"Điểm b: Thu lợi bất chính 500tr đến dưới 1 tỷ",Điểm
+D188_K3_HP,"Phạt tiền 1.5 tỷ-5 tỷ hoặc phạt tù 07-15 năm",Hình phạt
+D188_K4,"Khoản 4 Điều 188",Khoản
+D188_K4_HV,"Phạm tội thuộc trường hợp khoản 4",Hành vi chính
+D188_K4_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D188_K4_Da,"Điểm a: Vật phạm pháp 1 tỷ trở lên",Điểm
+D188_K4_Db,"Điểm b: Thu lợi bất chính 1 tỷ trở lên",Điểm
+D188_K4_Dc,"Điểm c: Lợi dụng chiến tranh, thiên tai, dịch bệnh...",Điểm
+D188_K4_HP,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+D188_K5,"Khoản 5 Điều 188",Khoản
+D188_K5_HV,"Người phạm tội",Hành vi chính
+D188_K5_HP,"Phạt 20-100 triệu, cấm đảm nhiệm/hành nghề 01-05 năm, tịch thu tài sản",Hình phạt
+D188_K6,"Khoản 6 Điều 188",Khoản
+D188_K6_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D188_K6_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D188_K6_Da,"Điểm a: Hành vi khoản 1 với giá trị 200tr-300tr hoặc dưới 200tr là di vật cổ vật hoặc tái phạm",Điểm
+D188_K6_HP_a,"Phạt tiền từ 300 triệu đến 1 tỷ đồng",Hình phạt
+D188_K6_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D188_K6_Db,"Điểm b: Phạm tội thuộc điểm a, b, c, d, đ, h, i khoản 2",Điểm
+D188_K6_HP_b,"Phạt tiền từ 1 tỷ đến 3 tỷ đồng",Hình phạt
+D188_K6_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D188_K6_Dc,"Điểm c: Phạm tội thuộc khoản 3",Điểm
+D188_K6_HP_c,"Phạt tiền từ 3 tỷ đến 7 tỷ đồng",Hình phạt
+D188_K6_OR_d,"Điều kiện điểm d (OR)",Node Logic OR
+D188_K6_Dd,"Điểm d: Phạm tội thuộc khoản 4",Điểm
+D188_K6_HP_d,"Phạt tiền từ 7 tỷ đến 15 tỷ hoặc đình chỉ hoạt động 06 tháng - 03 năm",Hình phạt
+D188_K6_OR_đ,"Điều kiện điểm đ (OR)",Node Logic OR
+D188_K6_Dđ,"Điểm đ: Phạm tội thuộc Điều 79",Điểm
+D188_K6_HP_đ,"Đình chỉ hoạt động vĩnh viễn",Hình phạt
+D188_K6_OR_e,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D188_K6_De,"Điểm e: Hình phạt bổ sung",Điểm
+D188_K6_HP_e,"Phạt 50-300 triệu, cấm kinh doanh/hoạt động/huy động vốn 01-03 năm",Hình phạt
+D189,"Điều 189: Tội vận chuyển trái phép hàng hóa, tiền tệ qua biên giới",Điều
+D189_K1,"Khoản 1 Điều 189",Khoản
+D189_K1_HV,"Vận chuyển qua biên giới 100tr-300tr hoặc dưới 100tr có điều kiện",Hành vi chính
+D189_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D189_K1_Da,"Điểm a: Đã bị xử phạt VPHC hoặc kết án chưa xóa án tích",Điểm
+D189_K1_Db,"Điểm b: Vật phạm pháp là di vật, cổ vật",Điểm
+D189_K1_HP,"Phạt tiền 20-200tr, cải tạo KGG đến 02 năm hoặc tù 03 tháng-02 năm",Hình phạt
+D189_K2,"Khoản 2 Điều 189",Khoản
+D189_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D189_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D189_K2_Da,"Điểm a: Có tổ chức",Điểm
+D189_K2_Db,"Điểm b: Vật phạm pháp 300tr đến dưới 500tr",Điểm
+D189_K2_Dc,"Điểm c: Vật phạm pháp là bảo vật quốc gia",Điểm
+D189_K2_Dd,"Điểm d: Lợi dụng chức vụ, quyền hạn",Điểm
+D189_K2_Dđ,"Điểm đ: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+D189_K2_De,"Điểm e: Phạm tội 02 lần trở lên",Điểm
+D189_K2_Dg,"Điểm g: Tái phạm nguy hiểm",Điểm
+D189_K2_HP,"Phạt tiền 200tr-1 tỷ hoặc phạt tù 02-05 năm",Hình phạt
+D189_K3,"Khoản 3 Điều 189",Khoản
+D189_K3_HV,"Vật phạm pháp trị giá 500 triệu trở lên",Hành vi chính
+D189_K3_HP,"Phạt tiền 1 tỷ-3 tỷ hoặc phạt tù 05-10 năm",Hình phạt
+D189_K4,"Khoản 4 Điều 189",Khoản
+D189_K4_HV,"Người phạm tội",Hành vi chính
+D189_K4_HP,"Phạt 10-50 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D189_K5,"Khoản 5 Điều 189",Khoản
+D189_K5_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D189_K5_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D189_K5_Da,"Điểm a: Hành vi khoản 1 với giá trị 200-300tr hoặc dưới 200tr là di vật cổ vật hoặc tái phạm",Điểm
+D189_K5_HP_a,"Phạt tiền 200-500 triệu",Hình phạt
+D189_K5_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D189_K5_Db,"Điểm b: Phạm tội thuộc điểm a, b, c, e, g khoản 2",Điểm
+D189_K5_HP_b,"Phạt tiền 500 triệu - 2 tỷ",Hình phạt
+D189_K5_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D189_K5_Dc,"Điểm c: Phạm tội thuộc khoản 3",Điểm
+D189_K5_HP_c,"Phạt tiền 2 tỷ - 5 tỷ hoặc đình chỉ hoạt động 06 tháng - 03 năm",Hình phạt
+D189_K5_OR_d,"Điều kiện điểm d (OR)",Node Logic OR
+D189_K5_Dd,"Điểm d: Phạm tội thuộc Điều 79",Điểm
+D189_K5_HP_d,"Đình chỉ hoạt động vĩnh viễn",Hình phạt
+D189_K5_OR_đ,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D189_K5_Dđ,"Điểm đ: Hình phạt bổ sung",Điểm
+D189_K5_HP_đ,"Phạt 50-200 triệu, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt
+D190,"Điều 190: Tội sản xuất, buôn bán hàng cấm",Điều
+D190_K1,"Khoản 1 Điều 190",Khoản
+D190_K1_HV,"Sản xuất, buôn bán hàng cấm",Hành vi chính
+D190_K1_OR,"Thực hiện một trong các hành vi (OR)",Node Logic OR
+D190_K1_Da,"Điểm a: Thuốc BVTV cấm 50-100kg hoặc 50-100 lít",Điểm
+D190_K1_Db,"Điểm b: Thuốc lá lậu 1.500-3.000 bao",Điểm
+D190_K1_Dc,"Điểm c: Pháo nổ 06-40kg",Điểm
+D190_K1_Dd,"Điểm d: Hàng hóa khác 100-300tr hoặc thu lợi 50-200tr",Điểm
+D190_K1_Dđ,"Điểm đ: Hàng chưa được lưu hành 200-500tr hoặc thu lợi 100-300tr",Điểm
+D190_K1_De,"Điểm e: Dưới mức quy định nhưng đã bị xử phạt/kết án",Điểm
+D190_K1_HP,"Phạt tiền 100tr-1 tỷ hoặc phạt tù 01-05 năm",Hình phạt
+D190_K2,"Khoản 2 Điều 190",Khoản
+D190_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D190_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D190_K2_Da,"Điểm a: Có tổ chức",Điểm
+D190_K2_Db,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+D190_K2_Dc,"Điểm c: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+D190_K2_Dd,"Điểm d: Có tính chất chuyên nghiệp",Điểm
+D190_K2_Dđ,"Điểm đ: Thuốc BVTV cấm 100-300kg hoặc 100-300 lít",Điểm
+D190_K2_De,"Điểm e: Thuốc lá lậu 3.000-4.500 bao",Điểm
+D190_K2_Dg,"Điểm g: Pháo nổ 40-120kg",Điểm
+D190_K2_Dh,"Điểm h: Hàng hóa khác 300-500tr hoặc thu lợi 200-500tr",Điểm
+D190_K2_Di,"Điểm i: Hàng chưa lưu hành 500tr-1 tỷ hoặc thu lợi 300-700tr",Điểm
+D190_K2_Dk,"Điểm k: Buôn bán qua biên giới (trừ thuốc lá)",Điểm
+D190_K2_Dl,"Điểm l: Tái phạm nguy hiểm",Điểm
+D190_K2_HP,"Phạt tiền 1 tỷ-3 tỷ hoặc phạt tù 05-10 năm",Hình phạt
+D190_K3,"Khoản 3 Điều 190",Khoản
+D190_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D190_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D190_K3_Da,"Điểm a: Thuốc BVTV cấm 300kg/lít trở lên",Điểm
+D190_K3_Db,"Điểm b: Thuốc lá lậu 4.500 bao trở lên",Điểm
+D190_K3_Dc,"Điểm c: Pháo nổ 120kg trở lên",Điểm
+D190_K3_Dd,"Điểm d: Hàng hóa khác 500tr trở lên hoặc thu lợi 500tr trở lên",Điểm
+D190_K3_Dđ,"Điểm đ: Hàng chưa lưu hành 1 tỷ trở lên hoặc thu lợi 700tr trở lên",Điểm
+D190_K3_HP,"Phạt tù từ 08 năm đến 15 năm",Hình phạt
+D190_K4,"Khoản 4 Điều 190",Khoản
+D190_K4_HV,"Người phạm tội",Hành vi chính
+D190_K4_HP,"Phạt 20-100 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D190_K5,"Khoản 5 Điều 190",Khoản
+D190_K5_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D190_K5_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D190_K5_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D190_K5_HP_a,"Phạt tiền 1 tỷ - 3 tỷ",Hình phạt
+D190_K5_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D190_K5_Db,"Điểm b: Phạm tội thuộc điểm a, d, đ, e, g, h, i, k, l khoản 2",Điểm
+D190_K5_HP_b,"Phạt tiền 3 tỷ - 6 tỷ",Hình phạt
+D190_K5_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D190_K5_Dc,"Điểm c: Phạm tội thuộc khoản 3",Điểm
+D190_K5_HP_c,"Phạt tiền 6 tỷ - 9 tỷ hoặc đình chỉ hoạt động 06 tháng - 03 năm",Hình phạt
+D190_K5_OR_d,"Điều kiện điểm d (OR)",Node Logic OR
+D190_K5_Dd,"Điểm d: Phạm tội thuộc Điều 79",Điểm
+D190_K5_HP_d,"Đình chỉ hoạt động vĩnh viễn",Hình phạt
+D190_K5_OR_đ,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D190_K5_Dđ,"Điểm đ: Hình phạt bổ sung",Điểm
+D190_K5_HP_đ,"Phạt 50-200 triệu, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt
+D191,"Điều 191: Tội tàng trữ, vận chuyển hàng cấm",Điều
+D191_K1,"Khoản 1 Điều 191",Khoản
+D191_K1_HV,"Tàng trữ, vận chuyển hàng cấm",Hành vi chính
+D191_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D191_K1_Da,"Điểm a: Thuốc BVTV cấm 50-100kg hoặc 50-100 lít",Điểm
+D191_K1_Db,"Điểm b: Thuốc lá lậu 1.500-3.000 bao",Điểm
+D191_K1_Dc,"Điểm c: Pháo nổ 06-40kg",Điểm
+D191_K1_Dd,"Điểm d: Hàng hóa khác 100-300tr hoặc thu lợi 50-200tr",Điểm
+D191_K1_Dđ,"Điểm đ: Hàng chưa được lưu hành 200-500tr hoặc thu lợi 100-300tr",Điểm
+D191_K1_De,"Điểm e: Dưới mức quy định nhưng đã bị xử phạt/kết án",Điểm
+D191_K1_HP,"Phạt tiền 50-300 triệu hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D191_K2,"Khoản 2 Điều 191",Khoản
+D191_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D191_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D191_K2_Da,"Điểm a: Có tổ chức",Điểm
+D191_K2_Db,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+D191_K2_Dc,"Điểm c: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+D191_K2_Dd,"Điểm d: Có tính chất chuyên nghiệp",Điểm
+D191_K2_Dđ,"Điểm đ: Thuốc BVTV cấm 100-300kg hoặc 100-300 lít",Điểm
+D191_K2_De,"Điểm e: Thuốc lá lậu 3.000-4.500 bao",Điểm
+D191_K2_Dg,"Điểm g: Pháo nổ 40-120kg",Điểm
+D191_K2_Dh,"Điểm h: Hàng hóa khác 300-500tr hoặc thu lợi 200-500tr",Điểm
+D191_K2_Di,"Điểm i: Hàng chưa lưu hành 500tr-1 tỷ hoặc thu lợi 300-700tr",Điểm
+D191_K2_Dk,"Điểm k: Vận chuyển qua biên giới (trừ thuốc lá)",Điểm
+D191_K2_Dl,"Điểm l: Tái phạm nguy hiểm",Điểm
+D191_K2_HP,"Phạt tiền 300tr-1 tỷ hoặc phạt tù 02-05 năm",Hình phạt
+D191_K3,"Khoản 3 Điều 191",Khoản
+D191_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D191_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D191_K3_Da,"Điểm a: Thuốc BVTV cấm 300kg/lít trở lên",Điểm
+D191_K3_Db,"Điểm b: Thuốc lá lậu 4.500 bao trở lên",Điểm
+D191_K3_Dc,"Điểm c: Pháo nổ 120kg trở lên",Điểm
+D191_K3_Dd,"Điểm d: Hàng hóa khác 500tr trở lên hoặc thu lợi 500tr trở lên",Điểm
+D191_K3_Dđ,"Điểm đ: Hàng chưa lưu hành 1 tỷ trở lên hoặc thu lợi 700tr trở lên",Điểm
+D191_K3_HP,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+D191_K4,"Khoản 4 Điều 191",Khoản
+D191_K4_HV,"Người phạm tội",Hành vi chính
+D191_K4_HP,"Phạt 10-50 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D191_K5,"Khoản 5 Điều 191",Khoản
+D191_K5_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D191_K5_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D191_K5_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D191_K5_HP_a,"Phạt tiền 300 triệu - 1 tỷ",Hình phạt
+D191_K5_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D191_K5_Db,"Điểm b: Phạm tội thuộc điểm a, d, đ, e, g, h, i, k, l khoản 2",Điểm
+D191_K5_HP_b,"Phạt tiền 1 tỷ - 3 tỷ",Hình phạt
+D191_K5_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D191_K5_Dc,"Điểm c: Phạm tội thuộc khoản 3",Điểm
+D191_K5_HP_c,"Phạt tiền 3 tỷ - 5 tỷ hoặc đình chỉ hoạt động 06 tháng - 03 năm",Hình phạt
+D191_K5_OR_d,"Điều kiện điểm d (OR)",Node Logic OR
+D191_K5_Dd,"Điểm d: Phạm tội thuộc Điều 79",Điểm
+D191_K5_HP_d,"Đình chỉ hoạt động vĩnh viễn",Hình phạt
+D191_K5_OR_đ,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D191_K5_Dđ,"Điểm đ: Hình phạt bổ sung",Điểm
+D191_K5_HP_đ,"Phạt 50-200 triệu, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt
+D192,"Điều 192: Tội sản xuất, buôn bán hàng giả",Điều
+D192_K1,"Khoản 1 Điều 192",Khoản
+D192_K1_HV,"Sản xuất, buôn bán hàng giả",Hành vi chính
+D192_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D192_K1_Da,"Điểm a: Hàng giả trị giá 30-150tr hoặc dưới 30tr nhưng bị xử phạt/kết án",Điểm
+D192_K1_Db,"Điểm b: Gây thương tích 31-60%",Điểm
+D192_K1_Dc,"Điểm c: Thu lợi bất chính 50-100tr",Điểm
+D192_K1_Dd,"Điểm d: Gây thiệt hại tài sản 100-500tr",Điểm
+D192_K1_HP,"Phạt tiền 200tr-2 tỷ hoặc phạt tù 01-05 năm",Hình phạt
+D192_K2,"Khoản 2 Điều 192",Khoản
+D192_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D192_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D192_K2_Da,"Điểm a: Có tổ chức",Điểm
+D192_K2_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D192_K2_Dc,"Điểm c: Lợi dụng chức vụ, quyền hạn",Điểm
+D192_K2_Dd,"Điểm d: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+D192_K2_Dđ,"Điểm đ: Hàng giả trị giá 150-500tr",Điểm
+D192_K2_De,"Điểm e: Thu lợi bất chính 100-500tr",Điểm
+D192_K2_Dg,"Điểm g: Làm chết người",Điểm
+D192_K2_Dh,"Điểm h: Gây thương tích 61% trở lên",Điểm
+D192_K2_Di,"Điểm i: Gây thương tích 2 người trở lên (61%-121%)",Điểm
+D192_K2_Dk,"Điểm k: Gây thiệt hại tài sản 500tr-1.5 tỷ",Điểm
+D192_K2_Dl,"Điểm l: Buôn bán qua biên giới",Điểm
+D192_K2_Dm,"Điểm m: Tái phạm nguy hiểm",Điểm
+D192_K2_HP,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+D192_K3,"Khoản 3 Điều 192",Khoản
+D192_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D192_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D192_K3_Da,"Điểm a: Hàng giả trị giá 500tr trở lên",Điểm
+D192_K3_Db,"Điểm b: Thu lợi bất chính 500tr trở lên",Điểm
+D192_K3_Dc,"Điểm c: Làm chết 02 người trở lên",Điểm
+D192_K3_Dd,"Điểm d: Gây thương tích 2 người trở lên (122% trở lên)",Điểm
+D192_K3_Dđ,"Điểm đ: Gây thiệt hại tài sản 1.5 tỷ trở lên",Điểm
+D192_K3_HP,"Phạt tù từ 07 năm đến 15 năm",Hình phạt
+D192_K4,"Khoản 4 Điều 192",Khoản
+D192_K4_HV,"Người phạm tội",Hành vi chính
+D192_K4_HP,"Phạt 40-100tr, cấm đảm nhiệm/hành nghề 01-05 năm, tịch thu tài sản",Hình phạt
+D192_K5,"Khoản 5 Điều 192",Khoản
+D192_K5_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D192_K5_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D192_K5_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D192_K5_HP_a,"Phạt tiền 2 tỷ - 6 tỷ",Hình phạt
+D192_K5_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D192_K5_Db,"Điểm b: Phạm tội thuộc điểm a, b, đ, e, g, h, i, k, l, m khoản 2",Điểm
+D192_K5_HP_b,"Phạt tiền 6 tỷ - 12 tỷ",Hình phạt
+D192_K5_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D192_K5_Dc,"Điểm c: Phạm tội thuộc khoản 3",Điểm
+D192_K5_HP_c,"Phạt tiền 12 tỷ - 18 tỷ hoặc đình chỉ hoạt động 06 tháng - 03 năm",Hình phạt
+D192_K5_OR_d,"Điều kiện điểm d (OR)",Node Logic OR
+D192_K5_Dd,"Điểm d: Phạm tội thuộc Điều 79",Điểm
+D192_K5_HP_d,"Đình chỉ hoạt động vĩnh viễn",Hình phạt
+D192_K5_OR_đ,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D192_K5_Dđ,"Điểm đ: Hình phạt bổ sung",Điểm
+D192_K5_HP_đ,"Phạt 100-400 triệu, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt
+D193,"Điều 193: Tội sản xuất, buôn bán hàng giả là lương thực, thực phẩm, phụ gia...",Điều
+D193_K1,"Khoản 1 Điều 193",Khoản
+D193_K1_HV,"Sản xuất, buôn bán hàng giả là lương thực, thực phẩm, phụ gia thực phẩm",Hành vi chính
+D193_K1_HP,"Phạt tù từ 02 năm đến 05 năm",Hình phạt
+D193_K2,"Khoản 2 Điều 193",Khoản
+D193_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D193_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D193_K2_Da,"Điểm a: Có tổ chức",Điểm
+D193_K2_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D193_K2_Dc,"Điểm c: Tái phạm nguy hiểm",Điểm
+D193_K2_Dd,"Điểm d: Lợi dụng chức vụ, quyền hạn",Điểm
+D193_K2_Dđ,"Điểm đ: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+D193_K2_De,"Điểm e: Buôn bán qua biên giới",Điểm
+D193_K2_Dg,"Điểm g: Hàng giả trị giá 150-500tr",Điểm
+D193_K2_Dh,"Điểm h: Thu lợi bất chính 100-500tr",Điểm
+D193_K2_Di,"Điểm i: Gây thương tích 31-60%",Điểm
+D193_K2_Dk,"Điểm k: Gây thiệt hại tài sản 100-500tr",Điểm
+D193_K2_HP,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+D193_K3,"Khoản 3 Điều 193",Khoản
+D193_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D193_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D193_K3_Da,"Điểm a: Hàng giả trị giá 500tr trở lên",Điểm
+D193_K3_Db,"Điểm b: Thu lợi bất chính 500tr - 1.5 tỷ",Điểm
+D193_K3_Dc,"Điểm c: Gây thiệt hại tài sản 500tr - 1.5 tỷ",Điểm
+D193_K3_Dd,"Điểm d: Làm chết người",Điểm
+D193_K3_Dđ,"Điểm đ: Gây thương tích 61% trở lên",Điểm
+D193_K3_De,"Điểm e: Gây thương tích 2 người trở lên (61%-121%)",Điểm
+D193_K3_HP,"Phạt tù từ 10 năm đến 15 năm",Hình phạt
+D193_K4,"Khoản 4 Điều 193",Khoản
+D193_K4_HV,"Phạm tội thuộc trường hợp khoản 4",Hành vi chính
+D193_K4_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D193_K4_Da,"Điểm a: Thu lợi bất chính 1.5 tỷ trở lên",Điểm
+D193_K4_Db,"Điểm b: Gây thiệt hại tài sản 1.5 tỷ trở lên",Điểm
+D193_K4_Dc,"Điểm c: Làm chết 02 người trở lên",Điểm
+D193_K4_Dd,"Điểm d: Gây thương tích 2 người trở lên (122% trở lên)",Điểm
+D193_K4_HP,"Phạt tù 15-20 năm hoặc chung thân",Hình phạt
+D193_K5,"Khoản 5 Điều 193",Khoản
+D193_K5_HV,"Người phạm tội",Hành vi chính
+D193_K5_HP,"Phạt 40-200tr, cấm đảm nhiệm/hành nghề 01-05 năm, tịch thu tài sản",Hình phạt
+D193_K6,"Khoản 6 Điều 193",Khoản
+D193_K6_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D193_K6_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D193_K6_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D193_K6_HP_a,"Phạt tiền 2 tỷ - 6 tỷ",Hình phạt
+D193_K6_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D193_K6_Db,"Điểm b: Phạm tội thuộc điểm a, b, c, e, g, h, i, k khoản 2",Điểm
+D193_K6_HP_b,"Phạt tiền 6 tỷ - 12 tỷ",Hình phạt
+D193_K6_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D193_K6_Dc,"Điểm c: Phạm tội thuộc khoản 3",Điểm
+D193_K6_HP_c,"Phạt tiền 12 tỷ - 18 tỷ",Hình phạt
+D193_K6_OR_d,"Điều kiện điểm d (OR)",Node Logic OR
+D193_K6_Dd,"Điểm d: Phạm tội thuộc khoản 4",Điểm
+D193_K6_HP_d,"Phạt tiền 18 tỷ - 36 tỷ hoặc đình chỉ hoạt động 06 tháng - 03 năm",Hình phạt
+D193_K6_OR_đ,"Điều kiện điểm đ (OR)",Node Logic OR
+D193_K6_Dđ,"Điểm đ: Phạm tội thuộc Điều 79",Điểm
+D193_K6_HP_đ,"Đình chỉ hoạt động vĩnh viễn",Hình phạt
+D193_K6_OR_e,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D193_K6_De,"Điểm e: Hình phạt bổ sung",Điểm
+D193_K6_HP_e,"Phạt 200-600 triệu, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt
+D194,"Điều 194: Tội sản xuất, buôn bán hàng giả là thuốc chữa bệnh, phòng bệnh",Điều
+D194_K1,"Khoản 1 Điều 194",Khoản
+D194_K1_HV,"Sản xuất, buôn bán hàng giả là thuốc chữa bệnh, thuốc phòng bệnh",Hành vi chính
+D194_K1_HP,"Phạt tù từ 02 năm đến 07 năm",Hình phạt
+D194_K2,"Khoản 2 Điều 194",Khoản
+D194_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D194_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D194_K2_Da,"Điểm a: Có tổ chức",Điểm
+D194_K2_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D194_K2_Dc,"Điểm c: Tái phạm nguy hiểm",Điểm
+D194_K2_Dd,"Điểm d: Lợi dụng chức vụ, quyền hạn",Điểm
+D194_K2_Dđ,"Điểm đ: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+D194_K2_De,"Điểm e: Buôn bán qua biên giới",Điểm
+D194_K2_Dg,"Điểm g: Hàng giả trị giá 150-500tr",Điểm
+D194_K2_Dh,"Điểm h: Thu lợi bất chính 100-500tr",Điểm
+D194_K2_Di,"Điểm i: Gây thương tích 31-60%",Điểm
+D194_K2_Dk,"Điểm k: Gây thiệt hại tài sản 100-500tr",Điểm
+D194_K2_HP,"Phạt tù từ 05 năm đến 12 năm",Hình phạt
+D194_K3,"Khoản 3 Điều 194",Khoản
+D194_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D194_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D194_K3_Da,"Điểm a: Hàng giả trị giá 500tr trở lên",Điểm
+D194_K3_Db,"Điểm b: Thu lợi bất chính 500tr - 2 tỷ",Điểm
+D194_K3_Dc,"Điểm c: Làm chết người",Điểm
+D194_K3_Dd,"Điểm d: Gây thương tích 61% trở lên",Điểm
+D194_K3_Dđ,"Điểm đ: Gây thương tích 2 người trở lên (61%-121%)",Điểm
+D194_K3_De,"Điểm e: Gây thiệt hại tài sản 500tr - 1.5 tỷ",Điểm
+D194_K3_HP,"Phạt tù từ 12 năm đến 20 năm",Hình phạt
+D194_K4,"Khoản 4 Điều 194",Khoản
+D194_K4_HV,"Phạm tội thuộc trường hợp khoản 4",Hành vi chính
+D194_K4_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D194_K4_Da,"Điểm a: Thu lợi bất chính 2 tỷ trở lên",Điểm
+D194_K4_Db,"Điểm b: Làm chết 02 người trở lên",Điểm
+D194_K4_Dc,"Điểm c: Gây thương tích 2 người trở lên (122% trở lên)",Điểm
+D194_K4_Dd,"Điểm d: Gây thiệt hại tài sản 1.5 tỷ trở lên",Điểm
+D194_K4_HP,"Phạt tù 20 năm hoặc tù chung thân",Hình phạt
+D194_K5,"Khoản 5 Điều 194",Khoản
+D194_K5_HV,"Người phạm tội",Hành vi chính
+D194_K5_HP,"Phạt 40-200tr, cấm đảm nhiệm/hành nghề 01-05 năm, tịch thu tài sản",Hình phạt
+D194_K6,"Khoản 6 Điều 194",Khoản
+D194_K6_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D194_K6_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D194_K6_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D194_K6_HP_a,"Phạt tiền 2 tỷ - 8 tỷ",Hình phạt
+D194_K6_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D194_K6_Db,"Điểm b: Phạm tội thuộc điểm a, b, c, e, g, h, i, k khoản 2",Điểm
+D194_K6_HP_b,"Phạt tiền 8 tỷ - 18 tỷ",Hình phạt
+D194_K6_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D194_K6_Dc,"Điểm c: Phạm tội thuộc khoản 3",Điểm
+D194_K6_HP_c,"Phạt tiền 18 tỷ - 30 tỷ",Hình phạt
+D194_K6_OR_d,"Điều kiện điểm d (OR)",Node Logic OR
+D194_K6_Dd,"Điểm d: Phạm tội thuộc khoản 4",Điểm
+D194_K6_HP_d,"Phạt tiền 30 tỷ - 40 tỷ hoặc đình chỉ hoạt động 01-03 năm",Hình phạt
+D194_K6_OR_đ,"Điều kiện điểm đ (OR)",Node Logic OR
+D194_K6_Dđ,"Điểm đ: Phạm tội thuộc Điều 79",Điểm
+D194_K6_HP_đ,"Đình chỉ hoạt động vĩnh viễn",Hình phạt
+D194_K6_OR_e,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D194_K6_De,"Điểm e: Hình phạt bổ sung",Điểm
+D194_K6_HP_e,"Phạt 200-600 triệu, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt
+D195,"Điều 195: Tội sản xuất, buôn bán hàng giả là thức ăn chăn nuôi, phân bón...",Điều
+D195_K1,"Khoản 1 Điều 195",Khoản
+D195_K1_HV,"Sản xuất, buôn bán hàng giả thức ăn chăn nuôi, phân bón...",Hành vi chính
+D195_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D195_K1_Da,"Điểm a: Hàng giả trị giá 30-150tr hoặc dưới 30tr bị xử phạt/kết án",Điểm
+D195_K1_Db,"Điểm b: Gây thiệt hại tài sản 100-500tr",Điểm
+D195_K1_Dc,"Điểm c: Thu lợi bất chính 50-100tr",Điểm
+D195_K1_HP,"Phạt tiền 200tr-2 tỷ hoặc phạt tù 01-05 năm",Hình phạt
+D195_K2,"Khoản 2 Điều 195",Khoản
+D195_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D195_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D195_K2_Da,"Điểm a: Có tổ chức",Điểm
+D195_K2_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D195_K2_Dc,"Điểm c: Tái phạm nguy hiểm",Điểm
+D195_K2_Dd,"Điểm d: Lợi dụng chức vụ, quyền hạn",Điểm
+D195_K2_Dđ,"Điểm đ: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+D195_K2_De,"Điểm e: Buôn bán qua biên giới",Điểm
+D195_K2_Dg,"Điểm g: Hàng giả trị giá 150-500tr",Điểm
+D195_K2_Dh,"Điểm h: Gây thiệt hại tài sản 500tr - 1.5 tỷ",Điểm
+D195_K2_Di,"Điểm i: Thu lợi bất chính 100-500tr",Điểm
+D195_K2_HP,"Phạt tù từ 05 năm đến 10 năm",Hình phạt
+D195_K3,"Khoản 3 Điều 195",Khoản
+D195_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D195_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D195_K3_Da,"Điểm a: Hàng giả trị giá 500tr trở lên",Điểm
+D195_K3_Db,"Điểm b: Gây thiệt hại tài sản 1.5 tỷ - 3 tỷ",Điểm
+D195_K3_Dc,"Điểm c: Thu lợi bất chính 500tr - 2 tỷ",Điểm
+D195_K3_HP,"Phạt tù từ 10 năm đến 15 năm",Hình phạt
+D195_K4,"Khoản 4 Điều 195",Khoản
+D195_K4_HV,"Phạm tội thuộc trường hợp khoản 4",Hành vi chính
+D195_K4_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D195_K4_Da,"Điểm a: Gây thiệt hại tài sản 3 tỷ trở lên",Điểm
+D195_K4_Db,"Điểm b: Thu lợi bất chính 2 tỷ trở lên",Điểm
+D195_K4_HP,"Phạt tù từ 15 năm đến 20 năm",Hình phạt
+D195_K5,"Khoản 5 Điều 195",Khoản
+D195_K5_HV,"Người phạm tội",Hành vi chính
+D195_K5_HP,"Phạt 40-200tr, cấm đảm nhiệm/hành nghề 01-05 năm, tịch thu tài sản",Hình phạt
+D195_K6,"Khoản 6 Điều 195",Khoản
+D195_K6_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D195_K6_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D195_K6_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D195_K6_HP_a,"Phạt tiền 2 tỷ - 6 tỷ",Hình phạt
+D195_K6_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D195_K6_Db,"Điểm b: Phạm tội thuộc điểm a, b, c, e, g, h, i khoản 2",Điểm
+D195_K6_HP_b,"Phạt tiền 6 tỷ - 12 tỷ",Hình phạt
+D195_K6_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D195_K6_Dc,"Điểm c: Phạm tội thuộc khoản 3",Điểm
+D195_K6_HP_c,"Phạt tiền 12 tỷ - 18 tỷ",Hình phạt
+D195_K6_OR_d,"Điều kiện điểm d (OR)",Node Logic OR
+D195_K6_Dd,"Điểm d: Phạm tội thuộc khoản 4",Điểm
+D195_K6_HP_d,"Phạt tiền 18 tỷ - 30 tỷ hoặc đình chỉ hoạt động 06 tháng - 03 năm",Hình phạt
+D195_K6_OR_đ,"Điều kiện điểm đ (OR)",Node Logic OR
+D195_K6_Dđ,"Điểm đ: Phạm tội thuộc Điều 79",Điểm
+D195_K6_HP_đ,"Đình chỉ hoạt động vĩnh viễn",Hình phạt
+D195_K6_OR_e,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D195_K6_De,"Điểm e: Hình phạt bổ sung",Điểm
+D195_K6_HP_e,"Phạt 200-600 triệu, cấm kinh doanh/huy động vốn 01-03 năm",Hình phạt
+D196,"Điều 196: Tội đầu cơ",Điều
+D196_K1,"Khoản 1 Điều 196",Khoản
+D196_K1_HV,"Mua vét hàng hóa bình ổn giá/định giá nhằm bán lại",Hành vi chính
+D196_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D196_K1_Da,"Điểm a: Hàng hóa trị giá 500tr đến dưới 1.5 tỷ",Điểm
+D196_K1_Db,"Điểm b: Thu lợi bất chính 100tr đến dưới 500tr",Điểm
+D196_K1_HP,"Phạt tiền 30-300 triệu hoặc phạt tù 06 tháng - 03 năm",Hình phạt
+D196_K2,"Khoản 2 Điều 196",Khoản
+D196_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D196_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D196_K2_Da,"Điểm a: Có tổ chức",Điểm
+D196_K2_Db,"Điểm b: Lợi dụng chức vụ, quyền hạn",Điểm
+D196_K2_Dc,"Điểm c: Lợi dụng danh nghĩa cơ quan, tổ chức",Điểm
+D196_K2_Dd,"Điểm d: Hàng hóa trị giá 1.5 tỷ đến dưới 3 tỷ",Điểm
+D196_K2_Dđ,"Điểm đ: Thu lợi bất chính 500tr đến dưới 1 tỷ",Điểm
+D196_K2_De,"Điểm e: Gây ảnh hưởng xấu an ninh trật tự",Điểm
+D196_K2_HP,"Phạt tiền 300tr-1.5 tỷ hoặc phạt tù 03-07 năm",Hình phạt
+D196_K3,"Khoản 3 Điều 196",Khoản
+D196_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D196_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D196_K3_Da,"Điểm a: Hàng hóa trị giá 3 tỷ trở lên",Điểm
+D196_K3_Db,"Điểm b: Thu lợi bất chính 1 tỷ trở lên",Điểm
+D196_K3_Dc,"Điểm c: Tái phạm nguy hiểm",Điểm
+D196_K3_HP,"Phạt tiền 1.5 tỷ-5 tỷ hoặc phạt tù 07-15 năm",Hình phạt
+D196_K4,"Khoản 4 Điều 196",Khoản
+D196_K4_HV,"Người phạm tội",Hành vi chính
+D196_K4_HP,"Phạt 20-200 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt
+D196_K5,"Khoản 5 Điều 196",Khoản
+D196_K5_HV,"Pháp nhân thương mại phạm tội",Hành vi chính
+D196_K5_OR_a,"Điều kiện điểm a (OR)",Node Logic OR
+D196_K5_Da,"Điểm a: Phạm tội thuộc khoản 1",Điểm
+D196_K5_HP_a,"Phạt tiền 300 triệu - 1 tỷ",Hình phạt
+D196_K5_OR_b,"Điều kiện điểm b (OR)",Node Logic OR
+D196_K5_Db,"Điểm b: Phạm tội thuộc điểm a, d, đ, e khoản 2",Điểm
+D196_K5_HP_b,"Phạt tiền 1 tỷ - 4 tỷ",Hình phạt
+D196_K5_OR_c,"Điều kiện điểm c (OR)",Node Logic OR
+D196_K5_Dc,"Điểm c: Phạm tội thuộc khoản 3",Điểm
+D196_K5_HP_c,"Phạt tiền 4 tỷ - 9 tỷ",Hình phạt
+D196_K5_OR_d,"Hình phạt bổ sung pháp nhân (OR)",Node Logic OR
+D196_K5_Dd,"Điểm d: Hình phạt bổ sung",Điểm
+D196_K5_HP_d,"Phạt 100-300 triệu, cấm kinh doanh/hoạt động/huy động vốn 01-03 năm",Hình phạt
+D197,"Điều 197: Tội quảng cáo gian dối",Điều
+D197_K1,"Khoản 1 Điều 197",Khoản
+D197_K1_HV,"Quảng cáo gian dối đã bị xử phạt VPHC hoặc kết án chưa xóa án",Hành vi chính
+D197_K1_HP,"Phạt tiền 10-100 triệu hoặc cải tạo không giam giữ đến 03 năm",Hình phạt
+D197_K2,"Khoản 2 Điều 197",Khoản
+D197_K2_HV,"Người phạm tội",Hành vi chính
+D197_K2_HP,"Phạt 5-50 triệu, cấm hành nghề/công việc 01-05 năm",Hình phạt
+D198,"Điều 198: Tội lừa dối khách hàng",Điều
+D198_K1,"Khoản 1 Điều 198",Khoản
+D198_K1_HV,"Cân, đong, đo, đếm gian lận hoặc gian dối khác",Hành vi chính
+D198_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D198_K1_Da,"Điểm a: Đã bị xử phạt VPHC hoặc kết án chưa xóa án",Điểm
+D198_K1_Db,"Điểm b: Thu lợi bất chính 5tr đến dưới 50tr",Điểm
+D198_K1_HP,"Phạt cảnh cáo, phạt 10-100 triệu hoặc cải tạo KGG đến 03 năm",Hình phạt
+D198_K2,"Khoản 2 Điều 198",Khoản
+D198_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D198_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D198_K2_Da,"Điểm a: Có tổ chức",Điểm
+D198_K2_Db,"Điểm b: Có tính chất chuyên nghiệp",Điểm
+D198_K2_Dc,"Điểm c: Dùng thủ đoạn xảo quyệt",Điểm
+D198_K2_Dd,"Điểm d: Thu lợi bất chính 50tr trở lên",Điểm
+D198_K2_HP,"Phạt tiền 100-500 triệu hoặc phạt tù 01-05 năm",Hình phạt
+D198_K3,"Khoản 3 Điều 198",Khoản
+D198_K3_HV,"Người phạm tội",Hành vi chính
+D198_K3_HP,"Phạt 20-100 triệu, cấm hành nghề/công việc 01-05 năm",Hình phạt
+D199,"Điều 199: Tội vi phạm quy định về cung ứng điện",Điều
+D199_K1,"Khoản 1 Điều 199",Khoản
+D199_K1_HV,"Đóng cắt điện, từ chối cấp điện trái phép hoặc trì hoãn xử lý sự cố",Hành vi chính
+D199_K1_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D199_K1_Da,"Điểm a: Gây thương tích 61% trở lên",Điểm
+D199_K1_Db,"Điểm b: Gây thương tích 2 người trở lên (61%-121%)",Điểm
+D199_K1_Dc,"Điểm c: Gây thiệt hại tài sản 200tr đến dưới 500tr",Điểm
+D199_K1_Dd,"Điểm d: Đã bị kỷ luật/xử phạt/kết án chưa xóa án",Điểm
+D199_K1_HP,"Phạt 30-150 triệu, cải tạo KGG đến 02 năm hoặc phạt tù 03 tháng - 02 năm",Hình phạt
+D199_K2,"Khoản 2 Điều 199",Khoản
+D199_K2_HV,"Phạm tội thuộc trường hợp khoản 2",Hành vi chính
+D199_K2_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D199_K2_Da,"Điểm a: Làm chết người",Điểm
+D199_K2_Db,"Điểm b: Gây thương tích 2 người trở lên (122%-200%)",Điểm
+D199_K2_Dc,"Điểm c: Gây thiệt hại tài sản 500tr - 1.5 tỷ",Điểm
+D199_K2_HP,"Phạt tiền 150-500 triệu hoặc phạt tù 01-05 năm",Hình phạt
+D199_K3,"Khoản 3 Điều 199",Khoản
+D199_K3_HV,"Phạm tội thuộc trường hợp khoản 3",Hành vi chính
+D199_K3_OR,"Thuộc một trong các trường hợp (OR)",Node Logic OR
+D199_K3_Da,"Điểm a: Làm chết 02 người trở lên",Điểm
+D199_K3_Db,"Điểm b: Gây thương tích 3 người trở lên (201% trở lên)",Điểm
+D199_K3_Dc,"Điểm c: Gây thiệt hại tài sản 1.5 tỷ trở lên",Điểm
+D199_K3_HP,"Phạt tù từ 03 năm đến 07 năm",Hình phạt
+D199_K4,"Khoản 4 Điều 199",Khoản
+D199_K4_HV,"Người phạm tội",Hành vi chính
+D199_K4_HP,"Phạt 10-50 triệu, cấm đảm nhiệm/hành nghề 01-05 năm",Hình phạt

@@ -1,0 +1,11 @@
+ID,Name,Label
+D123,Điều 123. Tội giết người,Điều
+K123_1,Khoản 1 Điều 123: Người nào giết người thuộc một trong các trường hợp định khung thì bị xử lý theo khung nặng,Khoản
+HP123_1,Hình phạt: phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình,Hình phạt
+HV_GIET_NGUOI,Hành vi: tước đoạt trái pháp luật tính mạng của người khác,Hành vi
+DK_VU_KHI,Tình tiết: sử dụng vũ khí hoặc phương tiện nguy hiểm,Tình tiết
+D168,Điều 168. Tội cướp tài sản,Điều
+HV_CUOP,Hành vi: dùng vũ lực, đe dọa dùng vũ lực ngay tức khắc nhằm chiếm đoạt tài sản,Hành vi
+HP168,Hình phạt: tùy khoản áp dụng, có thể bị phạt tù theo khung của tội cướp tài sản,Hình phạt
+D174,Điều 174. Tội lừa đảo chiếm đoạt tài sản,Điều
+HV_LUA_DAO,Hành vi: dùng thủ đoạn gian dối nhằm chiếm đoạt tài sản,Hành vi

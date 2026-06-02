@@ -1,0 +1,371 @@
+ID,Name,Label
+CH25,"Chương XXV: CÁC TỘI XÂM PHẠM NGHĨA VỤ, TRÁCH NHIỆM CỦA QUÂN NHÂN VÀ TRÁCH NHIỆM CỦA NGƯỜI PHỐI THUỘC VỚI QUÂN ĐỘI TRONG CHIẾN ĐẤU, PHỤC VỤ CHIẾN ĐẤU",Chương
+D392,"Điều 392. Những người phải chịu trách nhiệm hình sự về các tội xâm phạm nghĩa vụ, trách nhiệm của quân nhân",Điều
+K1_D392,"Khoản 1 Điều 392",Khoản
+HV_K1_D392,"Quân nhân tại ngũ, công nhân, viên chức quốc phòng","Hành vi chính"
+K2_D392,"Khoản 2 Điều 392",Khoản
+HV_K2_D392,"Quân nhân dự bị trong thời gian tập trung huấn luyện","Hành vi chính"
+K3_D392,"Khoản 3 Điều 392",Khoản
+HV_K3_D392,"Dân quân, tự vệ trong thời gian phối thuộc với quân đội trong chiến đấu, phục vụ chiến đấu","Hành vi chính"
+K4_D392,"Khoản 4 Điều 392",Khoản
+HV_K4_D392,"Công dân được trưng tập vào phục vụ trong quân đội","Hành vi chính"
+D393,"Điều 393. Tội ra mệnh lệnh trái pháp luật",Điều
+K1_D393,"Khoản 1 Điều 393",Khoản
+HV_K1_D393,"Người nào lợi dụng chức vụ, quyền hạn ra mệnh lệnh trái pháp luật gây hậu quả nghiêm trọng","Hành vi chính"
+HP_K1_D393,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 05 năm","Hình phạt"
+K2_D393,"Khoản 2 Điều 393",Khoản
+OR_K2_D393,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D393,"a) Trong chiến đấu",Điểm
+P_b_K2_D393,"b) Trong khu vực có chiến sự",Điểm
+P_c_K2_D393,"c) Trong thực hiện nhiệm vụ cứu hộ, cứu nạn",Điểm
+P_d_K2_D393,"d) Trong tình trạng khẩn cấp",Điểm
+P_dd_K2_D393,"đ) Gây hậu quả rất nghiêm trọng",Điểm
+HP_K2_D393,"Phạt tù từ 03 năm đến 10 năm","Hình phạt"
+K3_D393,"Khoản 3 Điều 393",Khoản
+HV_K3_D393,"Phạm tội gây hậu quả đặc biệt nghiêm trọng hoặc trong trường hợp đặc biệt nghiêm trọng khác","Hành vi chính"
+HP_K3_D393,"Phạt tù từ 07 năm đến 15 năm","Hình phạt"
+D394,"Điều 394. Tội chống mệnh lệnh",Điều
+K1_D394,"Khoản 1 Điều 394",Khoản
+HV_K1_D394,"Người nào từ chối chấp hành hoặc cố ý không thực hiện mệnh lệnh của người có thẩm quyền","Hành vi chính"
+HP_K1_D394,"Phạt tù từ 06 tháng đến 05 năm","Hình phạt"
+K2_D394,"Khoản 2 Điều 394",Khoản
+OR_K2_D394,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D394,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D394,"b) Lôi kéo người khác phạm tội",Điểm
+P_c_K2_D394,"c) Dùng vũ lực",Điểm
+P_d_K2_D394,"d) Gây hậu quả nghiêm trọng",Điểm
+HP_K2_D394,"Phạt tù từ 03 năm đến 10 năm","Hình phạt"
+K3_D394,"Khoản 3 Điều 394",Khoản
+OR_K3_D394,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D394,"a) Trong chiến đấu",Điểm
+P_b_K3_D394,"b) Trong khu vực có chiến sự",Điểm
+P_c_K3_D394,"c) Trong thực hiện nhiệm vụ cứu hộ, cứu nạn",Điểm
+P_d_K3_D394,"d) Trong tình trạng khẩn cấp",Điểm
+P_dd_K3_D394,"đ) Gây hậu quả rất nghiêm trọng",Điểm
+HP_K3_D394,"Phạt tù từ 07 năm đến 15 năm","Hình phạt"
+K4_D394,"Khoản 4 Điều 394",Khoản
+HV_K4_D394,"Phạm tội gây hậu quả đặc biệt nghiêm trọng","Hành vi chính"
+HP_K4_D394,"Phạt tù từ 12 năm đến 20 năm hoặc tù chung thân","Hình phạt"
+D395,"Điều 395. Tội chấp hành không nghiêm chỉnh mệnh lệnh",Điều
+K1_D395,"Khoản 1 Điều 395",Khoản
+HV_K1_D395,"Người nào chấp hành mệnh lệnh của người có thẩm quyền một cách lơ là, chậm trễ, tùy tiện gây hậu quả nghiêm trọng","Hành vi chính"
+HP_K1_D395,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D395,"Khoản 2 Điều 395",Khoản
+OR_K2_D395,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D395,"a) Trong chiến đấu",Điểm
+P_b_K2_D395,"b) Trong khu vực có chiến sự",Điểm
+P_c_K2_D395,"c) Trong thực hiện nhiệm vụ cứu hộ, cứu nạn",Điểm
+P_d_K2_D395,"d) Trong tình trạng khẩn cấp",Điểm
+P_dd_K2_D395,"đ) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng",Điểm
+HP_K2_D395,"Phạt tù từ 03 năm đến 10 năm","Hình phạt"
+D396,"Điều 396. Tội cản trở đồng đội thực hiện nhiệm vụ",Điều
+K1_D396,"Khoản 1 Điều 396",Khoản
+HV_K1_D396,"Người nào cản trở đồng đội thực hiện nhiệm vụ dẫn đến người đó không thực hiện được hoặc thực hiện không đầy đủ nhiệm vụ được giao","Hành vi chính"
+HP_K1_D396,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 03 tháng đến 03 năm","Hình phạt"
+K2_D396,"Khoản 2 Điều 396",Khoản
+OR_K2_D396,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D396,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D396,"b) Lôi kéo người khác phạm tội",Điểm
+P_c_K2_D396,"c) Dùng vũ lực",Điểm
+P_d_K2_D396,"d) Gây hậu quả nghiêm trọng hoặc rất nghiêm trọng",Điểm
+HP_K2_D396,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D396,"Khoản 3 Điều 396",Khoản
+OR_K3_D396,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D396,"a) Trong chiến đấu",Điểm
+P_b_K3_D396,"b) Trong khu vực có chiến sự",Điểm
+P_c_K3_D396,"c) Trong thực hiện nhiệm vụ cứu hộ, cứu nạn",Điểm
+P_d_K3_D396,"d) Trong tình trạng khẩn cấp",Điểm
+P_dd_K3_D396,"đ) Gây hậu quả đặc biệt nghiêm trọng",Điểm
+HP_K3_D396,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+D397,"Điều 397. Tội làm nhục đồng đội",Điều
+K1_D397,"Khoản 1 Điều 397",Khoản
+HV_K1_D397,"Người nào trong quan hệ công tác mà xúc phạm nghiêm trọng nhân phẩm, danh dự đồng đội","Hành vi chính"
+HP_K1_D397,"Phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm","Hình phạt"
+K2_D397,"Khoản 2 Điều 397",Khoản
+OR_K2_D397,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D397,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D397,"b) Đối với chỉ huy hoặc cấp trên",Điểm
+P_c_K2_D397,"c) Vì lý do công vụ của nạn nhân",Điểm
+P_d_K2_D397,"d) Trong khu vực có chiến sự",Điểm
+P_dd_K2_D397,"đ) Phạm tội 02 lần trở lên",Điểm
+P_e_K2_D397,"e) Đối với 02 người trở lên",Điểm
+P_g_K2_D397,"g) Gây rối loạn tâm thần và hành vi của nạn nhân mà tỷ lệ tổn thương cơ thể 61% trở lên",Điểm
+P_h_K2_D397,"h) Làm nạn nhân tự sát",Điểm
+HP_K2_D397,"Phạt tù từ 02 năm đến 05 năm","Hình phạt"
+D398,"Điều 398. Tội hành hung đồng đội",Điều
+K1_D398,"Khoản 1 Điều 398",Khoản
+HV_K1_D398,"Người nào trong quan hệ công tác mà cố ý gây thương tích hoặc gây tổn hại cho sức khoẻ của đồng đội mà không thuộc trường hợp quy định tại Điều 134","Hành vi chính"
+HP_K1_D398,"Phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm","Hình phạt"
+K2_D398,"Khoản 2 Điều 398",Khoản
+OR_K2_D398,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D398,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D398,"b) Đối với chỉ huy hoặc cấp trên",Điểm
+P_c_K2_D398,"c) Vì lý do công vụ của nạn nhân",Điểm
+P_d_K2_D398,"d) Trong khu vực có chiến sự",Điểm
+P_dd_K2_D398,"đ) Gây hậu quả nghiêm trọng, rất nghiêm trọng hoặc đặc biệt nghiêm trọng",Điểm
+HP_K2_D398,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+D399,"Điều 399. Tội đầu hàng địch",Điều
+K1_D399,"Khoản 1 Điều 399",Khoản
+HV_K1_D399,"Người nào đầu hàng địch","Hành vi chính"
+HP_K1_D399,"Phạt tù từ 03 năm đến 10 năm","Hình phạt"
+K2_D399,"Khoản 2 Điều 399",Khoản
+OR_K2_D399,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D399,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D399,"b) Giao nộp cho địch vũ khí, phương tiện kỹ thuật quân sự",Điểm
+P_c_K2_D399,"c) Giao nộp tài liệu quan trọng hoặc khai báo bí mật công tác quân sự",Điểm
+P_d_K2_D399,"d) Lôi kéo người khác phạm tội",Điểm
+P_dd_K2_D399,"đ) Gây hậu quả nghiêm trọng hoặc rất nghiêm trọng",Điểm
+HP_K2_D399,"Phạt tù từ 07 năm đến 15 năm","Hình phạt"
+K3_D399,"Khoản 3 Điều 399",Khoản
+OR_K3_D399,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D399,"a) Giao nộp cho địch vật, tài liệu bí mật nhà nước hoặc khai báo bí mật nhà nước",Điểm
+P_b_K3_D399,"b) Gây hậu quả đặc biệt nghiêm trọng",Điểm
+HP_K3_D399,"Phạt tù từ 12 năm đến 20 năm hoặc tù chung thân","Hình phạt"
+D400,"Điều 400. Tội khai báo hoặc tự nguyện làm việc cho địch khi bị bắt làm tù binh",Điều
+K1_D400,"Khoản 1 Điều 400",Khoản
+HV_K1_D400,"Người nào khi bị địch bắt làm tù binh mà khai báo bí mật công tác quân sự hoặc tự nguyện làm việc cho địch","Hành vi chính"
+HP_K1_D400,"Phạt tù từ 01 năm đến 07 năm","Hình phạt"
+K2_D400,"Khoản 2 Điều 400",Khoản
+OR_K2_D400,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D400,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D400,"b) Đối xử tàn ác với tù binh khác",Điểm
+P_c_K2_D400,"c) Lôi kéo người khác khai báo, làm việc cho địch",Điểm
+P_d_K2_D400,"d) Gây hậu quả nghiêm trọng hoặc rất nghiêm trọng",Điểm
+HP_K2_D400,"Phạt tù từ 05 năm đến 12 năm","Hình phạt"
+K3_D400,"Khoản 3 Điều 400",Khoản
+OR_K3_D400,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D400,"a) Giao nộp cho địch vật, tài liệu bí mật nhà nước hoặc khai báo bí mật nhà nước",Điểm
+P_b_K3_D400,"b) Gây hậu quả đặc biệt nghiêm trọng",Điểm
+HP_K3_D400,"Phạt tù từ 12 năm đến 20 năm","Hình phạt"
+D401,"Điều 401. Tội bỏ vị trí chiến đấu hoặc không làm nhiệm vụ trong chiến đấu",Điều
+K1_D401,"Khoản 1 Điều 401",Khoản
+HV_K1_D401,"Người nào tự ý rời bỏ vị trí chiến đấu hoặc không làm nhiệm vụ trong chiến đấu","Hành vi chính"
+HP_K1_D401,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K2_D401,"Khoản 2 Điều 401",Khoản
+OR_K2_D401,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D401,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D401,"b) Bỏ vũ khí, trang bị kỹ thuật quân sự hoặc tài liệu bí mật công tác quân sự",Điểm
+P_c_K2_D401,"c) Lôi kéo người khác phạm tội",Điểm
+P_d_K2_D401,"d) Gây hậu quả nghiêm trọng hoặc rất nghiêm trọng",Điểm
+HP_K2_D401,"Phạt tù từ 05 năm đến 12 năm","Hình phạt"
+K3_D401,"Khoản 3 Điều 401",Khoản
+HV_K3_D401,"Phạm tội gây hậu quả đặc biệt nghiêm trọng","Hành vi chính"
+HP_K3_D401,"Phạt tù từ 10 năm đến 20 năm","Hình phạt"
+D402,"Điều 402. Tội đào ngũ",Điều
+K1_D402,"Khoản 1 Điều 402",Khoản
+HV_K1_D402,"Người nào rời bỏ hàng ngũ quân đội nhằm trốn tránh nghĩa vụ trong thời chiến hoặc đã bị xử lý kỷ luật về hành vi này mà còn vi phạm hoặc gây hậu quả nghiêm trọng","Hành vi chính"
+HP_K1_D402,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D402,"Khoản 2 Điều 402",Khoản
+OR_K2_D402,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D402,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D402,"b) Lôi kéo người khác phạm tội",Điểm
+P_c_K2_D402,"c) Mang theo, vứt bỏ vũ khí, trang bị kỹ thuật quân sự hoặc tài liệu bí mật quân sự",Điểm
+P_d_K2_D402,"d) Gây hậu quả rất nghiêm trọng",Điểm
+HP_K2_D402,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D402,"Khoản 3 Điều 402",Khoản
+OR_K3_D402,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D402,"a) Trong chiến đấu",Điểm
+P_b_K3_D402,"b) Trong khu vực có chiến sự",Điểm
+P_c_K3_D402,"c) Trong khi thực hiện nhiệm vụ cứu hộ, cứu nạn",Điểm
+P_d_K3_D402,"d) Trong tình trạng khẩn cấp",Điểm
+P_dd_K3_D402,"đ) Gây hậu quả đặc biệt nghiêm trọng",Điểm
+HP_K3_D402,"Phạt tù từ 05 năm đến 12 năm","Hình phạt"
+D403,"Điều 403. Tội trốn tránh nhiệm vụ",Điều
+K1_D403,"Khoản 1 Điều 403",Khoản
+HV_K1_D403,"Người nào tự gây thương tích, gây tổn hại cho sức khoẻ của mình hoặc dùng thủ đoạn gian dối khác để trốn tránh nhiệm vụ","Hành vi chính"
+HP_K1_D403,"Phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm","Hình phạt"
+K2_D403,"Khoản 2 Điều 403",Khoản
+OR_K2_D403,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D403,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D403,"b) Lôi kéo người khác phạm tội",Điểm
+P_c_K2_D403,"c) Trong thời chiến",Điểm
+P_d_K2_D403,"d) Trong khi thực hiện nhiệm vụ cứu hộ, cứu nạn",Điểm
+P_dd_K2_D403,"đ) Trong tình trạng khẩn cấp",Điểm
+P_e_K2_D403,"e) Gây hậu quả nghiêm trọng",Điểm
+HP_K2_D403,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K3_D403,"Khoản 3 Điều 403",Khoản
+HV_K3_D403,"Phạm tội gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng","Hành vi chính"
+HP_K3_D403,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+D404,"Điều 404. Tội cố ý làm lộ bí mật công tác quân sự",Điều
+K1_D404,"Khoản 1 Điều 404",Khoản
+HV_K1_D404,"Người nào cố ý làm lộ bí mật công tác quân sự, nếu không thuộc một trong các trường hợp quy định tại các điều 110, 337 và 361","Hành vi chính"
+HP_K1_D404,"Phạt tù từ 06 tháng đến 05 năm","Hình phạt"
+K2_D404,"Khoản 2 Điều 404",Khoản
+OR_K2_D404,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D404,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D404,"b) Trong khu vực có chiến sự",Điểm
+P_c_K2_D404,"c) Trong chiến đấu",Điểm
+P_d_K2_D404,"d) Gây hậu quả nghiêm trọng, rất nghiêm trọng hoặc đặc biệt nghiêm trọng",Điểm
+HP_K2_D404,"Phạt tù từ 03 năm đến 10 năm","Hình phạt"
+D405,"Điều 405. Tội chiếm đoạt, mua bán hoặc tiêu hủy tài liệu bí mật công tác quân sự",Điều
+K1_D405,"Khoản 1 Điều 405",Khoản
+HV_K1_D405,"Người nào chiếm đoạt, mua bán hoặc tiêu hủy tài liệu bí mật công tác quân sự, nếu không thuộc một trong các trường hợp quy định tại các điều 110, 337 và 361","Hành vi chính"
+HP_K1_D405,"Phạt tù từ 06 tháng đến 05 năm","Hình phạt"
+K2_D405,"Khoản 2 Điều 405",Khoản
+OR_K2_D405,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D405,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D405,"b) Trong khu vực có chiến sự",Điểm
+P_c_K2_D405,"c) Trong chiến đấu",Điểm
+P_d_K2_D405,"d) Gây hậu quả nghiêm trọng, rất nghiêm trọng hoặc đặc biệt nghiêm trọng",Điểm
+HP_K2_D405,"Phạt tù từ 03 năm đến 10 năm","Hình phạt"
+D406,"Điều 406. Tội vô ý làm lộ bí mật công tác quân sự",Điều
+K1_D406,"Khoản 1 Điều 406",Khoản
+HV_K1_D406,"Người nào vô ý làm lộ bí mật công tác quân sự, nếu không thuộc một trong các trường hợp quy định tại Điều 338 và Điều 362","Hành vi chính"
+HP_K1_D406,"Phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm","Hình phạt"
+K2_D406,"Khoản 2 Điều 406",Khoản
+OR_K2_D406,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D406,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D406,"b) Trong khu vực có chiến sự",Điểm
+P_c_K2_D406,"c) Trong chiến đấu",Điểm
+P_d_K2_D406,"d) Gây hậu quả nghiêm trọng, rất nghiêm trọng hoặc đặc biệt nghiêm trọng",Điểm
+HP_K2_D406,"Phạt tù từ 01 năm đến 05 năm","Hình phạt"
+D407,"Điều 407. Tội làm mất tài liệu bí mật công tác quân sự",Điều
+K1_D407,"Khoản 1 Điều 407",Khoản
+HV_K1_D407,"Người nào làm mất tài liệu bí mật công tác quân sự, nếu không thuộc một trong các trường hợp quy định tại Điều 338 và Điều 362","Hành vi chính"
+HP_K1_D407,"Phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm","Hình phạt"
+K2_D407,"Khoản 2 Điều 407",Khoản
+OR_K2_D407,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D407,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D407,"b) Trong khu vực có chiến sự",Điểm
+P_c_K2_D407,"c) Trong chiến đấu",Điểm
+P_d_K2_D407,"d) Gây hậu quả nghiêm trọng, rất nghiêm trọng hoặc đặc biệt nghiêm trọng",Điểm
+HP_K2_D407,"Phạt tù từ 01 năm đến 05 năm","Hình phạt"
+D408,"Điều 408. Tội báo cáo sai",Điều
+K1_D408,"Khoản 1 Điều 408",Khoản
+HV_K1_D408,"Người nào cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng","Hành vi chính"
+HP_K1_D408,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D408,"Khoản 2 Điều 408",Khoản
+OR_K2_D408,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D408,"a) Trong chiến đấu",Điểm
+P_b_K2_D408,"b) Trong khu vực có chiến sự",Điểm
+P_c_K2_D408,"c) Trong tình trạng khẩn cấp",Điểm
+P_d_K2_D408,"d) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng",Điểm
+HP_K2_D408,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+D409,"Điều 409. Tội vi phạm quy định về trực ban, trực chiến, trực chỉ huy",Điều
+K1_D409,"Khoản 1 Điều 409",Khoản
+HV_K1_D409,"Người nào không chấp hành nghiêm chỉnh chế độ trực ban, trực chiến, trực chỉ huy gây hậu quả nghiêm trọng","Hành vi chính"
+HP_K1_D409,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 05 năm","Hình phạt"
+K2_D409,"Khoản 2 Điều 409",Khoản
+OR_K2_D409,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D409,"a) Trong chiến đấu",Điểm
+P_b_K2_D409,"b) Trong khu vực có chiến sự",Điểm
+P_c_K2_D409,"c) Trong khi thực hiện nhiệm vụ cứu hộ, cứu nạn",Điểm
+P_d_K2_D409,"d) Trong tình trạng khẩn cấp",Điểm
+P_dd_K2_D409,"đ) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng",Điểm
+HP_K2_D409,"Phạt tù từ 03 năm đến 10 năm","Hình phạt"
+D410,"Điều 410. Tội vi phạm quy định về bảo vệ",Điều
+K1_D410,"Khoản 1 Điều 410",Khoản
+HV_K1_D410,"Người nào không chấp hành quy định về tuần tra, canh gác, áp tải, hộ tống","Hành vi chính"
+OR_K1_D410,"Thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K1_D410,"a) Làm người được bảo vệ, hộ tống bị tổn thương cơ thể",Điểm
+P_b_K1_D410,"b) Làm hư hỏng phương tiện kỹ thuật, thiết bị quân sự",Điểm
+P_c_K1_D410,"c) Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P_d_K1_D410,"d) Gây hậu quả nghiêm trọng khác",Điểm
+HP_K1_D410,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 05 năm","Hình phạt"
+K2_D410,"Khoản 2 Điều 410",Khoản
+OR_K2_D410,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D410,"a) Làm người được bảo vệ, hộ tống chết",Điểm
+P_b_K2_D410,"b) Làm mất phương tiện kỹ thuật, thiết bị quân sự",Điểm
+P_c_K2_D410,"c) Trong chiến đấu",Điểm
+P_d_K2_D410,"d) Trong khu vực có chiến sự",Điểm
+P_dd_K2_D410,"đ) Lôi kéo người khác phạm tội",Điểm
+P_e_K2_D410,"e) Gây thiệt hại về tài sản 500.000.000 đồng trở lên",Điểm
+P_g_K2_D410,"g) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng khác",Điểm
+HP_K2_D410,"Phạt tù từ 03 năm đến 07 năm","Hình phạt"
+D411,"Điều 411. Tội vi phạm các quy định về bảo đảm an toàn trong chiến đấu hoặc trong huấn luyện",Điều
+K1_D411,"Khoản 1 Điều 411",Khoản
+HV_K1_D411,"Người nào không chấp hành nghiêm chỉnh những quy định bảo đảm an toàn trong chiến đấu hoặc trong huấn luyện gây hậu quả nghiêm trọng","Hành vi chính"
+HP_K1_D411,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 01 năm đến 05 năm","Hình phạt"
+K2_D411,"Khoản 2 Điều 411",Khoản
+HV_K2_D411,"Phạm tội gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng","Hành vi chính"
+HP_K2_D411,"Phạt tù từ 03 năm đến 10 năm","Hình phạt"
+D412,"Điều 412. Tội vi phạm quy định về sử dụng vũ khí quân dụng, trang bị kỹ thuật quân sự",Điều
+K1_D412,"Khoản 1 Điều 412",Khoản
+HV_K1_D412,"Người nào vi phạm quy định về sử dụng vũ khí quân dụng, trang bị kỹ thuật quân sự gây hậu quả nghiêm trọng","Hành vi chính"
+HP_K1_D412,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 05 năm","Hình phạt"
+K2_D412,"Khoản 2 Điều 412",Khoản
+OR_K2_D412,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D412,"a) Trong chiến đấu",Điểm
+P_b_K2_D412,"b) Trong khu vực có chiến sự",Điểm
+P_c_K2_D412,"c) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng",Điểm
+HP_K2_D412,"Phạt tù từ 03 năm đến 10 năm","Hình phạt"
+D413,"Điều 413. Tội hủy hoại hoặc cố ý làm hư hỏng vũ khí quân dụng, trang bị kỹ thuật quân sự",Điều
+K1_D413,"Khoản 1 Điều 413",Khoản
+HV_K1_D413,"Người nào hủy hoại hoặc cố ý làm hư hỏng vũ khí quân dụng, trang bị kỹ thuật quân sự, nếu không thuộc một trong các trường hợp quy định tại Điều 114 và Điều 303","Hành vi chính"
+HP_K1_D413,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+K2_D413,"Khoản 2 Điều 413",Khoản
+OR_K2_D413,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D413,"a) Trong chiến đấu",Điểm
+P_b_K2_D413,"b) Trong khu vực có chiến sự",Điểm
+P_c_K2_D413,"c) Lôi kéo người khác phạm tội",Điểm
+P_d_K2_D413,"d) Gây hậu quả nghiêm trọng",Điểm
+HP_K2_D413,"Phạt tù từ 07 năm đến 12 năm","Hình phạt"
+K3_D413,"Khoản 3 Điều 413",Khoản
+HV_K3_D413,"Phạm tội gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng","Hành vi chính"
+HP_K3_D413,"Phạt tù từ 12 năm đến 20 năm hoặc tù chung thân","Hình phạt"
+D414,"Điều 414. Tội làm mất hoặc vô ý làm hư hỏng vũ khí quân dụng, phương tiện kỹ thuật quân sự",Điều
+K1_D414,"Khoản 1 Điều 414",Khoản
+HV_K1_D414,"Người nào được giao quản lý, được trang bị vũ khí quân dụng, phương tiện kỹ thuật quân sự mà làm mất hoặc vô ý làm hư hỏng gây hậu quả nghiêm trọng","Hành vi chính"
+HP_K1_D414,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 05 năm","Hình phạt"
+K2_D414,"Khoản 2 Điều 414",Khoản
+HV_K2_D414,"Phạm tội gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng","Hành vi chính"
+HP_K2_D414,"Phạt tù từ 03 năm đến 07 năm","Hình phạt"
+D415,"Điều 415. Tội quấy nhiễu nhân dân",Điều
+K1_D415,"Khoản 1 Điều 415",Khoản
+HV_K1_D415,"Người nào có hành vi quấy nhiễu nhân dân đã bị xử lý kỷ luật về hành vi này mà còn vi phạm hoặc gây hậu quả nghiêm trọng","Hành vi chính"
+HP_K1_D415,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D415,"Khoản 2 Điều 415",Khoản
+OR_K2_D415,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D415,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D415,"b) Lôi kéo người khác phạm tội",Điểm
+P_c_K2_D415,"c) Trong khu vực có chiến sự",Điểm
+P_d_K2_D415,"d) Trong khu vực đã có lệnh ban bố tình trạng khẩn cấp",Điểm
+P_dd_K2_D415,"đ) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng",Điểm
+HP_K2_D415,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+D416,"Điều 416. Tội lạm dụng nhu cầu quân sự trong khi thực hiện nhiệm vụ",Điều
+K1_D416,"Khoản 1 Điều 416",Khoản
+HV_K1_D416,"Người nào trong khi thực hiện nhiệm vụ mà vượt quá phạm vi cần thiết của nhu cầu quân sự gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng của Nhà nước, của tổ chức, cá nhân","Hành vi chính"
+HP_K1_D416,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D416,"Khoản 2 Điều 416",Khoản
+HV_K2_D416,"Phạm tội gây thiệt hại về tài sản 500.000.000 đồng trở lên","Hành vi chính"
+HP_K2_D416,"Phạt tù từ 03 năm đến 07 năm","Hình phạt"
+D417,"Điều 417. Tội cố ý bỏ thương binh, tử sĩ hoặc không chăm sóc, cứu chữa thương binh",Điều
+K1_D417,"Khoản 1 Điều 417",Khoản
+HV_K1_D417,"Người nào có trách nhiệm mà cố ý bỏ thương binh, tử sĩ tại trận địa hoặc không chăm sóc, cứu chữa thương binh dẫn đến không tìm thấy thương binh, tử sĩ hoặc thương binh bị chết","Hành vi chính"
+HP_K1_D417,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 05 năm","Hình phạt"
+K2_D417,"Khoản 2 Điều 417",Khoản
+OR_K2_D417,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D417,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D417,"b) Đối với 02 thương binh hoặc 02 tử sĩ trở lên",Điểm
+HP_K2_D417,"Phạt tù từ 03 năm đến 10 năm","Hình phạt"
+D418,"Điều 418. Tội chiếm đoạt hoặc hủy hoại di vật của tử sĩ",Điều
+K1_D418,"Khoản 1 Điều 418",Khoản
+HV_K1_D418,"Người nào chiếm đoạt hoặc hủy hoại di vật của tử sĩ","Hành vi chính"
+HP_K1_D418,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D418,"Khoản 2 Điều 418",Khoản
+OR_K2_D418,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D418,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D418,"b) Chiếm đoạt hoặc hủy hoại di vật của 02 tử sĩ trở lên",Điểm
+HP_K2_D418,"Phạt tù từ 02 năm đến 07 năm","Hình phạt"
+D419,"Điều 419. Tội chiếm đoạt hoặc hủy hoại chiến lợi phẩm",Điều
+K1_D419,"Khoản 1 Điều 419",Khoản
+HV_K1_D419,"Người nào trong chiến đấu hoặc khi thu dọn chiến trường mà chiếm đoạt hoặc hủy hoại chiến lợi phẩm","Hành vi chính"
+HP_K1_D419,"Phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm","Hình phạt"
+K2_D419,"Khoản 2 Điều 419",Khoản
+OR_K2_D419,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K2_D419,"a) Là chỉ huy hoặc sĩ quan",Điểm
+P_b_K2_D419,"b) Chiến lợi phẩm trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng",Điểm
+P_c_K2_D419,"c) Gây ảnh hưởng xấu đến uy tín quân đội",Điểm
+P_d_K2_D419,"d) Chiến lợi phẩm có giá trị trong quân sự",Điểm
+P_dd_K2_D419,"đ) Gây hậu quả nghiêm trọng hoặc rất nghiêm trọng",Điểm
+HP_K2_D419,"Phạt tù từ 03 năm đến 07 năm","Hình phạt"
+K3_D419,"Khoản 3 Điều 419",Khoản
+OR_K3_D419,"Phạm tội thuộc một trong các trường hợp sau đây","Node Logic OR"
+P_a_K3_D419,"a) Chiến lợi phẩm trị giá 500.000.000 đồng trở lên",Điểm
+P_b_K3_D419,"b) Chiến lợi phẩm có giá trị đặc biệt trong quân sự",Điểm
+P_c_K3_D419,"c) Gây hậu quả đặc biệt nghiêm trọng",Điểm
+HP_K3_D419,"Phạt tù từ 05 năm đến 10 năm","Hình phạt"
+D420,"Điều 420. Tội ngược đãi tù binh, hàng binh",Điều
+K1_D420,"Khoản duy nhất Điều 420",Khoản
+HV_K1_D420,"Người nào ngược đãi tù binh, hàng binh","Hành vi chính"
+HP_K1_D420,"Phạt cải tạo không giam giữ đến 01 năm hoặc phạt tù từ 03 tháng đến 02 năm","Hình phạt"

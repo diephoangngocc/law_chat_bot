@@ -1,12 +1,30 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/*.py", "use": "@vercel/python" },
-    { "src": "frontend/public/**", "use": "@vercel/static" }
+    {
+      "src": "api/chat.py",
+      "use": "@vercel/python",
+      "config": {
+        "maxLambdaSize": "50mb"
+      }
+    },
+    {
+      "src": "frontend/public/**",
+      "use": "@vercel/static"
+    }
   ],
   "routes": [
-    { "src": "/api/chat", "dest": "/api/chat.py" },
-    { "src": "/", "dest": "/frontend/public/index.html" },
-    { "src": "/(.*)", "dest": "/frontend/public/$1" }
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/chat.py"
+    },
+    {
+      "src": "/",
+      "dest": "/frontend/public/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/frontend/public/$1"
+    }
   ]
 }

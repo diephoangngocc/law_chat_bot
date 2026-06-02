@@ -1,163 +1,154 @@
 # Law Chatbot V2 — KG-RAG với 2 chế độ no_llm/local_llm
 
-Repo này là bản khởi đầu sạch cho chatbot luật dùng **Knowledge Graph + RAG/BM25**. Hệ thống có 2 chế độ trả lời:
+Chatbot luật dùng **Knowledge Graph + RAG/BM25** với 2 chế độ trả lời:
 
-1. `no_llm`: không dùng LLM, trả lời bằng template từ evidence truy xuất được.
-2. `local_llm`: dùng LLM local qua Ollama để diễn đạt câu trả lời tự nhiên hơn, nhưng vẫn chỉ dựa trên evidence từ KG/RAG.
+- **`no_llm`**: Trả lời từ template dựa trên evidence từ KG/RAG
+- **`local_llm`**: Dùng LLM local (Ollama/LM Studio) để diễn đạt tự nhiên hơn, vẫn chỉ dựa trên evidence
 
-> Lưu ý: kết quả chỉ hỗ trợ tra cứu, không thay thế tư vấn của luật sư hoặc cơ quan có thẩm quyền.
+> ⚠️ **Lưu ý**: Kết quả chỉ hỗ trợ tra cứu, không thay thế tư vấn của luật sư hoặc cơ quan có thẩm quyền.
 
 ---
 
-## 1. Cấu trúc repo
+## 📁 Cấu trúc repo
 
-```text
+```
 law_chatbot_v2/
 ├── api/
-│   └── chat.py                       # API serverless cho Vercel
-├── backend/
-│   └── legal_chatbot/
-│       ├── pipeline.py               # Pipeline chính
-│       ├── semantic.py               # Rule-based NER + intent
-│       ├── graph.py                  # Load/truy vấn KG từ CSV
-│       ├── retrieval.py              # BM25/RAG offline
-│       ├── rerank.py                 # Recall & Rank
-│       ├── evidence.py               # Gom evidence pháp lý
-│       ├── answer_template.py        # Trả lời không LLM
-│       ├── answer_llm.py             # Trả lời bằng local LLM
-│       ├── llm_client.py             # Client gọi Ollama
-│       └── text.py                   # Normalize/tokenize tiếng Việt
+│   └── chat.py                          # API serverless cho Vercel
+├── backend/legal_chatbot/
+│   ├── pipeline.py                      # Pipeline chính
+│   ├── semantic.py                      # Rule-based NER + intent
+│   ├── graph.py                         # Load/truy vấn KG từ CSV
+│   ├── retrieval.py                     # BM25/RAG offline
+│   ├── rerank.py                        # Recall & Rank
+│   ├── evidence.py                      # Gom evidence pháp lý
+│   ├── answer_template.py               # Trả lời không LLM
+│   ├── answer_llm.py                    # Trả lời bằng local LLM
+│   ├── llm_client.py                    # Client gọi Ollama/LM Studio
+│   ├── scope_guard.py                   # Kiểm soát phạm vi câu hỏi
+│   ├── article_answer.py                # Xử lý lookup/compare điều luật
+│   └── text.py                          # Normalize/tokenize tiếng Việt
 ├── data/
-│   ├── nodes/                        # Copy node CSV KG vào đây
-│   ├── edges/                        # Copy edge CSV KG vào đây
-│   └── documents/                    # Optional: thêm văn bản luật dạng txt/md/csv
-├── frontend/public/index.html        # UI chat
-├── scripts/validate_data.py          # Kiểm tra dữ liệu KG
-├── run.py                            # Chạy local không cần FastAPI
-└── vercel.json                       # Deploy Vercel chế độ no_llm
+│   ├── nodes/                           # CSV node KG
+│   ├── edges/                           # CSV edge KG
+│   └── documents/                       # Văn bản luật (txt/md/csv)
+├── frontend/public/index.html           # UI chat
+├── scripts/validate_data.py             # Kiểm tra dữ liệu KG
+├── run.py                               # Chạy local
+├── test_*.py                            # Test scripts
+└── vercel.json                          # Deploy Vercel
 ```
 
 ---
 
-## 2. Chuẩn bị dữ liệu
+## 🚀 Chuẩn bị & Chạy nhanh
 
-Bạn copy dữ liệu KG từ repo cũ sang repo mới:
+### 1. Chuẩn bị dữ liệu
 
 ```bash
-# Trong repo mới
 mkdir -p data/nodes data/edges
 
-# Copy toàn bộ CSV node/edge từ repo cũ
+# Copy CSV từ repo cũ
 cp -r ../law_chat_bot/data/nodes/*.csv data/nodes/
 cp -r ../law_chat_bot/data/edges/*.csv data/edges/
 ```
 
-Repo này có sẵn dữ liệu sample nhỏ để test nhanh. Khi bạn copy dữ liệu thật vào, hệ thống sẽ tự load toàn bộ file `.csv` trong `data/nodes` và `data/edges`.
+**Định dạng CSV linh hoạt:**
 
-Định dạng được hỗ trợ linh hoạt:
-
-Node CSV có thể dùng các cột:
-
+Node CSV:
 ```csv
 ID,Name,Label
 D123,Điều 123. Tội giết người,Điều
 ```
 
-hoặc biến thể như `id,name,label`, `NodeID,NodeName,Type`.
-
-Edge CSV có thể dùng các cột:
-
+Edge CSV:
 ```csv
 From,To,Relationship
 D123,K123_1,Gồm
 ```
 
-hoặc biến thể như `source,target,relation`, `Start,End,Type`.
-
----
-
-## 3. Chạy local chế độ không LLM
+### 2. Chạy chế độ không LLM
 
 ```bash
 python -m venv .venv
-.venv\Scripts\activate      # Windows
-# source .venv/bin/activate  # Mac/Linux
+.venv\Scripts\activate          # Windows
+# source .venv/bin/activate     # Mac/Linux
 
 pip install -r requirements.txt
 python run.py
 ```
 
-Mở:
-
-```text
-http://localhost:8000
-```
+Mở: `http://localhost:8000`
 
 Test API:
-
 ```bash
-curl -X POST http://localhost:8000/api/chat ^
-  -H "Content-Type: application/json" ^
+curl -X POST http://localhost:8000/api/chat \
+  -H "Content-Type: application/json" \
   -d "{\"message\":\"A dùng dao đâm B tử vong thì phạm tội gì?\",\"mode\":\"no_llm\"}"
 ```
 
 ---
 
-## 4. Chạy local với LLM bằng Ollama
+## 🦙 Chạy với LLM Local
 
-Cài Ollama, sau đó pull model:
+### Option 1: Ollama
 
 ```bash
 ollama pull qwen3:4b
 ollama run qwen3:4b
 ```
 
-Mở terminal khác:
-
+Chạy ứng dụng:
 ```bash
-set ANSWER_MODE=local_llm          # Windows CMD
-# export ANSWER_MODE=local_llm     # Mac/Linux
-
+set ANSWER_MODE=local_llm
 set LOCAL_LLM_MODEL=qwen3:4b
 python run.py
 ```
 
-Hoặc trong UI chọn chế độ `local_llm`.
+Khuyến nghị model theo máy:
 
-Khuyến nghị model:
+| Máy       | Model              |
+| --------- | ------------------ |
+| RAM 8GB   | qwen3:1.7b/qwen3:4b |
+| RAM 16GB  | qwen3:4b/qwen3:8b  |
+| GPU 8GB   | qwen3:8b           |
+| GPU 12GB+ | qwen3:14b          |
 
-| Máy       | Model                        |
-| --------- | ---------------------------- |
-| RAM 8GB   | `qwen3:1.7b` hoặc `qwen3:4b` |
-| RAM 16GB  | `qwen3:4b` hoặc `qwen3:8b`   |
-| GPU 8GB   | `qwen3:8b`                   |
-| GPU 12GB+ | `qwen3:14b`                  |
+### Option 2: LM Studio
+
+```powershell
+$env:ANSWER_MODE = "local_llm"
+$env:LLM_PROVIDER = "lmstudio"
+$env:LM_STUDIO_BASE_URL = "http://localhost:1234/v1"
+$env:LOCAL_LLM_MODEL = "auto"
+python run.py
+```
+
+### Tùy chỉnh context LLM
+
+```powershell
+$env:LLM_EVIDENCE_TOP_K = "2"          # Số evidence gửi cho LLM
+$env:LLM_CONTEXT_CHARS = "450"         # Max chars trong context
+$env:LLM_PROMPT_CHARS = "2600"         # Max chars prompt
+```
 
 ---
 
-## 5. Deploy Vercel
+## 🌐 Deploy Vercel
 
-Mặc định nên deploy bằng chế độ `no_llm`, vì Vercel không chạy Ollama local trong môi trường serverless.
-
-Các bước:
-
-1. Tạo repo GitHub mới.
-2. Commit toàn bộ file.
-3. Import repo vào Vercel.
-4. Framework Preset: `Other`.
-5. Build Command: để trống.
-6. Output Directory: để trống.
-7. Environment Variables:
-
-```text
+1. **Tạo repo GitHub** và commit toàn bộ file
+2. **Import vào Vercel** → Framework: `Other`
+3. **Build Command**: để trống
+4. **Output Directory**: để trống
+5. **Environment Variables**:
+```
 ANSWER_MODE=no_llm
 DATA_DIR=./data
 TOP_K=5
 ```
 
-Nếu muốn dùng `local_llm` khi deploy, bạn cần một server riêng chạy Ollama rồi set:
-
-```text
+Để deploy với `local_llm`, cần server riêng chạy Ollama:
+```
 ANSWER_MODE=local_llm
 OLLAMA_BASE_URL=https://your-ollama-server.example.com
 LOCAL_LLM_MODEL=qwen3:4b
@@ -165,12 +156,11 @@ LOCAL_LLM_MODEL=qwen3:4b
 
 ---
 
-## 6. API
+## 📡 API Reference
 
 ### POST `/api/chat`
 
-Request:
-
+**Request:**
 ```json
 {
   "message": "A dùng dao đâm B tử vong thì phạm tội gì?",
@@ -179,15 +169,11 @@ Request:
 }
 ```
 
-`mode` có thể là:
+**Parameters:**
+- `mode`: `no_llm` hoặc `local_llm`
+- `top_k`: Số kết quả retrieval (mặc định 5)
 
-```text
-no_llm
-local_llm
-```
-
-Response:
-
+**Response:**
 ```json
 {
   "reply": "...",
@@ -202,126 +188,60 @@ Response:
 
 ---
 
-## 7. Test nhanh pipeline
+## 🧪 Test & Debug
 
 ```bash
+# Test pipeline
 python test_pipeline.py
-```
 
-Kiểm tra dữ liệu:
+# Test câu hỏi điều luật
+python test_article_questions.py
 
-```bash
+# Kiểm tra dữ liệu KG
 python scripts/validate_data.py
+
+# Test LM Studio
+python test_lm_studio_mode.py
 ```
 
 ---
 
-## 8. Ý tưởng pipeline
+## 🔄 Pipeline Flow
 
-```text
+```
 Question
   ↓
 Preprocess
   ↓
+Scope Guard (Basic chat check)
+  ↓
 Rule-based Legal NER + Intent Classification
   ↓
-KG Search + BM25/RAG Retrieval
+Article Lookup / KG Search + BM25/RAG
   ↓
-Rerank theo keyword/entity/KG/intent
+Rerank (keyword/entity/KG/intent)
   ↓
 Evidence Builder
   ↓
 Answer
-  ├── no_llm: Template Answer
-  └── local_llm: Ollama viết lại từ evidence
+  ├── no_llm: Template-based
+  └── local_llm: LLM từ evidence
 ```
 
-LLM chỉ nằm ở bước cuối, không được tự bịa điều luật.
+**LLM chỉ nằm ở bước cuối, không được tự bịa điều luật.**
 
-## Env PowerShell
+---
 
-```powershell
-$env:ANSWER_MODE = "local_llm"
-$env:LLM_PROVIDER = "lmstudio"
-$env:LM_STUDIO_BASE_URL = "http://localhost:1234/v1"
-$env:LOCAL_LLM_MODEL = "auto"
-python test_lm_studio_mode.py
-python run.py
-```
+## ✨ Tính năng chính
 
-Nếu `localhost` không chạy, dùng URL LM Studio hiển thị, ví dụ:
+✅ **Scope Guard**: Chặn câu hỏi ngoài phạm vi pháp lý (chào hỏi, nhỏ nhặt)  
+✅ **Article Lookup/Compare**: Xử lý trực tiếp câu hỏi về số Điều  
+✅ **Compact Evidence**: Rút gọn context để tránh lỗi LLM  
+✅ **Flexible LLM**: Hỗ trợ Ollama, LM Studio, OpenAI-compatible  
+✅ **Flexible CSV**: Tự động nhận diện cột node/edge từ tên khác nhau  
 
-```powershell
-$env:LM_STUDIO_BASE_URL = "http://172.29.162.12:1234/v1"
-```
+---
 
-# Patch: basic chat + legal scope guard + compact LM Studio prompt
+## 📝 License
 
-Patch này thêm:
-
-- `scope_guard.py`: chặn câu cơ bản như "chào", "bạn có thể làm gì" trước khi vào KG/RAG.
-- Nếu không phải câu cơ bản và không có dấu hiệu câu hỏi pháp lý, chatbot trả lời ngoài phạm vi.
-- `answer_llm.py`: rút gọn evidence trước khi gửi cho LM Studio để tránh lỗi `n_keep > n_ctx`.
-- `pipeline.py`: tích hợp scope guard và LM Studio/OpenAI-compatible client.
-
-# Patch Article Lookup / Article Compare
-
-Bản vá này giúp chatbot xử lý trực tiếp các câu hỏi nêu rõ số Điều, ví dụ:
-
-- `Điều 123 quy định gì?`
-- `Điều 123 và 124 khác nhau như thế nào?`
-- `So sánh điều 123 và 124`
-
-## File thay đổi
-
-```text
-backend/legal_chatbot/article_answer.py
-backend/legal_chatbot/text.py
-backend/legal_chatbot/semantic.py
-backend/legal_chatbot/scope_guard.py
-backend/legal_chatbot/pipeline.py
-test_article_questions.py
-```
-
-## Điểm chính
-
-- Trích xuất được nhiều Điều trong cùng một câu: `Điều 123 và 124`.
-- Thêm intent `COMPARE_ARTICLES`.
-- Với câu hỏi rõ số Điều, pipeline không chạy retrieval rộng mà đọc trực tiếp từ KG theo article family.
-- Tránh lỗi LLM context dài vì không gửi toàn bộ evidence cho các câu lookup/compare điều luật.
-
-## Test
-
-```powershell
-python test_article_questions.py
-python run.py
-```
-
-# Small talk + LM Studio context fix
-
-Patch này sửa 2 vấn đề:
-
-1. Câu chào như `chào`, `hi`, `hello` không còn chạy KG/RAG/LLM nữa.
-   - Trả lời nhanh bằng template nhỏ.
-   - Không tạo prompt dài cho LLM.
-
-2. Khi dùng `local_llm`, backend chỉ gửi evidence rút gọn vào LM Studio.
-   - Tránh lỗi `n_keep > n_ctx` với model nhỏ như `qwen/qwen3-1.7b`.
-   - Evidence đầy đủ vẫn nằm trong API data để debug/UI nếu cần.
-   ## Biến môi trường tùy chỉnh
-
-Nếu vẫn muốn rút gọn mạnh hơn:
-
-```powershell
-$env:LLM_EVIDENCE_TOP_K = "1"
-$env:LLM_CONTEXT_CHARS = "300"
-$env:LLM_PROMPT_CHARS = "1800"
-```
-
-Giá trị mặc định:
-
-```text
-LLM_EVIDENCE_TOP_K=2
-LLM_CONTEXT_CHARS=450
-LLM_PROMPT_CHARS=2600
-```
+Tự do sử dụng cho mục đích phi thương mại hoặc nghiên cứu.

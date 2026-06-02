@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import sys
+import os
 from http.server import BaseHTTPRequestHandler
 from pathlib import Path
 from typing import Any, Dict
@@ -18,6 +19,8 @@ _PIPELINE = None
 def get_pipeline() -> LegalChatbotPipeline:
     global _PIPELINE
     if _PIPELINE is None:
+        # Ensure data directory path works in Vercel
+        os.environ.setdefault("DATA_DIR", str(Path(__file__).parents[1] / "data"))
         _PIPELINE = LegalChatbotPipeline()
     return _PIPELINE
 
@@ -40,8 +43,11 @@ class handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         try:
-            pipeline = get_pipeline()
-            _json_response(self, {"ok": True, "graph": pipeline.graph.stats()})
+            if "chat" in self.path or self.path == "/api/":
+                pipeline = get_pipeline()
+                _json_response(self, {"ok": True, "graph": pipeline.graph.stats()})
+            else:
+                _json_response(self, {"error": "Not found"}, status=404)
         except Exception as exc:
             _json_response(self, {"ok": False, "error": str(exc)}, status=500)
 
@@ -57,4 +63,6 @@ class handler(BaseHTTPRequestHandler):
             result = get_pipeline().run(message, top_k=top_k, mode=mode, use_llm=use_llm)
             _json_response(self, result)
         except Exception as exc:
+            import traceback
+            traceback.print_exc()
             _json_response(self, {"reply": "API gặp lỗi khi xử lý câu hỏi.", "error": str(exc)}, status=500)

@@ -123,27 +123,33 @@ class TemplateAnswerer:
                 mp.group(1) if mp else None,
             )
 
-        # --- Thu thập tất cả candidate ---
-        candidates: List[tuple] = []   # (display, art, clause, point)
+        # --- Thu thập top_k contexts có score cao nhất ---
+        # Contexts đã được sort theo score trong evidence_builder
+        scored: List[tuple] = []   # (score, display, art, clause, point)
         seen_d: set = set()
 
-        def _add(display: str) -> None:
+        def _add(display: str, score: float = 0.0) -> None:
             d = (display or "").strip()
             if not d or d in seen_d:
                 return
             seen_d.add(d)
             a, c, p = _parse(d)
             if a:
-                candidates.append((d, a, c, p))
+                scored.append((score, d, a, c, p))
 
-        # Primary reference từ pipeline
-        _add(reference.get("display") or "")
+        # Primary reference (score cao nhất)
+        _add(reference.get("display") or "", score=1.0)
 
-        # Contexts: điểm trước, rồi khoản, rồi điều
-        for kind in ("point", "clause", "article"):
-            for ctx in contexts:
-                if ctx.get("node_kind") == kind:
-                    _add((ctx.get("reference") or {}).get("display", ""))
+        # Contexts theo score thực tế
+        for ctx in contexts:
+            _add(
+                (ctx.get("reference") or {}).get("display", ""),
+                score=float(ctx.get("score") or 0.0),
+            )
+
+        # Sort theo score giảm dần, lấy top_k
+        scored.sort(key=lambda x: -x[0])
+        candidates: List[tuple] = [(d, a, c, p) for _, d, a, c, p in scored[:top_k]]
 
         if not candidates:
             # Fallback raw
@@ -189,7 +195,7 @@ class TemplateAnswerer:
                 continue
             seen_r.add(display)
             result.append(display)
-            if len(result) >= max(top_k * 3, 8):
+            if len(result) >= top_k:
                 break
 
         return result

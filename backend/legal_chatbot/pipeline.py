@@ -121,7 +121,7 @@ class LegalChatbotPipeline:
         if resolved_mode == "local_llm":
             reply = self.local_llm_answerer.generate(question=question, evidence=evidence)
         else:
-            reply = self.template_answerer.generate(question=question, evidence=evidence)
+            reply = self.template_answerer.generate(question=question, evidence=evidence, top_k=top_k)
 
         return {
             "reply": reply,

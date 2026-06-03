@@ -9,7 +9,7 @@ from . import law_content as lc
 class TemplateAnswerer:
     """Sinh câu trả lời không LLM theo cấu trúc cố định."""
 
-    def generate(self, question: str, evidence: Dict[str, object]) -> str:
+    def generate(self, question: str, evidence: Dict[str, object], top_k: int = 10) -> str:
         article = evidence.get("article") or {}
         reference = evidence.get("reference") or {}
         target_node = evidence.get("target_node") or {}
@@ -43,7 +43,7 @@ class TemplateAnswerer:
         # --- 2. Nhận định vi phạm (inline, không phải bullet) ---
         lines.append("\n## ⚖️ Nhận định vi phạm")
         violation_refs = self._build_violation_refs(
-            reference, target_node, article, contexts, points, clauses
+            reference, target_node, article, contexts, points, clauses, top_k=top_k
         )
         if violation_refs:
             lines.append(
@@ -102,6 +102,7 @@ class TemplateAnswerer:
         contexts: List[Dict],
         points: List[Dict],
         clauses: List[Dict],
+        top_k: int = 10,
     ) -> List[str]:
         """Trả về danh sách ref vi phạm.
 
@@ -168,7 +169,7 @@ class TemplateAnswerer:
                 diem_keys = sorted(k for k in lc._CONTENT if k.startswith(prefix))
                 if diem_keys:
                     # Mở rộng: thay khoản bằng các điểm của nó
-                    for dk in diem_keys[:6]:
+                    for dk in diem_keys[:max(top_k, 6)]:
                         letter = dk[len(prefix):]
                         diem_display = f"Điểm {letter} Khoản {c} Điều {a}"
                         expanded.append((diem_display, a, c, letter))
@@ -188,7 +189,7 @@ class TemplateAnswerer:
                 continue
             seen_r.add(display)
             result.append(display)
-            if len(result) >= 8:
+            if len(result) >= max(top_k * 3, 8):
                 break
 
         return result

@@ -32,9 +32,21 @@ class LocalHandler(SimpleHTTPRequestHandler):
         self.end_headers()
 
     def do_GET(self):
+        from urllib.parse import parse_qs
+        from backend.legal_chatbot import law_content as lc
+
         parsed = urlparse(self.path)
         if parsed.path == "/api/chat":
             self._send_json({"ok": True, "graph": PIPELINE.graph.stats()})
+            return
+        if parsed.path == "/api/law":
+            params = parse_qs(parsed.query)
+            ref = (params.get("ref") or [""])[0].strip()
+            hierarchy = lc.lookup_hierarchy(ref) if ref else []
+            if hierarchy:
+                self._send_json({"ref": ref, "hierarchy": hierarchy})
+            else:
+                self._send_json({"ref": ref, "hierarchy": []}, status=404)
             return
         if parsed.path == "/":
             self.path = "/index.html"

@@ -20,7 +20,7 @@ class EvidenceBuilder:
     def __init__(self, graph: LegalKnowledgeGraph):
         self.graph = graph
 
-    def build(self, question: str, semantic: Dict[str, object], candidates: List[Candidate]) -> Dict[str, object]:
+    def build(self, question: str, semantic: Dict[str, object], candidates: List[Candidate], top_k: int = 10) -> Dict[str, object]:
         explicit_ref = self._explicit_reference(semantic, question)
         best_ref = self._best_reference(semantic, candidates, explicit_ref)
 
@@ -31,11 +31,14 @@ class EvidenceBuilder:
         penalties = self._penalties(best_ref, best_article, candidates)
         clauses = self._clauses(best_article, candidates, best_ref)
         points = self._points(best_article, candidates, best_ref)
-        contexts = self._contexts(best_ref, best_article, candidates, intent=str(semantic.get("intent", "UNKNOWN")))
+        contexts = self._contexts(best_ref, best_article, candidates, intent=str(semantic.get("intent", "UNKNOWN")), top_k=top_k)
         kg_paths = self._paths(candidates)
         facts = self._matched_facts(semantic)
         confidence = self._confidence(candidates, best_ref)
         missing_info = self._missing_info(semantic, bool(best_article), confidence)
+
+        clause_cap = max(top_k, 8)
+        point_cap = max(top_k * 2, 10)
 
         return {
             "question": question,
@@ -43,8 +46,8 @@ class EvidenceBuilder:
             "reference": self._reference_to_dict(best_ref, target_node),
             "article": self._node_to_dict(best_article),
             "target_node": self._node_to_dict(target_node),
-            "clauses": [self._node_to_dict(c) for c in clauses[:8]],
-            "points": [self._node_to_dict(p) for p in points[:10]],
+            "clauses": [self._node_to_dict(c) for c in clauses[:clause_cap]],
+            "points": [self._node_to_dict(p) for p in points[:point_cap]],
             "penalties": [self._node_to_dict(p) for p in penalties[:8]],
             "matched_facts": facts,
             "missing_info": missing_info,
@@ -251,7 +254,7 @@ class EvidenceBuilder:
                 out.append(node)
         return out
 
-    def _contexts(self, reference: Dict[str, object], article: Optional[Node], candidates: List[Candidate], intent: str = "UNKNOWN") -> List[Dict[str, object]]:
+    def _contexts(self, reference: Dict[str, object], article: Optional[Node], candidates: List[Candidate], intent: str = "UNKNOWN", top_k: int = 10) -> List[Dict[str, object]]:
         family_ids = set()
         family_nodes: List[Node] = []
         if article:
@@ -262,7 +265,8 @@ class EvidenceBuilder:
         rows: List[Dict[str, object]] = []
         seen = set()
 
-        for idx, node in enumerate(family_nodes[:24]):
+        family_cap = max(top_k * 3, 24)
+        for idx, node in enumerate(family_nodes[:family_cap]):
             seen.add(node.id)
             ref = self.graph.reference_of_node(node.id)
             same_point = bool(reference.get("point") and self.graph.same_reference(node.id, reference, level="point"))
@@ -329,7 +333,8 @@ class EvidenceBuilder:
                 str(r.get("title", "")),
             )
         )
-        return rows[:18]
+        ctx_cap = max(top_k * 2, 18)
+        return rows[:ctx_cap]
 
     def _normalize_context_scores(self, rows: List[Dict[str, object]], reference: Dict[str, object], intent: str) -> List[Dict[str, object]]:
         """Tính điểm evidence theo scope pháp lý, không để node Điều lấn Khoản/Điểm.

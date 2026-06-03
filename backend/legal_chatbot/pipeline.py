@@ -116,7 +116,7 @@ class LegalChatbotPipeline:
             candidates=candidates,
             top_k=max(top_k, 1),
         )
-        evidence = self.evidence_builder.build(question=question, semantic=semantic, candidates=ranked)
+        evidence = self.evidence_builder.build(question=question, semantic=semantic, candidates=ranked, top_k=top_k)
 
         if resolved_mode == "local_llm":
             reply = self.local_llm_answerer.generate(question=question, evidence=evidence)

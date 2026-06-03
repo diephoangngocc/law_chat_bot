@@ -42,8 +42,20 @@ class handler(BaseHTTPRequestHandler):
         _json_response(self, {"ok": True})
 
     def do_GET(self):
+        from urllib.parse import urlparse, parse_qs
+        from backend.legal_chatbot import law_content as lc
+
         try:
-            if "chat" in self.path or self.path == "/api/":
+            parsed = urlparse(self.path)
+            if "law" in parsed.path:
+                params = parse_qs(parsed.query)
+                ref = (params.get("ref") or [""])[0].strip()
+                hierarchy = lc.lookup_hierarchy(ref) if ref else []
+                if hierarchy:
+                    _json_response(self, {"ref": ref, "hierarchy": hierarchy})
+                else:
+                    _json_response(self, {"ref": ref, "hierarchy": []}, status=404)
+            elif "chat" in parsed.path or parsed.path == "/api/":
                 pipeline = get_pipeline()
                 _json_response(self, {"ok": True, "graph": pipeline.graph.stats()})
             else:

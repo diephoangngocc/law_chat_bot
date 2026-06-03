@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Legal KG Chatbot</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked@9/marked.min.js"></script>
   <style>
     :root {
       --bg: #eef2ff;
@@ -44,16 +45,16 @@
     button, input, textarea, select { font: inherit; }
 
     .shell {
-      width: min(1180px, calc(100vw - 32px));
-      height: calc(100vh - 40px);
+      width: 100vw;
+      height: 100vh;
       min-height: 0;
-      margin: 20px auto;
+      margin: 0;
       display: grid;
-      grid-template-columns: 310px minmax(0, 1fr);
+      grid-template-columns: 220px minmax(0, 1fr);
       background: rgba(255, 255, 255, 0.72);
-      border: 1px solid rgba(255, 255, 255, 0.75);
-      border-radius: 30px;
-      box-shadow: var(--shadow);
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
       overflow: hidden;
       backdrop-filter: blur(16px);
     }
@@ -469,45 +470,230 @@
 
     .error-text { color: var(--danger); }
 
+    /* Markdown rendered content */
+    .bubble-content { line-height: 1.5; }
+    .bubble-content p { margin: 0 0 2px; }
+    .bubble-content p:last-child { margin-bottom: 0; }
+    .bubble-content ul, .bubble-content ol { margin: 0; padding-left: 18px; }
+    .bubble-content li { margin: 0; padding: 0; line-height: 1.5; }
+    .bubble-content li p,
+    .bubble-content li > p { margin: 0 !important; padding: 0; }
+    .bubble-content h1, .bubble-content h2, .bubble-content h3 {
+      margin: 8px 0 2px !important;
+      font-size: 1em;
+      font-weight: 800;
+    }
+    .bubble-content strong { font-weight: 700; }
+    .bubble-content em { font-style: italic; }
+    .bubble-content h1, .bubble-content h2, .bubble-content h3 {
+      margin: 12px 0 6px;
+      font-size: 1em;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    .bubble-content code {
+      background: rgba(15,23,42,0.07);
+      border-radius: 5px;
+      padding: 1px 5px;
+      font-size: 0.88em;
+      font-family: 'Fira Mono', 'Consolas', monospace;
+    }
+    .bubble-content pre {
+      background: #0f172a;
+      color: #e2e8f0;
+      border-radius: 10px;
+      padding: 10px 12px;
+      overflow-x: auto;
+      margin: 8px 0;
+    }
+    .bubble-content pre code { background: none; padding: 0; font-size: 0.85em; }
+    .bubble-content blockquote {
+      border-left: 3px solid #93c5fd;
+      margin: 8px 0;
+      padding: 4px 12px;
+      color: #475569;
+      background: #f0f7ff;
+      border-radius: 0 8px 8px 0;
+    }
+    .message.user .bubble-content blockquote { color: rgba(255,255,255,0.8); background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.5); }
+
+    /* Điều/Khoản badge */
+    .law-ref {
+      display: inline-block;
+      background: linear-gradient(135deg, #dbeafe, #ede9fe);
+      color: #1e40af;
+      border: 1px solid #bfdbfe;
+      border-radius: 6px;
+      padding: 1px 7px;
+      font-weight: 700;
+      font-size: 0.87em;
+      cursor: help;
+      transition: background 0.12s, box-shadow 0.12s;
+    }
+    .law-ref:hover {
+      background: linear-gradient(135deg, #bfdbfe, #ddd6fe);
+      box-shadow: 0 2px 8px rgba(37,99,235,0.18);
+    }
+    .message.user .law-ref {
+      background: rgba(255,255,255,0.22);
+      color: white;
+      border-color: rgba(255,255,255,0.4);
+    }
+    .message.user .law-ref:hover {
+      background: rgba(255,255,255,0.35);
+    }
+
+    /* Law preview popup */
+    #law-popup {
+      position: fixed;
+      z-index: 9999;
+      max-width: 340px;
+      min-width: 200px;
+      background: #1e293b;
+      color: #f1f5f9;
+      border-radius: 12px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.32), 0 0 0 1px rgba(255,255,255,0.06);
+      padding: 0;
+      pointer-events: none;
+      opacity: 0;
+      transform: translateY(4px);
+      transition: opacity 0.14s ease, transform 0.14s ease;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+    #law-popup.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    #law-popup .lp-header {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 9px 13px 7px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      font-size: 11.5px;
+      font-weight: 800;
+      color: #93c5fd;
+      letter-spacing: 0.02em;
+    }
+    #law-popup .lp-body {
+      padding: 9px 13px 11px;
+      color: #e2e8f0;
+      font-weight: 400;
+    }
+    #law-popup .lp-loading {
+      padding: 11px 13px;
+      color: #94a3b8;
+      font-style: italic;
+    }
+    #law-popup .lp-empty {
+      padding: 11px 13px;
+      color: #64748b;
+    }
+    #law-popup .lp-level {
+      padding: 8px 13px;
+      border-top: 1px solid rgba(255,255,255,0.07);
+    }
+    #law-popup .lp-level:first-child { border-top: none; }
+    #law-popup .lp-indent { padding-left: 20px; }
+    #law-popup .lp-indent + .lp-indent { padding-left: 30px; }
+    #law-popup .lp-level-label {
+      display: block;
+      font-size: 10.5px;
+      font-weight: 800;
+      color: #93c5fd;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 3px;
+    }
+    #law-popup .lp-level-content {
+      display: block;
+      color: #e2e8f0;
+      font-size: 12.5px;
+      line-height: 1.55;
+    }
+    /* Arrow caret */
+    #law-popup::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: #1e293b;
+      transform: rotate(45deg);
+      box-shadow: -1px -1px 0 rgba(255,255,255,0.06);
+    }
+    #law-popup.arrow-down::before {
+      bottom: -5px;
+      left: var(--arrow-x, 50%);
+      transform: translateX(-50%) rotate(45deg);
+      box-shadow: 2px 2px 4px rgba(0,0,0,0.15);
+    }
+    #law-popup.arrow-up::before {
+      top: -5px;
+      left: var(--arrow-x, 50%);
+      transform: translateX(-50%) rotate(45deg);
+      box-shadow: -2px -2px 4px rgba(0,0,0,0.08);
+    }
+
+    /* Section blocks */
+    .section-block {
+      margin-top: 10px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(226,232,240,0.8);
+    }
+    .section-block-header {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 7px 11px;
+      background: #f1f5f9;
+      font-size: 11.5px;
+      font-weight: 800;
+      color: #475569;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+    .section-block-body { padding: 10px 12px; font-size: 13.5px; }
+
 
 
     /* Compact mode: khung chat và chữ nhỏ hơn ~10%, viền mảnh nhất có thể */
     body { font-size: 14.4px; }
 
     .shell {
-      width: min(1062px, calc(100vw - 64px));
-      height: calc(100vh - 72px);
-      margin: 36px auto;
-      grid-template-columns: 279px minmax(0, 1fr);
-      border-width: 0.5px;
-      border-color: rgba(226, 232, 240, 0.65);
-      border-radius: 27px;
-      box-shadow: 0 18px 54px rgba(15, 23, 42, 0.12);
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      grid-template-columns: 220px minmax(0, 1fr);
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
     }
 
-    .sidebar { padding: 25px; }
-    .brand { gap: 12px; margin-bottom: 23px; }
-    .logo { width: 47px; height: 47px; border-radius: 15px; }
-    .brand h1 { font-size: 20.7px; }
-    .brand p { font-size: 12.6px; }
+    .sidebar { padding: 16px; }
+    .brand { gap: 9px; margin-bottom: 16px; }
+    .logo { width: 36px; height: 36px; border-radius: 11px; font-size: 11px; }
+    .brand h1 { font-size: 15px; }
+    .brand p { font-size: 11px; }
 
     .settings-card {
-      margin-top: 16px;
-      padding: 16px;
+      margin-top: 12px;
+      padding: 12px;
       border-width: 0.5px;
-      border-radius: 20px;
+      border-radius: 14px;
     }
-    .settings-card h3 { font-size: 14.4px; margin-bottom: 13px; }
-    .setting-row { gap: 11px; margin: 13px 0; }
-    .setting-row label { font-size: 12.6px; }
-    .setting-row small { font-size: 12.6px; }
-    .switch { width: 47px; height: 27px; }
+    .settings-card h3 { font-size: 12px; margin-bottom: 10px; }
+    .setting-row { gap: 8px; margin: 10px 0; }
+    .setting-row label { font-size: 11px; }
+    .setting-row small { font-size: 10px; }
+    .switch { width: 40px; height: 23px; }
     .slider { border-width: 0.5px; }
-    .slider::before { width: 20px; height: 20px; left: 4px; top: 3px; }
-    .switch input:checked + .slider::before { transform: translateX(18px); }
-    .number-input { width: 70px; padding: 9px 10px; border-width: 0.5px; border-radius: 13px; }
-    .tips { margin-top: 18px; gap: 9px; }
-    .tip { padding: 11px 12px; border-radius: 15px; border-width: 0.5px; font-size: 11.7px; }
+    .slider::before { width: 17px; height: 17px; left: 3px; top: 2px; }
+    .switch input:checked + .slider::before { transform: translateX(16px); }
+    .number-input { width: 52px; padding: 6px 7px; border-width: 0.5px; border-radius: 10px; font-size: 11px; }
+    .tips { margin-top: 14px; gap: 7px; }
+    .tip { padding: 8px 10px; border-radius: 11px; border-width: 0.5px; font-size: 10.5px; }
 
     .chat-header {
       padding: 23px 27px 18px;
@@ -607,6 +793,11 @@
   </style>
 </head>
 <body>
+  <div id="law-popup">
+    <div class="lp-header" id="lp-header"></div>
+    <div id="lp-content"></div>
+  </div>
+
   <div class="shell">
     <aside class="sidebar">
       <div class="brand">
@@ -636,7 +827,7 @@
             <label for="topK">Số ứng viên KG</label>
             <small>Số điều/khoản được truy xuất</small>
           </div>
-          <input id="topK" class="number-input" type="number" min="1" max="10" value="5" />
+          <input id="topK" class="number-input" type="number" min="1" max="100" value="10" />
         </div>
 
         <div class="setting-row">
@@ -648,11 +839,6 @@
         </div>
       </div>
 
-      <div class="tips">
-        <div class="tip">Chế độ không LLM dùng template nên nhanh, ổn định và phù hợp để deploy.</div>
-        <div class="tip">Chế độ LLM local yêu cầu Ollama đang chạy trên máy của bạn.</div>
-        <div class="tip">Kết quả chỉ hỗ trợ tra cứu, không thay thế tư vấn pháp lý chính thức.</div>
-      </div>
     </aside>
 
     <main class="main">
@@ -667,12 +853,6 @@
       <section id="messages" class="messages"></section>
 
       <section class="composer">
-        <div class="quick-actions">
-          <button class="chip" type="button">A dùng dao đâm B tử vong thì phạm tội gì?</button>
-          <button class="chip" type="button">Tội cướp tài sản bị phạt bao nhiêu năm?</button>
-          <button class="chip" type="button">Điều 123 quy định gì?</button>
-        </div>
-
         <div class="input-wrap">
           <textarea id="messageInput" placeholder="Nhập tóm tắt vụ án hoặc câu hỏi pháp luật..."></textarea>
           <button id="sendBtn" class="send-btn" type="button">Gửi</button>
@@ -721,6 +901,185 @@
       return copy;
     }
 
+    // ── Law reference highlighting ────────────────────────────────────────────
+    // Matches từ cụ thể nhất → ít cụ thể nhất (order matters for greedy alt)
+    // Không dùng \b vì \b không hoạt động với ký tự Unicode tiếng Việt
+    const LAW_FULL_PATTERN = /((?:[Đđ]i[eể]m\s+[a-zđ]\s+[Kk]ho[aả]n\s+\d+\s+[Đđ]i[eề]u\s+\d+[a-z]?)|(?:[Kk]ho[aả]n\s+\d+\s+[Đđ]i[eề]u\s+\d+[a-z]?)|(?:[Đđ]i[eề]u\s+\d+[a-z]?\s+[Kk]ho[aả]n\s+\d+\s+[Đđ]i[eể]m\s+[a-zđ])|(?:[Đđ]i[eề]u\s+\d+[a-z]?\s+[Kk]ho[aả]n\s+\d+)|(?:[Đđ]i[eề]u\s+\d+[a-z]?))/g;
+
+    // ── Popup state ───────────────────────────────────────────────────────────
+    const popup     = document.getElementById('law-popup');
+    const lpHeader  = document.getElementById('lp-header');
+    const lpContent = document.getElementById('lp-content');
+    const _cache    = {};   // ref text → content string | null
+    let   _hideTimer = null;
+
+    function _positionPopup(anchor) {
+      const rect   = anchor.getBoundingClientRect();
+      const pw     = 340;
+      const margin = 10;
+      const vw     = window.innerWidth;
+      const vh     = window.innerHeight;
+
+      // Horizontal: center on anchor, clamp to viewport
+      let left = rect.left + rect.width / 2 - pw / 2;
+      left = Math.max(margin, Math.min(left, vw - pw - margin));
+
+      // Arrow offset relative to popup left
+      const arrowX = (rect.left + rect.width / 2) - left;
+
+      // Prefer above; fall back to below
+      const spaceAbove = rect.top;
+      const spaceBelow = vh - rect.bottom;
+      let top, arrowDir;
+
+      popup.style.visibility = 'hidden';
+      popup.style.display    = 'block';
+      const popupH = popup.offsetHeight || 120;
+      popup.style.display = '';
+      popup.style.visibility = '';
+
+      if (spaceAbove >= popupH + 16 || spaceAbove >= spaceBelow) {
+        top      = rect.top - popupH - 12;
+        arrowDir = 'arrow-down';
+      } else {
+        top      = rect.bottom + 12;
+        arrowDir = 'arrow-up';
+      }
+
+      popup.style.left = left + 'px';
+      popup.style.top  = top  + 'px';
+      popup.style.setProperty('--arrow-x', arrowX + 'px');
+      popup.className  = arrowDir;
+    }
+
+    function _showPopup(anchor, refText) {
+      clearTimeout(_hideTimer);
+      lpHeader.textContent = refText;
+
+      if (_cache[refText] !== undefined) {
+        _renderHierarchy(_cache[refText]);
+        _positionPopup(anchor);
+        popup.classList.add('visible');
+      } else {
+        lpContent.innerHTML = '<div class="lp-loading">Đang tải nội dung…</div>';
+        _positionPopup(anchor);
+        popup.classList.add('visible');
+
+        fetch(`/api/law?ref=${encodeURIComponent(refText)}`)
+          .then(r => r.json())
+          .then(d => {
+            _cache[refText] = d.hierarchy || [];
+            _renderHierarchy(_cache[refText]);
+            _positionPopup(anchor);
+          })
+          .catch(() => {
+            _cache[refText] = [];
+            _renderHierarchy([]);
+          });
+      }
+    }
+
+    function _renderHierarchy(hierarchy) {
+      if (!hierarchy || hierarchy.length === 0) {
+        lpContent.innerHTML = '<div class="lp-empty">Không tìm thấy nội dung điều luật này.</div>';
+        return;
+      }
+      const html = hierarchy.map((item, i) => `
+        <div class="lp-level${i > 0 ? ' lp-indent' : ''}">
+          <span class="lp-level-label">${_escHtml(item.label)}</span>
+          <span class="lp-level-content">${_escHtml(item.content)}</span>
+        </div>`).join('');
+      lpContent.innerHTML = html;
+    }
+
+    function _escHtml(s) {
+      return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+
+    function _hidePopup() {
+      _hideTimer = setTimeout(() => popup.classList.remove('visible'), 120);
+    }
+
+    // Keep popup alive when cursor moves onto it
+    popup.addEventListener('mouseenter', () => clearTimeout(_hideTimer));
+    popup.addEventListener('mouseleave', _hidePopup);
+
+    // ── DOM helpers ───────────────────────────────────────────────────────────
+    function _wrapLawRef(text, embeddedContent) {
+      const span = document.createElement('span');
+      span.className = 'law-ref';
+      span.textContent = text;
+      if (embeddedContent) _cache[text] = embeddedContent;
+      return span;
+    }
+
+    function applyLawRefsToDOM(container) {
+      // 1. Convert <a href="law:content"> links produced by backend template
+      container.querySelectorAll('a[href^="law:"]').forEach(a => {
+        const refText = a.textContent.trim();
+        const content = decodeURIComponent(a.getAttribute('href').slice(4));
+        a.replaceWith(_wrapLawRef(refText, content || null));
+      });
+
+      // 2. Walk text nodes and wrap remaining law references
+      const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, {
+        acceptNode(node) {
+          if (node.parentElement.closest('.law-ref, code, pre, a')) return NodeFilter.FILTER_REJECT;
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+      const textNodes = [];
+      while (walker.nextNode()) textNodes.push(walker.currentNode);
+
+      for (const node of textNodes) {
+        const text = node.textContent;
+        LAW_FULL_PATTERN.lastIndex = 0;
+        if (!LAW_FULL_PATTERN.test(text)) continue;
+        LAW_FULL_PATTERN.lastIndex = 0;
+        const frag = document.createDocumentFragment();
+        let last = 0, m;
+        while ((m = LAW_FULL_PATTERN.exec(text)) !== null) {
+          if (last < m.index) frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+          frag.appendChild(_wrapLawRef(m[0].trim(), null));
+          last = m.index + m[0].length;
+        }
+        if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+        node.replaceWith(frag);
+      }
+
+      // 3. Attach hover listeners to all newly created .law-ref badges
+      container.querySelectorAll('.law-ref').forEach(badge => {
+        badge.addEventListener('mouseenter', () => _showPopup(badge, badge.textContent.trim()));
+        badge.addEventListener('mouseleave', _hidePopup);
+      });
+    }
+
+    function _unwrapListParagraphs(container) {
+      // marked v9 luôn wrap <li> content trong <p> → gây khoảng trắng thừa
+      // Unwrap: <li><p>text</p></li>  →  <li>text</li>
+      container.querySelectorAll('li').forEach(li => {
+        const kids = Array.from(li.childNodes).filter(n =>
+          n.nodeType !== Node.TEXT_NODE || n.textContent.trim()
+        );
+        if (kids.length === 1 && kids[0].nodeName === 'P') {
+          li.innerHTML = kids[0].innerHTML;
+        }
+      });
+    }
+
+    function renderBotContent(text, container) {
+      let html;
+      if (typeof marked !== 'undefined') {
+        marked.setOptions({ breaks: false, gfm: true });
+        html = marked.parse(text);
+      } else {
+        html = `<p>${text.replace(/\n\n+/g, '</p><p>').replace(/\n/g, '<br>')}</p>`;
+      }
+      container.innerHTML = html;
+      _unwrapListParagraphs(container);
+      applyLawRefsToDOM(container);
+    }
+
     function addMessage(role, text, debugData) {
       const row = document.createElement('div');
       row.className = `message ${role}`;
@@ -731,7 +1090,15 @@
 
       const bubble = document.createElement('div');
       bubble.className = 'bubble';
-      bubble.textContent = text;
+
+      if (role === 'bot') {
+        const content = document.createElement('div');
+        content.className = 'bubble-content';
+        renderBotContent(text, content);
+        bubble.appendChild(content);
+      } else {
+        bubble.textContent = text;
+      }
 
       if (debugData) {
         const details = document.createElement('details');

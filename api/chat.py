@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from backend.legal_chatbot import LegalChatbotPipeline  # noqa: E402
+from src.legal_chatbot import LegalChatbotPipeline  # noqa: E402
 
 _PIPELINE = None
 
@@ -43,7 +43,7 @@ class handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         from urllib.parse import urlparse, parse_qs
-        from backend.legal_chatbot import law_content as lc
+        from src.legal_chatbot import law_content as lc
 
         try:
             parsed = urlparse(self.path)

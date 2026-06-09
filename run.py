@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from backend.legal_chatbot import LegalChatbotPipeline  # noqa: E402
+from src.legal_chatbot import LegalChatbotPipeline  # noqa: E402
 
 PIPELINE = LegalChatbotPipeline()
 PUBLIC_DIR = ROOT / "frontend" / "public"
@@ -33,7 +33,7 @@ class LocalHandler(SimpleHTTPRequestHandler):
 
     def do_GET(self):
         from urllib.parse import parse_qs
-        from backend.legal_chatbot import law_content as lc
+        from src.legal_chatbot import law_content as lc
 
         parsed = urlparse(self.path)
         if parsed.path == "/api/chat":

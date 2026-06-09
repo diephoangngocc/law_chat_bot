@@ -737,6 +737,75 @@
     details.debug summary { padding: 9px 11px; font-size: 11.7px; }
     pre { padding: 11px; max-height: 234px; font-size: 10.8px; }
 
+    /* ── Evidence panel ─────────────────────────────────────────── */
+    .ev-panel { display: flex; flex-direction: column; gap: 10px; padding: 12px 14px; }
+
+    .ev-section { display: flex; flex-direction: column; gap: 5px; }
+    .ev-section-title {
+      font-size: 10px; font-weight: 800; text-transform: uppercase;
+      letter-spacing: .06em; color: #64748b; margin-bottom: 2px;
+    }
+
+    /* Confidence bar */
+    .ev-conf-row { display: flex; align-items: center; gap: 10px; }
+    .ev-conf-bar-wrap { flex: 1; height: 7px; background: #e2e8f0; border-radius: 99px; overflow: hidden; }
+    .ev-conf-bar { height: 100%; border-radius: 99px; transition: width .4s; }
+    .bar-cao   { background: #16a34a; }
+    .bar-tb    { background: #d97706; }
+    .bar-thap  { background: #dc2626; }
+    .ev-conf-badge {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 3px 9px; border-radius: 99px; font-size: 11px; font-weight: 700;
+      white-space: nowrap;
+    }
+    .lbl-cao  { background: #dcfce7; color: #15803d; }
+    .lbl-tb   { background: #fef3c7; color: #92400e; }
+    .lbl-thap { background: #fee2e2; color: #991b1b; }
+
+    /* Reference highlight */
+    .ev-ref-box {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 5px 10px; border-radius: 8px;
+      background: #eff6ff; border: 1px solid #bfdbfe;
+      font-size: 12px; font-weight: 700; color: #1e40af;
+      width: fit-content;
+    }
+
+    /* Tag chips */
+    .ev-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+    .ev-tag {
+      padding: 2px 8px; border-radius: 99px; font-size: 10.5px; font-weight: 600;
+      background: #f1f5f9; color: #475569; border: 1px solid #e2e8f0;
+    }
+    .ev-tag.intent { background: #f0fdf4; color: #166534; border-color: #bbf7d0; }
+    .ev-tag.domain { background: #fef9c3; color: #854d0e; border-color: #fde68a; }
+    .ev-tag.article{ background: #eff6ff; color: #1e40af; border-color: #bfdbfe; }
+
+    /* Context cards */
+    .ev-ctx-list { display: flex; flex-direction: column; gap: 5px; }
+    .ev-ctx-card {
+      padding: 7px 10px; border-radius: 9px;
+      border: 1px solid #e2e8f0; background: #f8fafc;
+      font-size: 11.5px; line-height: 1.5;
+    }
+    .ev-ctx-card.highlight { border-color: #bfdbfe; background: #eff6ff; }
+    .ev-ctx-top { display: flex; justify-content: space-between; align-items: center; gap: 6px; }
+    .ev-ctx-ref { font-weight: 700; color: #1e40af; font-size: 11px; }
+    .ev-ctx-score {
+      font-size: 10px; color: #64748b;
+      background: #e2e8f0; padding: 1px 5px; border-radius: 4px;
+    }
+    .ev-ctx-title { color: #0f172a; margin-top: 2px; }
+    .ev-ctx-kind {
+      display: inline-block; font-size: 9.5px; font-weight: 700; text-transform: uppercase;
+      padding: 1px 5px; border-radius: 4px; margin-top: 3px;
+      background: #e0e7ff; color: #3730a3;
+    }
+
+    /* Missing info */
+    .ev-missing { padding: 6px 10px; border-radius: 8px; background: #fef2f2; border: 1px solid #fecaca; }
+    .ev-missing p { font-size: 11px; color: #991b1b; margin: 0; }
+
     .composer {
       padding: 16px 27px 25px;
       border-top-width: 0.5px;
@@ -835,7 +904,7 @@
             <label for="showK">Kết quả truy xuất hiển thị</label>
             <small>Số evidence/candidate hiển thị</small>
           </div>
-          <input id="showK" class="number-input" type="number" min="1" max="10" value="3" />
+          <input id="showK" class="number-input" type="number" min="1" max="100" value="3" />
         </div>
       </div>
 
@@ -1080,6 +1149,192 @@
       applyLawRefsToDOM(container);
     }
 
+    // ── Evidence panel renderer ───────────────────────────────────────────────
+    function esc(s) {
+      return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+
+    function renderEvidencePanel(data) {
+      const wrap = document.createElement('div');
+      wrap.className = 'ev-panel';
+
+      const ev       = data?.evidence || {};
+      const semantic = data?.semantic  || {};
+      const cands    = (data?.candidates || []).slice(0, Number(showK.value || 3));
+      const stats    = data?.graph_stats || {};
+
+      // ── 1. Phân tích câu hỏi ─────────────────────────────────
+      const secQ = mkSection('🔎 Phân tích câu hỏi');
+
+      const tags = document.createElement('div');
+      tags.className = 'ev-tags';
+
+      const intent = semantic.intent || '';
+      if (intent && intent !== 'UNKNOWN') {
+        const intentLabels = {
+          LOOKUP_ARTICLE:'Tra cứu điều', LOOKUP_PENALTY:'Hình phạt',
+          CLASSIFY_CASE:'Phân loại tội', COMPARE_ARTICLES:'So sánh điều',
+          COMPARE_CRIMES:'So sánh tội', LOOKUP_CONDITIONS:'Điều kiện',
+          RELATED_ARTICLES:'Điều liên quan',
+        };
+        tags.appendChild(mkTag(intentLabels[intent] || intent, 'intent'));
+      }
+
+      (semantic.domains || []).forEach(d => {
+        const domainVi = {homicide:'Xâm phạm tính mạng',robbery:'Cướp tài sản',
+          theft:'Trộm cắp',fraud:'Lừa đảo',injury:'Gây thương tích',drugs:'Ma túy'};
+        tags.appendChild(mkTag(domainVi[d] || d, 'domain'));
+      });
+
+      (semantic.hinted_articles || []).forEach(a =>
+        tags.appendChild(mkTag('Điều ' + a, 'article'))
+      );
+
+      const entities = semantic.entities || {};
+      ['CRIME','ACTION','RESULT','PENALTY','CONDITION'].forEach(k => {
+        (entities[k] || []).slice(0,3).forEach(v => tags.appendChild(mkTag(v)));
+      });
+
+      if (tags.children.length) secQ.appendChild(tags);
+      else secQ.appendChild(mkMuted('Không nhận diện được từ khoá pháp lý rõ ràng.'));
+      wrap.appendChild(secQ);
+
+      // ── 2. Căn cứ pháp lý ───────────────────────────────────
+      const ref = ev.reference || {};
+      if (ref.display) {
+        const secR = mkSection('📌 Căn cứ pháp lý');
+        const box = document.createElement('div');
+        box.className = 'ev-ref-box';
+        box.innerHTML = '⚖️ ' + esc(ref.display);
+        secR.appendChild(box);
+
+        const artName = (ev.article || {}).name || (ev.target_node || {}).name;
+        if (artName) {
+          const p = document.createElement('p');
+          p.style.cssText = 'margin:4px 0 0;font-size:11.5px;color:#334155';
+          p.textContent = artName;
+          secR.appendChild(p);
+        }
+        wrap.appendChild(secR);
+      }
+
+      // ── 3. Độ tin cậy ────────────────────────────────────────
+      const conf = Number(ev.confidence || 0);
+      const confLabel = ev.confidence_label || 'thấp';
+      const barCls = confLabel === 'cao' ? 'bar-cao' : confLabel === 'trung bình' ? 'bar-tb' : 'bar-thap';
+      const lblCls = confLabel === 'cao' ? 'lbl-cao' : confLabel === 'trung bình' ? 'lbl-tb' : 'lbl-thap';
+      const confIcon = confLabel === 'cao' ? '✓' : confLabel === 'trung bình' ? '~' : '!';
+
+      const secC = mkSection('📊 Độ tin cậy');
+      const confRow = document.createElement('div');
+      confRow.className = 'ev-conf-row';
+      confRow.innerHTML = `
+        <div class="ev-conf-bar-wrap">
+          <div class="ev-conf-bar ${barCls}" style="width:${Math.round(conf*100)}%"></div>
+        </div>
+        <span class="ev-conf-badge ${lblCls}">${confIcon} ${confLabel} · ${Math.round(conf*100)}%</span>`;
+      secC.appendChild(confRow);
+      wrap.appendChild(secC);
+
+      // ── 4. Contexts (evidence nodes) ─────────────────────────
+      const contexts = (ev.contexts || []).slice(0, Number(showK.value || 3));
+      if (contexts.length) {
+        const secCtx = mkSection('🗂️ Điều khoản truy xuất (' + contexts.length + ')');
+        const list = document.createElement('div');
+        list.className = 'ev-ctx-list';
+        contexts.forEach(ctx => {
+          const ctxRef   = (ctx.reference || {}).display || '';
+          const score    = Number(ctx.score || 0).toFixed(3);
+          const title    = ctx.title || '';
+          const kind     = ctx.node_kind || ctx.label || '';
+          const isHigh   = ctx.same_point || ctx.same_clause;
+          const card     = document.createElement('div');
+          card.className = 'ev-ctx-card' + (isHigh ? ' highlight' : '');
+          card.innerHTML = `
+            <div class="ev-ctx-top">
+              <span class="ev-ctx-ref">${esc(ctxRef) || '—'}</span>
+              <span class="ev-ctx-score">${score}</span>
+            </div>
+            <div class="ev-ctx-title">${esc(title)}</div>
+            ${kind ? `<span class="ev-ctx-kind">${esc(kind)}</span>` : ''}`;
+          list.appendChild(card);
+        });
+        secCtx.appendChild(list);
+        wrap.appendChild(secCtx);
+      }
+
+      // ── 5. Thông tin còn thiếu ────────────────────────────────
+      const missing = ev.missing_info || [];
+      if (missing.length) {
+        const secM = mkSection('❗ Thông tin còn thiếu');
+        const box = document.createElement('div');
+        box.className = 'ev-missing';
+        missing.forEach(m => {
+          const p = document.createElement('p');
+          p.textContent = m;
+          box.appendChild(p);
+        });
+        secM.appendChild(box);
+        wrap.appendChild(secM);
+      }
+
+      // ── 6. Candidates (top kết quả retrieval) ────────────────
+      if (cands.length) {
+        const secCand = mkSection('🏆 Top candidates (' + cands.length + ')');
+        const list = document.createElement('div');
+        list.className = 'ev-ctx-list';
+        cands.forEach((c, i) => {
+          const card = document.createElement('div');
+          card.className = 'ev-ctx-card';
+          const scoreVal = Number(c.score || 0).toFixed(3);
+          const src = c.source || '';
+          card.innerHTML = `
+            <div class="ev-ctx-top">
+              <span class="ev-ctx-ref">#${i+1} ${esc(c.title || c.id || '')}</span>
+              <span class="ev-ctx-score">${scoreVal}</span>
+            </div>
+            ${src ? `<span class="ev-ctx-kind">${esc(src)}</span>` : ''}`;
+          list.appendChild(card);
+        });
+        secCand.appendChild(list);
+        wrap.appendChild(secCand);
+      }
+
+      // ── 7. Graph stats ────────────────────────────────────────
+      if (stats.nodes) {
+        const p = document.createElement('p');
+        p.style.cssText = 'font-size:10px;color:#94a3b8;margin:4px 0 0;text-align:right';
+        p.textContent = `KG: ${stats.nodes} nodes · ${stats.edges} edges`;
+        wrap.appendChild(p);
+      }
+
+      return wrap;
+    }
+
+    function mkSection(title) {
+      const sec = document.createElement('div');
+      sec.className = 'ev-section';
+      const h = document.createElement('div');
+      h.className = 'ev-section-title';
+      h.textContent = title;
+      sec.appendChild(h);
+      return sec;
+    }
+
+    function mkTag(text, cls = '') {
+      const span = document.createElement('span');
+      span.className = 'ev-tag' + (cls ? ' ' + cls : '');
+      span.textContent = text;
+      return span;
+    }
+
+    function mkMuted(text) {
+      const p = document.createElement('p');
+      p.style.cssText = 'font-size:11px;color:#94a3b8;margin:0';
+      p.textContent = text;
+      return p;
+    }
+
     function addMessage(role, text, debugData) {
       const row = document.createElement('div');
       row.className = `message ${role}`;
@@ -1105,10 +1360,8 @@
         details.className = 'debug';
         const summary = document.createElement('summary');
         summary.textContent = 'Xem evidence / kết quả truy xuất';
-        const pre = document.createElement('pre');
-        pre.textContent = safeJson(trimDebugData(debugData));
         details.appendChild(summary);
-        details.appendChild(pre);
+        details.appendChild(renderEvidencePanel(debugData));
         bubble.appendChild(details);
       }
 

@@ -78,12 +78,25 @@ def unique_keep_order(items: Iterable[str]) -> List[str]:
     return out
 
 
-def contains_any(text: str, keywords: Iterable[str]) -> bool:
+def contains_any(text: str, keywords: Iterable[str], accent_insensitive: bool = True) -> bool:
+    """Kiểm tra xem text có chứa bất kỳ keyword nào không.
+
+    accent_insensitive=True (mặc định): dùng strip_accents làm fallback — phù hợp cho
+    DOMAIN_HINTS if_any (được viết không dấu) và truy vấn người dùng không có dấu.
+
+    accent_insensitive=False: chỉ khớp dấu chính xác — dùng cho ACTION/CRIME/RESULT
+    keywords (có dấu đầy đủ) để tránh false positive. Ví dụ: "bắn" → "ban" sẽ không
+    bị nhầm với "biên bản" → "bien ban" khi tắt chế độ này.
+    """
     norm = normalize_text(text)
-    norm_no_acc = strip_accents(norm)
+    norm_no_acc = strip_accents(norm) if accent_insensitive else None
     for kw in keywords:
         k = normalize_text(kw)
-        if k and (k in norm or strip_accents(k) in norm_no_acc):
+        if not k:
+            continue
+        if k in norm:
+            return True
+        if accent_insensitive and norm_no_acc and strip_accents(k) in norm_no_acc:
             return True
     return False
 

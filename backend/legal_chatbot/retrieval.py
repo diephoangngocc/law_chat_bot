@@ -157,7 +157,13 @@ class HybridRetriever:
                 kg_score += 0.8
                 art_num = self.graph.article_number_of_node(article)
                 if art_num in hinted_articles:
-                    kg_score += 5.0
+                    # Tang tu 5.0 len 15.0: dam bao dieu luat duoc hint boi DOMAIN_HINTS
+                    # luon thang dieu luat khac du BM25 co loi the token (vd "trong cay"
+                    # trong D247 khi query co "trong cay" nhung y nghia khac ngu canh).
+                    # Max KG score hinted: 1.0+8.0+2.5+0.8+15.0 = 27.3
+                    # Max KG score unrelated: 1.0+8.0+2.5+0.8 = 12.3
+                    # → margin 15pt du bu BM25 gap thong thuong (~8-10pt).
+                    kg_score += 15.0
             kg_candidates.append(Candidate(document=doc, score=kg_score, score_parts={"kg": kg_score}))
 
         merged: Dict[str, Candidate] = {}

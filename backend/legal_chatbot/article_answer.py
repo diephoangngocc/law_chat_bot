@@ -57,13 +57,13 @@ class ArticleAnswerer:
         # Chỉ hỏi "Điều 123" cũng coi như tra cứu nội dung điều.
         return len(numbers) == 1 and q.strip().startswith("điều ")
 
-    def answer(self, question: str, semantic: Dict[str, object] | None = None) -> Tuple[str, Dict[str, object]]:
+    def answer(self, question: str, semantic: Dict[str, object] | None = None, top_k: int = 5) -> Tuple[str, Dict[str, object]]:
         numbers = self.article_numbers(question, semantic)
         q = normalize_text(question)
         if len(numbers) >= 2 and any(k in q for k in COMPARE_KEYWORDS):
-            return self.compare(numbers[:2], question)
+            return self.compare(numbers[:2], question, top_k=top_k)
         if numbers:
-            return self.lookup(numbers[0], question)
+            return self.lookup(numbers[0], question, top_k=top_k)
         return "Bạn hãy nêu rõ số điều cần tra cứu, ví dụ: Điều 123 quy định gì?", {
             "kind": "article_lookup",
             "article_numbers": [],
@@ -80,8 +80,8 @@ class ArticleAnswerer:
                 numbers.append(str(raw))
         return unique_keep_order([str(n) for n in numbers if str(n).strip()])
 
-    def lookup(self, number: str, question: str = "") -> Tuple[str, Dict[str, object]]:
-        summary = self.summarize_article(number)
+    def lookup(self, number: str, question: str = "", top_k: int = 5) -> Tuple[str, Dict[str, object]]:
+        summary = self.summarize_article(number, top_k=top_k)
         evidence = {
             "kind": "article_lookup",
             "question": question,
@@ -102,17 +102,17 @@ class ArticleAnswerer:
 
         if summary.clauses:
             lines.append("\nCác khoản chính trong KG:")
-            for item in summary.clauses[:8]:
+            for item in summary.clauses[:top_k]:
                 lines.append(f"- {short_text(str(item.get('name') or ''), 260)}")
 
         if summary.points:
             lines.append("\nCác điểm/tình tiết liên quan được ghi nhận:")
-            for item in summary.points[:8]:
+            for item in summary.points[:top_k]:
                 lines.append(f"- {short_text(str(item.get('name') or ''), 260)}")
 
         if summary.penalties:
             lines.append("\nThông tin hình phạt/hậu quả pháp lý liên quan:")
-            for item in self._filter_generic_penalties(summary.penalties)[:6]:
+            for item in self._filter_generic_penalties(summary.penalties)[:top_k]:
                 lines.append(f"- {short_text(str(item.get('name') or ''), 260)}")
 
         if not summary.clauses and not summary.points and not summary.penalties:
@@ -121,7 +121,7 @@ class ArticleAnswerer:
         lines.append("\nLưu ý: Nội dung này được truy xuất từ KG hiện có, chỉ hỗ trợ tra cứu và không thay thế tư vấn pháp lý chính thức.")
         return "\n".join(lines), evidence
 
-    def compare(self, numbers: List[str], question: str = "") -> Tuple[str, Dict[str, object]]:
+    def compare(self, numbers: List[str], question: str = "", top_k: int = 5) -> Tuple[str, Dict[str, object]]:
         nums = unique_keep_order(numbers)[:2]
         summaries = [self.summarize_article(n) for n in nums]
         evidence = {
@@ -176,7 +176,7 @@ class ArticleAnswerer:
         lines.append("\nLưu ý: Đây là so sánh theo các node/edge trong KG hiện có. Nếu KG thiếu khoản, điểm hoặc hình phạt, phần so sánh có thể chưa đầy đủ.")
         return "\n".join(lines), evidence
 
-    def summarize_article(self, number: str) -> ArticleSummary:
+    def summarize_article(self, number: str, top_k: int = 5) -> ArticleSummary:
         article_nodes = self.graph.get_article_nodes(str(number))
         if not article_nodes:
             return ArticleSummary(number=str(number), found=False, clauses=[], points=[], penalties=[], related=[])
@@ -207,14 +207,15 @@ class ArticleAnswerer:
         clauses.sort(key=lambda n: (self.graph.clause_number_of_node(n) or "99", n.name))
         points.sort(key=lambda n: (self.graph.clause_number_of_node(n) or "99", self.graph.point_letter_of_node(n) or "z", n.name))
 
+        cap = max(top_k, 4)
         return ArticleSummary(
             number=str(number),
             found=True,
             article=self._node_to_dict(article),
-            clauses=[self._node_to_dict(n) for n in clauses[:12]],
-            points=[self._node_to_dict(n) for n in points[:16]],
-            penalties=[self._node_to_dict(n) for n in penalties[:10]],
-            related=[self._node_to_dict(n) for n in related[:10]],
+            clauses=[self._node_to_dict(n) for n in clauses[:cap]],
+            points=[self._node_to_dict(n) for n in points[:cap * 2]],
+            penalties=[self._node_to_dict(n) for n in penalties[:cap]],
+            related=[self._node_to_dict(n) for n in related[:cap]],
         )
 
     def _append_short_article_details(self, lines: List[str], summary: ArticleSummary) -> None:

@@ -453,6 +453,9 @@ class EvidenceBuilder:
             "OBJECT": "Khách thể/đối tượng",
             "CONDITION": "Tình tiết/điều kiện",
             "PENALTY": "Yêu cầu về hình phạt",
+            "AGGRAVATING": "Tình tiết tăng nặng (Điều 52)",
+            "MITIGATING": "Tình tiết giảm nhẹ (Điều 51)",
+            "INTENT": "Lỗi/ý thức chủ quan",
         }
         if isinstance(entities, dict):
             for key, name in labels.items():
@@ -468,6 +471,8 @@ class EvidenceBuilder:
                 "theft": "nhóm trộm cắp tài sản",
                 "fraud": "nhóm lừa đảo chiếm đoạt tài sản",
                 "drugs": "nhóm ma túy",
+                "trust_abuse": "nhóm lạm dụng tín nhiệm chiếm đoạt tài sản (Điều 175)",
+                "forest_destruction": "nhóm hủy hoại rừng (Điều 243)",
             }
             facts.append("Nhóm vấn đề pháp lý gợi ý: " + ", ".join(domain_vi.get(d, d) for d in domains))
         return facts
@@ -477,14 +482,48 @@ class EvidenceBuilder:
         entities = semantic.get("entities", {}) or {}
         missing = []
         if not has_article or confidence < 0.35:
-            missing.append("Chưa xác định đủ chắc điều/khoản/điểm phù hợp trong KG; nên bổ sung thêm tình tiết hoặc tên tội danh/điều luật.")
+            missing.append(
+                "Chưa xác định đủ chắc điều/khoản/điểm phù hợp trong KG; "
+                "nên bổ sung thêm tình tiết hoặc tên tội danh/điều luật."
+            )
         if intent == "CLASSIFY_CASE":
+            # Mặt khách quan: hành vi + hậu quả.
             if not entities.get("ACTION"):
-                missing.append("Hành vi cụ thể của người thực hiện.")
+                missing.append("Hành vi cụ thể của người thực hiện (mặt khách quan).")
             if not entities.get("RESULT"):
-                missing.append("Hậu quả cụ thể của hành vi.")
+                missing.append("Hậu quả cụ thể của hành vi (thiệt hại vật chất, tính mạng, tài sản...).")
+            # Chủ thể: ai thực hiện hành vi.
+            if not entities.get("OBJECT"):
+                missing.append(
+                    "Chủ thể thực hiện hành vi: người phạm tội là ai, độ tuổi, "
+                    "năng lực trách nhiệm hình sự, có phải người có chức vụ quyền hạn không?"
+                )
+            # Mặt chủ quan: lỗi cố ý/vô ý, mục đích.
+            if not entities.get("INTENT"):
+                missing.append(
+                    "Mặt chủ quan (lỗi): hành vi thực hiện với lỗi cố ý hay vô ý? "
+                    "Mục đích, động cơ của người phạm tội là gì?"
+                )
+            # Khách thể pháp lý: quan hệ xã hội bị xâm phạm.
             if not entities.get("CONDITION"):
-                missing.append("Các tình tiết định khung như công cụ sử dụng, số người bị hại, động cơ, có tổ chức, tái phạm, độ tuổi người bị hại...")
+                missing.append(
+                    "Khách thể/tình tiết định khung: công cụ phương tiện sử dụng, "
+                    "số lượng/giá trị tài sản, số người bị hại, địa bàn, "
+                    "có tổ chức hay không, tái phạm nguy hiểm, đối tượng tác động..."
+                )
+            # Tình tiết tăng nặng/giảm nhẹ.
+            if not entities.get("AGGRAVATING"):
+                missing.append(
+                    "Tình tiết tăng nặng trách nhiệm hình sự (Điều 52): "
+                    "phạm tội có tổ chức, tái phạm, lợi dụng chức vụ, "
+                    "phạm tội đối với người dưới 16 tuổi, thủ đoạn tinh vi...?"
+                )
+            if not entities.get("MITIGATING"):
+                missing.append(
+                    "Tình tiết giảm nhẹ trách nhiệm hình sự (Điều 51): "
+                    "thành khẩn khai báo, tự nguyện bồi thường, phạm tội lần đầu, "
+                    "hoàn cảnh đặc biệt khó khăn, đầu thú...?"
+                )
         if intent == "LOOKUP_PENALTY" and not entities.get("CRIME") and not entities.get("ARTICLE") and not semantic.get("hinted_articles"):
             missing.append("Tên tội danh hoặc điều luật cụ thể để xác định khung hình phạt.")
         return unique_keep_order(missing)

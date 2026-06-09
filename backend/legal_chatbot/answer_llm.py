@@ -15,9 +15,9 @@ class LocalLLMAnswerer:
         self.client = client
         self.fallback = TemplateAnswerer()
 
-    def generate(self, question: str, evidence: Dict[str, object]) -> str:
+    def generate(self, question: str, evidence: Dict[str, object], top_k: int = 5) -> str:
         if not self._has_useful_evidence(evidence):
-            return self.fallback.generate(question, evidence)
+            return self.fallback.generate(question, evidence, top_k=top_k)
 
         system_prompt = (
             "Bạn là trợ lý tra cứu pháp luật Việt Nam. "
@@ -31,7 +31,7 @@ class LocalLLMAnswerer:
             answer = self.client.chat(system_prompt=system_prompt, user_prompt=user_prompt)
             return self._postprocess(answer)
         except LocalLLMError as exc:
-            fallback_answer = self.fallback.generate(question, evidence)
+            fallback_answer = self.fallback.generate(question, evidence, top_k=top_k)
             return (
                 "Không gọi được LLM local nên hệ thống chuyển sang chế độ không LLM.\n\n"
                 f"Lý do: {exc}\n\n"

@@ -88,8 +88,9 @@ class LegalChatbotPipeline:
         # 2) Câu hỏi nêu rõ Điều luật: xử lý trực tiếp từ KG để trả lời ổn định và tránh
         # gửi cả một đống evidence sang LLM. Ví dụ: "Điều 123 quy định gì?" hoặc
         # "Điều 123 và 124 khác nhau như thế nào?".
+        top_k_early = int(top_k or self.settings.top_k)
         if self.article_answerer.can_handle(question, semantic):
-            reply, article_evidence = self.article_answerer.answer(question, semantic)
+            reply, article_evidence = self.article_answerer.answer(question, semantic, top_k=top_k_early)
             return {
                 "reply": reply,
                 "mode": "article_direct",
@@ -119,7 +120,7 @@ class LegalChatbotPipeline:
         evidence = self.evidence_builder.build(question=question, semantic=semantic, candidates=ranked, top_k=top_k)
 
         if resolved_mode == "local_llm":
-            reply = self.local_llm_answerer.generate(question=question, evidence=evidence)
+            reply = self.local_llm_answerer.generate(question=question, evidence=evidence, top_k=top_k)
         else:
             reply = self.template_answerer.generate(question=question, evidence=evidence, top_k=top_k)
 
